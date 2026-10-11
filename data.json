@@ -17694,18 +17694,6 @@
         "repo": "kgateway-dev/kgateway",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Add translation metrics for policies",
-        "url": "https://github.com/kgateway-dev/kgateway/issues/13282",
-        "labels": [
-            "Good First Issue",
-            "stale"
-        ],
-        "created_at": "2026-01-13T14:59:44Z"
-    },
-    {
-        "repo": "kgateway-dev/kgateway",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Replace runtime TLS validation with API-level CEL rules",
         "url": "https://github.com/kgateway-dev/kgateway/issues/12338",
         "labels": [
@@ -18306,6 +18294,7 @@
         "labels": [
             "good first issue",
             "triage/accepted",
+            "triage/stale",
             "kind/feature"
         ],
         "created_at": "2026-07-06T14:25:28Z"
@@ -30714,69 +30703,13 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b dashboard: needs-decision / needs-direction / needs-spec issues still show as grey FILTERED on repo cards (v6)",
-        "url": "https://github.com/hivecommons/hive/issues/11490",
+        "title": "\ud83d\udc1b bug: [v6] Repo cards render the header row twice (duplicate auto-merge/swarm/pause controls) after v5\u2192v6 forward-merge",
+        "url": "https://github.com/hivecommons/hive/issues/11502",
         "labels": [
-            "help wanted",
-            "kind/bug"
+            "bug",
+            "help wanted"
         ],
-        "created_at": "2026-10-11T02:58:11Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[quality] automerge merged #11471 with 27 failing checks: known-empty required set is treated as server-enforced on unprotected v6",
-        "url": "https://github.com/hivecommons/hive/issues/11489",
-        "labels": [
-            "help wanted",
-            "quality",
-            "testing",
-            "hive/hosted-available-oke-11-placeholder-r05x",
-            "agent/quality",
-            "claimed"
-        ],
-        "created_at": "2026-10-11T02:48:18Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[quality] notice-drift gate reports go-licenses source-lookup timeouts (Source: Unknown) as NOTICE drift",
-        "url": "https://github.com/hivecommons/hive/issues/11486",
-        "labels": [
-            "help wanted",
-            "quality",
-            "testing",
-            "hive/hosted-available-oke-11-placeholder-r05x",
-            "agent/quality",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-11T02:43:18Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 upstream watch: a fork's first pass starts where it last matched upstream (or at `start_from`), and a truncated listing never advances the watermark",
-        "url": "https://github.com/hivecommons/hive/issues/11476",
-        "labels": [
-            "help wanted",
-            "claimed"
-        ],
-        "created_at": "2026-10-10T21:49:04Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 [tracker] Detect issue changes made while an agent is working on it",
-        "url": "https://github.com/hivecommons/hive/issues/11442",
-        "labels": [
-            "help wanted",
-            "hold"
-        ],
-        "created_at": "2026-10-10T15:29:47Z"
+        "created_at": "2026-10-11T11:45:39Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30785,7 +30718,8 @@
         "title": "Post-hoc evidence for stable promotion to 8a0539c",
         "url": "https://github.com/hivecommons/hive/issues/11426",
         "labels": [
-            "help wanted"
+            "help wanted",
+            "needs-direction"
         ],
         "created_at": "2026-10-10T13:27:07Z"
     },
