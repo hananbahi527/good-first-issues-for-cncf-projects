@@ -844,22 +844,6 @@
         "repo": "kairos-io/kairos",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "feat: Expose auth args for image extractor in agent",
-        "url": "https://github.com/kairos-io/kairos/issues/2613",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "good first issue",
-            "area/agent",
-            "triage",
-            "QA: pass"
-        ],
-        "created_at": "2024-06-05T07:58:55Z"
-    },
-    {
-        "repo": "kairos-io/kairos",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": ":seedling: Bundle: samba-operator",
         "url": "https://github.com/kairos-io/kairos/issues/641",
         "labels": [
@@ -4764,6 +4748,7 @@
         "url": "https://github.com/keycloak/keycloak/issues/53744",
         "labels": [
             "kind/bug",
+            "area/dist/quarkus",
             "help wanted",
             "team/cloud-native",
             "priority/low",
@@ -4805,6 +4790,23 @@
             "priority/normal"
         ],
         "created_at": "2026-10-07T15:17:10Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Add explicit EC point-on-curve validation in ElytronEcdhEsAlgorithmProvider",
+        "url": "https://github.com/keycloak/keycloak/issues/53639",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-10-07T07:08:42Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5206,6 +5208,7 @@
         "title": "URN resource indicator validation does not fully match RFC 8141",
         "url": "https://github.com/keycloak/keycloak/issues/52324",
         "labels": [
+            "area/oidc",
             "kind/bug",
             "help wanted",
             "status/auto-bump",
@@ -5230,23 +5233,6 @@
             "priority/normal"
         ],
         "created_at": "2026-09-02T07:43:43Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "OTP key URI encodes spaces in the account name as '+' instead of %20",
-        "url": "https://github.com/keycloak/keycloak/issues/52296",
-        "labels": [
-            "area/authentication",
-            "kind/bug",
-            "help wanted",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-authn"
-        ],
-        "created_at": "2026-09-01T18:08:04Z"
     },
     {
         "repo": "keylime/keylime",
@@ -12617,21 +12603,6 @@
         "repo": "kai-scheduler/KAI-Scheduler",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Allow for integration test generations based on a snapshot",
-        "url": "https://github.com/kai-scheduler/KAI-Scheduler/issues/903",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "help wanted",
-            "lifecycle/rotten",
-            "theme/dev-experience"
-        ],
-        "created_at": "2026-01-19T20:22:18Z"
-    },
-    {
-        "repo": "kai-scheduler/KAI-Scheduler",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Add Horizontal Pod Autoscaling for the KAI Admission Service",
         "url": "https://github.com/kai-scheduler/KAI-Scheduler/issues/901",
         "labels": [
@@ -12655,19 +12626,6 @@
             "theme/install-and-deployment"
         ],
         "created_at": "2026-07-03T15:21:29Z"
-    },
-    {
-        "repo": "kai-scheduler/KAI-Scheduler",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Custom ArgoCD health check (Lua) for the kai-config Config CR",
-        "url": "https://github.com/kai-scheduler/KAI-Scheduler/issues/1818",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "theme/install-and-deployment"
-        ],
-        "created_at": "2026-07-03T13:11:45Z"
     },
     {
         "repo": "kai-scheduler/KAI-Scheduler",
@@ -13755,6 +13713,21 @@
         "repo": "kubernetes/kubernetes",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "No e2e test for `allocateLoadBalancerNodePorts: false` + `externalTrafficPolicy: Local`",
+        "url": "https://github.com/kubernetes/kubernetes/issues/142942",
+        "labels": [
+            "area/test",
+            "priority/backlog",
+            "sig/network",
+            "help wanted",
+            "needs-triage"
+        ],
+        "created_at": "2026-10-12T13:38:20Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "`gsutil` will no longer be available from March 2027",
         "url": "https://github.com/kubernetes/kubernetes/issues/142384",
         "labels": [
@@ -14161,21 +14134,6 @@
             "triage/accepted"
         ],
         "created_at": "2025-07-30T22:37:50Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "need a conformance test for named ports in Services",
-        "url": "https://github.com/kubernetes/kubernetes/issues/132954",
-        "labels": [
-            "sig/network",
-            "help wanted",
-            "priority/important-longterm",
-            "area/conformance",
-            "triage/accepted"
-        ],
-        "created_at": "2025-07-15T11:11:07Z"
     },
     {
         "repo": "kubeslice/kubeslice",
@@ -14794,18 +14752,6 @@
         "repo": "NVIDIA/OpenShell",
         "tier": "Sandbox",
         "lang": "Rust",
-        "title": "feat(server): register standard gRPC reflection on the primary listener",
-        "url": "https://github.com/NVIDIA/OpenShell/issues/3058",
-        "labels": [
-            "help wanted",
-            "state:stale"
-        ],
-        "created_at": "2026-08-31T18:04:47Z"
-    },
-    {
-        "repo": "NVIDIA/OpenShell",
-        "tier": "Sandbox",
-        "lang": "Rust",
         "title": "feat(api)!: split UpdateConfig into typed policy and settings mutations",
         "url": "https://github.com/NVIDIA/OpenShell/issues/3049",
         "labels": [
@@ -15214,6 +15160,18 @@
             "help wanted"
         ],
         "created_at": "2022-07-29T18:59:04Z"
+    },
+    {
+        "repo": "etcd-io/etcd",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "`TestNoErrorLogsDuringNormalOperations` failure: invalid character '/' after top-level value",
+        "url": "https://github.com/etcd-io/etcd/issues/22564",
+        "labels": [
+            "area/testing",
+            "help wanted"
+        ],
+        "created_at": "2026-10-12T10:16:33Z"
     },
     {
         "repo": "etcd-io/etcd",
@@ -17777,6 +17735,18 @@
             "help wanted"
         ],
         "created_at": "2025-04-10T13:16:30Z"
+    },
+    {
+        "repo": "kuadrant/kuadrant-operator",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Sentence-style docs",
+        "url": "https://github.com/Kuadrant/kuadrant-operator/issues/2362",
+        "labels": [
+            "area/doc",
+            "good first issue"
+        ],
+        "created_at": "2026-10-12T11:37:40Z"
     },
     {
         "repo": "kuadrant/kuadrant-operator",
@@ -23971,18 +23941,6 @@
         "repo": "getporter/porter",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Print error stack traces in debug mode",
-        "url": "https://github.com/getporter/porter/issues/1744",
-        "labels": [
-            "help wanted",
-            "2 - \ud83c\udf55"
-        ],
-        "created_at": "2021-08-26T17:51:09Z"
-    },
-    {
-        "repo": "getporter/porter",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Potential Updates to Porter Documentation ",
         "url": "https://github.com/getporter/porter/issues/1082",
         "labels": [
@@ -26981,6 +26939,45 @@
         "repo": "litmuschaos/litmus",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "docs: fix broken HTML and typos in pod-http experiment Tunable tables",
+        "url": "https://github.com/litmuschaos/litmus/issues/5550",
+        "labels": [
+            "good first issue",
+            "area/litmus-docs",
+            "mentorship-kr"
+        ],
+        "created_at": "2026-06-03T10:32:49Z"
+    },
+    {
+        "repo": "litmuschaos/litmus",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "test: add fuzz tests for subscriber pod log GraphQL payload generation",
+        "url": "https://github.com/litmuschaos/litmus/issues/5547",
+        "labels": [
+            "good first issue",
+            "kind/unit-test",
+            "mentorship-kr"
+        ],
+        "created_at": "2026-06-03T08:50:06Z"
+    },
+    {
+        "repo": "litmuschaos/litmus",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Add fuzz tests and early returns for file handler error paths",
+        "url": "https://github.com/litmuschaos/litmus/issues/5538",
+        "labels": [
+            "good first issue",
+            "kind/unit-test",
+            "mentorship-kr"
+        ],
+        "created_at": "2026-06-01T13:33:40Z"
+    },
+    {
+        "repo": "litmuschaos/litmus",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "Documentation Missing: Installing Litmus Without ChaosCenter (UI)",
         "url": "https://github.com/litmuschaos/litmus/issues/5432",
         "labels": [
@@ -26998,6 +26995,7 @@
         "url": "https://github.com/litmuschaos/litmus/issues/4548",
         "labels": [
             "good first issue",
+            "kind/unit-test",
             "bug"
         ],
         "created_at": "2024-03-22T12:30:10Z"
@@ -30700,6 +30698,54 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "\ud83c\udf31 [v6] your-turn signal, part D: Overview, admin MCP, owner advice and docs (spec #11507)",
+        "url": "https://github.com/hivecommons/hive/issues/11567",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-12T13:46:22Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83c\udf31 [v6] your-turn signal, part C: \u2610 marker, inbox and Projects UI (spec #11507)",
+        "url": "https://github.com/hivecommons/hive/issues/11566",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-12T13:46:20Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83c\udf31 [v6] your-turn signal, part A: server-side ownership decision (spec #11507)",
+        "url": "https://github.com/hivecommons/hive/issues/11565",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-12T13:46:18Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83c\udf31 [v6] your-turn signal, part B: hold-source detection (spec #11507)",
+        "url": "https://github.com/hivecommons/hive/issues/11564",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-12T13:46:16Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "\ud83d\udcdd spec: [v6] dashboard \"your turn\" signal \u2014 \u2610 marker, inbox and one server-side ownership decision (from RFC #11504)",
         "url": "https://github.com/hivecommons/hive/issues/11507",
         "labels": [
@@ -30746,8 +30792,8 @@
             "bug",
             "help wanted",
             "triage/accepted",
-            "hive/likely-done",
-            "needs-reporter-confirmation"
+            "hive/verified-open",
+            "hive: reporter-confirmed"
         ],
         "created_at": "2026-10-09T13:33:40Z"
     },
