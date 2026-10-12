@@ -2988,18 +2988,6 @@
         "repo": "distribution/distribution",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "error messages don't print the full path",
-        "url": "https://github.com/distribution/distribution/issues/1793",
-        "labels": [
-            "enhancement",
-            "help wanted"
-        ],
-        "created_at": "2016-06-16T22:23:44Z"
-    },
-    {
-        "repo": "distribution/distribution",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Client-side data encryption",
         "url": "https://github.com/distribution/distribution/issues/306",
         "labels": [
@@ -4755,6 +4743,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Operator Helm chart renders null version labels because Chart.yaml lacks appVersioN",
+        "url": "https://github.com/keycloak/keycloak/issues/53804",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/cloud-native",
+            "area/operator",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-10-09T13:27:50Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "kc.sh build output is not reproducible",
         "url": "https://github.com/keycloak/keycloak/issues/53744",
         "labels": [
@@ -5242,23 +5247,6 @@
             "team/core-authn"
         ],
         "created_at": "2026-09-01T18:08:04Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "NullPointerException parsing an EC JWK missing the \"x\" or \"y\" coordinate",
-        "url": "https://github.com/keycloak/keycloak/issues/52294",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-09-01T18:08:02Z"
     },
     {
         "repo": "keylime/keylime",
@@ -13510,6 +13498,30 @@
             "client-gold"
         ],
         "created_at": "2020-02-09T22:44:32Z"
+    },
+    {
+        "repo": "kubefleet-dev/kubefleet",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Provide simplified quickstart with fully scripted provisioning/automated environment.",
+        "url": "https://github.com/kubefleet-dev/kubefleet/issues/966",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-10-12T01:15:17Z"
+    },
+    {
+        "repo": "kubefleet-dev/kubefleet",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Improve reliability of CI tests.",
+        "url": "https://github.com/kubefleet-dev/kubefleet/issues/965",
+        "labels": [
+            "good first issue",
+            "area/testing"
+        ],
+        "created_at": "2026-10-12T00:55:17Z"
     },
     {
         "repo": "kubefleet-dev/kubefleet",
@@ -30778,18 +30790,6 @@
             "meta-tracker"
         ],
         "created_at": "2026-09-18T05:32:44Z"
-    },
-    {
-        "repo": "kaito-project/kaito",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Report actual max-model-len in Workspace status",
-        "url": "https://github.com/kaito-project/kaito/issues/2257",
-        "labels": [
-            "enhancement",
-            "good first issue"
-        ],
-        "created_at": "2026-08-05T20:42:17Z"
     },
     {
         "repo": "kaito-project/kaito",
