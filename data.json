@@ -5751,20 +5751,6 @@
         "repo": "kyverno/kyverno",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "[Enhancement] Document and test for kyverno 1.19 compatibility with k8s 1.36",
-        "url": "https://github.com/kyverno/kyverno/issues/17626",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "end user",
-            "release-high"
-        ],
-        "created_at": "2026-09-17T19:47:34Z"
-    },
-    {
-        "repo": "kyverno/kyverno",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "[Bug] kyverno jp lacks JMESPath syntax pre-validation, returns cryptic errors",
         "url": "https://github.com/kyverno/kyverno/issues/16488",
         "labels": [
@@ -13720,7 +13706,7 @@
             "priority/backlog",
             "sig/network",
             "help wanted",
-            "needs-triage"
+            "triage/accepted"
         ],
         "created_at": "2026-10-12T13:38:20Z"
     },
@@ -15160,18 +15146,6 @@
             "help wanted"
         ],
         "created_at": "2022-07-29T18:59:04Z"
-    },
-    {
-        "repo": "etcd-io/etcd",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "`TestNoErrorLogsDuringNormalOperations` failure: invalid character '/' after top-level value",
-        "url": "https://github.com/etcd-io/etcd/issues/22564",
-        "labels": [
-            "area/testing",
-            "help wanted"
-        ],
-        "created_at": "2026-10-12T10:16:33Z"
     },
     {
         "repo": "etcd-io/etcd",
@@ -17643,6 +17617,18 @@
             "help wanted"
         ],
         "created_at": "2026-03-10T19:27:02Z"
+    },
+    {
+        "repo": "kgateway-dev/kgateway",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Add translation metrics for policies",
+        "url": "https://github.com/kgateway-dev/kgateway/issues/13282",
+        "labels": [
+            "Good First Issue",
+            "stale"
+        ],
+        "created_at": "2026-01-13T14:59:44Z"
     },
     {
         "repo": "kgateway-dev/kgateway",
@@ -25653,18 +25639,6 @@
         "repo": "tektoncd/pipeline",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "docs: add TaskRun and PipelineRun examples for per-run resolver cache override",
-        "url": "https://github.com/tektoncd/pipeline/issues/9559",
-        "labels": [
-            "good first issue",
-            "kind/documentation"
-        ],
-        "created_at": "2026-03-12T12:26:47Z"
-    },
-    {
-        "repo": "tektoncd/pipeline",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Fix capitalized error messages to follow Go conventions",
         "url": "https://github.com/tektoncd/pipeline/issues/9500",
         "labels": [
@@ -30698,11 +30672,231 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83c\udf31 [v6] your-turn signal, part D: Overview, admin MCP, owner advice and docs (spec #11507)",
+        "title": "\ud83d\udc1b bug:  hive-gateway restart loop on hosts without IPv6: nginx.conf always listens on [::]:3001",
+        "url": "https://github.com/hivecommons/hive/issues/11622",
+        "labels": [
+            "bug",
+            "help wanted",
+            "needs-triage"
+        ],
+        "created_at": "2026-10-12T21:25:40Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcd6 docs: Docker Compose quick start leaves dashboard.port at 3001, so the hive container never becomes healthy",
+        "url": "https://github.com/hivecommons/hive/issues/11621",
+        "labels": [
+            "documentation",
+            "help wanted",
+            "needs-triage"
+        ],
+        "created_at": "2026-10-12T20:41:08Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 feature: Dashboard bulk action button bar changes",
+        "url": "https://github.com/hivecommons/hive/issues/11615",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "needs-triage"
+        ],
+        "created_at": "2026-10-12T19:41:36Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcd6 docs: Docker Compose quick start doesn't mention editing the project values in src/hive.yaml",
+        "url": "https://github.com/hivecommons/hive/issues/11606",
+        "labels": [
+            "documentation",
+            "help wanted",
+            "needs-triage"
+        ],
+        "created_at": "2026-10-12T18:50:17Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] your-turn signal: safety net, likely-done and reporter-confirmation rules use real inputs (follow-up to part A, spec #11507)",
+        "url": "https://github.com/hivecommons/hive/issues/11592",
+        "labels": [
+            "help wanted",
+            "hold",
+            "claimed"
+        ],
+        "created_at": "2026-10-12T17:47:23Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] dedupe: broaden canonicalIssueSubject (role prefixes, parenthetical counts, colon qualifiers)",
+        "url": "https://github.com/hivecommons/hive/issues/11589",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-12T17:20:48Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[RFC]: Proposal: An experimentation agent for Hive (Nous by default), with durable results and a path to shipping",
+        "url": "https://github.com/hivecommons/hive/issues/11585",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "hold",
+            "needs-decision"
+        ],
+        "created_at": "2026-10-12T17:13:26Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] scheduled issue+PR duplicate-triage lane posting a consolidation checklist",
+        "url": "https://github.com/hivecommons/hive/issues/11582",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr",
+            "claimed"
+        ],
+        "created_at": "2026-10-12T16:36:43Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] claims: hold an issue claim while any referencing PR is open; persist fixed-by-merged-PR durably",
+        "url": "https://github.com/hivecommons/hive/issues/11580",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr",
+            "claimed"
+        ],
+        "created_at": "2026-10-12T16:36:25Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] dedupe: idempotency on create \u2014 key the effects claim on canonical subject + file set; marker lookup before upstreamwatch/advisory create",
+        "url": "https://github.com/hivecommons/hive/issues/11579",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-10-12T16:36:18Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] dedupe: route review-backlog, convergence, fleet-report and dashboard filings through consolidation; check ledger issue state",
+        "url": "https://github.com/hivecommons/hive/issues/11578",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-12T16:36:11Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] dedupe: PR-side duplicate guard in CreatePR (Closes #N collision, overlapping file set, dupsweep fingerprint)",
+        "url": "https://github.com/hivecommons/hive/issues/11577",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-12T16:36:02Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] dedupe: consider human-filed issues as fold targets",
+        "url": "https://github.com/hivecommons/hive/issues/11576",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-12T16:35:55Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] dedupe: lower the fold threshold for high-confidence pairs and broaden canonicalIssueSubject",
+        "url": "https://github.com/hivecommons/hive/issues/11575",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-12T16:35:48Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[ci-maintainer] v6 Top-up red since 2026-10-12T07:30Z: discord-syntax.yml modify/delete conflict not in topup auto-resolve allowlist",
+        "url": "https://github.com/hivecommons/hive/issues/11574",
+        "labels": [
+            "help wanted",
+            "agent/ci-maintainer",
+            "hive/hosted-available-oke-11-placeholder-r05x",
+            "ci",
+            "needs-decision"
+        ],
+        "created_at": "2026-10-12T16:25:09Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: Inaccessible Hive",
+        "url": "https://github.com/hivecommons/hive/issues/11570",
+        "labels": [
+            "bug",
+            "help wanted",
+            "triage/accepted",
+            "blocked",
+            "claimed"
+        ],
+        "created_at": "2026-10-12T15:13:17Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83c\udf31 [v6] your-turn signal, part D2: review queue, owner advice, docs and agreement check (spec #11507)",
+        "url": "https://github.com/hivecommons/hive/issues/11569",
+        "labels": [
+            "help wanted",
+            "hold",
+            "blocked"
+        ],
+        "created_at": "2026-10-12T14:39:12Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83c\udf31 [v6] your-turn signal, part D1: Overview equation, charts and export (spec #11507)",
         "url": "https://github.com/hivecommons/hive/issues/11567",
         "labels": [
             "help wanted",
-            "hold"
+            "hold",
+            "blocked"
         ],
         "created_at": "2026-10-12T13:46:22Z"
     },
@@ -30714,33 +30908,10 @@
         "url": "https://github.com/hivecommons/hive/issues/11566",
         "labels": [
             "help wanted",
-            "hold"
+            "hold",
+            "blocked"
         ],
         "created_at": "2026-10-12T13:46:20Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 [v6] your-turn signal, part A: server-side ownership decision (spec #11507)",
-        "url": "https://github.com/hivecommons/hive/issues/11565",
-        "labels": [
-            "help wanted",
-            "hold"
-        ],
-        "created_at": "2026-10-12T13:46:18Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 [v6] your-turn signal, part B: hold-source detection (spec #11507)",
-        "url": "https://github.com/hivecommons/hive/issues/11564",
-        "labels": [
-            "help wanted",
-            "hold"
-        ],
-        "created_at": "2026-10-12T13:46:16Z"
     },
     {
         "repo": "hivecommons/hive",
