@@ -2129,20 +2129,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "[Docs] Broken links to wasm-filters repository in Architecture overview and Filter management guide",
-        "url": "https://github.com/meshery/meshery/issues/22314",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-10-11T19:23:30Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "[Docs] Fix typos, missing words, and duplicate tokens in Workspaces and Operator CRDs guides",
         "url": "https://github.com/meshery/meshery/issues/22254",
         "labels": [
@@ -2538,6 +2524,19 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-18T10:14:28Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[CI] OpenSSF Scorecard Check: Vulnerabilities",
+        "url": "https://github.com/meshery/meshery/issues/20778",
+        "labels": [
+            "help wanted",
+            "area/ci",
+            "area/devops"
+        ],
+        "created_at": "2026-07-18T07:33:07Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4727,6 +4726,24 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "WebAuthn passwordless login with a NUL-containing user handle causes a PostgreSQL exception",
+        "url": "https://github.com/keycloak/keycloak/issues/53897",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/authentication/webauthn",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-authn",
+            "backport/26.8"
+        ],
+        "created_at": "2026-10-13T07:47:14Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Operator Helm chart renders null version labels because Chart.yaml lacks appVersioN",
         "url": "https://github.com/keycloak/keycloak/issues/53804",
         "labels": [
@@ -5216,23 +5233,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-09-02T13:46:52Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "User Profile validation is not applied when users are created through partialImport or realm import",
-        "url": "https://github.com/keycloak/keycloak/issues/52310",
-        "labels": [
-            "kind/bug",
-            "area/import-export",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-09-02T07:43:43Z"
     },
     {
         "repo": "keylime/keylime",
@@ -5732,20 +5732,6 @@
             "help wanted"
         ],
         "created_at": "2022-02-14T18:30:54Z"
-    },
-    {
-        "repo": "kubewarden/kubewarden-controller",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Mark CI is green when no actual CI is required to run",
-        "url": "https://github.com/kubewarden/adm-controller/issues/1937",
-        "labels": [
-            "kind/good first issue",
-            "area/ci",
-            "good first issue",
-            "kind/bug"
-        ],
-        "created_at": "2026-08-13T16:40:57Z"
     },
     {
         "repo": "kyverno/kyverno",
@@ -17623,8 +17609,7 @@
         "title": "Add translation metrics for policies",
         "url": "https://github.com/kgateway-dev/kgateway/issues/13282",
         "labels": [
-            "Good First Issue",
-            "stale"
+            "Good First Issue"
         ],
         "created_at": "2026-01-13T14:59:44Z"
     },
@@ -30670,70 +30655,129 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[v6] \ud83d\udc1b /api/events SSE has no X-Accel-Buffering, and the Compose/Quadlet nginx gateway buffers it",
-        "url": "https://github.com/hivecommons/hive/issues/11659",
+        "title": "[quality] arm64 agent image ships an amd64 Go toolchain (Exec format error) \u2014 COPY /usr/local/go from $BUILDPLATFORM builder",
+        "url": "https://github.com/hivecommons/hive/issues/11726",
         "labels": [
             "help wanted",
-            "needs-triage"
+            "quality",
+            "hive/hosted-available-oke-11-placeholder-r05x",
+            "agent/quality",
+            "test-infrastructure"
         ],
-        "created_at": "2026-10-13T02:00:34Z"
+        "created_at": "2026-10-13T18:38:38Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[v6] ApplyPack reverts an operator's agent mode on restart; add a ModeOwner marker like ModelOwner",
-        "url": "https://github.com/hivecommons/hive/issues/11650",
+        "title": "\ud83d\udc1b [v6] dashboard issue band: hive/verified-open must keep an issue out of Confirm & close",
+        "url": "https://github.com/hivecommons/hive/issues/11722",
         "labels": [
             "help wanted",
-            "triage/accepted",
-            "claimed"
+            "hold"
         ],
-        "created_at": "2026-10-13T01:21:59Z"
+        "created_at": "2026-10-13T18:20:54Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[CI runner canary] self-hosted runner pool unhealthy",
-        "url": "https://github.com/hivecommons/hive/issues/11649",
+        "title": "\ud83d\udc1b [v6] dashboard your-turn: hive/verified-open must cancel hive/likely-done in the To close and reporter-confirmation rules",
+        "url": "https://github.com/hivecommons/hive/issues/11721",
         "labels": [
             "help wanted",
-            "kind/bug",
-            "priority/critical-urgent",
-            "ci-failure",
-            "ci",
-            "blocked",
-            "ci-runner-canary"
+            "hold"
         ],
-        "created_at": "2026-10-13T01:18:30Z"
+        "created_at": "2026-10-13T18:20:52Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b Offline alerts vanish once the registry entry is pruned (24h) \u2014 30/36 hives on one cluster down with zero alerts",
-        "url": "https://github.com/hivecommons/hive/issues/11644",
+        "title": "\ud83c\udf31 [v6] dashboard: pill legend \u2014 give every pill an uppercase word (icon + WORD), like the issue chips",
+        "url": "https://github.com/hivecommons/hive/issues/11718",
         "labels": [
-            "bug",
             "help wanted",
-            "blocked",
-            "claimed"
+            "hive/covered-by-pr"
         ],
-        "created_at": "2026-10-13T01:11:32Z"
+        "created_at": "2026-10-13T16:53:43Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b [v6] your-turn signal: safety net, likely-done and reporter-confirmation rules use real inputs (follow-up to part A, spec #11507)",
-        "url": "https://github.com/hivecommons/hive/issues/11592",
+        "title": "\u2728 advisory: alert when a k8s hive boots on the shared dev UID (UID map missing/unreadable)",
+        "url": "https://github.com/hivecommons/hive/issues/11713",
         "labels": [
             "help wanted",
-            "hold",
-            "claimed"
+            "blocked"
         ],
-        "created_at": "2026-10-12T17:47:23Z"
+        "created_at": "2026-10-13T16:14:42Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[v6] \u2728 Optional GitHub artifact repo for Nous results (off by default) (RFC #11585 part 8/8)",
+        "url": "https://github.com/hivecommons/hive/issues/11701",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "approved-direction"
+        ],
+        "created_at": "2026-10-13T14:40:42Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[v6] \u2728 Pinned campaign dependencies with allowlisted setup-step fetch and version recording (RFC #11585 part 7/8)",
+        "url": "https://github.com/hivecommons/hive/issues/11700",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "approved-direction"
+        ],
+        "created_at": "2026-10-13T14:40:40Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[v6] \u2728 Verdict card + manual Promote (Issue, Spektacular run) replacing auto output modes (RFC #11585 part 6/8)",
+        "url": "https://github.com/hivecommons/hive/issues/11699",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "approved-direction"
+        ],
+        "created_at": "2026-10-13T14:40:37Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[v6] \u2728 experimenter agent role with engine contract; Nous inline as default; strategist unchanged (RFC #11585 part 5/8)",
+        "url": "https://github.com/hivecommons/hive/issues/11698",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "approved-direction"
+        ],
+        "created_at": "2026-10-13T14:40:34Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[v6] \u2728 Experiment Lab reads per-campaign ledger/principles live; fix type/status mismatch (RFC #11585 part 4/8)",
+        "url": "https://github.com/hivecommons/hive/issues/11697",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "approved-direction"
+        ],
+        "created_at": "2026-10-13T14:40:32Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30744,118 +30788,10 @@
         "labels": [
             "enhancement",
             "help wanted",
-            "hold",
+            "hive/covered-by-pr",
             "approved-direction"
         ],
         "created_at": "2026-10-12T17:13:26Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] scheduled issue+PR duplicate-triage lane posting a consolidation checklist",
-        "url": "https://github.com/hivecommons/hive/issues/11582",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr",
-            "claimed"
-        ],
-        "created_at": "2026-10-12T16:36:43Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] dedupe: idempotency on create \u2014 key the effects claim on canonical subject + file set; marker lookup before upstreamwatch/advisory create",
-        "url": "https://github.com/hivecommons/hive/issues/11579",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-12T16:36:18Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b bug: Inaccessible Hive",
-        "url": "https://github.com/hivecommons/hive/issues/11570",
-        "labels": [
-            "bug",
-            "help wanted",
-            "triage/accepted",
-            "blocked",
-            "claimed"
-        ],
-        "created_at": "2026-10-12T15:13:17Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 [v6] your-turn signal, part D2: review queue, owner advice, docs and agreement check (spec #11507)",
-        "url": "https://github.com/hivecommons/hive/issues/11569",
-        "labels": [
-            "help wanted",
-            "hold",
-            "blocked"
-        ],
-        "created_at": "2026-10-12T14:39:12Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcdd spec: [v6] dashboard \"your turn\" signal \u2014 \u2610 marker, inbox and one server-side ownership decision (from RFC #11504)",
-        "url": "https://github.com/hivecommons/hive/issues/11507",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "hold",
-            "dashboard"
-        ],
-        "created_at": "2026-10-11T14:36:06Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Post-hoc evidence for stable promotion to 8a0539c",
-        "url": "https://github.com/hivecommons/hive/issues/11426",
-        "labels": [
-            "help wanted",
-            "needs-direction"
-        ],
-        "created_at": "2026-10-10T13:27:07Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[RFC] [v5] Prow compatible mode: let an organisation's acceptance label (triage/accepted) approve work for Hive",
-        "url": "https://github.com/hivecommons/hive/issues/11313",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "architecture discussion",
-            "hold"
-        ],
-        "created_at": "2026-10-09T20:28:36Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b bug: Overlapping and duplicate issues/PRs",
-        "url": "https://github.com/hivecommons/hive/issues/11239",
-        "labels": [
-            "bug",
-            "help wanted",
-            "triage/accepted",
-            "hive/verified-open",
-            "hive: reporter-confirmed"
-        ],
-        "created_at": "2026-10-09T13:33:40Z"
     },
     {
         "repo": "hivecommons/hive",
