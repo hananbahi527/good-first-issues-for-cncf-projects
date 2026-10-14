@@ -4762,23 +4762,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Operator Helm chart renders null version labels because Chart.yaml lacks appVersioN",
-        "url": "https://github.com/keycloak/keycloak/issues/53804",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "team/cloud-native",
-            "area/operator",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-10-09T13:27:50Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "kc.sh build output is not reproducible",
         "url": "https://github.com/keycloak/keycloak/issues/53744",
         "labels": [
@@ -5220,6 +5203,23 @@
             "team/core-protocols"
         ],
         "created_at": "2026-09-09T13:13:06Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Destination attribute for SAML integration is validate in LogoutRequest, but not in ArtifactResolve",
+        "url": "https://github.com/keycloak/keycloak/issues/52510",
+        "labels": [
+            "area/saml",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-08T12:34:00Z"
     },
     {
         "repo": "keylime/keylime",
@@ -8582,6 +8582,26 @@
         "repo": "longhorn/longhorn",
         "tier": "Incubating",
         "lang": "Shell",
+        "title": "[FEATURE] Expose metrics of data plane's underlying components including share manager/nfs ganesha and spdk daemon",
+        "url": "https://github.com/longhorn/longhorn/issues/12046",
+        "labels": [
+            "kind/feature",
+            "require/auto-e2e-test",
+            "require/doc",
+            "require/lep",
+            "require/manual-test-plan",
+            "area/upstream",
+            "area/monitoring",
+            "area/v2-data-engine",
+            "component/longhorn-share-manager",
+            "help wanted"
+        ],
+        "created_at": "2025-10-27T03:03:34Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
         "title": "[FEATURE] Make UI WebSocket Refresh Interval Configurable",
         "url": "https://github.com/longhorn/longhorn/issues/11134",
         "labels": [
@@ -9547,18 +9567,6 @@
             "kind/cleanup"
         ],
         "created_at": "2023-09-06T07:34:04Z"
-    },
-    {
-        "repo": "hyperlight-dev/hyperlight",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Enable all memory guard page tests on windows",
-        "url": "https://github.com/hyperlight-dev/hyperlight/issues/1508",
-        "labels": [
-            "good first issue",
-            "lifecycle/confirmed"
-        ],
-        "created_at": "2026-06-04T16:45:41Z"
     },
     {
         "repo": "hyperlight-dev/hyperlight",
@@ -14104,6 +14112,55 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "bug: CSIDriver config updates are delivered as delete + re-create of the driver; edge drift on the same fields is invisible",
+        "url": "https://github.com/kubestellar/kubestellar/issues/4008",
+        "labels": [
+            "kind/bug",
+            "help wanted"
+        ],
+        "created_at": "2026-10-14T19:02:05Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "bug:  Pod image updates are not synced in either direction (hub updates never delivered, edge drift never reverted)`",
+        "url": "https://github.com/kubestellar/kubestellar/issues/4007",
+        "labels": [
+            "kind/bug",
+            "help wanted"
+        ],
+        "created_at": "2026-10-14T18:45:18Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "bug:  Service edge drift on delivered fields is never reconciled (only selector and type are defended)",
+        "url": "https://github.com/kubestellar/kubestellar/issues/4006",
+        "labels": [
+            "kind/bug",
+            "help wanted"
+        ],
+        "created_at": "2026-10-14T18:36:30Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "bug: Service transformation turns a valid hub object into one the edges refuse (externalTrafficPolicy stripped, healthCheckNodePort kept)",
+        "url": "https://github.com/kubestellar/kubestellar/issues/4005",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-14T18:20:28Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "bug: Host-type WDS is not an isolated authoring space \u2014 hub-local node downsyncs to spokes",
         "url": "https://github.com/kubestellar/kubestellar/issues/3980",
         "labels": [
@@ -14424,56 +14481,6 @@
             "hive/covered-by-pr"
         ],
         "created_at": "2026-06-30T07:50:17Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "bug: Potential deadlock in bindingpolicy-resolution lock handling",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3864",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-06-29T19:01:09Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Backport workflow-hardening fix (artipacked, unpinned-uses) to 5 release branches",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3862",
-        "labels": [
-            "help wanted",
-            "lifecycle/stale"
-        ],
-        "created_at": "2026-06-29T02:58:18Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "bug: panic on tombstone delete events in generic transport controller",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3857",
-        "labels": [
-            "help wanted",
-            "lifecycle/stale",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-06-25T11:34:09Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "bug: PVC downsync fails and hub loses tracking when edge defaults storageClassName",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3855",
-        "labels": [
-            "kind/bug",
-            "help wanted"
-        ],
-        "created_at": "2026-06-25T02:09:11Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -16781,6 +16788,61 @@
             "maybe"
         ],
         "created_at": "2017-11-29T16:53:18Z"
+    },
+    {
+        "repo": "praxis-proxy/praxis",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "policy: warn when an authenticated credential is forwarded upstream",
+        "url": "https://github.com/praxis-proxy/praxis/issues/1384",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "triage/accepted",
+            "area/security"
+        ],
+        "created_at": "2026-10-10T14:57:46Z"
+    },
+    {
+        "repo": "praxis-proxy/praxis",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "Require useful detail in bug reports",
+        "url": "https://github.com/praxis-proxy/praxis/issues/1225",
+        "labels": [
+            "documentation",
+            "good first issue",
+            "triage/accepted",
+            "area/community"
+        ],
+        "created_at": "2026-09-18T21:49:02Z"
+    },
+    {
+        "repo": "praxis-proxy/praxis",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "A support-bundle command for collecting diagnostics",
+        "url": "https://github.com/praxis-proxy/praxis/issues/1218",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "triage/accepted",
+            "area/core"
+        ],
+        "created_at": "2026-09-18T21:48:37Z"
+    },
+    {
+        "repo": "praxis-proxy/praxis",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "fix(tests): resilience throughput floors fail under default test parallelism (macOS dev laptop)",
+        "url": "https://github.com/praxis-proxy/praxis/issues/1000",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "triage/accepted"
+        ],
+        "created_at": "2026-08-18T20:17:56Z"
     },
     {
         "repo": "easegress-io/easegress",
@@ -30700,51 +30762,210 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b Mobile dashboard: collapsed-section summaries, meters and chip rows overflow/truncate; no mobile visual test coverage",
-        "url": "https://github.com/hivecommons/hive/issues/11807",
-        "labels": [
-            "help wanted",
-            "claimed"
-        ],
-        "created_at": "2026-10-14T16:10:27Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b hub: assigned hosted hives keep slot placeholder org despite request org (10 vllm-d hives ran without GitHub creds)",
-        "url": "https://github.com/hivecommons/hive/issues/11800",
+        "title": "\ud83d\udc1b Copilot auth-required panes restart before hold engages",
+        "url": "https://github.com/hivecommons/hive/issues/11897",
         "labels": [
             "bug",
+            "help wanted",
+            "hive/covered-by-pr",
+            "claimed",
+            "hive/claimed-by-scanner"
+        ],
+        "created_at": "2026-10-14T19:58:17Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] dashboard/governor: never-created required check counted as merge-eligible; route to held/needs-human and drop from scanner lists",
+        "url": "https://github.com/hivecommons/hive/issues/11892",
+        "labels": [
+            "help wanted",
+            "claimed",
+            "hive/claimed-by-scanner"
+        ],
+        "created_at": "2026-10-14T19:55:38Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[sec-check] Copilot diagnostic pane tail reaches /api/status lastError and hub heartbeat unredacted",
+        "url": "https://github.com/hivecommons/hive/issues/11889",
+        "labels": [
+            "help wanted",
+            "agent/sec-check",
+            "security",
+            "hive/hosted-available-oke-11-placeholder-r05x",
+            "claimed",
+            "hive/claimed-by-scanner"
+        ],
+        "created_at": "2026-10-14T19:36:45Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 Link non-default-branch fix PRs to their issues so the issue list shows the PR icon",
+        "url": "https://github.com/hivecommons/hive/issues/11888",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-14T19:34:51Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] \u2728 fleetreport: runtime error classes with fingerprints (restart storms, failed kicks, panics, degraded discovery, auth failures, disk pressure)",
+        "url": "https://github.com/hivecommons/hive/issues/11881",
+        "labels": [
+            "enhancement",
             "help wanted"
         ],
-        "created_at": "2026-10-14T15:53:45Z"
+        "created_at": "2026-10-14T19:12:45Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[v6] \ud83d\udc1b Re-running kubectl apply -k wipes the keys in hive-secrets",
-        "url": "https://github.com/hivecommons/hive/issues/11776",
+        "title": "[scanner] \u2728 fleetreport: default on for hub-managed spokes and expose enabled/repo/max_per_day in Settings",
+        "url": "https://github.com/hivecommons/hive/issues/11878",
         "labels": [
-            "help wanted",
-            "triage/accepted",
-            "blocked"
+            "enhancement",
+            "help wanted"
         ],
-        "created_at": "2026-10-14T12:14:34Z"
+        "created_at": "2026-10-14T19:07:20Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[v6] \ud83d\udc1b kind and standalone overlays never wire HIVE_GITHUB_TOKEN into hive.yaml; pod crash-loops and the kind smoke test cannot pass",
-        "url": "https://github.com/hivecommons/hive/issues/11775",
+        "title": "merge gate: required-check-missing on a PR whose CI can never run is polled forever and shown as eligible",
+        "url": "https://github.com/hivecommons/hive/issues/11877",
+        "labels": [
+            "help wanted",
+            "blocked",
+            "claimed",
+            "hive/claimed-by-scanner",
+            "hive/in-progress"
+        ],
+        "created_at": "2026-10-14T19:02:00Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "self-upgrade exits without draining in-flight agent kicks; edge-channel spoke loses 40-70% of long-lane kicks",
+        "url": "https://github.com/hivecommons/hive/issues/11876",
+        "labels": [
+            "help wanted",
+            "blocked"
+        ],
+        "created_at": "2026-10-14T19:01:58Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] \u2728 dedupe: auto-close advisory-only reports when referenced items close or after 7 days",
+        "url": "https://github.com/hivecommons/hive/issues/11871",
+        "labels": [
+            "help wanted",
+            "claimed",
+            "hive/claimed-by-scanner",
+            "hive/in-progress"
+        ],
+        "created_at": "2026-10-14T18:44:24Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] \u2728 CI: enforce phone-viewport message-list height minimums in the Hive Chat sweep",
+        "url": "https://github.com/hivecommons/hive/issues/11870",
+        "labels": [
+            "help wanted",
+            "needs-decision"
+        ],
+        "created_at": "2026-10-14T18:43:55Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Hives should open issues on hivecommons/hive when they hit unusual errors",
+        "url": "https://github.com/hivecommons/hive/issues/11868",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-14T18:39:09Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "hub PRs that touch server.go or hub static pages should run the citation --fix and style-ratchet baseline update in CI or a pre-merge check",
+        "url": "https://github.com/hivecommons/hive/issues/11866",
+        "labels": [
+            "help wanted",
+            "blocked"
+        ],
+        "created_at": "2026-10-14T18:36:48Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 dashboard: every hive.yaml setting must be exposed in the Settings dialog (parity)",
+        "url": "https://github.com/hivecommons/hive/issues/11854",
+        "labels": [
+            "help wanted",
+            "blocked"
+        ],
+        "created_at": "2026-10-14T17:54:12Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[v6] \ud83d\udc1b dashboard chat: !kick replies \"Kicked\" when the kick was only deferred until the first governor scan",
+        "url": "https://github.com/hivecommons/hive/issues/11829",
         "labels": [
             "help wanted",
             "triage/accepted",
-            "blocked"
+            "hive/covered-by-pr"
         ],
-        "created_at": "2026-10-14T12:14:32Z"
+        "created_at": "2026-10-14T16:58:00Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] \ud83d\udc1b hub: empty auto_upgrade_mode must default to daily, not instant",
+        "url": "https://github.com/hivecommons/hive/issues/11822",
+        "labels": [
+            "bug",
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-14T16:54:12Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b hub: half the hosted fleet auto-upgrades instantly (empty mode = instant) and rollouts are flagged as crash-loops",
+        "url": "https://github.com/hivecommons/hive/issues/11812",
+        "labels": [
+            "bug",
+            "help wanted",
+            "blocked",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-14T16:34:15Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30778,19 +30999,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b bug: Mysterious failure to do inference",
-        "url": "https://github.com/hivecommons/hive/issues/9945",
-        "labels": [
-            "bug",
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2026-10-02T05:54:00Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[scanner] v6 readiness live exercise: dashboard chat, inception via chat, standby S5-S6",
         "url": "https://github.com/hivecommons/hive/issues/9735",
         "labels": [
@@ -30798,20 +31006,6 @@
             "needs-human"
         ],
         "created_at": "2026-09-30T04:24:45Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b bug: Logs from past kicks are only tails",
-        "url": "https://github.com/hivecommons/hive/issues/9579",
-        "labels": [
-            "bug",
-            "help wanted",
-            "triage/accepted",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-09-29T16:23:48Z"
     },
     {
         "repo": "hivecommons/hive",
