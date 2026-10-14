@@ -4986,6 +4986,25 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Theme resources intermittently 404 on a cold gzip cache: `GzipResourceEncodingProvider` replaces the cached file non-atomically",
+        "url": "https://github.com/keycloak/keycloak/issues/53238",
+        "labels": [
+            "kind/bug",
+            "area/core",
+            "help wanted",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-authn",
+            "backport/26.8"
+        ],
+        "created_at": "2026-09-27T20:57:07Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "[CIMD] accept-public-client-with-confidential-client-only-grant silently fails when the jwt-authorization-grant feature is disabled",
         "url": "https://github.com/keycloak/keycloak/issues/53230",
         "labels": [
@@ -5201,22 +5220,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-09-03T08:52:39Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "URN resource indicator validation does not fully match RFC 8141",
-        "url": "https://github.com/keycloak/keycloak/issues/52324",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-09-02T13:46:52Z"
     },
     {
         "repo": "keylime/keylime",
@@ -8673,23 +8676,6 @@
             "help wanted"
         ],
         "created_at": "2023-06-01T11:00:50Z"
-    },
-    {
-        "repo": "longhorn/longhorn",
-        "tier": "Incubating",
-        "lang": "Shell",
-        "title": "[BUG] System snapshot has invalid date when volume is restored from volume backup",
-        "url": "https://github.com/longhorn/longhorn/issues/5153",
-        "labels": [
-            "kind/bug",
-            "component/longhorn-manager",
-            "priority/2",
-            "area/volume-backup-restore",
-            "severity/4",
-            "area/snapshot",
-            "help wanted"
-        ],
-        "created_at": "2022-12-27T08:16:31Z"
     },
     {
         "repo": "longhorn/longhorn",
@@ -14929,6 +14915,18 @@
         "repo": "volcano-sh/volcano",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "Upgrade Volcano k8s dependencies to v1.37 for release-1.17",
+        "url": "https://github.com/volcano-sh/volcano/issues/6092",
+        "labels": [
+            "help wanted",
+            "kind/feature"
+        ],
+        "created_at": "2026-10-14T07:11:39Z"
+    },
+    {
+        "repo": "volcano-sh/volcano",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "Document usage and recommended configurations for gangpreempt and gangreclaim actions",
         "url": "https://github.com/volcano-sh/volcano/issues/5929",
         "labels": [
@@ -17581,7 +17579,8 @@
         "title": "Support access logging on TCP and TLS listeners via ListenerPolicy",
         "url": "https://github.com/kgateway-dev/kgateway/issues/14014",
         "labels": [
-            "Good First Issue"
+            "Good First Issue",
+            "stale"
         ],
         "created_at": "2026-05-12T10:50:29Z"
     },
@@ -18240,6 +18239,7 @@
         "labels": [
             "good first issue",
             "triage/accepted",
+            "triage/stale",
             "kind/feature"
         ],
         "created_at": "2025-02-24T16:10:58Z"
@@ -30641,6 +30641,34 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[scanner] \ud83d\udc1b kick logs: scrollback capture cannot produce a full transcript \u2014 choose a capture source",
+        "url": "https://github.com/hivecommons/hive/issues/11762",
+        "labels": [
+            "bug",
+            "help wanted",
+            "needs-decision",
+            "kind/design"
+        ],
+        "created_at": "2026-10-14T04:26:42Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: Terminal has truncated error message at the bottom during countdown",
+        "url": "https://github.com/hivecommons/hive/issues/11761",
+        "labels": [
+            "bug",
+            "help wanted",
+            "triage/accepted",
+            "claimed"
+        ],
+        "created_at": "2026-10-14T03:40:39Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[shared-ci] docker (hive) failing across hivecommons/hive",
         "url": "https://github.com/hivecommons/hive/issues/11757",
         "labels": [
@@ -30684,6 +30712,19 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "\ud83d\udc1b bug: Mysterious failure to do inference",
+        "url": "https://github.com/hivecommons/hive/issues/9945",
+        "labels": [
+            "bug",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2026-10-02T05:54:00Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[scanner] v6 readiness live exercise: dashboard chat, inception via chat, standby S5-S6",
         "url": "https://github.com/hivecommons/hive/issues/9735",
         "labels": [
@@ -30691,6 +30732,20 @@
             "needs-human"
         ],
         "created_at": "2026-09-30T04:24:45Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: Logs from past kicks are only tails",
+        "url": "https://github.com/hivecommons/hive/issues/9579",
+        "labels": [
+            "bug",
+            "help wanted",
+            "triage/accepted",
+            "hive/verified-open"
+        ],
+        "created_at": "2026-09-29T16:23:48Z"
     },
     {
         "repo": "hivecommons/hive",
