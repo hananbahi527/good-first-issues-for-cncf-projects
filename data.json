@@ -4728,6 +4728,40 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "prompt=none is not forwarded to upstream IdP when 'Accepts prompt=none forward from client' is enabled",
+        "url": "https://github.com/keycloak/keycloak/issues/53865",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/identity-brokering",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-10-12T13:39:48Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Missing detailed audit information in realm role delete operation",
+        "url": "https://github.com/keycloak/keycloak/issues/53806",
+        "labels": [
+            "kind/bug",
+            "area/admin/ui",
+            "help wanted",
+            "team/core-iam",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump"
+        ],
+        "created_at": "2026-10-09T14:27:32Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Operator Helm chart renders null version labels because Chart.yaml lacks appVersioN",
         "url": "https://github.com/keycloak/keycloak/issues/53804",
         "labels": [
@@ -5186,40 +5220,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-09-09T13:13:06Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Destination attribute for SAML integration is validate in LogoutRequest, but not in ArtifactResolve",
-        "url": "https://github.com/keycloak/keycloak/issues/52510",
-        "labels": [
-            "area/saml",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-09-08T12:34:00Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "ClassNotFound PersistenceManager when starting server",
-        "url": "https://github.com/keycloak/keycloak/issues/52352",
-        "labels": [
-            "kind/bug",
-            "area/adapter/jee",
-            "help wanted",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-09-03T08:52:39Z"
     },
     {
         "repo": "keylime/keylime",
@@ -14617,6 +14617,68 @@
         "repo": "open-cluster-management-io/ocm",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "grpc work agent can leave a ManifestWork stuck in deletion when it contains a CR and its ClusterRole",
+        "url": "https://github.com/open-cluster-management-io/ocm/issues/1752",
+        "labels": [
+            "bug",
+            "good first issue",
+            "help wanted"
+        ],
+        "created_at": "2026-10-14T06:29:18Z"
+    },
+    {
+        "repo": "open-cluster-management-io/ocm",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "e2e flake: new klusterlet agent waits for the old pod's leader lease after namespace change",
+        "url": "https://github.com/open-cluster-management-io/ocm/issues/1751",
+        "labels": [
+            "bug",
+            "good first issue",
+            "help wanted"
+        ],
+        "created_at": "2026-10-14T06:29:17Z"
+    },
+    {
+        "repo": "open-cluster-management-io/ocm",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Document and test a hub backup-and-restore runbook",
+        "url": "https://github.com/open-cluster-management-io/ocm/issues/1735",
+        "labels": [
+            "good first issue",
+            "help wanted"
+        ],
+        "created_at": "2026-10-06T23:30:15Z"
+    },
+    {
+        "repo": "open-cluster-management-io/ocm",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Publish measured per-cluster CPU and memory at representative fleet sizes",
+        "url": "https://github.com/open-cluster-management-io/ocm/issues/1734",
+        "labels": [
+            "good first issue",
+            "help wanted"
+        ],
+        "created_at": "2026-10-06T23:30:13Z"
+    },
+    {
+        "repo": "open-cluster-management-io/ocm",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Export named Prometheus metrics for cluster availability and ManifestWork success",
+        "url": "https://github.com/open-cluster-management-io/ocm/issues/1733",
+        "labels": [
+            "good first issue",
+            "help wanted"
+        ],
+        "created_at": "2026-10-06T23:30:12Z"
+    },
+    {
+        "repo": "open-cluster-management-io/ocm",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "configurable healthcheck process port in klusterlet",
         "url": "https://github.com/open-cluster-management-io/ocm/issues/1032",
         "labels": [
@@ -14635,6 +14697,18 @@
             "help wanted"
         ],
         "created_at": "2026-09-04T11:14:36Z"
+    },
+    {
+        "repo": "open-cluster-management-io/ocm",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Add SPIFFE based registration driver for OCM cluster and add-on registration",
+        "url": "https://github.com/open-cluster-management-io/ocm/issues/866",
+        "labels": [
+            "enhancement",
+            "help wanted"
+        ],
+        "created_at": "2025-03-05T21:45:48Z"
     },
     {
         "repo": "OpenFunction/OpenFunction",
@@ -18220,26 +18294,11 @@
         "repo": "kumahq/kuma",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "feat(MeshHealthCheck): add unhealthy_interval support",
-        "url": "https://github.com/kumahq/kuma/issues/17129",
-        "labels": [
-            "good first issue",
-            "triage/accepted",
-            "triage/stale",
-            "kind/feature"
-        ],
-        "created_at": "2026-07-06T14:25:28Z"
-    },
-    {
-        "repo": "kumahq/kuma",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "MeshRetry do not allow retry GRPC connection errors",
         "url": "https://github.com/kumahq/kuma/issues/12931",
         "labels": [
             "good first issue",
             "triage/accepted",
-            "triage/stale",
             "kind/feature"
         ],
         "created_at": "2025-02-24T16:10:58Z"
@@ -26535,7 +26594,7 @@
     {
         "repo": "open-feature/spec",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Gherkin",
         "title": "Migrate (or implement) multi-provider directly in SDKs",
         "url": "https://github.com/open-feature/spec/issues/316",
         "labels": [
@@ -30641,44 +30700,51 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] \ud83d\udc1b kick logs: scrollback capture cannot produce a full transcript \u2014 choose a capture source",
-        "url": "https://github.com/hivecommons/hive/issues/11762",
+        "title": "\ud83d\udc1b Mobile dashboard: collapsed-section summaries, meters and chip rows overflow/truncate; no mobile visual test coverage",
+        "url": "https://github.com/hivecommons/hive/issues/11807",
         "labels": [
-            "bug",
             "help wanted",
-            "needs-decision",
-            "kind/design"
-        ],
-        "created_at": "2026-10-14T04:26:42Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b bug: Terminal has truncated error message at the bottom during countdown",
-        "url": "https://github.com/hivecommons/hive/issues/11761",
-        "labels": [
-            "bug",
-            "help wanted",
-            "triage/accepted",
             "claimed"
         ],
-        "created_at": "2026-10-14T03:40:39Z"
+        "created_at": "2026-10-14T16:10:27Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[shared-ci] docker (hive) failing across hivecommons/hive",
-        "url": "https://github.com/hivecommons/hive/issues/11757",
+        "title": "\ud83d\udc1b hub: assigned hosted hives keep slot placeholder org despite request org (10 vllm-d hives ran without GitHub creds)",
+        "url": "https://github.com/hivecommons/hive/issues/11800",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-10-14T15:53:45Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[v6] \ud83d\udc1b Re-running kubectl apply -k wipes the keys in hive-secrets",
+        "url": "https://github.com/hivecommons/hive/issues/11776",
         "labels": [
             "help wanted",
-            "agent/ci-maintainer",
-            "hive/hosted-available-oke-11-placeholder-r05x",
-            "ci",
-            "needs-decision"
+            "triage/accepted",
+            "blocked"
         ],
-        "created_at": "2026-10-14T01:28:07Z"
+        "created_at": "2026-10-14T12:14:34Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[v6] \ud83d\udc1b kind and standalone overlays never wire HIVE_GITHUB_TOKEN into hive.yaml; pod crash-loops and the kind smoke test cannot pass",
+        "url": "https://github.com/hivecommons/hive/issues/11775",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "blocked"
+        ],
+        "created_at": "2026-10-14T12:14:32Z"
     },
     {
         "repo": "hivecommons/hive",
