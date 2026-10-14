@@ -3049,22 +3049,6 @@
         "repo": "dragonflyoss/dragonfly",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Optimize the number of spans in the client's tracing.",
-        "url": "https://github.com/dragonflyoss/dragonfly/issues/4415",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "help wanted",
-            "client",
-            "OSS-Medium",
-            "rust"
-        ],
-        "created_at": "2025-10-30T06:43:47Z"
-    },
-    {
-        "repo": "dragonflyoss/dragonfly",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Suppport Memory Storage Backend for Peers (Bypassing Disk)",
         "url": "https://github.com/dragonflyoss/dragonfly/issues/4027",
         "labels": [
@@ -8765,6 +8749,19 @@
             "needs-design-document"
         ],
         "created_at": "2026-04-07T04:45:04Z"
+    },
+    {
+        "repo": "velero-io/velero",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Improve CI reliability by reusing Go module caches across test jobs",
+        "url": "https://github.com/velero-io/velero/issues/10653",
+        "labels": [
+            "Good first issue",
+            "E2E Tests",
+            "area/testing"
+        ],
+        "created_at": "2026-10-13T22:29:34Z"
     },
     {
         "repo": "velero-io/velero",
@@ -20819,6 +20816,18 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-HONO-20883336]",
+        "url": "https://github.com/backstage/backstage/issues/36157",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-13T20:09:52Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINCATALOGBACKENDMODULEGITLAB-20826430]",
         "url": "https://github.com/backstage/backstage/issues/36129",
         "labels": [
@@ -21162,18 +21171,6 @@
             "help wanted"
         ],
         "created_at": "2026-10-11T12:07:51Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEBACKENDDEFAULTS-20825058]",
-        "url": "https://github.com/backstage/backstage/issues/36100",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-11T12:07:50Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -22506,7 +22503,8 @@
         "url": "https://github.com/helm/helm/issues/30821",
         "labels": [
             "help wanted",
-            "bug"
+            "bug",
+            "Stale"
         ],
         "created_at": "2025-05-01T13:41:41Z"
     },
@@ -23794,18 +23792,6 @@
             "human required"
         ],
         "created_at": "2025-07-08T13:22:31Z"
-    },
-    {
-        "repo": "getporter/porter",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "(feat): install Porter with the package managers of different Linux distributions",
-        "url": "https://github.com/getporter/porter/issues/3124",
-        "labels": [
-            "good first issue",
-            "suggestion"
-        ],
-        "created_at": "2024-05-21T13:18:32Z"
     },
     {
         "repo": "getporter/porter",
@@ -30655,156 +30641,44 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[quality] arm64 agent image ships an amd64 Go toolchain (Exec format error) \u2014 COPY /usr/local/go from $BUILDPLATFORM builder",
-        "url": "https://github.com/hivecommons/hive/issues/11726",
+        "title": "[shared-ci] docker (hive) failing across hivecommons/hive",
+        "url": "https://github.com/hivecommons/hive/issues/11757",
         "labels": [
             "help wanted",
-            "quality",
+            "agent/ci-maintainer",
             "hive/hosted-available-oke-11-placeholder-r05x",
-            "agent/quality",
-            "test-infrastructure"
+            "ci",
+            "needs-decision"
         ],
-        "created_at": "2026-10-13T18:38:38Z"
+        "created_at": "2026-10-14T01:28:07Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b [v6] dashboard issue band: hive/verified-open must keep an issue out of Confirm & close",
-        "url": "https://github.com/hivecommons/hive/issues/11722",
+        "title": "ci-flake: github.com/hivecommons/hive/pkg/hub.TestFetchBranchSHASpokeTargetWalkbackStopsAtCurrentTarget",
+        "url": "https://github.com/hivecommons/hive/issues/11753",
         "labels": [
-            "help wanted",
-            "hold"
-        ],
-        "created_at": "2026-10-13T18:20:54Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] dashboard your-turn: hive/verified-open must cancel hive/likely-done in the To close and reporter-confirmation rules",
-        "url": "https://github.com/hivecommons/hive/issues/11721",
-        "labels": [
-            "help wanted",
-            "hold"
-        ],
-        "created_at": "2026-10-13T18:20:52Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 [v6] dashboard: pill legend \u2014 give every pill an uppercase word (icon + WORD), like the issue chips",
-        "url": "https://github.com/hivecommons/hive/issues/11718",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-13T16:53:43Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 advisory: alert when a k8s hive boots on the shared dev UID (UID map missing/unreadable)",
-        "url": "https://github.com/hivecommons/hive/issues/11713",
-        "labels": [
-            "help wanted",
-            "blocked"
-        ],
-        "created_at": "2026-10-13T16:14:42Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \u2728 Optional GitHub artifact repo for Nous results (off by default) (RFC #11585 part 8/8)",
-        "url": "https://github.com/hivecommons/hive/issues/11701",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "approved-direction"
-        ],
-        "created_at": "2026-10-13T14:40:42Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \u2728 Pinned campaign dependencies with allowlisted setup-step fetch and version recording (RFC #11585 part 7/8)",
-        "url": "https://github.com/hivecommons/hive/issues/11700",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "approved-direction"
-        ],
-        "created_at": "2026-10-13T14:40:40Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \u2728 Verdict card + manual Promote (Issue, Spektacular run) replacing auto output modes (RFC #11585 part 6/8)",
-        "url": "https://github.com/hivecommons/hive/issues/11699",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "approved-direction"
-        ],
-        "created_at": "2026-10-13T14:40:37Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \u2728 experimenter agent role with engine contract; Nous inline as default; strategist unchanged (RFC #11585 part 5/8)",
-        "url": "https://github.com/hivecommons/hive/issues/11698",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "approved-direction"
-        ],
-        "created_at": "2026-10-13T14:40:34Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \u2728 Experiment Lab reads per-campaign ledger/principles live; fix type/status mismatch (RFC #11585 part 4/8)",
-        "url": "https://github.com/hivecommons/hive/issues/11697",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "approved-direction"
-        ],
-        "created_at": "2026-10-13T14:40:32Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[RFC]: Proposal: An experimentation agent for Hive (Nous by default), with durable results and a path to shipping",
-        "url": "https://github.com/hivecommons/hive/issues/11585",
-        "labels": [
-            "enhancement",
             "help wanted",
             "hive/covered-by-pr",
-            "approved-direction"
+            "ci-flake"
         ],
-        "created_at": "2026-10-12T17:13:26Z"
+        "created_at": "2026-10-13T23:56:43Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b bug: Mysterious failure to do inference",
-        "url": "https://github.com/hivecommons/hive/issues/9945",
+        "title": "\ud83d\udc1b entrypoint: recursive chown/chmod passes over /data/home on every boot exceed the startup probe on slow/shared NFS and amplify restart storms",
+        "url": "https://github.com/hivecommons/hive/issues/11732",
         "labels": [
             "bug",
             "help wanted",
-            "needs-reporter-confirmation"
+            "kind/bug",
+            "hive/hive",
+            "hold"
         ],
-        "created_at": "2026-10-02T05:54:00Z"
+        "created_at": "2026-10-13T19:03:55Z"
     },
     {
         "repo": "hivecommons/hive",
