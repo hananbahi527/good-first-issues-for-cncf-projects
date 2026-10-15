@@ -2129,6 +2129,17 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Upgrade to Go 1.27.1",
+        "url": "https://github.com/meshery/meshery/issues/22386",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-10-14T23:50:30Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "[Docs] Fix typos, missing words, and duplicate tokens in Workspaces and Operator CRDs guides",
         "url": "https://github.com/meshery/meshery/issues/22254",
         "labels": [
@@ -2524,19 +2535,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-18T10:14:28Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[CI] OpenSSF Scorecard Check: Vulnerabilities",
-        "url": "https://github.com/meshery/meshery/issues/20778",
-        "labels": [
-            "help wanted",
-            "area/ci",
-            "area/devops"
-        ],
-        "created_at": "2026-07-18T07:33:07Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -9539,7 +9537,8 @@
         "title": "Unify GitHub Actions setup into Ansible playbook for reuse across CI systems",
         "url": "https://github.com/cri-o/cri-o/issues/10053",
         "labels": [
-            "help wanted"
+            "help wanted",
+            "lifecycle/stale"
         ],
         "created_at": "2026-06-18T16:59:46Z"
     },
@@ -12106,19 +12105,6 @@
             "component/etcd"
         ],
         "created_at": "2020-08-24T11:54:10Z"
-    },
-    {
-        "repo": "kedacore/keda",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Use histograms for latency related metrics",
-        "url": "https://github.com/kedacore/keda/issues/7675",
-        "labels": [
-            "bug",
-            "good first issue",
-            "stale"
-        ],
-        "created_at": "2026-04-22T09:03:23Z"
     },
     {
         "repo": "kedacore/keda",
@@ -30762,45 +30748,55 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b Copilot auth-required panes restart before hold engages",
-        "url": "https://github.com/hivecommons/hive/issues/11897",
+        "title": "\u2728 knowledge: expose Context7 as a connector card in the Knowledge Integrations modal",
+        "url": "https://github.com/hivecommons/hive/issues/11948",
         "labels": [
-            "bug",
+            "enhancement",
             "help wanted",
-            "hive/covered-by-pr",
             "claimed",
             "hive/claimed-by-scanner"
         ],
-        "created_at": "2026-10-14T19:58:17Z"
+        "created_at": "2026-10-15T02:12:10Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] dashboard/governor: never-created required check counted as merge-eligible; route to held/needs-human and drop from scanner lists",
-        "url": "https://github.com/hivecommons/hive/issues/11892",
+        "title": "\ud83c\udf31 admin MCP: log read, with the hive's own log as its first source",
+        "url": "https://github.com/hivecommons/hive/issues/11942",
         "labels": [
             "help wanted",
             "claimed",
-            "hive/claimed-by-scanner"
+            "hive/claimed-by-scanner",
+            "hive/in-progress"
         ],
-        "created_at": "2026-10-14T19:55:38Z"
+        "created_at": "2026-10-15T01:17:41Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[sec-check] Copilot diagnostic pane tail reaches /api/status lastError and hub heartbeat unredacted",
-        "url": "https://github.com/hivecommons/hive/issues/11889",
+        "title": "\ud83c\udf31 admin MCP: troubleshoot a hive without host shell access",
+        "url": "https://github.com/hivecommons/hive/issues/11941",
         "labels": [
             "help wanted",
-            "agent/sec-check",
-            "security",
-            "hive/hosted-available-oke-11-placeholder-r05x",
-            "claimed",
-            "hive/claimed-by-scanner"
+            "hold"
         ],
-        "created_at": "2026-10-14T19:36:45Z"
+        "created_at": "2026-10-15T01:17:40Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[shared-ci] test (dashboard shuffle 1/2) failing across hivecommons/hive",
+        "url": "https://github.com/hivecommons/hive/issues/11939",
+        "labels": [
+            "help wanted",
+            "ci",
+            "claimed",
+            "hive/in-progress"
+        ],
+        "created_at": "2026-10-15T01:00:50Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30818,102 +30814,16 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] \u2728 fleetreport: runtime error classes with fingerprints (restart storms, failed kicks, panics, degraded discovery, auth failures, disk pressure)",
-        "url": "https://github.com/hivecommons/hive/issues/11881",
-        "labels": [
-            "enhancement",
-            "help wanted"
-        ],
-        "created_at": "2026-10-14T19:12:45Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 fleetreport: default on for hub-managed spokes and expose enabled/repo/max_per_day in Settings",
-        "url": "https://github.com/hivecommons/hive/issues/11878",
-        "labels": [
-            "enhancement",
-            "help wanted"
-        ],
-        "created_at": "2026-10-14T19:07:20Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "merge gate: required-check-missing on a PR whose CI can never run is polled forever and shown as eligible",
-        "url": "https://github.com/hivecommons/hive/issues/11877",
-        "labels": [
-            "help wanted",
-            "blocked",
-            "claimed",
-            "hive/claimed-by-scanner",
-            "hive/in-progress"
-        ],
-        "created_at": "2026-10-14T19:02:00Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "self-upgrade exits without draining in-flight agent kicks; edge-channel spoke loses 40-70% of long-lane kicks",
-        "url": "https://github.com/hivecommons/hive/issues/11876",
-        "labels": [
-            "help wanted",
-            "blocked"
-        ],
-        "created_at": "2026-10-14T19:01:58Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 dedupe: auto-close advisory-only reports when referenced items close or after 7 days",
-        "url": "https://github.com/hivecommons/hive/issues/11871",
-        "labels": [
-            "help wanted",
-            "claimed",
-            "hive/claimed-by-scanner",
-            "hive/in-progress"
-        ],
-        "created_at": "2026-10-14T18:44:24Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[scanner] \u2728 CI: enforce phone-viewport message-list height minimums in the Hive Chat sweep",
         "url": "https://github.com/hivecommons/hive/issues/11870",
         "labels": [
             "help wanted",
-            "needs-decision"
+            "hive/covered-by-pr",
+            "approved-direction",
+            "claimed",
+            "hive/claimed-by-scanner"
         ],
         "created_at": "2026-10-14T18:43:55Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Hives should open issues on hivecommons/hive when they hit unusual errors",
-        "url": "https://github.com/hivecommons/hive/issues/11868",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-14T18:39:09Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "hub PRs that touch server.go or hub static pages should run the citation --fix and style-ratchet baseline update in CI or a pre-merge check",
-        "url": "https://github.com/hivecommons/hive/issues/11866",
-        "labels": [
-            "help wanted",
-            "blocked"
-        ],
-        "created_at": "2026-10-14T18:36:48Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30923,7 +30833,10 @@
         "url": "https://github.com/hivecommons/hive/issues/11854",
         "labels": [
             "help wanted",
-            "blocked"
+            "blocked",
+            "hive/verified-open",
+            "claimed",
+            "hive/claimed-by-scanner"
         ],
         "created_at": "2026-10-14T17:54:12Z"
     },
