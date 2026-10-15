@@ -1664,21 +1664,6 @@
         "repo": "KusionStack/kusion",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "CI: Window E2E test failed probabilistically",
-        "url": "https://github.com/KusionStack/kusion/issues/1237",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "priority/important-longterm",
-            "pending-discussion",
-            "hacktoberfest"
-        ],
-        "created_at": "2024-07-29T12:15:54Z"
-    },
-    {
-        "repo": "KusionStack/kusion",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Kusion Module support other DSLs (cuelang, Pkl e.g.)",
         "url": "https://github.com/KusionStack/kusion/issues/1210",
         "labels": [
@@ -5001,25 +4986,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Theme resources intermittently 404 on a cold gzip cache: `GzipResourceEncodingProvider` replaces the cached file non-atomically",
-        "url": "https://github.com/keycloak/keycloak/issues/53238",
-        "labels": [
-            "kind/bug",
-            "area/core",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-authn",
-            "backport/26.8"
-        ],
-        "created_at": "2026-09-27T20:57:07Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "[CIMD] accept-public-client-with-confidential-client-only-grant silently fails when the jwt-authorization-grant feature is disabled",
         "url": "https://github.com/keycloak/keycloak/issues/53230",
         "labels": [
@@ -5218,6 +5184,23 @@
             "team/core-protocols"
         ],
         "created_at": "2026-09-08T12:34:00Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "ClassNotFound PersistenceManager when starting server",
+        "url": "https://github.com/keycloak/keycloak/issues/52352",
+        "labels": [
+            "kind/bug",
+            "area/adapter/jee",
+            "help wanted",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-03T08:52:39Z"
     },
     {
         "repo": "keylime/keylime",
@@ -8380,11 +8363,9 @@
         "url": "https://github.com/longhorn/longhorn/issues/9458",
         "labels": [
             "good first issue",
-            "require/doc",
-            "require/manual-test-plan",
+            "priority/1",
             "kind/improvement",
             "area/troubleshoot",
-            "require/backport",
             "area/cli"
         ],
         "created_at": "2024-09-13T11:07:16Z"
@@ -8645,22 +8626,6 @@
             "help wanted"
         ],
         "created_at": "2024-07-24T23:30:38Z"
-    },
-    {
-        "repo": "longhorn/longhorn",
-        "tier": "Incubating",
-        "lang": "Shell",
-        "title": "[FEATURE] `longhornctl` supports node maintenance",
-        "url": "https://github.com/longhorn/longhorn/issues/8799",
-        "labels": [
-            "kind/feature",
-            "require/doc",
-            "require/manual-test-plan",
-            "require/important-note",
-            "area/cli",
-            "help wanted"
-        ],
-        "created_at": "2024-06-21T00:48:36Z"
     },
     {
         "repo": "longhorn/longhorn",
@@ -9652,6 +9617,19 @@
             "help wanted"
         ],
         "created_at": "2023-09-06T03:11:36Z"
+    },
+    {
+        "repo": "lima-vm/lima",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "`limactl menu`: `[LOCKED]` should be shown as `[PROTECTED]` or maybe `\ud83d\udd12`",
+        "url": "https://github.com/lima-vm/lima/issues/5624",
+        "labels": [
+            "bug",
+            "good first issue",
+            "area/cli/menu"
+        ],
+        "created_at": "2026-10-15T09:41:20Z"
     },
     {
         "repo": "lima-vm/lima",
@@ -14763,6 +14741,7 @@
             "help wanted",
             "os:windows",
             "roadmap",
+            "state:stale",
             "area:compute",
             "state:accepted"
         ],
@@ -17701,8 +17680,7 @@
         "title": "Support access logging on TCP and TLS listeners via ListenerPolicy",
         "url": "https://github.com/kgateway-dev/kgateway/issues/14014",
         "labels": [
-            "Good First Issue",
-            "stale"
+            "Good First Issue"
         ],
         "created_at": "2026-05-12T10:50:29Z"
     },
@@ -20923,6 +20901,18 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-QS-20943482]",
+        "url": "https://github.com/backstage/backstage/issues/36200",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-15T08:07:07Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-HONO-20883336]",
         "url": "https://github.com/backstage/backstage/issues/36157",
         "labels": [
@@ -21261,18 +21251,6 @@
         "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEBACKENDDEFAULTS-20825062]",
         "url": "https://github.com/backstage/backstage/issues/36102",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-11T12:07:51Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEBACKENDDEFAULTS-20825059]",
-        "url": "https://github.com/backstage/backstage/issues/36101",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
@@ -23416,6 +23394,18 @@
         "repo": "kubevirt/kubevirt",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "approved-vep label removed from PR when VEP-check workflow hits a GitHub API error",
+        "url": "https://github.com/kubevirt/kubevirt/issues/19465",
+        "labels": [
+            "kind/bug",
+            "good-first-issue"
+        ],
+        "created_at": "2026-10-15T08:18:06Z"
+    },
+    {
+        "repo": "kubevirt/kubevirt",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "Transition to using gRPC error model",
         "url": "https://github.com/kubevirt/kubevirt/issues/18285",
         "labels": [
@@ -25498,19 +25488,6 @@
             "good first issue"
         ],
         "created_at": "2023-10-30T04:22:20Z"
-    },
-    {
-        "repo": "pipe-cd/pipecd",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Fix lint/go errors",
-        "url": "https://github.com/pipe-cd/pipecd/issues/4566",
-        "labels": [
-            "kind/bug",
-            "good first issue",
-            "contribfest"
-        ],
-        "created_at": "2023-08-25T00:12:14Z"
     },
     {
         "repo": "pipe-cd/pipecd",
@@ -30748,55 +30725,14 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 knowledge: expose Context7 as a connector card in the Knowledge Integrations modal",
-        "url": "https://github.com/hivecommons/hive/issues/11948",
+        "title": "\ud83d\udc1b admin MCP in-hive endpoint drops the hive's error reason (\"returned HTTP 400\"); the standalone binary keeps it",
+        "url": "https://github.com/hivecommons/hive/issues/11985",
         "labels": [
-            "enhancement",
             "help wanted",
             "claimed",
             "hive/claimed-by-scanner"
         ],
-        "created_at": "2026-10-15T02:12:10Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 admin MCP: log read, with the hive's own log as its first source",
-        "url": "https://github.com/hivecommons/hive/issues/11942",
-        "labels": [
-            "help wanted",
-            "claimed",
-            "hive/claimed-by-scanner",
-            "hive/in-progress"
-        ],
-        "created_at": "2026-10-15T01:17:41Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 admin MCP: troubleshoot a hive without host shell access",
-        "url": "https://github.com/hivecommons/hive/issues/11941",
-        "labels": [
-            "help wanted",
-            "hold"
-        ],
-        "created_at": "2026-10-15T01:17:40Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[shared-ci] test (dashboard shuffle 1/2) failing across hivecommons/hive",
-        "url": "https://github.com/hivecommons/hive/issues/11939",
-        "labels": [
-            "help wanted",
-            "ci",
-            "claimed",
-            "hive/in-progress"
-        ],
-        "created_at": "2026-10-15T01:00:50Z"
+        "created_at": "2026-10-15T09:59:06Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30809,21 +30745,6 @@
             "hive/covered-by-pr"
         ],
         "created_at": "2026-10-14T19:34:51Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 CI: enforce phone-viewport message-list height minimums in the Hive Chat sweep",
-        "url": "https://github.com/hivecommons/hive/issues/11870",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr",
-            "approved-direction",
-            "claimed",
-            "hive/claimed-by-scanner"
-        ],
-        "created_at": "2026-10-14T18:43:55Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30852,33 +30773,6 @@
             "hive/covered-by-pr"
         ],
         "created_at": "2026-10-14T16:58:00Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \ud83d\udc1b hub: empty auto_upgrade_mode must default to daily, not instant",
-        "url": "https://github.com/hivecommons/hive/issues/11822",
-        "labels": [
-            "bug",
-            "help wanted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-14T16:54:12Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b hub: half the hosted fleet auto-upgrades instantly (empty mode = instant) and rollouts are flagged as crash-loops",
-        "url": "https://github.com/hivecommons/hive/issues/11812",
-        "labels": [
-            "bug",
-            "help wanted",
-            "blocked",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-14T16:34:15Z"
     },
     {
         "repo": "hivecommons/hive",
