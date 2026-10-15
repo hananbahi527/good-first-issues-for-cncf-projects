@@ -4693,6 +4693,24 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "LDAP paginated search returns partial results when the server fails between pages",
+        "url": "https://github.com/keycloak/keycloak/issues/54028",
+        "labels": [
+            "kind/bug",
+            "area/admin/api",
+            "area/ldap",
+            "help wanted",
+            "team/core-iam",
+            "team/core-shared",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-10-15T13:39:14Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "WebAuthn passwordless login with a NUL-containing user handle causes a PostgreSQL exception",
         "url": "https://github.com/keycloak/keycloak/issues/53897",
         "labels": [
@@ -4706,23 +4724,6 @@
             "backport/26.8"
         ],
         "created_at": "2026-10-13T07:47:14Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "prompt=none is not forwarded to upstream IdP when 'Accepts prompt=none forward from client' is enabled",
-        "url": "https://github.com/keycloak/keycloak/issues/53865",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/identity-brokering",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-10-12T13:39:48Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -13640,6 +13641,20 @@
         "repo": "kubernetes/kubernetes",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "[Flaking Test] [It] [sig-node] HugepageAwareMemoryReporting [Feature:HugePages] with feature gate enabled should subtract hugepage capacity from memory.available [Disruptive] [Serial] [Slow]",
+        "url": "https://github.com/kubernetes/kubernetes/issues/143046",
+        "labels": [
+            "sig/node",
+            "kind/flake",
+            "help wanted",
+            "needs-triage"
+        ],
+        "created_at": "2026-10-15T01:26:04Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Don't check featuregates directly in E2E tests",
         "url": "https://github.com/kubernetes/kubernetes/issues/142957",
         "labels": [
@@ -14045,20 +14060,6 @@
             "triage/accepted"
         ],
         "created_at": "2025-09-03T15:53:33Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "[FG:InPlacePodVerticalScaling] Investigate recovery from failure when setting allocated resources",
-        "url": "https://github.com/kubernetes/kubernetes/issues/133538",
-        "labels": [
-            "priority/backlog",
-            "sig/node",
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2025-08-14T21:05:16Z"
     },
     {
         "repo": "kubeslice/kubeslice",
@@ -20731,6 +20732,34 @@
             "help wanted"
         ],
         "created_at": "2020-10-16T12:19:35Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "\ud83d\udc1bTechDocs: table of contents is not displayed correctly",
+        "url": "https://github.com/backstage/backstage/issues/36071",
+        "labels": [
+            "type:bug",
+            "good first issue",
+            "priority:contrib-needed",
+            "area:techdocs"
+        ],
+        "created_at": "2026-10-08T06:44:08Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "create-app doesn't include github workflow",
+        "url": "https://github.com/backstage/backstage/issues/36002",
+        "labels": [
+            "type:bug",
+            "good first issue",
+            "priority:contrib-needed",
+            "area:tooling"
+        ],
+        "created_at": "2026-10-06T12:55:38Z"
     },
     {
         "repo": "backstage/backstage",
@@ -30725,26 +30754,284 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b admin MCP in-hive endpoint drops the hive's error reason (\"returned HTTP 400\"); the standalone binary keeps it",
-        "url": "https://github.com/hivecommons/hive/issues/11985",
+        "title": "\u2728 evidence: monthly complexity + static-analysis snapshot per managed repo (report-only) and Bluefin/Console backfill",
+        "url": "https://github.com/hivecommons/hive/issues/12072",
         "labels": [
-            "help wanted",
-            "claimed",
-            "hive/claimed-by-scanner"
+            "enhancement",
+            "help wanted"
         ],
-        "created_at": "2026-10-15T09:59:06Z"
+        "created_at": "2026-10-15T16:07:48Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 Link non-default-branch fix PRs to their issues so the issue list shows the PR icon",
-        "url": "https://github.com/hivecommons/hive/issues/11888",
+        "title": "\ud83d\udcd6 research: pre-registration for the Hive effectiveness study",
+        "url": "https://github.com/hivecommons/hive/issues/12071",
+        "labels": [
+            "documentation",
+            "help wanted"
+        ],
+        "created_at": "2026-10-15T16:07:46Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b beads: Store.Ready() ignores depends_on \u2014 beads become claimable while their dependencies are open",
+        "url": "https://github.com/hivecommons/hive/issues/12070",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-10-15T16:07:44Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 proxy: per-tier attempted vs blocked write counters exposed for the evidence summary",
+        "url": "https://github.com/hivecommons/hive/issues/12069",
+        "labels": [
+            "enhancement",
+            "help wanted"
+        ],
+        "created_at": "2026-10-15T16:07:41Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 review: shadow mode for review-gated merge and blocking intent verification (records would_have_held, never blocks)",
+        "url": "https://github.com/hivecommons/hive/issues/12068",
+        "labels": [
+            "enhancement",
+            "help wanted"
+        ],
+        "created_at": "2026-10-15T16:07:39Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 evidence: revert / follow-up-fix recorder (change-failure-rate proxy)",
+        "url": "https://github.com/hivecommons/hive/issues/12067",
+        "labels": [
+            "enhancement",
+            "help wanted"
+        ],
+        "created_at": "2026-10-15T16:07:36Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b evidence: ci.captured_at is zero on many records \u2014 capture CI conclusion at merge-eligibility time",
+        "url": "https://github.com/hivecommons/hive/issues/12066",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-10-15T16:07:34Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b evidence: stamp author model on agent-authored records and reviewer model on every verdict",
+        "url": "https://github.com/hivecommons/hive/issues/12065",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-10-15T16:07:31Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 dashboard: Evidence sub-panel in the Throughput section (calibration + accuracy\u00d7model first)",
+        "url": "https://github.com/hivecommons/hive/issues/12064",
+        "labels": [
+            "enhancement",
+            "help wanted"
+        ],
+        "created_at": "2026-10-15T16:07:28Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 evidence: GET /api/evidence/summary aggregating pkg/evidence records + reviewer accuracy",
+        "url": "https://github.com/hivecommons/hive/issues/12063",
+        "labels": [
+            "enhancement",
+            "help wanted"
+        ],
+        "created_at": "2026-10-15T16:07:26Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[RFC]: Evidence pipeline \u2014 measure Hive's effectiveness in the Throughput dashboard without touching auto-merge",
+        "url": "https://github.com/hivecommons/hive/issues/12062",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "approved-direction"
+        ],
+        "created_at": "2026-10-15T16:06:49Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Upgrade animation not shown when upgrade is hub-initiated",
+        "url": "https://github.com/hivecommons/hive/issues/12055",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-10-15T15:53:53Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Sidebar nav icons: remove duplicates, pick section-specific icons",
+        "url": "https://github.com/hivecommons/hive/issues/12054",
         "labels": [
             "help wanted",
             "hive/covered-by-pr"
         ],
-        "created_at": "2026-10-14T19:34:51Z"
+        "created_at": "2026-10-15T15:53:31Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "nous_gate_test data race on shared slog buffer under -race",
+        "url": "https://github.com/hivecommons/hive/issues/12052",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-15T15:53:21Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b hub: vLLM-d node health still empty \u2014 pre-#11432 push-reported spokes never get cluster_id (hub should deliver it via heartbeat)",
+        "url": "https://github.com/hivecommons/hive/issues/12049",
+        "labels": [
+            "bug",
+            "help wanted",
+            "claimed",
+            "hive/claimed-by-scanner"
+        ],
+        "created_at": "2026-10-15T15:36:22Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[sec-check] contributor-lane auto-merge (default on) grants unattended merge to self-registered, unverified relay contributors \u2014 claim marker proves a lease, not vetting",
+        "url": "https://github.com/hivecommons/hive/issues/12041",
+        "labels": [
+            "help wanted",
+            "agent/sec-check",
+            "security",
+            "hive/hosted-available-oke-11-placeholder-r05x",
+            "approved-direction",
+            "claimed",
+            "hive/claimed-by-scanner"
+        ],
+        "created_at": "2026-10-15T15:01:14Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[v6] \ud83d\udc1b dashboard: Experiment Lab configuration dialog has no breathing room",
+        "url": "https://github.com/hivecommons/hive/issues/12031",
+        "labels": [
+            "bug",
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-15T14:48:56Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[v6] \ud83c\udf31 Experiment Lab: baseline snapshots are never pruned (75110 / 672)",
+        "url": "https://github.com/hivecommons/hive/issues/12030",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-10-15T14:48:26Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[v6] \u2728 Experiment Lab: reset button and POST /api/nous/reset (baseline / knowledge / all)",
+        "url": "https://github.com/hivecommons/hive/issues/12029",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-15T14:48:25Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] \ud83d\udc1b Delivery SLA panel: explain n=0 warm-up tiles and render open_to_triage / triage_to_start spans",
+        "url": "https://github.com/hivecommons/hive/issues/12008",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-10-15T13:32:19Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 re-run PRs red on a fixed shared-CI baseline, and stop shedding unstick sweeps under API budget pressure",
+        "url": "https://github.com/hivecommons/hive/issues/12005",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-15T13:30:09Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b automerge: pristine Dependabot heads blocked by required contexts that are skipped by design (verify PR contents, coverage)",
+        "url": "https://github.com/hivecommons/hive/issues/12004",
+        "labels": [
+            "help wanted",
+            "claimed"
+        ],
+        "created_at": "2026-10-15T13:30:06Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b hive parks its own work on hard-suppress labels (hold/blocked/needs-human) and never lifts them",
+        "url": "https://github.com/hivecommons/hive/issues/12002",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-15T13:30:02Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30760,19 +31047,6 @@
             "hive/claimed-by-scanner"
         ],
         "created_at": "2026-10-14T17:54:12Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \ud83d\udc1b dashboard chat: !kick replies \"Kicked\" when the kick was only deferred until the first governor scan",
-        "url": "https://github.com/hivecommons/hive/issues/11829",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-14T16:58:00Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30801,6 +31075,38 @@
             "hold"
         ],
         "created_at": "2026-10-13T19:03:55Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: Promotion to stable not proceeding as designed?",
+        "url": "https://github.com/hivecommons/hive/issues/11196",
+        "labels": [
+            "bug",
+            "help wanted",
+            "triage/accepted",
+            "hive/already-done",
+            "hive/likely-done",
+            "claimed",
+            "hive/claimed-by-scanner"
+        ],
+        "created_at": "2026-10-09T05:43:33Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: Mysterious failure to do inference",
+        "url": "https://github.com/hivecommons/hive/issues/9945",
+        "labels": [
+            "bug",
+            "help wanted",
+            "triage/accepted",
+            "claimed",
+            "hive/claimed-by-scanner"
+        ],
+        "created_at": "2026-10-02T05:54:00Z"
     },
     {
         "repo": "hivecommons/hive",
