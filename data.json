@@ -2114,6 +2114,32 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "[Models] Add VaultAuth reference relationships to the Vault Secrets model",
+        "url": "https://github.com/meshery/meshery/issues/22401",
+        "labels": [
+            "help wanted",
+            "area/models"
+        ],
+        "created_at": "2026-10-16T06:30:24Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[Docs] Fix outdated registry terminology and incorrect documentation",
+        "url": "https://github.com/meshery/meshery/issues/22400",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-10-16T06:27:56Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "[Docs] Right-side Table of Contents lacks scrollspy highlighting and auto-scroll for active sections",
         "url": "https://github.com/meshery/meshery/issues/22393",
         "labels": [
@@ -2494,34 +2520,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-21T00:03:37Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[Docs] Move code block copy button to the right",
-        "url": "https://github.com/meshery/meshery/issues/20803",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-20T06:33:24Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Broken Tutorials link in archived v0.9 documentation redirects to a 404 page",
-        "url": "https://github.com/meshery/meshery/issues/20781",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-18T10:14:28Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -8727,19 +8725,6 @@
         "repo": "velero-io/velero",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Improve CI reliability by reusing Go module caches across test jobs",
-        "url": "https://github.com/velero-io/velero/issues/10653",
-        "labels": [
-            "Good first issue",
-            "E2E Tests",
-            "area/testing"
-        ],
-        "created_at": "2026-10-13T22:29:34Z"
-    },
-    {
-        "repo": "velero-io/velero",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Support structured output for multi-item backup and restore describe",
         "url": "https://github.com/velero-io/velero/issues/10478",
         "labels": [
@@ -9626,13 +9611,14 @@
         "repo": "lima-vm/lima",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "`limactl menu` should return to the menu after invoking an action (\"Shell\", \"Delete\", etc.)",
-        "url": "https://github.com/lima-vm/lima/issues/5593",
+        "title": "`limactl menu`: Info page shows units in decimal",
+        "url": "https://github.com/lima-vm/lima/issues/5630",
         "labels": [
+            "bug",
             "good first issue",
             "area/cli/menu"
         ],
-        "created_at": "2026-10-09T12:28:37Z"
+        "created_at": "2026-10-15T18:50:15Z"
     },
     {
         "repo": "lima-vm/lima",
@@ -11155,6 +11141,19 @@
             "awaiting-maintainer"
         ],
         "created_at": "2019-07-13T19:01:19Z"
+    },
+    {
+        "repo": "agones-dev/agones",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Golang 1.26.9 Version and Dependency Upgrades",
+        "url": "https://github.com/agones-dev/agones/issues/4726",
+        "labels": [
+            "help wanted",
+            "kind/cleanup",
+            "stale"
+        ],
+        "created_at": "2026-09-07T00:22:39Z"
     },
     {
         "repo": "agones-dev/agones",
@@ -30732,75 +30731,141 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (docs-currency): review-evidence.md Downloading section does not mention the new aggregate endpoint",
-        "url": "https://github.com/hivecommons/hive/issues/12255",
-        "labels": [
-            "help wanted",
-            "from-review"
-        ],
-        "created_at": "2026-10-16T02:24:22Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 contribute-k8s HIVE_K8S_RUNTIME_CLASS: name check, golden YAML and contributor docs on v6 (follow-up to #12204)",
-        "url": "https://github.com/hivecommons/hive/issues/12227",
+        "title": "\ud83d\udcd6 [v6] docs(admin-mcp): recommend the HTTP transport for omp so the tool catalogue cannot drift from the hub",
+        "url": "https://github.com/hivecommons/hive/issues/12319",
         "labels": [
             "help wanted",
             "claimed",
-            "hive/claimed-by-scanner",
-            "hive/in-progress"
-        ],
-        "created_at": "2026-10-16T00:07:44Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (style): hasIssueNeedsHumanLabel duplicates labelPresent next to new hasIssueHandoffLabel",
-        "url": "https://github.com/hivecommons/hive/issues/12221",
-        "labels": [
-            "help wanted",
-            "from-review"
-        ],
-        "created_at": "2026-10-15T23:21:12Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 contributor krun mode: interactive sessions (omp) through the VM console",
-        "url": "https://github.com/hivecommons/hive/issues/12202",
-        "labels": [
-            "help wanted",
-            "blocked"
-        ],
-        "created_at": "2026-10-15T20:46:21Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 contributor krun mode: report the isolation class to the hub (display-only)",
-        "url": "https://github.com/hivecommons/hive/issues/12200",
-        "labels": [
-            "help wanted",
-            "blocked"
-        ],
-        "created_at": "2026-10-15T20:46:18Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 contributor krun mode: opt-in `HIVE_CONTAINER_OCI_RUNTIME=krun` launch, fail closed, headless only",
-        "url": "https://github.com/hivecommons/hive/issues/12199",
-        "labels": [
-            "help wanted",
             "hive/claimed-by-scanner"
         ],
-        "created_at": "2026-10-15T20:46:16Z"
+        "created_at": "2026-10-16T10:09:28Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 [v6] [scanner] hub: record last-seen stdio hive-admin-mcp build from User-Agent and flag skew on the dashboard",
+        "url": "https://github.com/hivecommons/hive/issues/12318",
+        "labels": [
+            "help wanted",
+            "claimed"
+        ],
+        "created_at": "2026-10-16T10:04:30Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 [v6] [scanner] hive-admin-mcp (stdio): skew notice in initialize instructions and tool errors; send hive-admin-mcp User-Agent",
+        "url": "https://github.com/hivecommons/hive/issues/12317",
+        "labels": [
+            "help wanted",
+            "\ud83d\udc1d covered by PR",
+            "hive/claimed-by-scanner"
+        ],
+        "created_at": "2026-10-16T10:04:20Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 [v6] hive-admin-mcp (stdio): warn when the binary is out of step with the hub, instead of failing tools with no hint",
+        "url": "https://github.com/hivecommons/hive/issues/12316",
+        "labels": [
+            "help wanted",
+            "claimed",
+            "hive/in-progress"
+        ],
+        "created_at": "2026-10-16T09:56:35Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (style): Timing figures in jsDeclaredNear doc comment will go stale",
+        "url": "https://github.com/hivecommons/hive/issues/12312",
+        "labels": [
+            "help wanted",
+            "claimed",
+            "hive/in-progress",
+            "from-review"
+        ],
+        "created_at": "2026-10-16T08:53:32Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 feature: Add cadence templates for quickly setting cadence for all agents",
+        "url": "https://github.com/hivecommons/hive/issues/12300",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "needs-triage"
+        ],
+        "created_at": "2026-10-16T07:22:23Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 feature: Agent settings Save & Close button behavior - close on no change",
+        "url": "https://github.com/hivecommons/hive/issues/12298",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "needs-triage"
+        ],
+        "created_at": "2026-10-16T07:10:33Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Fleet report: backend-auth blocks Merge success rate [072d33f9ccbf1680ff31144e]",
+        "url": "https://github.com/hivecommons/hive/issues/12295",
+        "labels": [
+            "help wanted",
+            "\ud83d\udc1d covered by PR",
+            "hive/in-progress",
+            "hive/claimed-by-operations"
+        ],
+        "created_at": "2026-10-16T06:46:11Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] kick_failed_repeatedly: kick undeliverable 3 times in a row ()",
+        "url": "https://github.com/hivecommons/hive/issues/12268",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "needs-triage",
+            "hive/hosted-available-oke-11-placeholder-r05x",
+            "needs-human",
+            "hive/claimed-by-scanner",
+            "class:kick-failed-repeatedly",
+            "fleet-report",
+            "hive/selfreport",
+            "severity:medium",
+            "trigger:runtime-error"
+        ],
+        "created_at": "2026-10-16T03:39:10Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (security): Compliance summary has the same non-admin exposure via /api/registry and /api/saas/my-hives",
+        "url": "https://github.com/hivecommons/hive/issues/12264",
+        "labels": [
+            "help wanted",
+            "\ud83d\udc1d covered by PR",
+            "claimed",
+            "from-review"
+        ],
+        "created_at": "2026-10-16T02:52:35Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30830,75 +30895,16 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] dashboard: expose write counters via /api/evidence/summary",
-        "url": "https://github.com/hivecommons/hive/issues/12177",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-10-15T19:51:26Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \ud83d\udc1b hub: do not advance a stale upgrade while the spoke is still mid-rollout",
-        "url": "https://github.com/hivecommons/hive/issues/12142",
-        "labels": [
-            "help wanted",
-            "\ud83d\udc1d covered by PR",
-            "hive/claimed-by-scanner"
-        ],
-        "created_at": "2026-10-15T18:13:51Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[scanner] \u2728 hub UI: quadrant card drill-down into the owner-only evidence details view",
         "url": "https://github.com/hivecommons/hive/issues/12117",
         "labels": [
             "enhancement",
             "help wanted",
-            "blocked"
+            "blocked",
+            "claimed",
+            "hive/claimed-by-scanner"
         ],
         "created_at": "2026-10-15T17:55:19Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 hub: owner-only GET /api/hub/evidence cross-hive drill-down",
-        "url": "https://github.com/hivecommons/hive/issues/12116",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "blocked"
-        ],
-        "created_at": "2026-10-15T17:54:51Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 quadrant: Trust delegation, Efficiency revert_rate and first Satisfaction criteria from HeartbeatEvidence",
-        "url": "https://github.com/hivecommons/hive/issues/12115",
-        "labels": [
-            "enhancement",
-            "help wanted"
-        ],
-        "created_at": "2026-10-15T17:54:41Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 heartbeat: carry HeartbeatEvidence (spoke evidence summary) to the hub",
-        "url": "https://github.com/hivecommons/hive/issues/12114",
-        "labels": [
-            "enhancement",
-            "help wanted"
-        ],
-        "created_at": "2026-10-15T17:53:59Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30911,18 +30917,6 @@
             "\ud83d\udc1d covered by PR"
         ],
         "created_at": "2026-10-15T17:15:26Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Fleet report: backend-auth hive-code defect [bdccce579817da2558b6b1f7]",
-        "url": "https://github.com/hivecommons/hive/issues/12078",
-        "labels": [
-            "help wanted",
-            "claimed"
-        ],
-        "created_at": "2026-10-15T16:16:49Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30942,21 +30936,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 dashboard: Evidence sub-panel in the Throughput section (calibration + accuracy\u00d7model first)",
-        "url": "https://github.com/hivecommons/hive/issues/12064",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "blocked",
-            "claimed",
-            "hive/claimed-by-scanner"
-        ],
-        "created_at": "2026-10-15T16:07:28Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[RFC]: Evidence pipeline \u2014 measure Hive's effectiveness in the Throughput dashboard without touching auto-merge",
         "url": "https://github.com/hivecommons/hive/issues/12062",
         "labels": [
@@ -30968,33 +30947,6 @@
             "hive/in-progress"
         ],
         "created_at": "2026-10-15T16:06:49Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 re-run PRs red on a fixed shared-CI baseline, and stop shedding unstick sweeps under API budget pressure",
-        "url": "https://github.com/hivecommons/hive/issues/12005",
-        "labels": [
-            "help wanted",
-            "hive/likely-done",
-            "hive/verified-open",
-            "claimed",
-            "hive/in-progress"
-        ],
-        "created_at": "2026-10-15T13:30:09Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b hive parks its own work on hard-suppress labels (hold/blocked/needs-human) and never lifts them",
-        "url": "https://github.com/hivecommons/hive/issues/12002",
-        "labels": [
-            "help wanted",
-            "hive/likely-done"
-        ],
-        "created_at": "2026-10-15T13:30:02Z"
     },
     {
         "repo": "hivecommons/hive",
