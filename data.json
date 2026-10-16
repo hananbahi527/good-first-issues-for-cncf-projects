@@ -2114,6 +2114,19 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "[CI] GitHub will restrict `pull_request_target` on public repositories by default",
+        "url": "https://github.com/meshery/meshery/issues/22406",
+        "labels": [
+            "help wanted",
+            "area/ci",
+            "area/devops"
+        ],
+        "created_at": "2026-10-16T13:00:46Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "[Models] Add VaultAuth reference relationships to the Vault Secrets model",
         "url": "https://github.com/meshery/meshery/issues/22401",
         "labels": [
@@ -2506,20 +2519,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-21T03:32:54Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[Docs] Contributing: Include contributor instructions regarding sparse cloning, excluding /models and other dirs",
-        "url": "https://github.com/meshery/meshery/issues/20837",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-21T00:03:37Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4712,6 +4711,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Upgrade to 26.7 fails if a realm display name exceeds 255 characters",
+        "url": "https://github.com/keycloak/keycloak/issues/54004",
+        "labels": [
+            "kind/bug",
+            "area/storage",
+            "help wanted",
+            "team/core-iam",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump"
+        ],
+        "created_at": "2026-10-15T09:17:03Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "WebAuthn passwordless login with a NUL-containing user handle causes a PostgreSQL exception",
         "url": "https://github.com/keycloak/keycloak/issues/53897",
         "labels": [
@@ -5186,23 +5202,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-09-08T12:34:00Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "ClassNotFound PersistenceManager when starting server",
-        "url": "https://github.com/keycloak/keycloak/issues/52352",
-        "labels": [
-            "kind/bug",
-            "area/adapter/jee",
-            "help wanted",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-09-03T08:52:39Z"
     },
     {
         "repo": "keylime/keylime",
@@ -9606,19 +9605,6 @@
             "help wanted"
         ],
         "created_at": "2023-09-06T03:11:36Z"
-    },
-    {
-        "repo": "lima-vm/lima",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "`limactl menu`: Info page shows units in decimal",
-        "url": "https://github.com/lima-vm/lima/issues/5630",
-        "labels": [
-            "bug",
-            "good first issue",
-            "area/cli/menu"
-        ],
-        "created_at": "2026-10-15T18:50:15Z"
     },
     {
         "repo": "lima-vm/lima",
@@ -30731,66 +30717,281 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udcd6 [v6] docs(admin-mcp): recommend the HTTP transport for omp so the tool catalogue cannot drift from the hub",
-        "url": "https://github.com/hivecommons/hive/issues/12319",
+        "title": "\u2728 hub evidence: lead with plain-language findings, not tables",
+        "url": "https://github.com/hivecommons/hive/issues/12456",
         "labels": [
             "help wanted",
             "claimed",
-            "hive/claimed-by-scanner"
+            "hive/claimed-by-clubanderson"
         ],
-        "created_at": "2026-10-16T10:09:28Z"
+        "created_at": "2026-10-16T15:55:53Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 [v6] [scanner] hub: record last-seen stdio hive-admin-mcp build from User-Agent and flag skew on the dashboard",
-        "url": "https://github.com/hivecommons/hive/issues/12318",
+        "title": "\u2728 ci: affected-package Go test selection with always-reporting required checks",
+        "url": "https://github.com/hivecommons/hive/issues/12454",
         "labels": [
             "help wanted",
-            "claimed"
+            "ci"
         ],
-        "created_at": "2026-10-16T10:04:30Z"
+        "created_at": "2026-10-16T15:53:13Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 [v6] [scanner] hive-admin-mcp (stdio): skew notice in initialize instructions and tool errors; send hive-admin-mcp User-Agent",
-        "url": "https://github.com/hivecommons/hive/issues/12317",
+        "title": "Review backlog (docs-currency): hive-open-issue.md `comment` section does not describe the start-signal/deferral behaviour",
+        "url": "https://github.com/hivecommons/hive/issues/12446",
         "labels": [
             "help wanted",
-            "\ud83d\udc1d covered by PR",
-            "hive/claimed-by-scanner"
+            "from-review"
         ],
-        "created_at": "2026-10-16T10:04:20Z"
+        "created_at": "2026-10-16T15:42:37Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 [v6] hive-admin-mcp (stdio): warn when the binary is out of step with the hub, instead of failing tools with no hint",
-        "url": "https://github.com/hivecommons/hive/issues/12316",
+        "title": "Review backlog (intent-alignment): Legacy snapshot_url warning repeats on every Validate() call",
+        "url": "https://github.com/hivecommons/hive/issues/12445",
         "labels": [
+            "help wanted",
+            "needs-decision",
+            "from-review"
+        ],
+        "created_at": "2026-10-16T15:30:47Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 knowledge: option to publish bead-synth facts to the repository",
+        "url": "https://github.com/hivecommons/hive/issues/12443",
+        "labels": [
+            "enhancement",
             "help wanted",
             "claimed",
             "hive/in-progress"
         ],
-        "created_at": "2026-10-16T09:56:35Z"
+        "created_at": "2026-10-16T15:27:22Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (style): Timing figures in jsDeclaredNear doc comment will go stale",
-        "url": "https://github.com/hivecommons/hive/issues/12312",
+        "title": "\ud83d\udc1b hub: upgrade drain window can falsely trip stuck-upgrade timeout",
+        "url": "https://github.com/hivecommons/hive/issues/12442",
         "labels": [
             "help wanted",
+            "kind/bug",
             "claimed",
-            "hive/in-progress",
+            "hive/claimed-by-scanner"
+        ],
+        "created_at": "2026-10-16T15:27:06Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 relay: push red-CI / changes-requested feedback to the contributor's relay session as a priority fix-pr task",
+        "url": "https://github.com/hivecommons/hive/issues/12436",
+        "labels": [
+            "help wanted",
+            "\ud83d\udc1d covered by PR",
+            "hive/claimed-by-copilot"
+        ],
+        "created_at": "2026-10-16T14:36:56Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 labels: stage/NNN state-machine labels for issues and PRs (+ author tier, stalled/regressed, contributor nudge)",
+        "url": "https://github.com/hivecommons/hive/issues/12429",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "hive/likely-done",
+            "hive/claimed-by-copilot"
+        ],
+        "created_at": "2026-10-16T14:10:46Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (security): Load-time rejection of query/fragment is stricter than hub; pre-existing configs could fail boot",
+        "url": "https://github.com/hivecommons/hive/issues/12420",
+        "labels": [
+            "help wanted",
+            "\ud83d\udc1d covered by PR",
             "from-review"
         ],
-        "created_at": "2026-10-16T08:53:32Z"
+        "created_at": "2026-10-16T13:37:16Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (style): hive/partially-addressed label colour/description literal duplicated across two ensure sites",
+        "url": "https://github.com/hivecommons/hive/issues/12399",
+        "labels": [
+            "help wanted",
+            "\ud83d\udc1d covered by PR",
+            "from-review"
+        ],
+        "created_at": "2026-10-16T13:06:57Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] \u2728 nous: docs for Hive-self background experiment mode and outcome questions",
+        "url": "https://github.com/hivecommons/hive/issues/12398",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "\ud83d\udc1d covered by PR"
+        ],
+        "created_at": "2026-10-16T13:06:30Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] \u2728 nous: background-only scheduler for Hive-self experiments (hidden from Experiment Lab)",
+        "url": "https://github.com/hivecommons/hive/issues/12397",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "\ud83d\udc1d covered by PR"
+        ],
+        "created_at": "2026-10-16T13:06:02Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] \u2728 nous: heartbeat-delivered feature flag / release channel gate for Hive-self experiments",
+        "url": "https://github.com/hivecommons/hive/issues/12396",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "\ud83d\udc1d covered by PR"
+        ],
+        "created_at": "2026-10-16T13:05:30Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] \u2728 nous: data model and store for Hive-self experiments",
+        "url": "https://github.com/hivecommons/hive/issues/12394",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "\ud83d\udc1d covered by PR"
+        ],
+        "created_at": "2026-10-16T13:04:30Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b issue-claims: an agent's deferral comment (\"picks up once #N merges\") records a 2h start-signal claim that parks the issue after the blocker merges",
+        "url": "https://github.com/hivecommons/hive/issues/12387",
+        "labels": [
+            "bug",
+            "help wanted",
+            "\ud83d\udc1d covered by PR"
+        ],
+        "created_at": "2026-10-16T12:54:48Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] your-turn: an issue labelled `blocked` on a person never reaches the inbox and gets no reply menu",
+        "url": "https://github.com/hivecommons/hive/issues/12376",
+        "labels": [
+            "help wanted",
+            "hive/likely-done",
+            "hive/claimed-by-scanner"
+        ],
+        "created_at": "2026-10-16T12:47:15Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 research: evidence backfill tooling + runs \u2014 Bluefin first, Console (L0\u2192L6), then Hive/tunaos/Frostyard/Open Horizon",
+        "url": "https://github.com/hivecommons/hive/issues/12371",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "needs-human",
+            "claimed",
+            "hive/claimed-by-clubanderson"
+        ],
+        "created_at": "2026-10-16T12:46:56Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 dashboard: Evidence panel 7 \u2014 maintainability trend (complexity + warnings per repo, ACMM changes as markers)",
+        "url": "https://github.com/hivecommons/hive/issues/12369",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "\ud83d\udc1d covered by PR",
+            "hive/claimed-by-clubanderson"
+        ],
+        "created_at": "2026-10-16T12:46:53Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 nous: background experiment runner for Hive itself (self-improvement via self-report)",
+        "url": "https://github.com/hivecommons/hive/issues/12361",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "claimed"
+        ],
+        "created_at": "2026-10-16T12:45:40Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 nous: file hive-wide observations as issues while experiments stay repo-scoped",
+        "url": "https://github.com/hivecommons/hive/issues/12341",
+        "labels": [
+            "help wanted",
+            "blocked"
+        ],
+        "created_at": "2026-10-16T11:53:56Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] \u2728 evidence: emit per-axis criteria table, ACMM\u00d7time-to-merge and revert rate by author kind for the hub drill-down",
+        "url": "https://github.com/hivecommons/hive/issues/12326",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "agent/scanner",
+            "hive/hosted-available-oke-11-placeholder-r05x",
+            "\ud83d\udc1d covered by PR",
+            "claimed",
+            "from-review"
+        ],
+        "created_at": "2026-10-16T11:01:43Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30801,71 +31002,10 @@
         "labels": [
             "enhancement",
             "help wanted",
-            "needs-triage"
+            "triage/accepted",
+            "\ud83d\udc1d covered by PR"
         ],
         "created_at": "2026-10-16T07:22:23Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 feature: Agent settings Save & Close button behavior - close on no change",
-        "url": "https://github.com/hivecommons/hive/issues/12298",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "needs-triage"
-        ],
-        "created_at": "2026-10-16T07:10:33Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Fleet report: backend-auth blocks Merge success rate [072d33f9ccbf1680ff31144e]",
-        "url": "https://github.com/hivecommons/hive/issues/12295",
-        "labels": [
-            "help wanted",
-            "\ud83d\udc1d covered by PR",
-            "hive/in-progress",
-            "hive/claimed-by-operations"
-        ],
-        "created_at": "2026-10-16T06:46:11Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] kick_failed_repeatedly: kick undeliverable 3 times in a row ()",
-        "url": "https://github.com/hivecommons/hive/issues/12268",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "needs-triage",
-            "hive/hosted-available-oke-11-placeholder-r05x",
-            "needs-human",
-            "hive/claimed-by-scanner",
-            "class:kick-failed-repeatedly",
-            "fleet-report",
-            "hive/selfreport",
-            "severity:medium",
-            "trigger:runtime-error"
-        ],
-        "created_at": "2026-10-16T03:39:10Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (security): Compliance summary has the same non-admin exposure via /api/registry and /api/saas/my-hives",
-        "url": "https://github.com/hivecommons/hive/issues/12264",
-        "labels": [
-            "help wanted",
-            "\ud83d\udc1d covered by PR",
-            "claimed",
-            "from-review"
-        ],
-        "created_at": "2026-10-16T02:52:35Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30883,68 +31023,13 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] automerge: skip trusted-author tier evaluation for trusted-bot lane PRs",
-        "url": "https://github.com/hivecommons/hive/issues/12189",
-        "labels": [
-            "help wanted",
-            "\ud83d\udc1d covered by PR"
-        ],
-        "created_at": "2026-10-15T20:30:04Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 hub UI: quadrant card drill-down into the owner-only evidence details view",
-        "url": "https://github.com/hivecommons/hive/issues/12117",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "blocked",
-            "claimed",
-            "hive/claimed-by-scanner"
-        ],
-        "created_at": "2026-10-15T17:55:19Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 review: review.shadow \u2014 record would_have_held for review-gated merge",
-        "url": "https://github.com/hivecommons/hive/issues/12104",
-        "labels": [
-            "help wanted",
-            "\ud83d\udc1d covered by PR"
-        ],
-        "created_at": "2026-10-15T17:15:26Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 review: shadow mode for review-gated merge and blocking intent verification (records would_have_held, never blocks)",
-        "url": "https://github.com/hivecommons/hive/issues/12068",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "hive/verified-open",
-            "hive/claimed-by-scanner"
-        ],
-        "created_at": "2026-10-15T16:07:39Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[RFC]: Evidence pipeline \u2014 measure Hive's effectiveness in the Throughput dashboard without touching auto-merge",
         "url": "https://github.com/hivecommons/hive/issues/12062",
         "labels": [
             "enhancement",
             "help wanted",
             "hive/verified-open",
-            "approved-direction",
-            "hive/claimed-by-scanner",
-            "hive/in-progress"
+            "approved-direction"
         ],
         "created_at": "2026-10-15T16:06:49Z"
     },
@@ -30952,30 +31037,15 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 dashboard: every hive.yaml setting must be exposed in the Settings dialog (parity)",
-        "url": "https://github.com/hivecommons/hive/issues/11854",
+        "title": "\u2728 feature: opt-in actions: read for agent scoped tokens (ci-maintainer can't read failed CI logs)",
+        "url": "https://github.com/hivecommons/hive/issues/10574",
         "labels": [
+            "enhancement",
             "help wanted",
-            "hive/verified-open",
-            "claimed",
-            "hive/claimed-by-scanner"
-        ],
-        "created_at": "2026-10-14T17:54:12Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b entrypoint: recursive chown/chmod passes over /data/home on every boot exceed the startup probe on slow/shared NFS and amplify restart storms",
-        "url": "https://github.com/hivecommons/hive/issues/11732",
-        "labels": [
-            "bug",
-            "help wanted",
-            "kind/bug",
-            "hive/hive",
+            "needs-triage",
             "hold"
         ],
-        "created_at": "2026-10-13T19:03:55Z"
+        "created_at": "2026-10-05T13:59:07Z"
     },
     {
         "repo": "hivecommons/hive",
