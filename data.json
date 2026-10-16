@@ -2114,6 +2114,20 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "[Docs] Right-side Table of Contents lacks scrollspy highlighting and auto-scroll for active sections",
+        "url": "https://github.com/meshery/meshery/issues/22393",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-10-15T21:30:18Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Upgrade to Go 1.27.1",
         "url": "https://github.com/meshery/meshery/issues/22386",
         "labels": [
@@ -2398,18 +2412,6 @@
             "azure"
         ],
         "created_at": "2026-08-14T14:43:03Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Workspace edit and delete actions throw runtime error when clicked",
-        "url": "https://github.com/meshery/meshery/issues/21205",
-        "labels": [
-            "kind/bug",
-            "help wanted"
-        ],
-        "created_at": "2026-08-07T12:18:38Z"
     },
     {
         "repo": "meshery/meshery",
@@ -4141,6 +4143,7 @@
             "good first issue",
             "kind/bug",
             "area/documentation",
+            "Stale",
             "size/s"
         ],
         "created_at": "2026-06-17T09:10:22Z"
@@ -13657,21 +13660,6 @@
         "repo": "kubernetes/kubernetes",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "No e2e test for `allocateLoadBalancerNodePorts: false` + `externalTrafficPolicy: Local`",
-        "url": "https://github.com/kubernetes/kubernetes/issues/142942",
-        "labels": [
-            "area/test",
-            "priority/backlog",
-            "sig/network",
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2026-10-12T13:38:20Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "`gsutil` will no longer be available from March 2027",
         "url": "https://github.com/kubernetes/kubernetes/issues/142384",
         "labels": [
@@ -14049,6 +14037,20 @@
             "triage/accepted"
         ],
         "created_at": "2025-09-03T15:53:33Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "[FG:InPlacePodVerticalScaling] Investigate recovery from failure when setting allocated resources",
+        "url": "https://github.com/kubernetes/kubernetes/issues/133538",
+        "labels": [
+            "priority/backlog",
+            "sig/node",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2025-08-14T21:05:16Z"
     },
     {
         "repo": "kubeslice/kubeslice",
@@ -30730,50 +30732,51 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Experiment Lab: make repo-only \u2014 drop Governor/Repo/Both scope selector",
-        "url": "https://github.com/hivecommons/hive/issues/12206",
+        "title": "Review backlog (docs-currency): review-evidence.md Downloading section does not mention the new aggregate endpoint",
+        "url": "https://github.com/hivecommons/hive/issues/12255",
         "labels": [
-            "enhancement",
-            "help wanted"
-        ],
-        "created_at": "2026-10-15T20:52:20Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "dashboard: GitHub API budget tile too narrow for caller table",
-        "url": "https://github.com/hivecommons/hive/issues/12203",
-        "labels": [
-            "bug",
             "help wanted",
-            "\ud83d\udc1d covered by PR"
+            "from-review"
         ],
-        "created_at": "2026-10-15T20:46:39Z"
+        "created_at": "2026-10-16T02:24:22Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83c\udf31 contributor krun mode: interactive sessions (omp) inside the VM (placeholder)",
+        "title": "\ud83c\udf31 contribute-k8s HIVE_K8S_RUNTIME_CLASS: name check, golden YAML and contributor docs on v6 (follow-up to #12204)",
+        "url": "https://github.com/hivecommons/hive/issues/12227",
+        "labels": [
+            "help wanted",
+            "claimed",
+            "hive/claimed-by-scanner",
+            "hive/in-progress"
+        ],
+        "created_at": "2026-10-16T00:07:44Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (style): hasIssueNeedsHumanLabel duplicates labelPresent next to new hasIssueHandoffLabel",
+        "url": "https://github.com/hivecommons/hive/issues/12221",
+        "labels": [
+            "help wanted",
+            "from-review"
+        ],
+        "created_at": "2026-10-15T23:21:12Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83c\udf31 contributor krun mode: interactive sessions (omp) through the VM console",
         "url": "https://github.com/hivecommons/hive/issues/12202",
         "labels": [
             "help wanted",
-            "hold"
+            "blocked"
         ],
         "created_at": "2026-10-15T20:46:21Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 isolated Compose example: commented `runtime: krun` line",
-        "url": "https://github.com/hivecommons/hive/issues/12201",
-        "labels": [
-            "help wanted",
-            "hold"
-        ],
-        "created_at": "2026-10-15T20:46:20Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30783,7 +30786,7 @@
         "url": "https://github.com/hivecommons/hive/issues/12200",
         "labels": [
             "help wanted",
-            "hold"
+            "blocked"
         ],
         "created_at": "2026-10-15T20:46:18Z"
     },
@@ -30795,7 +30798,7 @@
         "url": "https://github.com/hivecommons/hive/issues/12199",
         "labels": [
             "help wanted",
-            "hold"
+            "hive/claimed-by-scanner"
         ],
         "created_at": "2026-10-15T20:46:16Z"
     },
@@ -30815,60 +30818,13 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "dashboard: profile avatar menu does not open on mobile navbar (iPhone Safari)",
-        "url": "https://github.com/hivecommons/hive/issues/12192",
-        "labels": [
-            "bug",
-            "help wanted",
-            "\ud83d\udc1d covered by PR"
-        ],
-        "created_at": "2026-10-15T20:36:32Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[scanner] automerge: skip trusted-author tier evaluation for trusted-bot lane PRs",
         "url": "https://github.com/hivecommons/hive/issues/12189",
         "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-10-15T20:30:04Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] automerge: treat SKIPPED-by-design required contexts as satisfied for trusted-bot heads",
-        "url": "https://github.com/hivecommons/hive/issues/12188",
-        "labels": [
-            "help wanted",
-            "needs-decision"
-        ],
-        "created_at": "2026-10-15T20:29:53Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 Hive-curated good first issues to attract contributors with their own coding agents",
-        "url": "https://github.com/hivecommons/hive/issues/12185",
-        "labels": [
             "help wanted",
             "\ud83d\udc1d covered by PR"
         ],
-        "created_at": "2026-10-15T20:21:28Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 dashboard: pin label filters to sidebar with cross-repo filtered view",
-        "url": "https://github.com/hivecommons/hive/issues/12179",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-10-15T20:02:15Z"
+        "created_at": "2026-10-15T20:30:04Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30877,49 +30833,9 @@
         "title": "[scanner] dashboard: expose write counters via /api/evidence/summary",
         "url": "https://github.com/hivecommons/hive/issues/12177",
         "labels": [
-            "help wanted",
-            "needs-decision"
+            "help wanted"
         ],
         "created_at": "2026-10-15T19:51:26Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] proxy: durable weekly counter file for write counters",
-        "url": "https://github.com/hivecommons/hive/issues/12176",
-        "labels": [
-            "help wanted",
-            "needs-decision"
-        ],
-        "created_at": "2026-10-15T19:51:17Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b Settings modal: sticky section bar leaves a gap under the search row; dialog too short; add section navigation rail",
-        "url": "https://github.com/hivecommons/hive/issues/12169",
-        "labels": [
-            "bug",
-            "help wanted",
-            "\ud83d\udc1d covered by PR"
-        ],
-        "created_at": "2026-10-15T19:37:46Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 hub: owner fleet widget \u2014 all hives at a glance on iPhone",
-        "url": "https://github.com/hivecommons/hive/issues/12148",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "claimed",
-            "hive/in-progress"
-        ],
-        "created_at": "2026-10-15T18:25:03Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30929,7 +30845,7 @@
         "url": "https://github.com/hivecommons/hive/issues/12142",
         "labels": [
             "help wanted",
-            "claimed",
+            "\ud83d\udc1d covered by PR",
             "hive/claimed-by-scanner"
         ],
         "created_at": "2026-10-15T18:13:51Z"
@@ -30968,8 +30884,7 @@
         "url": "https://github.com/hivecommons/hive/issues/12115",
         "labels": [
             "enhancement",
-            "help wanted",
-            "needs-decision"
+            "help wanted"
         ],
         "created_at": "2026-10-15T17:54:41Z"
     },
@@ -30989,19 +30904,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] \u2728 review: intent.shadow \u2014 record would_have_blocked for intent verification",
-        "url": "https://github.com/hivecommons/hive/issues/12105",
-        "labels": [
-            "help wanted",
-            "claimed",
-            "hive/claimed-by-scanner"
-        ],
-        "created_at": "2026-10-15T17:15:39Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[scanner] \u2728 review: review.shadow \u2014 record would_have_held for review-gated merge",
         "url": "https://github.com/hivecommons/hive/issues/12104",
         "labels": [
@@ -31009,21 +30911,6 @@
             "\ud83d\udc1d covered by PR"
         ],
         "created_at": "2026-10-15T17:15:26Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 hub: owner-only cross-hive evidence view \u2014 feed the Fleet quadrant, drill down to details",
-        "url": "https://github.com/hivecommons/hive/issues/12080",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "claimed",
-            "hive/claimed-by-scanner",
-            "hive/in-progress"
-        ],
-        "created_at": "2026-10-15T16:17:27Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -31041,42 +30928,15 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 proxy: per-tier attempted vs blocked write counters exposed for the evidence summary",
-        "url": "https://github.com/hivecommons/hive/issues/12069",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "hive/claimed-by-scanner"
-        ],
-        "created_at": "2026-10-15T16:07:41Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\u2728 review: shadow mode for review-gated merge and blocking intent verification (records would_have_held, never blocks)",
         "url": "https://github.com/hivecommons/hive/issues/12068",
         "labels": [
             "enhancement",
             "help wanted",
-            "hive/likely-done",
             "hive/verified-open",
             "hive/claimed-by-scanner"
         ],
         "created_at": "2026-10-15T16:07:39Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b evidence: ci.captured_at is zero on many records \u2014 capture CI conclusion at merge-eligibility time",
-        "url": "https://github.com/hivecommons/hive/issues/12066",
-        "labels": [
-            "bug",
-            "help wanted",
-            "\ud83d\udc1d covered by PR"
-        ],
-        "created_at": "2026-10-15T16:07:34Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -31087,6 +30947,7 @@
         "labels": [
             "enhancement",
             "help wanted",
+            "blocked",
             "claimed",
             "hive/claimed-by-scanner"
         ],
@@ -31096,14 +30957,100 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 evidence: GET /api/evidence/summary aggregating pkg/evidence records + reviewer accuracy",
-        "url": "https://github.com/hivecommons/hive/issues/12063",
+        "title": "[RFC]: Evidence pipeline \u2014 measure Hive's effectiveness in the Throughput dashboard without touching auto-merge",
+        "url": "https://github.com/hivecommons/hive/issues/12062",
         "labels": [
             "enhancement",
             "help wanted",
-            "\ud83d\udc1d covered by PR"
+            "hive/verified-open",
+            "approved-direction",
+            "hive/claimed-by-scanner",
+            "hive/in-progress"
         ],
-        "created_at": "2026-10-15T16:07:26Z"
+        "created_at": "2026-10-15T16:06:49Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 re-run PRs red on a fixed shared-CI baseline, and stop shedding unstick sweeps under API budget pressure",
+        "url": "https://github.com/hivecommons/hive/issues/12005",
+        "labels": [
+            "help wanted",
+            "hive/likely-done",
+            "hive/verified-open",
+            "claimed",
+            "hive/in-progress"
+        ],
+        "created_at": "2026-10-15T13:30:09Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b hive parks its own work on hard-suppress labels (hold/blocked/needs-human) and never lifts them",
+        "url": "https://github.com/hivecommons/hive/issues/12002",
+        "labels": [
+            "help wanted",
+            "hive/likely-done"
+        ],
+        "created_at": "2026-10-15T13:30:02Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 dashboard: every hive.yaml setting must be exposed in the Settings dialog (parity)",
+        "url": "https://github.com/hivecommons/hive/issues/11854",
+        "labels": [
+            "help wanted",
+            "hive/verified-open",
+            "claimed",
+            "hive/claimed-by-scanner"
+        ],
+        "created_at": "2026-10-14T17:54:12Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b entrypoint: recursive chown/chmod passes over /data/home on every boot exceed the startup probe on slow/shared NFS and amplify restart storms",
+        "url": "https://github.com/hivecommons/hive/issues/11732",
+        "labels": [
+            "bug",
+            "help wanted",
+            "kind/bug",
+            "hive/hive",
+            "hold"
+        ],
+        "created_at": "2026-10-13T19:03:55Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] v6 readiness live exercise: dashboard chat, inception via chat, standby S5-S6",
+        "url": "https://github.com/hivecommons/hive/issues/9735",
+        "labels": [
+            "help wanted",
+            "needs-human"
+        ],
+        "created_at": "2026-09-30T04:24:45Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd v6 epic + readiness bar: dashboard-optional operation \u2014 meet humans where they are",
+        "url": "https://github.com/hivecommons/hive/issues/7563",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "hive/hosted-available-oke-11-placeholder-r05x",
+            "roadmap",
+            "meta-tracker"
+        ],
+        "created_at": "2026-09-18T05:32:44Z"
     },
     {
         "repo": "kaito-project/kaito",
