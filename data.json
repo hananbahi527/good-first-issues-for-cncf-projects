@@ -2498,19 +2498,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "[CI] Playground CNCF reset workflow fails due to SSH connection timeout",
-        "url": "https://github.com/meshery/meshery/issues/21150",
-        "labels": [
-            "help wanted",
-            "area/ci",
-            "area/devops"
-        ],
-        "created_at": "2026-08-05T10:59:09Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "Docs: Broken link to \"Contributing to Models Quick Start\" on Academy exam page",
         "url": "https://github.com/meshery/meshery/issues/21139",
         "labels": [
@@ -2520,6 +2507,17 @@
             "framework/hugo"
         ],
         "created_at": "2026-08-05T04:35:13Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[Test Plan] Test #3: Install mesheryctl and select the platform to deploy on prompt",
+        "url": "https://github.com/meshery/meshery/issues/21078",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-08-02T20:33:57Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -5106,25 +5104,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Theme resources: the gzip cache is never invalidated, so browsers keep the old file after a theme change \u2014 and a restart does not help",
-        "url": "https://github.com/keycloak/keycloak/issues/52802",
-        "labels": [
-            "area/authentication",
-            "kind/bug",
-            "area/core",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-authn"
-        ],
-        "created_at": "2026-09-16T03:39:03Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "[CIMD] pkce-enforcer in the profile of a client-id-uri policy is never applied; codes are issued without PKCE",
         "url": "https://github.com/keycloak/keycloak/issues/52795",
         "labels": [
@@ -5203,6 +5182,23 @@
             "team/core-protocols"
         ],
         "created_at": "2026-09-08T12:34:00Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "ClassNotFound PersistenceManager when starting server",
+        "url": "https://github.com/keycloak/keycloak/issues/52352",
+        "labels": [
+            "kind/bug",
+            "area/adapter/jee",
+            "help wanted",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-03T08:52:39Z"
     },
     {
         "repo": "keylime/keylime",
@@ -22556,6 +22552,18 @@
         "repo": "helm/helm",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "Helm v4 postrenderer wasm plugin does not receive manifests input",
+        "url": "https://github.com/helm/helm/issues/31832",
+        "labels": [
+            "help wanted",
+            "bug"
+        ],
+        "created_at": "2026-02-13T16:49:06Z"
+    },
+    {
+        "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Avoid using and setting a global slog",
         "url": "https://github.com/helm/helm/issues/31724",
         "labels": [
@@ -22781,19 +22789,6 @@
             "bug"
         ],
         "created_at": "2021-05-14T21:05:08Z"
-    },
-    {
-        "repo": "helm/helm",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Respect helm.sh/resource-policy annotation of remote resource",
-        "url": "https://github.com/helm/helm/issues/8132",
-        "labels": [
-            "help wanted",
-            "feature",
-            "keep open"
-        ],
-        "created_at": "2020-05-15T02:42:48Z"
     },
     {
         "repo": "ko-build/ko",
@@ -30726,9 +30721,10 @@
         "labels": [
             "good first issue",
             "help wanted",
-            "needs-decision",
-            "origin/review",
-            "stage/085-needs-decision"
+            "approved-direction",
+            "hive/claimed-by-scanner",
+            "stage/030-pr-in-progress",
+            "origin/reviewer"
         ],
         "created_at": "2026-10-17T03:02:05Z"
     },
@@ -30736,54 +30732,136 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (intent-alignment): Unrelated CSS comment removed in index.html",
-        "url": "https://github.com/hivecommons/hive/issues/12671",
-        "labels": [
-            "help wanted",
-            "origin/review"
-        ],
-        "created_at": "2026-10-17T09:59:04Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 evidence: feed work_balance from the issue series for weeks older than the rollup lookback",
-        "url": "https://github.com/hivecommons/hive/issues/12670",
+        "title": "Review backlog (intent-alignment): Events polling ignores X-Poll-Interval",
+        "url": "https://github.com/hivecommons/hive/issues/12756",
         "labels": [
             "help wanted",
             "stage/010-actionable"
         ],
-        "created_at": "2026-10-17T09:42:18Z"
+        "created_at": "2026-10-17T14:40:19Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (security): data.nous_dir dropped from settings parity allowlist on the strength of a help-text mention only",
-        "url": "https://github.com/hivecommons/hive/issues/12664",
+        "title": "\ud83d\udc1b Dedupe agent-filed issue lane provenance labels",
+        "url": "https://github.com/hivecommons/hive/issues/12755",
         "labels": [
             "help wanted",
-            "needs-decision",
-            "origin/review",
-            "stage/085-needs-decision"
+            "stage/010-actionable"
         ],
-        "created_at": "2026-10-17T07:51:26Z"
+        "created_at": "2026-10-17T14:39:48Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (security): Weekly budget ledger is an unlocked read-modify-write across concurrent eval cycles",
-        "url": "https://github.com/hivecommons/hive/issues/12663",
+        "title": "[sec-check] selfreport relay: recover action closes any fingerprinted fleet issue, not only hub-filed observations",
+        "url": "https://github.com/hivecommons/hive/issues/12754",
         "labels": [
             "help wanted",
-            "needs-decision",
-            "hive/already-done",
-            "origin/review",
-            "stage/085-needs-decision"
+            "agent/sec-check",
+            "security",
+            "hive/claimed-by-sec-check",
+            "stage/040-covered-by-pr",
+            "origin/sec-check"
         ],
-        "created_at": "2026-10-17T07:51:19Z"
+        "created_at": "2026-10-17T14:38:36Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcd6 docs(v6): admin-mcp.md extracts hive-admin-mcp from :stable, a v5 image that does not carry it",
+        "url": "https://github.com/hivecommons/hive/issues/12753",
+        "labels": [
+            "documentation",
+            "help wanted",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-17T14:34:00Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[outreach] CODE_OF_CONDUCT.md routes hive conduct reports to the KubeStellar committee; org CoC says conduct@hivecommons.dev",
+        "url": "https://github.com/hivecommons/hive/issues/12745",
+        "labels": [
+            "help wanted",
+            "agent/outreach",
+            "community",
+            "outreach",
+            "approved-direction",
+            "stage/010-actionable",
+            "origin/outreach"
+        ],
+        "created_at": "2026-10-17T13:36:13Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (security): In-place adoption pusher attribution is forgeable (pre-existing; now persists through green)",
+        "url": "https://github.com/hivecommons/hive/issues/12744",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-17T13:36:07Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcd6 docs(v6): readiness doc and live-exercise issues cite fixed blockers and miss accepted evidence",
+        "url": "https://github.com/hivecommons/hive/issues/12735",
+        "labels": [
+            "documentation",
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-17T13:23:43Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "ci-flake: github.com/hivecommons/hive/pkg/knowledge.TestValidateGitSourceURL",
+        "url": "https://github.com/hivecommons/hive/issues/12731",
+        "labels": [
+            "help wanted",
+            "ci-flake",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-17T13:20:41Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "ci-flake: github.com/hivecommons/hive/pkg/knowledge.TestGitSourceInitRejectsFlagLikeBranch",
+        "url": "https://github.com/hivecommons/hive/issues/12730",
+        "labels": [
+            "help wanted",
+            "ci-flake",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-17T13:20:40Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[DCO] post-merge trailer failures on v5",
+        "url": "https://github.com/hivecommons/hive/issues/12727",
+        "labels": [
+            "help wanted",
+            "ci-dco",
+            "approved-direction",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-17T13:12:03Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30795,92 +30873,13 @@
             "enhancement",
             "help wanted",
             "backend",
-            "needs-direction",
-            "stage/085-needs-decision"
-        ],
-        "created_at": "2026-10-17T01:47:53Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Swarm changes_requested on agent PRs never prevents the merge: 33 blocks recorded before merge, 100% false-block rate",
-        "url": "https://github.com/hivecommons/hive/issues/12595",
-        "labels": [
-            "help wanted",
-            "needs-direction",
-            "stage/085-needs-decision"
-        ],
-        "created_at": "2026-10-16T23:59:28Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Self-merge lane merges agent PRs before the swarm review bundle exists (merge + CI never recorded)",
-        "url": "https://github.com/hivecommons/hive/issues/12592",
-        "labels": [
-            "help wanted",
-            "needs-direction",
-            "stage/085-needs-decision"
-        ],
-        "created_at": "2026-10-16T23:56:09Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 labels: replace Prow's `dco-signoff: yes|no` with hive-owned `dco` (green) / `no-dco` (red); missing DCO \u2192 stage/072 at once",
-        "url": "https://github.com/hivecommons/hive/issues/12542",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "hive/claimed-by-clubanderson",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-16T20:31:29Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] model_discovery_degraded: model discovery degraded for copilot (served static-fallback)",
-        "url": "https://github.com/hivecommons/hive/issues/12529",
-        "labels": [
-            "help wanted",
-            "needs-human",
-            "hive/claimed-by-scanner",
-            "stage/085-needs-decision"
-        ],
-        "created_at": "2026-10-16T19:56:50Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 evidence: work balance needs a GitHub-sourced issue series (backfilled issues) \u2014 Bluefin shows 11 opens against thousands of native issues",
-        "url": "https://github.com/hivecommons/hive/issues/12517",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-16T19:12:18Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 [v6] your-turn: when the remaining step is a release, let the owner's /hive approve have Hive cut it",
-        "url": "https://github.com/hivecommons/hive/issues/12483",
-        "labels": [
-            "help wanted",
             "hive/verified-open",
+            "approved-direction",
             "hive/claimed-by-scanner",
             "stage/030-pr-in-progress",
             "hive/partially-addressed"
         ],
-        "created_at": "2026-10-16T17:58:47Z"
+        "created_at": "2026-10-17T01:47:53Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30890,8 +30889,9 @@
         "url": "https://github.com/hivecommons/hive/issues/12463",
         "labels": [
             "help wanted",
-            "needs-decision",
-            "stage/085-needs-decision"
+            "approved-direction",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-16T16:18:25Z"
     },
@@ -30913,62 +30913,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] \u2728 nous: heartbeat-delivered feature flag / release channel gate for Hive-self experiments",
-        "url": "https://github.com/hivecommons/hive/issues/12396",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-16T13:05:30Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 nous: data model and store for Hive-self experiments",
-        "url": "https://github.com/hivecommons/hive/issues/12394",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-16T13:04:30Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 research: evidence backfill tooling + runs \u2014 Bluefin first, Console (L0\u2192L6), then Hive/tunaos/Frostyard/Open Horizon",
-        "url": "https://github.com/hivecommons/hive/issues/12371",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "needs-human",
-            "needs-decision",
-            "hive/claimed-by-clubanderson",
-            "stage/085-needs-decision"
-        ],
-        "created_at": "2026-10-16T12:46:56Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 dashboard: Evidence panel 7 \u2014 maintainability trend (complexity + warnings per repo, ACMM changes as markers)",
-        "url": "https://github.com/hivecommons/hive/issues/12369",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "hive/claimed-by-clubanderson",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-16T12:46:53Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\u2728 nous: background experiment runner for Hive itself (self-improvement via self-report)",
         "url": "https://github.com/hivecommons/hive/issues/12361",
         "labels": [
@@ -30982,29 +30926,15 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 nous: file hive-wide observations as issues while experiments stay repo-scoped",
-        "url": "https://github.com/hivecommons/hive/issues/12341",
-        "labels": [
-            "help wanted",
-            "hive/verified-open",
-            "hive/claimed-by-scanner",
-            "stage/030-pr-in-progress",
-            "hive/partially-addressed"
-        ],
-        "created_at": "2026-10-16T11:53:56Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[scanner] \u2728 evidence: emit per-axis criteria table, ACMM\u00d7time-to-merge and revert rate by author kind for the hub drill-down",
         "url": "https://github.com/hivecommons/hive/issues/12326",
         "labels": [
             "enhancement",
             "help wanted",
             "agent/scanner",
-            "origin/review",
-            "stage/040-covered-by-pr"
+            "stage/010-actionable",
+            "hive/partially-addressed",
+            "origin/reviewer"
         ],
         "created_at": "2026-10-16T11:01:43Z"
     },
@@ -31072,7 +31002,6 @@
         "labels": [
             "help wanted",
             "needs-human",
-            "needs-decision",
             "stage/085-needs-decision"
         ],
         "created_at": "2026-09-30T04:24:45Z"
