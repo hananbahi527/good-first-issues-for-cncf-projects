@@ -14056,8 +14056,9 @@
             "help wanted",
             "lifecycle/rotten",
             "good first issue",
-            "outreach",
-            "stage/010-actionable"
+            "stage/010-actionable",
+            "stage/stalled",
+            "agent/outreach"
         ],
         "created_at": "2026-06-08T12:35:52Z"
     },
@@ -14073,7 +14074,8 @@
             "good first issue",
             "conference",
             "blog",
-            "stage/010-actionable"
+            "stage/010-actionable",
+            "stage/stalled"
         ],
         "created_at": "2026-06-08T10:59:31Z"
     },
@@ -14088,7 +14090,8 @@
             "priority/medium",
             "kind/documentation",
             "good first issue",
-            "stage/010-actionable"
+            "stage/010-actionable",
+            "stage/stalled"
         ],
         "created_at": "2026-06-08T10:59:13Z"
     },
@@ -14103,7 +14106,8 @@
             "priority/medium",
             "kind/documentation",
             "good first issue",
-            "stage/010-actionable"
+            "stage/010-actionable",
+            "stage/stalled"
         ],
         "created_at": "2026-06-06T13:20:39Z"
     },
@@ -14117,9 +14121,22 @@
             "kind/feature",
             "help wanted",
             "good first issue",
-            "stage/010-actionable"
+            "stage/010-actionable",
+            "stage/stalled"
         ],
         "created_at": "2026-06-06T13:20:27Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "bug: template expansion failure deletes previously propagated workloads",
+        "url": "https://github.com/kubestellar/kubestellar/issues/4014",
+        "labels": [
+            "help wanted",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-17T17:14:47Z"
     },
     {
         "repo": "kubestellar/kubestellar",
@@ -14130,7 +14147,8 @@
         "labels": [
             "kind/bug",
             "help wanted",
-            "stage/010-actionable"
+            "stage/010-actionable",
+            "stage/stalled"
         ],
         "created_at": "2026-10-14T19:02:05Z"
     },
@@ -14143,7 +14161,8 @@
         "labels": [
             "kind/bug",
             "help wanted",
-            "stage/010-actionable"
+            "stage/010-actionable",
+            "stage/stalled"
         ],
         "created_at": "2026-10-14T18:45:18Z"
     },
@@ -14156,7 +14175,8 @@
         "labels": [
             "kind/bug",
             "help wanted",
-            "stage/010-actionable"
+            "stage/010-actionable",
+            "stage/stalled"
         ],
         "created_at": "2026-10-14T18:36:30Z"
     },
@@ -14254,7 +14274,8 @@
         "labels": [
             "kind/bug",
             "help wanted",
-            "stage/010-actionable"
+            "stage/010-actionable",
+            "stage/stalled"
         ],
         "created_at": "2026-07-28T22:50:43Z"
     },
@@ -14464,18 +14485,6 @@
             "help wanted"
         ],
         "created_at": "2026-07-02T20:25:27Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "feature: Improve unit test coverage for pkg/metrics package",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3866",
-        "labels": [
-            "kind/feature",
-            "help wanted"
-        ],
-        "created_at": "2026-06-30T07:50:17Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -30716,70 +30725,140 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (correctness): listIssues fetches entire repo issue+PR history on every run",
-        "url": "https://github.com/hivecommons/hive/issues/12633",
+        "title": "[scanner] feat(hivectl): edit a running contribution selection via hives repos and the existing reload path",
+        "url": "https://github.com/hivecommons/hive/issues/12807",
         "labels": [
-            "good first issue",
             "help wanted",
-            "approved-direction",
+            "agent/scanner",
+            "stage/020-claimed"
+        ],
+        "created_at": "2026-10-17T19:17:55Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] feat(relay): enforce contributor repository scope before executing an assignment",
+        "url": "https://github.com/hivecommons/hive/issues/12806",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/020-claimed"
+        ],
+        "created_at": "2026-10-17T19:17:14Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] feat(contribute): advertise contribution-eligible repos and filter candidates by an acknowledged contributor repository scope",
+        "url": "https://github.com/hivecommons/hive/issues/12805",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
             "hive/claimed-by-scanner",
+            "stage/030-pr-in-progress"
+        ],
+        "created_at": "2026-10-17T19:16:31Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] feat(hivectl): repository selection state, preset provenance and canonical Hive/repo identity in profiles.yml",
+        "url": "https://github.com/hivecommons/hive/issues/12804",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/020-claimed"
+        ],
+        "created_at": "2026-10-17T19:15:43Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] feat(hivectl): contribution preset document schema, loader and validator",
+        "url": "https://github.com/hivecommons/hive/issues/12803",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "hive/claimed-by-scanner",
+            "stage/030-pr-in-progress"
+        ],
+        "created_at": "2026-10-17T19:15:21Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Fleet report: agent-runtime hive-code defect [8f4a1ba2fc6ea06d081ed786]",
+        "url": "https://github.com/hivecommons/hive/issues/12802",
+        "labels": [
+            "help wanted",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-17T19:04:09Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (correctness): Nil Governor.Modes returns 200 'updated' with zero agents",
+        "url": "https://github.com/hivecommons/hive/issues/12789",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "hive/claimed-by-scanner",
+            "stage/030-pr-in-progress"
+        ],
+        "created_at": "2026-10-17T17:31:05Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] kick_failed_repeatedly: kick undeliverable 8 times in a row (busy-no-activity; transcript silent for 56\u2026",
+        "url": "https://github.com/hivecommons/hive/issues/12787",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "needs-triage",
+            "hive/claimed-by-scanner",
+            "class:kick-failed-repeatedly",
+            "fleet-report",
+            "hive/selfreport",
+            "severity:medium",
+            "trigger:runtime-error",
             "stage/030-pr-in-progress",
-            "origin/reviewer"
+            "origin/selfreport"
         ],
-        "created_at": "2026-10-17T03:02:05Z"
+        "created_at": "2026-10-17T16:43:22Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (intent-alignment): Events polling ignores X-Poll-Interval",
-        "url": "https://github.com/hivecommons/hive/issues/12756",
+        "title": "Review backlog (docs-currency): hive.yaml.example adoption block omits in_place/after_*/strict_attribution",
+        "url": "https://github.com/hivecommons/hive/issues/12777",
         "labels": [
             "help wanted",
-            "stage/010-actionable"
+            "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-17T14:40:19Z"
+        "created_at": "2026-10-17T15:36:06Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b Dedupe agent-filed issue lane provenance labels",
-        "url": "https://github.com/hivecommons/hive/issues/12755",
+        "title": "[scanner] nous: wire background-only Hive-self scheduler tick in cmd/hive",
+        "url": "https://github.com/hivecommons/hive/issues/12768",
         "labels": [
             "help wanted",
-            "stage/010-actionable"
+            "agent/scanner",
+            "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-17T14:39:48Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[sec-check] selfreport relay: recover action closes any fingerprinted fleet issue, not only hub-filed observations",
-        "url": "https://github.com/hivecommons/hive/issues/12754",
-        "labels": [
-            "help wanted",
-            "agent/sec-check",
-            "security",
-            "hive/claimed-by-sec-check",
-            "stage/040-covered-by-pr",
-            "origin/sec-check"
-        ],
-        "created_at": "2026-10-17T14:38:36Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcd6 docs(v6): admin-mcp.md extracts hive-admin-mcp from :stable, a v5 image that does not carry it",
-        "url": "https://github.com/hivecommons/hive/issues/12753",
-        "labels": [
-            "documentation",
-            "help wanted",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-17T14:34:00Z"
+        "created_at": "2026-10-17T15:00:48Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30791,63 +30870,10 @@
             "help wanted",
             "agent/outreach",
             "community",
-            "outreach",
             "approved-direction",
-            "stage/010-actionable",
-            "origin/outreach"
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-17T13:36:13Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (security): In-place adoption pusher attribution is forgeable (pre-existing; now persists through green)",
-        "url": "https://github.com/hivecommons/hive/issues/12744",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-17T13:36:07Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcd6 docs(v6): readiness doc and live-exercise issues cite fixed blockers and miss accepted evidence",
-        "url": "https://github.com/hivecommons/hive/issues/12735",
-        "labels": [
-            "documentation",
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-17T13:23:43Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "ci-flake: github.com/hivecommons/hive/pkg/knowledge.TestValidateGitSourceURL",
-        "url": "https://github.com/hivecommons/hive/issues/12731",
-        "labels": [
-            "help wanted",
-            "ci-flake",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-17T13:20:41Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "ci-flake: github.com/hivecommons/hive/pkg/knowledge.TestGitSourceInitRejectsFlagLikeBranch",
-        "url": "https://github.com/hivecommons/hive/issues/12730",
-        "labels": [
-            "help wanted",
-            "ci-flake",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-17T13:20:40Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30859,7 +30885,7 @@
             "help wanted",
             "ci-dco",
             "approved-direction",
-            "stage/010-actionable"
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-17T13:12:03Z"
     },
@@ -30875,8 +30901,7 @@
             "backend",
             "hive/verified-open",
             "approved-direction",
-            "hive/claimed-by-scanner",
-            "stage/030-pr-in-progress",
+            "stage/010-actionable",
             "hive/partially-addressed"
         ],
         "created_at": "2026-10-17T01:47:53Z"
@@ -30885,15 +30910,15 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 evidence: per-axis criteria table in the hub drill-down",
-        "url": "https://github.com/hivecommons/hive/issues/12463",
+        "title": "RFC: Project-curated, repository-scoped contributions across Hives",
+        "url": "https://github.com/hivecommons/hive/issues/12570",
         "labels": [
+            "enhancement",
             "help wanted",
-            "approved-direction",
             "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
+            "stage/030-pr-in-progress"
         ],
-        "created_at": "2026-10-16T16:18:25Z"
+        "created_at": "2026-10-16T22:28:05Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30904,7 +30929,8 @@
         "labels": [
             "enhancement",
             "help wanted",
-            "stage/010-actionable",
+            "hive/verified-open",
+            "stage/040-covered-by-pr",
             "hive/partially-addressed"
         ],
         "created_at": "2026-10-16T13:06:02Z"
@@ -30918,25 +30944,10 @@
         "labels": [
             "enhancement",
             "help wanted",
-            "stage/010-actionable"
+            "stage/010-actionable",
+            "stage/stalled"
         ],
         "created_at": "2026-10-16T12:45:40Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 evidence: emit per-axis criteria table, ACMM\u00d7time-to-merge and revert rate by author kind for the hub drill-down",
-        "url": "https://github.com/hivecommons/hive/issues/12326",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable",
-            "hive/partially-addressed",
-            "origin/reviewer"
-        ],
-        "created_at": "2026-10-16T11:01:43Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -31001,8 +31012,7 @@
         "url": "https://github.com/hivecommons/hive/issues/9735",
         "labels": [
             "help wanted",
-            "needs-human",
-            "stage/085-needs-decision"
+            "needs-human"
         ],
         "created_at": "2026-09-30T04:24:45Z"
     },
