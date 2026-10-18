@@ -12505,6 +12505,20 @@
         "repo": "kai-scheduler/KAI-Scheduler",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Add support for new workload API of K8S scheduler",
+        "url": "https://github.com/kai-scheduler/KAI-Scheduler/issues/1317",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "theme/k8s-update",
+            "theme/workload-apis"
+        ],
+        "created_at": "2026-03-25T07:19:11Z"
+    },
+    {
+        "repo": "kai-scheduler/KAI-Scheduler",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Add Horizontal Pod Autoscaling for the KAI Admission Service",
         "url": "https://github.com/kai-scheduler/KAI-Scheduler/issues/901",
         "labels": [
@@ -20850,20 +20864,6 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "@backstage/ui `ButtonIcon` is missing destructive prop",
-        "url": "https://github.com/backstage/backstage/issues/35023",
-        "labels": [
-            "type:bug",
-            "good first issue",
-            "priority:contrib-needed",
-            "stale"
-        ],
-        "created_at": "2026-07-31T08:35:31Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "auth: OAuth token response hard-codes expires_in: 3600, ignoring auth.backstageTokenExpiration",
         "url": "https://github.com/backstage/backstage/issues/34985",
         "labels": [
@@ -20900,6 +20900,90 @@
             "domain:docs"
         ],
         "created_at": "2026-05-05T21:18:55Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-21181017]",
+        "url": "https://github.com/backstage/backstage/issues/36241",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-18T12:12:39Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-21181019]",
+        "url": "https://github.com/backstage/backstage/issues/36240",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-18T12:12:30Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-21181011]",
+        "url": "https://github.com/backstage/backstage/issues/36239",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-18T12:12:23Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-21181015]",
+        "url": "https://github.com/backstage/backstage/issues/36238",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-18T12:12:22Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-21181005]",
+        "url": "https://github.com/backstage/backstage/issues/36237",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-18T12:12:18Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-21181013]",
+        "url": "https://github.com/backstage/backstage/issues/36236",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-18T12:12:18Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-21181009]",
+        "url": "https://github.com/backstage/backstage/issues/36235",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-18T12:12:17Z"
     },
     {
         "repo": "backstage/backstage",
@@ -21176,90 +21260,6 @@
             "help wanted"
         ],
         "created_at": "2026-10-11T16:07:06Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINKUBERNETESBACKEND-20826427]",
-        "url": "https://github.com/backstage/backstage/issues/36108",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-11T16:07:05Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINKUBERNETESBACKEND-20826149]",
-        "url": "https://github.com/backstage/backstage/issues/36107",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-11T16:07:05Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINKUBERNETESBACKEND-20825509]",
-        "url": "https://github.com/backstage/backstage/issues/36106",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-11T16:07:04Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINSCAFFOLDERBACKEND-20825245]",
-        "url": "https://github.com/backstage/backstage/issues/36105",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-11T12:07:57Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINCATALOGBACKEND-20825105]",
-        "url": "https://github.com/backstage/backstage/issues/36104",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-11T12:07:54Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINCATALOGBACKEND-20825104]",
-        "url": "https://github.com/backstage/backstage/issues/36103",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-11T12:07:54Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEBACKENDDEFAULTS-20825062]",
-        "url": "https://github.com/backstage/backstage/issues/36102",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-11T12:07:51Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -30722,47 +30722,6 @@
             "help wanted"
         ],
         "created_at": "2024-09-18T19:24:38Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (docs-currency): Stale fix_human_prs field comment contradicts operator-reference (v5-origin)",
-        "url": "https://github.com/hivecommons/hive/issues/12907",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-18T10:00:10Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (style): Pre-existing gofmt drift in gateways_discover_ssrf_test.go on v6",
-        "url": "https://github.com/hivecommons/hive/issues/12906",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-18T09:59:48Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] review-fix kick pushes bot-signed commits onto contributor PRs, which 'Sign-off survives the squash' rejects",
-        "url": "https://github.com/hivecommons/hive/issues/12897",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
-            "stage/030-pr-in-progress"
-        ],
-        "created_at": "2026-10-18T08:37:27Z"
     },
     {
         "repo": "hivecommons/hive",
