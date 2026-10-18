@@ -30725,14 +30725,128 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] feat(hivectl): edit a running contribution selection via hives repos and the existing reload path",
-        "url": "https://github.com/hivecommons/hive/issues/12807",
+        "title": "Review backlog (docs-currency): Stale neighbouring line citations left in refreshed agent-turn-model.md paragraphs",
+        "url": "https://github.com/hivecommons/hive/issues/12862",
         "labels": [
             "help wanted",
-            "agent/scanner",
-            "stage/020-claimed"
+            "agent/reviewer",
+            "stage/010-actionable"
         ],
-        "created_at": "2026-10-17T19:17:55Z"
+        "created_at": "2026-10-18T02:07:55Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (security): Adoption of unadmitted authors' PRs is gated only on body-derivable author kind",
+        "url": "https://github.com/hivecommons/hive/issues/12850",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "hive/claimed-by-scanner",
+            "stage/085-needs-decision"
+        ],
+        "created_at": "2026-10-18T01:32:04Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b scheduler: due kicks can repeat while idle panes never receive work",
+        "url": "https://github.com/hivecommons/hive/issues/12846",
+        "labels": [
+            "bug",
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-18T01:26:00Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b hub: zero-token token-burn alerts fire for all-paused or already-explained hives",
+        "url": "https://github.com/hivecommons/hive/issues/12844",
+        "labels": [
+            "bug",
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/030-pr-in-progress"
+        ],
+        "created_at": "2026-10-18T01:25:50Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b hub: available placeholder pool slots raise project_org health alerts",
+        "url": "https://github.com/hivecommons/hive/issues/12843",
+        "labels": [
+            "bug",
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/030-pr-in-progress"
+        ],
+        "created_at": "2026-10-18T01:25:43Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b hub: advisory-stale alert can use stale heartbeat stats after successful digest posts",
+        "url": "https://github.com/hivecommons/hive/issues/12842",
+        "labels": [
+            "bug",
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/030-pr-in-progress"
+        ],
+        "created_at": "2026-10-18T01:25:36Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (style): contributor_grace_offline example value (1h) contradicts code default (15m)",
+        "url": "https://github.com/hivecommons/hive/issues/12821",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-17T22:25:16Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] adoption fix-pr lane pushes unsigned commits to contributor branches, turning adopted PRs DCO-red",
+        "url": "https://github.com/hivecommons/hive/issues/12819",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "agent/scanner",
+            "approved-direction",
+            "stage/040-covered-by-pr",
+            "area/dco"
+        ],
+        "created_at": "2026-10-17T22:17:10Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] docs(adr): two ADRs numbered 0024 on v6 (Spek continuous convergence vs provider credential lifecycle)",
+        "url": "https://github.com/hivecommons/hive/issues/12816",
+        "labels": [
+            "documentation",
+            "help wanted",
+            "agent/scanner",
+            "approved-direction",
+            "hive/claimed-by-scanner",
+            "stage/030-pr-in-progress"
+        ],
+        "created_at": "2026-10-17T21:14:22Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30743,23 +30857,9 @@
         "labels": [
             "help wanted",
             "agent/scanner",
-            "stage/020-claimed"
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-17T19:17:14Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] feat(contribute): advertise contribution-eligible repos and filter candidates by an acknowledged contributor repository scope",
-        "url": "https://github.com/hivecommons/hive/issues/12805",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
-            "stage/030-pr-in-progress"
-        ],
-        "created_at": "2026-10-17T19:16:31Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30770,124 +30870,10 @@
         "labels": [
             "help wanted",
             "agent/scanner",
-            "stage/020-claimed"
+            "stage/010-actionable",
+            "hive/partially-addressed"
         ],
         "created_at": "2026-10-17T19:15:43Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] feat(hivectl): contribution preset document schema, loader and validator",
-        "url": "https://github.com/hivecommons/hive/issues/12803",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
-            "stage/030-pr-in-progress"
-        ],
-        "created_at": "2026-10-17T19:15:21Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Fleet report: agent-runtime hive-code defect [8f4a1ba2fc6ea06d081ed786]",
-        "url": "https://github.com/hivecommons/hive/issues/12802",
-        "labels": [
-            "help wanted",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-17T19:04:09Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (correctness): Nil Governor.Modes returns 200 'updated' with zero agents",
-        "url": "https://github.com/hivecommons/hive/issues/12789",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "hive/claimed-by-scanner",
-            "stage/030-pr-in-progress"
-        ],
-        "created_at": "2026-10-17T17:31:05Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] kick_failed_repeatedly: kick undeliverable 8 times in a row (busy-no-activity; transcript silent for 56\u2026",
-        "url": "https://github.com/hivecommons/hive/issues/12787",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "needs-triage",
-            "hive/claimed-by-scanner",
-            "class:kick-failed-repeatedly",
-            "fleet-report",
-            "hive/selfreport",
-            "severity:medium",
-            "trigger:runtime-error",
-            "stage/030-pr-in-progress",
-            "origin/selfreport"
-        ],
-        "created_at": "2026-10-17T16:43:22Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (docs-currency): hive.yaml.example adoption block omits in_place/after_*/strict_attribution",
-        "url": "https://github.com/hivecommons/hive/issues/12777",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-17T15:36:06Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] nous: wire background-only Hive-self scheduler tick in cmd/hive",
-        "url": "https://github.com/hivecommons/hive/issues/12768",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-17T15:00:48Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[outreach] CODE_OF_CONDUCT.md routes hive conduct reports to the KubeStellar committee; org CoC says conduct@hivecommons.dev",
-        "url": "https://github.com/hivecommons/hive/issues/12745",
-        "labels": [
-            "help wanted",
-            "agent/outreach",
-            "community",
-            "approved-direction",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-17T13:36:13Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[DCO] post-merge trailer failures on v5",
-        "url": "https://github.com/hivecommons/hive/issues/12727",
-        "labels": [
-            "help wanted",
-            "ci-dco",
-            "approved-direction",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-17T13:12:03Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30899,9 +30885,9 @@
             "enhancement",
             "help wanted",
             "backend",
+            "needs-human",
             "hive/verified-open",
             "approved-direction",
-            "stage/010-actionable",
             "hive/partially-addressed"
         ],
         "created_at": "2026-10-17T01:47:53Z"
@@ -30916,52 +30902,9 @@
             "enhancement",
             "help wanted",
             "hive/claimed-by-scanner",
-            "stage/030-pr-in-progress"
+            "stage/010-actionable"
         ],
         "created_at": "2026-10-16T22:28:05Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 nous: background-only scheduler for Hive-self experiments (hidden from Experiment Lab)",
-        "url": "https://github.com/hivecommons/hive/issues/12397",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "hive/verified-open",
-            "stage/040-covered-by-pr",
-            "hive/partially-addressed"
-        ],
-        "created_at": "2026-10-16T13:06:02Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 nous: background experiment runner for Hive itself (self-improvement via self-report)",
-        "url": "https://github.com/hivecommons/hive/issues/12361",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "stage/010-actionable",
-            "stage/stalled"
-        ],
-        "created_at": "2026-10-16T12:45:40Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 feature: Add cadence templates for quickly setting cadence for all agents",
-        "url": "https://github.com/hivecommons/hive/issues/12300",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "triage/accepted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-16T07:22:23Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30974,21 +30917,6 @@
             "hold"
         ],
         "created_at": "2026-10-15T20:46:10Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[RFC]: Evidence pipeline \u2014 measure Hive's effectiveness in the Throughput dashboard without touching auto-merge",
-        "url": "https://github.com/hivecommons/hive/issues/12062",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "hive/verified-open",
-            "approved-direction",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-15T16:06:49Z"
     },
     {
         "repo": "hivecommons/hive",
