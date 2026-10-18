@@ -2114,20 +2114,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "[Docs] : Sparse Clone Instructions Should Follow the Fork-and-Pull-Request Workflow",
-        "url": "https://github.com/meshery/meshery/issues/22426",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-10-17T09:13:50Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "[Docs] Missing copy-to-clipboard button across standard documentation code blocks (352 blocks across 64 pages)",
         "url": "https://github.com/meshery/meshery/issues/22425",
         "labels": [
@@ -2518,6 +2504,22 @@
             "help wanted"
         ],
         "created_at": "2026-08-02T20:33:57Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[Docs] Improve the ease of navigation of the table of contents sidebar",
+        "url": "https://github.com/meshery/meshery/issues/20840",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "area/ux",
+            "language/css",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-21T03:32:54Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -14130,6 +14132,18 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "bug: BindingPolicy namespaceSelectors does not re-evaluate objects when Namespace labels change",
+        "url": "https://github.com/kubestellar/kubestellar/issues/4016",
+        "labels": [
+            "kind/bug",
+            "help wanted"
+        ],
+        "created_at": "2026-10-18T08:52:43Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "bug: template expansion failure deletes previously propagated workloads",
         "url": "https://github.com/kubestellar/kubestellar/issues/4014",
         "labels": [
@@ -14473,18 +14487,6 @@
             "help wanted"
         ],
         "created_at": "2026-07-03T04:46:56Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "bug: Updates to ServiceAccount secrets and imagePullSecrets do not downsync to edge clusters",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3870",
-        "labels": [
-            "kind/bug",
-            "help wanted"
-        ],
-        "created_at": "2026-07-02T20:25:27Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -30725,14 +30727,42 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (docs-currency): Stale neighbouring line citations left in refreshed agent-turn-model.md paragraphs",
-        "url": "https://github.com/hivecommons/hive/issues/12862",
+        "title": "Review backlog (docs-currency): Stale fix_human_prs field comment contradicts operator-reference (v5-origin)",
+        "url": "https://github.com/hivecommons/hive/issues/12907",
         "labels": [
             "help wanted",
             "agent/reviewer",
             "stage/010-actionable"
         ],
-        "created_at": "2026-10-18T02:07:55Z"
+        "created_at": "2026-10-18T10:00:10Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (style): Pre-existing gofmt drift in gateways_discover_ssrf_test.go on v6",
+        "url": "https://github.com/hivecommons/hive/issues/12906",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-18T09:59:48Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] review-fix kick pushes bot-signed commits onto contributor PRs, which 'Sign-off survives the squash' rejects",
+        "url": "https://github.com/hivecommons/hive/issues/12897",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "agent/scanner",
+            "hive/claimed-by-scanner",
+            "stage/030-pr-in-progress"
+        ],
+        "created_at": "2026-10-18T08:37:27Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30743,8 +30773,7 @@
         "labels": [
             "help wanted",
             "agent/reviewer",
-            "hive/claimed-by-scanner",
-            "stage/085-needs-decision"
+            "stage/045-needs-decision"
         ],
         "created_at": "2026-10-18T01:32:04Z"
     },
@@ -30765,120 +30794,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b hub: zero-token token-burn alerts fire for all-paused or already-explained hives",
-        "url": "https://github.com/hivecommons/hive/issues/12844",
-        "labels": [
-            "bug",
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/030-pr-in-progress"
-        ],
-        "created_at": "2026-10-18T01:25:50Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b hub: available placeholder pool slots raise project_org health alerts",
-        "url": "https://github.com/hivecommons/hive/issues/12843",
-        "labels": [
-            "bug",
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/030-pr-in-progress"
-        ],
-        "created_at": "2026-10-18T01:25:43Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b hub: advisory-stale alert can use stale heartbeat stats after successful digest posts",
-        "url": "https://github.com/hivecommons/hive/issues/12842",
-        "labels": [
-            "bug",
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/030-pr-in-progress"
-        ],
-        "created_at": "2026-10-18T01:25:36Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (style): contributor_grace_offline example value (1h) contradicts code default (15m)",
-        "url": "https://github.com/hivecommons/hive/issues/12821",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-17T22:25:16Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] adoption fix-pr lane pushes unsigned commits to contributor branches, turning adopted PRs DCO-red",
-        "url": "https://github.com/hivecommons/hive/issues/12819",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "agent/scanner",
-            "approved-direction",
-            "stage/040-covered-by-pr",
-            "area/dco"
-        ],
-        "created_at": "2026-10-17T22:17:10Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] docs(adr): two ADRs numbered 0024 on v6 (Spek continuous convergence vs provider credential lifecycle)",
-        "url": "https://github.com/hivecommons/hive/issues/12816",
-        "labels": [
-            "documentation",
-            "help wanted",
-            "agent/scanner",
-            "approved-direction",
-            "hive/claimed-by-scanner",
-            "stage/030-pr-in-progress"
-        ],
-        "created_at": "2026-10-17T21:14:22Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] feat(relay): enforce contributor repository scope before executing an assignment",
-        "url": "https://github.com/hivecommons/hive/issues/12806",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-17T19:17:14Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] feat(hivectl): repository selection state, preset provenance and canonical Hive/repo identity in profiles.yml",
-        "url": "https://github.com/hivecommons/hive/issues/12804",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable",
-            "hive/partially-addressed"
-        ],
-        "created_at": "2026-10-17T19:15:43Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "RFC: Shared provider auth pools and an idle provider-warmer across Hives and contributors",
         "url": "https://github.com/hivecommons/hive/issues/12611",
         "labels": [
@@ -30888,23 +30803,10 @@
             "needs-human",
             "hive/verified-open",
             "approved-direction",
-            "hive/partially-addressed"
+            "hive/partially-addressed",
+            "stage/045-needs-decision"
         ],
         "created_at": "2026-10-17T01:47:53Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "RFC: Project-curated, repository-scoped contributions across Hives",
-        "url": "https://github.com/hivecommons/hive/issues/12570",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-16T22:28:05Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30940,7 +30842,8 @@
         "url": "https://github.com/hivecommons/hive/issues/9735",
         "labels": [
             "help wanted",
-            "needs-human"
+            "needs-human",
+            "stage/045-needs-decision"
         ],
         "created_at": "2026-09-30T04:24:45Z"
     },
