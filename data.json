@@ -14162,7 +14162,8 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/4014",
         "labels": [
             "help wanted",
-            "stage/010-actionable"
+            "stage/010-actionable",
+            "stage/stalled"
         ],
         "created_at": "2026-10-17T17:14:47Z"
     },
@@ -20905,6 +20906,42 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEBACKENDDEFAULTS-21201700]",
+        "url": "https://github.com/backstage/backstage/issues/36244",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-18T16:12:21Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-IPADDRESS-21185770]",
+        "url": "https://github.com/backstage/backstage/issues/36243",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-18T16:11:58Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-21185768]",
+        "url": "https://github.com/backstage/backstage/issues/36242",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-18T16:11:36Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-UNDICI-21181017]",
         "url": "https://github.com/backstage/backstage/issues/36241",
         "labels": [
@@ -21224,42 +21261,6 @@
             "help wanted"
         ],
         "created_at": "2026-10-11T16:07:09Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINSCAFFOLDERBACKEND-20825377]",
-        "url": "https://github.com/backstage/backstage/issues/36111",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-11T16:07:09Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINSCAFFOLDERBACKEND-20825376]",
-        "url": "https://github.com/backstage/backstage/issues/36110",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-11T16:07:08Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINPROXYBACKEND-20826431]",
-        "url": "https://github.com/backstage/backstage/issues/36109",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-11T16:07:06Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -30722,6 +30723,63 @@
             "help wanted"
         ],
         "created_at": "2024-09-18T19:24:38Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] TestAgentNowLineStates hard-fails instead of degrading when node is off PATH",
+        "url": "https://github.com/hivecommons/hive/issues/12924",
+        "labels": [
+            "help wanted",
+            "kind/test",
+            "agent/scanner",
+            "ci",
+            "stage/020-claimed"
+        ],
+        "created_at": "2026-10-18T19:28:23Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (style): Lead doc sentence of busyNoActivityStall still describes only the Working case",
+        "url": "https://github.com/hivecommons/hive/issues/12922",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/020-claimed"
+        ],
+        "created_at": "2026-10-18T19:17:46Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (correctness): Consent/blocking-prompt screens on non-inference backends still wedge with the same kick failure",
+        "url": "https://github.com/hivecommons/hive/issues/12921",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "hive/claimed-by-scanner",
+            "stage/030-pr-in-progress"
+        ],
+        "created_at": "2026-10-18T19:15:55Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[sec-check] CI_FAILING repair queue lists non-adopted fork PRs with maintainer-edits as push-repairable \u2014 #7386 same-named-base-branch guard regressed by #12899",
+        "url": "https://github.com/hivecommons/hive/issues/12919",
+        "labels": [
+            "help wanted",
+            "agent/sec-check",
+            "security",
+            "hive/claimed-by-sec-check",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-18T19:11:42Z"
     },
     {
         "repo": "hivecommons/hive",
