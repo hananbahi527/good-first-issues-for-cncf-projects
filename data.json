@@ -1693,6 +1693,34 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "[Models] Add VaultAuth reference relationships to the Vault Secrets model",
+        "url": "https://github.com/meshery/meshery/issues/22401",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/models"
+        ],
+        "created_at": "2026-10-16T06:30:24Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[Docs] Fix outdated registry terminology and incorrect documentation",
+        "url": "https://github.com/meshery/meshery/issues/22400",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-10-16T06:27:56Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "[UI] Assigned Connections not reflecting in enviroments",
         "url": "https://github.com/meshery/meshery/issues/21890",
         "labels": [
@@ -2084,50 +2112,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Add support for sort by count for database table in settings registry page",
-        "url": "https://github.com/meshery/meshery/issues/13958",
-        "labels": [
-            "kind/enhancement",
-            "help wanted",
-            "good first issue",
-            "language/go"
-        ],
-        "created_at": "2025-03-11T09:09:30Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[Docs] Include Meshery, Playground, and Extensions in Awesome Lists",
-        "url": "https://github.com/meshery/meshery/issues/13426",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "issue/willfix",
-            "language/markdown",
-            "framework/jekyll"
-        ],
-        "created_at": "2025-01-31T17:39:55Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[Docs] Expanding collapsible sections on homepage pushes down opposite column",
-        "url": "https://github.com/meshery/meshery/issues/22450",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-10-18T20:11:42Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "[Docs] Missing copy-to-clipboard button across standard documentation code blocks (352 blocks across 64 pages)",
         "url": "https://github.com/meshery/meshery/issues/22425",
         "labels": [
@@ -2150,32 +2134,6 @@
             "area/devops"
         ],
         "created_at": "2026-10-16T13:00:46Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[Models] Add VaultAuth reference relationships to the Vault Secrets model",
-        "url": "https://github.com/meshery/meshery/issues/22401",
-        "labels": [
-            "help wanted",
-            "area/models"
-        ],
-        "created_at": "2026-10-16T06:30:24Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[Docs] Fix outdated registry terminology and incorrect documentation",
-        "url": "https://github.com/meshery/meshery/issues/22400",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-10-16T06:27:56Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2520,6 +2478,22 @@
         "created_at": "2026-08-02T20:33:57Z"
     },
     {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[Docs] Improve the ease of navigation of the table of contents sidebar",
+        "url": "https://github.com/meshery/meshery/issues/20840",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "area/ux",
+            "language/css",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-21T03:32:54Z"
+    },
+    {
         "repo": "metal3-io/baremetal-operator",
         "tier": "Incubating",
         "lang": "Go",
@@ -2796,20 +2770,6 @@
             "accepted"
         ],
         "created_at": "2025-04-17T15:32:25Z"
-    },
-    {
-        "repo": "opentofu/opentofu",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Implement proper XDG Base Directory spec or amend documentation",
-        "url": "https://github.com/opentofu/opentofu/issues/2655",
-        "labels": [
-            "bug",
-            "help wanted",
-            "accepted",
-            "core-team"
-        ],
-        "created_at": "2025-04-08T10:12:42Z"
     },
     {
         "repo": "opentofu/opentofu",
@@ -4711,6 +4671,21 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Deletion of CLIENT_ROLE_MAPPING / REALM_ROLE_MAPPING not shown in the user admin events tab",
+        "url": "https://github.com/keycloak/keycloak/issues/54008",
+        "labels": [
+            "kind/bug",
+            "area/admin/ui",
+            "help wanted",
+            "priority/low",
+            "status/auto-bump"
+        ],
+        "created_at": "2026-10-15T10:29:14Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Upgrade to 26.7 fails if a realm display name exceeds 255 characters",
         "url": "https://github.com/keycloak/keycloak/issues/54004",
         "labels": [
@@ -5183,23 +5158,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-09-08T12:34:00Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "ClassNotFound PersistenceManager when starting server",
-        "url": "https://github.com/keycloak/keycloak/issues/52352",
-        "labels": [
-            "kind/bug",
-            "area/adapter/jee",
-            "help wanted",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-09-03T08:52:39Z"
     },
     {
         "repo": "keylime/keylime",
@@ -10013,20 +9971,6 @@
             "Contribfest"
         ],
         "created_at": "2024-02-28T13:59:51Z"
-    },
-    {
-        "repo": "podman-container-tools/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Allow consistent exclusion filters between 'podman container list' & 'podman image list'",
-        "url": "https://github.com/podman-container-tools/podman/issues/21398",
-        "labels": [
-            "Good First Issue",
-            "kind/feature",
-            "volunteers-wanted",
-            "Contribfest"
-        ],
-        "created_at": "2024-01-28T13:59:05Z"
     },
     {
         "repo": "podman-container-tools/podman",
@@ -16810,6 +16754,18 @@
             "maybe"
         ],
         "created_at": "2017-11-29T16:53:18Z"
+    },
+    {
+        "repo": "praxis-proxy/praxis",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "Fix the port-allocation race in the OTLP integration test",
+        "url": "https://github.com/praxis-proxy/praxis/issues/1413",
+        "labels": [
+            "good first issue",
+            "triage/accepted"
+        ],
+        "created_at": "2026-10-19T15:12:13Z"
     },
     {
         "repo": "praxis-proxy/praxis",
@@ -24599,19 +24555,6 @@
         "repo": "argoproj/argo-cd",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "CLI app list should be able to filter based on a list of files",
-        "url": "https://github.com/argoproj/argo-cd/issues/21052",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "component:cli"
-        ],
-        "created_at": "2024-12-04T04:52:48Z"
-    },
-    {
-        "repo": "argoproj/argo-cd",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Export metrics for a number of daily users (dau)",
         "url": "https://github.com/argoproj/argo-cd/issues/20801",
         "labels": [
@@ -24905,6 +24848,20 @@
             "component:cli"
         ],
         "created_at": "2021-12-19T11:20:12Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "UI: show last sync finish time in badge",
+        "url": "https://github.com/argoproj/argo-cd/issues/6333",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:ui",
+            "group:hacktoberfest-2023"
+        ],
+        "created_at": "2021-05-26T18:08:07Z"
     },
     {
         "repo": "fluxcd/flux2",
@@ -28781,12 +28738,53 @@
         "repo": "sustainable-computing-io/kepler",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "`kepler_node_gpu_info` is missing from the generated metrics docs",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2604",
+        "labels": [
+            "kind/documentation",
+            "good first issue",
+            "help wanted",
+            "difficulty/easy"
+        ],
+        "created_at": "2026-10-18T12:30:54Z"
+    },
+    {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Fallback VM ID is the first 8 bytes of the command line, so different VMs share one ID",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2601",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "kind/bug",
+            "difficulty/easy"
+        ],
+        "created_at": "2026-10-18T12:30:48Z"
+    },
+    {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Make `metricsCacheTTL` configurable",
         "url": "https://github.com/sustainable-computing-io/kepler/issues/2429",
         "labels": [
             "good first issue"
         ],
         "created_at": "2026-02-26T08:12:02Z"
+    },
+    {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Startup text is printed to stdout when the stdout exporter is enabled",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2603",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "difficulty/medium"
+        ],
+        "created_at": "2026-10-18T12:30:51Z"
     },
     {
         "repo": "sustainable-computing-io/kepler",
@@ -30740,78 +30738,174 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b [v6] review evidence: CI snapshot uses the short repo name, so it writes to evidence/<repo>/unknown and every bundle is rejected as invalid",
-        "url": "https://github.com/hivecommons/hive/issues/12958",
-        "labels": [
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/030-pr-in-progress"
-        ],
-        "created_at": "2026-10-19T11:22:40Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] review hold: artifact refresh restamps verdict RecordedAt, so an owner approval or /hive approve stops releasing a requires_human hold within minutes",
-        "url": "https://github.com/hivecommons/hive/issues/12957",
-        "labels": [
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/030-pr-in-progress"
-        ],
-        "created_at": "2026-10-19T11:22:39Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] merge-lane: front blocked with green checks and no rule hive can satisfy should leave the front promptly instead of after the timeout",
-        "url": "https://github.com/hivecommons/hive/issues/12955",
-        "labels": [
-            "help wanted",
-            "agent/scanner"
-        ],
-        "created_at": "2026-10-19T11:03:13Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] merge eligibility: code-owner review required by a ruleset (reviewDecision null) is read as eligible, so the serialized lane cycles blocked PRs and they never reach your-turn",
-        "url": "https://github.com/hivecommons/hive/issues/12953",
-        "labels": [
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/030-pr-in-progress"
-        ],
-        "created_at": "2026-10-19T10:42:52Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b merge-lane(v6): front timeout is hard-coded to 60m and rotates fronts whose required checks are only queued, so a CI backlog over 60m stops all merges",
-        "url": "https://github.com/hivecommons/hive/issues/12952",
-        "labels": [
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/030-pr-in-progress"
-        ],
-        "created_at": "2026-10-19T10:42:20Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (style): Lead doc sentence of busyNoActivityStall still describes only the Working case",
-        "url": "https://github.com/hivecommons/hive/issues/12922",
+        "title": "Review backlog (style): hive-ci-transient marker is hand-assembled by agents while hive-ci-external is script-emitted",
+        "url": "https://github.com/hivecommons/hive/issues/13026",
         "labels": [
             "help wanted",
             "agent/reviewer",
-            "stage/040-covered-by-pr"
+            "stage/010-actionable"
         ],
-        "created_at": "2026-10-18T19:17:46Z"
+        "created_at": "2026-10-19T17:51:24Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (docs-currency): operator-reference.md dependency-bot sweep paragraph does not mention the transient-triage wording",
+        "url": "https://github.com/hivecommons/hive/issues/13025",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-19T17:49:58Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Hive activity monitor: hover text appears on every chevron and the whole row, not just links, titles and the lit step",
+        "url": "https://github.com/hivecommons/hive/issues/13014",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "needs-sha"
+        ],
+        "created_at": "2026-10-19T17:28:37Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "stage engine F: move derivation into DeriveIssue/DerivePR, delete legacy adapters, fold review-state fact",
+        "url": "https://github.com/hivecommons/hive/issues/13011",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "stage/045-needs-decision"
+        ],
+        "created_at": "2026-10-19T17:19:36Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "stage engine E: governor.labels.stage.engine.mode flag, wiring, metrics, tracker status strip, docs",
+        "url": "https://github.com/hivecommons/hive/issues/13010",
+        "labels": [
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2026-10-19T17:19:34Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "stage engine D: relay/claim/ledger paths submit facts via FactSink instead of writing stage labels",
+        "url": "https://github.com/hivecommons/hive/issues/13009",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "stage/020-claimed"
+        ],
+        "created_at": "2026-10-19T17:19:32Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "stage engine C: single StageWriter; ApplyStageLabels/SyncIssueStageLabels go through Reconciler; admission test",
+        "url": "https://github.com/hivecommons/hive/issues/13008",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "stage/020-claimed",
+            "hive/claimed-by-arteeh"
+        ],
+        "created_at": "2026-10-19T17:19:30Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: dashboard: hosted hive cannot save agent prompt template \u2014 permission denied",
+        "url": "https://github.com/hivecommons/hive/issues/13005",
+        "labels": [
+            "bug",
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/030-pr-in-progress"
+        ],
+        "created_at": "2026-10-19T17:13:26Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Central stage engine (ADR-0025)",
+        "url": "https://github.com/hivecommons/hive/issues/12999",
+        "labels": [
+            "help wanted",
+            "Epic"
+        ],
+        "created_at": "2026-10-19T17:09:13Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "v6 readiness: hub-manage console spoke mention/actions config and relocate hive-action-smoke workflow",
+        "url": "https://github.com/hivecommons/hive/issues/12984",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "hive/claimed-by-scanner",
+            "stage/030-pr-in-progress"
+        ],
+        "created_at": "2026-10-19T16:16:17Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b mention: deferred mention kick silently dropped when governor startup kick supersedes it (\ud83d\udc40 acked, never delivered)",
+        "url": "https://github.com/hivecommons/hive/issues/12982",
+        "labels": [
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/030-pr-in-progress"
+        ],
+        "created_at": "2026-10-19T16:07:47Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] dependency-bot red-CI hand-off escalates a transient CI failure the scanner already triaged as not-the-bump, with text that blames the bump",
+        "url": "https://github.com/hivecommons/hive/issues/12977",
+        "labels": [
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/030-pr-in-progress",
+            "stage/stalled"
+        ],
+        "created_at": "2026-10-19T15:53:12Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Register hive-action-smoke on the default branch and parameterise the relay mention login",
+        "url": "https://github.com/hivecommons/hive/issues/12964",
+        "labels": [
+            "help wanted",
+            "hive/verified-open",
+            "hive/claimed-by-scanner",
+            "stage/030-pr-in-progress",
+            "hive/partially-addressed"
+        ],
+        "created_at": "2026-10-19T14:36:10Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30822,7 +30916,7 @@
         "labels": [
             "help wanted",
             "agent/reviewer",
-            "stage/045-needs-decision"
+            "stage/010-actionable"
         ],
         "created_at": "2026-10-18T01:32:04Z"
     },
@@ -30849,11 +30943,9 @@
             "enhancement",
             "help wanted",
             "backend",
-            "needs-human",
-            "hive/verified-open",
-            "approved-direction",
-            "hive/partially-addressed",
-            "stage/045-needs-decision"
+            "architecture discussion",
+            "hold",
+            "kind/design"
         ],
         "created_at": "2026-10-17T01:47:53Z"
     },
@@ -30891,8 +30983,9 @@
         "url": "https://github.com/hivecommons/hive/issues/9735",
         "labels": [
             "help wanted",
+            "hold",
             "needs-human",
-            "stage/045-needs-decision"
+            "approved-direction"
         ],
         "created_at": "2026-09-30T04:24:45Z"
     },
@@ -30905,10 +30998,25 @@
         "labels": [
             "help wanted",
             "agent/scanner",
+            "hold",
             "roadmap",
             "meta-tracker"
         ],
         "created_at": "2026-09-18T05:32:44Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1d Hive Advisory Report",
+        "url": "https://github.com/hivecommons/hive/issues/2364",
+        "labels": [
+            "help wanted",
+            "hive/advisory",
+            "hold",
+            "hive/selfreport"
+        ],
+        "created_at": "2026-07-31T17:17:23Z"
     },
     {
         "repo": "kaito-project/kaito",
