@@ -4563,7 +4563,8 @@
         "url": "https://github.com/falcosecurity/falco/issues/1413",
         "labels": [
             "help wanted",
-            "kind/feature"
+            "kind/feature",
+            "lifecycle/stale"
         ],
         "created_at": "2020-09-24T17:07:48Z"
     },
@@ -14174,8 +14175,7 @@
         "labels": [
             "kind/bug",
             "help wanted",
-            "stage/010-actionable",
-            "stage/stalled"
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-14T19:02:05Z"
     },
@@ -14793,6 +14793,20 @@
         "repo": "volcano-sh/volcano",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "[Feature][#6081] Add configurable scheduling diagnostic verbosity",
+        "url": "https://github.com/volcano-sh/volcano/issues/6107",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "kind/feature",
+            "area/performance"
+        ],
+        "created_at": "2026-10-19T09:21:37Z"
+    },
+    {
+        "repo": "volcano-sh/volcano",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "Multiple good-first-issue bugs in capacity plugin, backfill action, cache session lifecycle, and e2e test context dumping",
         "url": "https://github.com/volcano-sh/volcano/issues/5048",
         "labels": [
@@ -14986,6 +15000,19 @@
             "priority/important-soon"
         ],
         "created_at": "2023-04-01T08:16:52Z"
+    },
+    {
+        "repo": "volcano-sh/volcano",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Performance][#6081] Deduplicate repeated PodGroup scheduling events",
+        "url": "https://github.com/volcano-sh/volcano/issues/6108",
+        "labels": [
+            "help wanted",
+            "kind/feature",
+            "area/performance"
+        ],
+        "created_at": "2026-10-19T09:21:39Z"
     },
     {
         "repo": "volcano-sh/volcano",
@@ -29107,19 +29134,6 @@
         "repo": "perses/perses",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Search Bar: provide a local a way to customise the search",
-        "url": "https://github.com/perses/perses/issues/4425",
-        "labels": [
-            "help wanted",
-            "ui",
-            "priority/P0"
-        ],
-        "created_at": "2026-09-08T09:36:35Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Organise units in a 'tree like' fashion",
         "url": "https://github.com/perses/perses/issues/4282",
         "labels": [
@@ -30726,15 +30740,65 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (docs-currency): api-reference.md kick status contract omits the pre-existing 422 ioscan response",
-        "url": "https://github.com/hivecommons/hive/issues/12938",
+        "title": "\ud83d\udc1b [v6] review evidence: CI snapshot uses the short repo name, so it writes to evidence/<repo>/unknown and every bundle is rejected as invalid",
+        "url": "https://github.com/hivecommons/hive/issues/12958",
         "labels": [
             "help wanted",
-            "agent/reviewer",
             "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
+            "stage/030-pr-in-progress"
         ],
-        "created_at": "2026-10-19T02:21:26Z"
+        "created_at": "2026-10-19T11:22:40Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] review hold: artifact refresh restamps verdict RecordedAt, so an owner approval or /hive approve stops releasing a requires_human hold within minutes",
+        "url": "https://github.com/hivecommons/hive/issues/12957",
+        "labels": [
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/030-pr-in-progress"
+        ],
+        "created_at": "2026-10-19T11:22:39Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] merge-lane: front blocked with green checks and no rule hive can satisfy should leave the front promptly instead of after the timeout",
+        "url": "https://github.com/hivecommons/hive/issues/12955",
+        "labels": [
+            "help wanted",
+            "agent/scanner"
+        ],
+        "created_at": "2026-10-19T11:03:13Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] merge eligibility: code-owner review required by a ruleset (reviewDecision null) is read as eligible, so the serialized lane cycles blocked PRs and they never reach your-turn",
+        "url": "https://github.com/hivecommons/hive/issues/12953",
+        "labels": [
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/030-pr-in-progress"
+        ],
+        "created_at": "2026-10-19T10:42:52Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b merge-lane(v6): front timeout is hard-coded to 60m and rotates fronts whose required checks are only queued, so a CI backlog over 60m stops all merges",
+        "url": "https://github.com/hivecommons/hive/issues/12952",
+        "labels": [
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/030-pr-in-progress"
+        ],
+        "created_at": "2026-10-19T10:42:20Z"
     },
     {
         "repo": "hivecommons/hive",
