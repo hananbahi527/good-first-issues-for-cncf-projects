@@ -2220,20 +2220,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "[Docs]Remove nested interactive <a> links and redundant <p> tags inside <summary> elements on docs homepage",
-        "url": "https://github.com/meshery/meshery/issues/21969",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-09-15T15:38:46Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "[Docs] Add a troubleshooting note for Meshery Server startup failures",
         "url": "https://github.com/meshery/meshery/issues/21951",
         "labels": [
@@ -2492,6 +2478,20 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-21T03:32:54Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[Docs] Contributing: Include contributor instructions regarding sparse cloning, excluding /models and other dirs",
+        "url": "https://github.com/meshery/meshery/issues/20837",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-21T00:03:37Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -10053,22 +10053,6 @@
         "created_at": "2023-04-05T21:03:08Z"
     },
     {
-        "repo": "podman-container-tools/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Mismatch between documentation and REST API",
-        "url": "https://github.com/podman-container-tools/podman/issues/15376",
-        "labels": [
-            "Good First Issue",
-            "kind/bug",
-            "kind/documentation",
-            "HTTP API",
-            "volunteers-wanted",
-            "Contribfest"
-        ],
-        "created_at": "2022-08-18T14:38:43Z"
-    },
-    {
         "repo": "urunc-dev/urunc",
         "tier": "Sandbox",
         "lang": "Go",
@@ -11678,17 +11662,6 @@
         "created_at": "2020-09-11T05:56:46Z"
     },
     {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "chore: Polish HAMi chart values comments(docs)",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/3197",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-10-09T08:01:12Z"
-    },
-    {
         "repo": "karmada-io/karmada",
         "tier": "Graduated",
         "lang": "Go",
@@ -12443,6 +12416,20 @@
             "good first issue"
         ],
         "created_at": "2026-10-07T12:40:45Z"
+    },
+    {
+        "repo": "kai-scheduler/KAI-Scheduler",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Add support for Kubernetes Node-Declared Features",
+        "url": "https://github.com/kai-scheduler/KAI-Scheduler/issues/2133",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "needs-design",
+            "theme/k8s-update"
+        ],
+        "created_at": "2026-09-09T08:45:41Z"
     },
     {
         "repo": "kai-scheduler/KAI-Scheduler",
@@ -14944,19 +14931,6 @@
             "priority/important-soon"
         ],
         "created_at": "2023-04-01T08:16:52Z"
-    },
-    {
-        "repo": "volcano-sh/volcano",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "[Performance][#6081] Deduplicate repeated PodGroup scheduling events",
-        "url": "https://github.com/volcano-sh/volcano/issues/6108",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "area/performance"
-        ],
-        "created_at": "2026-10-19T09:21:39Z"
     },
     {
         "repo": "volcano-sh/volcano",
@@ -20887,6 +20861,42 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-MARKDOWNIT-21277720]",
+        "url": "https://github.com/backstage/backstage/issues/36275",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-20T08:11:51Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-FOLLOWREDIRECTS-21249784]",
+        "url": "https://github.com/backstage/backstage/issues/36274",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-20T08:11:47Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-MARKDOWNIT-21277722]",
+        "url": "https://github.com/backstage/backstage/issues/36273",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-20T08:11:35Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-PICOMATCH-21248802]",
         "url": "https://github.com/backstage/backstage/issues/36260",
         "labels": [
@@ -21206,42 +21216,6 @@
             "help wanted"
         ],
         "created_at": "2026-10-11T16:07:11Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINSCAFFOLDERBACKEND-20825381]",
-        "url": "https://github.com/backstage/backstage/issues/36115",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-11T16:07:11Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINSCAFFOLDERBACKEND-20825380]",
-        "url": "https://github.com/backstage/backstage/issues/36114",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-11T16:07:10Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINSCAFFOLDERBACKEND-20825379]",
-        "url": "https://github.com/backstage/backstage/issues/36113",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-11T16:07:10Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -28777,6 +28751,30 @@
         "repo": "sustainable-computing-io/kepler",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "ci: open kepler-doc submodule bump PR on release",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2612",
+        "labels": [
+            "help wanted",
+            "ci"
+        ],
+        "created_at": "2026-10-20T07:44:18Z"
+    },
+    {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "ci: build docs site on PRs touching docs/",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2611",
+        "labels": [
+            "help wanted",
+            "ci"
+        ],
+        "created_at": "2026-10-20T07:44:16Z"
+    },
+    {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Startup text is printed to stdout when the stdout exporter is enabled",
         "url": "https://github.com/sustainable-computing-io/kepler/issues/2603",
         "labels": [
@@ -28906,19 +28904,6 @@
             "dependencies"
         ],
         "created_at": "2026-04-23T08:39:51Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Confusing UX if there is no default data source",
-        "url": "https://github.com/perses/perses/issues/4024",
-        "labels": [
-            "good first issue",
-            "ui",
-            "priority/P2"
-        ],
-        "created_at": "2026-04-17T16:40:49Z"
     },
     {
         "repo": "perses/perses",
@@ -30738,29 +30723,80 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] \ud83d\udc1b [v6] review hold release should survive base-branch merges that do not change the PR's own diff",
-        "url": "https://github.com/hivecommons/hive/issues/13086",
+        "title": "[scanner] \ud83d\udc1b [v6] superseded contributor PR thread should lead with the close/keep-open decision",
+        "url": "https://github.com/hivecommons/hive/issues/13116",
         "labels": [
-            "good first issue",
             "help wanted",
             "agent/scanner",
             "stage/010-actionable"
         ],
-        "created_at": "2026-10-20T00:36:59Z"
+        "created_at": "2026-10-20T10:40:08Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Coverage] packages below 90% threshold",
-        "url": "https://github.com/hivecommons/hive/issues/13097",
+        "title": "[scanner] \ud83d\udc1b [v6] requires_human on contributor-lane PR routes to 050 and stalls instead of 085",
+        "url": "https://github.com/hivecommons/hive/issues/13115",
         "labels": [
             "help wanted",
-            "kind/bug",
-            "ci-coverage",
+            "agent/scanner",
+            "hive/claimed-by-scanner",
+            "stage/020-claimed",
+            "hive/claimed-by-human"
+        ],
+        "created_at": "2026-10-20T10:40:00Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] \ud83d\udc1b [v6] offer superseded close/keep-open in Review Queue even when auto-close is off",
+        "url": "https://github.com/hivecommons/hive/issues/13114",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
             "stage/010-actionable"
         ],
-        "created_at": "2026-10-20T02:52:03Z"
+        "created_at": "2026-10-20T10:39:49Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (style): truncateReasonBytes lives apart from the constant and most of its callers",
+        "url": "https://github.com/hivecommons/hive/issues/13113",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-20T10:33:00Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] superseded contributor PRs: no close/keep-open option unless auto-close is on, and requires_human stalls at 050 instead of 085",
+        "url": "https://github.com/hivecommons/hive/issues/13112",
+        "labels": [
+            "help wanted",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-20T10:29:56Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (correctness): Ledger/log truncation of VerdictReason still byte-indexed",
+        "url": "https://github.com/hivecommons/hive/issues/13110",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/020-claimed"
+        ],
+        "created_at": "2026-10-20T09:33:43Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30783,8 +30819,7 @@
         "labels": [
             "help wanted",
             "agent/reviewer",
-            "stage/020-claimed",
-            "hive/claimed-by-human"
+            "stage/010-actionable"
         ],
         "created_at": "2026-10-20T01:41:39Z"
     },
@@ -30814,6 +30849,19 @@
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-20T00:37:10Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] \ud83d\udc1b [v6] review hold release should survive base-branch merges that do not change the PR's own diff",
+        "url": "https://github.com/hivecommons/hive/issues/13086",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-20T00:36:59Z"
     },
     {
         "repo": "hivecommons/hive",
