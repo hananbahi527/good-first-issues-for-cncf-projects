@@ -20887,6 +20887,18 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-PICOMATCH-21248802]",
+        "url": "https://github.com/backstage/backstage/issues/36260",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-19T20:27:14Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEBACKENDDEFAULTS-21201700]",
         "url": "https://github.com/backstage/backstage/issues/36244",
         "labels": [
@@ -21230,18 +21242,6 @@
             "help wanted"
         ],
         "created_at": "2026-10-11T16:07:10Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINSCAFFOLDERBACKEND-20825378]",
-        "url": "https://github.com/backstage/backstage/issues/36112",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-11T16:07:09Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -30738,40 +30738,94 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (style): hive-ci-transient marker is hand-assembled by agents while hive-ci-external is script-emitted",
-        "url": "https://github.com/hivecommons/hive/issues/13026",
+        "title": "[scanner] \ud83d\udc1b [v6] review hold release should survive base-branch merges that do not change the PR's own diff",
+        "url": "https://github.com/hivecommons/hive/issues/13086",
         "labels": [
+            "good first issue",
             "help wanted",
-            "agent/reviewer",
+            "agent/scanner",
             "stage/010-actionable"
         ],
-        "created_at": "2026-10-19T17:51:24Z"
+        "created_at": "2026-10-20T00:36:59Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (docs-currency): operator-reference.md dependency-bot sweep paragraph does not mention the transient-triage wording",
-        "url": "https://github.com/hivecommons/hive/issues/13025",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-19T17:49:58Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Hive activity monitor: hover text appears on every chevron and the whole row, not just links, titles and the lit step",
-        "url": "https://github.com/hivecommons/hive/issues/13014",
+        "title": "[Coverage] packages below 90% threshold",
+        "url": "https://github.com/hivecommons/hive/issues/13097",
         "labels": [
             "help wanted",
             "kind/bug",
-            "needs-sha"
+            "ci-coverage",
+            "stage/010-actionable"
         ],
-        "created_at": "2026-10-19T17:28:37Z"
+        "created_at": "2026-10-20T02:52:03Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 RFC: Repo-targeted Experiment Lab campaigns run on Nous's own discovery",
+        "url": "https://github.com/hivecommons/hive/issues/13096",
+        "labels": [
+            "help wanted",
+            "stage/045-needs-decision"
+        ],
+        "created_at": "2026-10-20T02:36:10Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (security): Self-lane acknowledgement does not check trusted-merger status (tracks #13088)",
+        "url": "https://github.com/hivecommons/hive/issues/13093",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/020-claimed",
+            "hive/claimed-by-human"
+        ],
+        "created_at": "2026-10-20T01:41:39Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (intent-alignment): Relay gate treats an unreadable review-verdicts.json as a hold with zero RecordedAt, so any past trusted-merger approve releases it",
+        "url": "https://github.com/hivecommons/hive/issues/13090",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "hive/already-done",
+            "stage/045-needs-decision"
+        ],
+        "created_at": "2026-10-20T00:50:15Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] \ud83d\udc1b [v6] /hive approve on a PR gets no reply, and the 085 comment does not name the action that clears it",
+        "url": "https://github.com/hivecommons/hive/issues/13087",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-20T00:37:10Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Owner advice \"Give idle agents a cadence\" counts on-demand agents",
+        "url": "https://github.com/hivecommons/hive/issues/13083",
+        "labels": [
+            "help wanted",
+            "needs-triage"
+        ],
+        "created_at": "2026-10-20T00:09:07Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30782,62 +30836,10 @@
         "labels": [
             "help wanted",
             "triage/accepted",
-            "stage/045-needs-decision"
+            "approved-direction",
+            "stage/010-actionable"
         ],
         "created_at": "2026-10-19T17:19:36Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "stage engine E: governor.labels.stage.engine.mode flag, wiring, metrics, tracker status strip, docs",
-        "url": "https://github.com/hivecommons/hive/issues/13010",
-        "labels": [
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2026-10-19T17:19:34Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "stage engine D: relay/claim/ledger paths submit facts via FactSink instead of writing stage labels",
-        "url": "https://github.com/hivecommons/hive/issues/13009",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "stage/020-claimed"
-        ],
-        "created_at": "2026-10-19T17:19:32Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "stage engine C: single StageWriter; ApplyStageLabels/SyncIssueStageLabels go through Reconciler; admission test",
-        "url": "https://github.com/hivecommons/hive/issues/13008",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "stage/020-claimed",
-            "hive/claimed-by-arteeh"
-        ],
-        "created_at": "2026-10-19T17:19:30Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b bug: dashboard: hosted hive cannot save agent prompt template \u2014 permission denied",
-        "url": "https://github.com/hivecommons/hive/issues/13005",
-        "labels": [
-            "bug",
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/030-pr-in-progress"
-        ],
-        "created_at": "2026-10-19T17:13:26Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30847,7 +30849,10 @@
         "url": "https://github.com/hivecommons/hive/issues/12999",
         "labels": [
             "help wanted",
-            "Epic"
+            "Epic",
+            "hive/verified-open",
+            "stage/010-actionable",
+            "hive/partially-addressed"
         ],
         "created_at": "2026-10-19T17:09:13Z"
     },
@@ -30860,94 +30865,11 @@
         "labels": [
             "help wanted",
             "triage/accepted",
-            "hive/claimed-by-scanner",
-            "stage/030-pr-in-progress"
+            "needs-human",
+            "approved-direction",
+            "stage/045-needs-decision"
         ],
         "created_at": "2026-10-19T16:16:17Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b mention: deferred mention kick silently dropped when governor startup kick supersedes it (\ud83d\udc40 acked, never delivered)",
-        "url": "https://github.com/hivecommons/hive/issues/12982",
-        "labels": [
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/030-pr-in-progress"
-        ],
-        "created_at": "2026-10-19T16:07:47Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] dependency-bot red-CI hand-off escalates a transient CI failure the scanner already triaged as not-the-bump, with text that blames the bump",
-        "url": "https://github.com/hivecommons/hive/issues/12977",
-        "labels": [
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/030-pr-in-progress",
-            "stage/stalled"
-        ],
-        "created_at": "2026-10-19T15:53:12Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Register hive-action-smoke on the default branch and parameterise the relay mention login",
-        "url": "https://github.com/hivecommons/hive/issues/12964",
-        "labels": [
-            "help wanted",
-            "hive/verified-open",
-            "hive/claimed-by-scanner",
-            "stage/030-pr-in-progress",
-            "hive/partially-addressed"
-        ],
-        "created_at": "2026-10-19T14:36:10Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (security): Adoption of unadmitted authors' PRs is gated only on body-derivable author kind",
-        "url": "https://github.com/hivecommons/hive/issues/12850",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-18T01:32:04Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b scheduler: due kicks can repeat while idle panes never receive work",
-        "url": "https://github.com/hivecommons/hive/issues/12846",
-        "labels": [
-            "bug",
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-18T01:26:00Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "RFC: Shared provider auth pools and an idle provider-warmer across Hives and contributors",
-        "url": "https://github.com/hivecommons/hive/issues/12611",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "backend",
-            "architecture discussion",
-            "hold",
-            "kind/design"
-        ],
-        "created_at": "2026-10-17T01:47:53Z"
     },
     {
         "repo": "hivecommons/hive",
