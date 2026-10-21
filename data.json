@@ -20850,6 +20850,18 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-FOLLOWREDIRECTS-21280747]",
+        "url": "https://github.com/backstage/backstage/issues/36303",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-21T00:15:22Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-FASTURI-21279301]",
         "url": "https://github.com/backstage/backstage/issues/36283",
         "labels": [
@@ -21193,18 +21205,6 @@
             "help wanted"
         ],
         "created_at": "2026-10-11T16:07:15Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINSEARCHBACKENDMODULEELASTICSEARCH-20826422]",
-        "url": "https://github.com/backstage/backstage/issues/36120",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-11T16:07:14Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -30895,92 +30895,188 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] \u2728 Shared Hub \u2192 Hive \u2192 Repository contribution tree model (pkg/hivectl) and read-only hivectl hives tree",
-        "url": "https://github.com/hivecommons/hive/issues/13180",
+        "title": "Review backlog (correctness): Pack model still seeded onto a kept hand-set non-gateway backend",
+        "url": "https://github.com/hivecommons/hive/issues/13288",
         "labels": [
             "good first issue",
+            "help wanted",
+            "agent/reviewer",
+            "hive/claimed-by-scanner",
+            "stage/020-claimed"
+        ],
+        "created_at": "2026-10-20T22:44:27Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[v6] \ud83d\udc1b inception moves to scaffold after 3 of 6 answers and drops the rest with a raw HTTP 400",
+        "url": "https://github.com/hivecommons/hive/issues/13216",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "needs-triage",
+            "hold"
+        ],
+        "created_at": "2026-10-20T17:12:48Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[sec-check] images still compile with Go 1.27.2 (GO-2026-6809): bump golang:1.27-alpine digest to 1.27.3 and contributor GO_VERSION 1.24.4",
+        "url": "https://github.com/hivecommons/hive/issues/13329",
+        "labels": [
+            "help wanted",
+            "agent/sec-check",
+            "security",
+            "hive/claimed-by-sec-check",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-21T01:50:57Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (docs-currency): Operator doc still attributes the stage/040 write to the PR-claim sync",
+        "url": "https://github.com/hivecommons/hive/issues/13325",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-21T01:27:08Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (security): forgeIssueLabels aliases caller's label slice via in-place removeIssueLabel",
+        "url": "https://github.com/hivecommons/hive/issues/13323",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-21T01:22:30Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b issue stage sweep never writes stage/040-covered-by-pr: synthetic in-memory label hides the gap",
+        "url": "https://github.com/hivecommons/hive/issues/13316",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-10-21T00:56:47Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] \u2728 Soak-evidence triage for ops-tracking issues whose hive:recheck-after deadline passed",
+        "url": "https://github.com/hivecommons/hive/issues/13311",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-21T00:37:45Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] \u2728 Record hive:recheck-after on blocked rows and lift blocked when the deadline passes",
+        "url": "https://github.com/hivecommons/hive/issues/13310",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-21T00:36:39Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b PRs: no /hive command releases a hive-added needs-human; maintainer must hand-edit 3 labels after DE-ESCALATE",
+        "url": "https://github.com/hivecommons/hive/issues/13309",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-21T00:33:33Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 Scanner deadline re-check for time-gated issues (hive:recheck-after marker)",
+        "url": "https://github.com/hivecommons/hive/issues/13305",
+        "labels": [
+            "help wanted",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-21T00:16:26Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] \u2728 Local durable contribution activity store (bounded JSONL) and hivectl hives activity",
+        "url": "https://github.com/hivecommons/hive/issues/13293",
+        "labels": [
             "help wanted",
             "agent/scanner",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-20T16:00:51Z"
+        "created_at": "2026-10-20T22:50:10Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (docs-currency): contributor-isolated compose example defaults to :latest",
-        "url": "https://github.com/hivecommons/hive/issues/13264",
+        "title": "[scanner] \u2728 Web contribution tree in hivectl hives web with accessible staged Apply/Discard",
+        "url": "https://github.com/hivecommons/hive/issues/13292",
         "labels": [
             "help wanted",
-            "agent/reviewer",
+            "agent/scanner",
             "stage/010-actionable"
         ],
-        "created_at": "2026-10-20T19:57:03Z"
+        "created_at": "2026-10-20T22:49:37Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (correctness): Backend list drift between Justfile and config/backends.conf KNOWN_BACKENDS",
-        "url": "https://github.com/hivecommons/hive/issues/13263",
+        "title": "[scanner] \u2728 TUI contribution tree in hivectl tui --hives with staged Apply/Discard",
+        "url": "https://github.com/hivecommons/hive/issues/13291",
         "labels": [
             "help wanted",
-            "agent/reviewer",
+            "agent/scanner",
             "stage/010-actionable"
         ],
-        "created_at": "2026-10-20T19:53:54Z"
+        "created_at": "2026-10-20T22:49:23Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (security): Justfile backend gate and KNOWN_BACKENDS disagree on gemini/aider",
-        "url": "https://github.com/hivecommons/hive/issues/13262",
+        "title": "[scanner] \u2728 Shared staged-edit diff and truthful Apply receipt for the contribution tree (pkg/hivectl)",
+        "url": "https://github.com/hivecommons/hive/issues/13289",
         "labels": [
             "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-20T19:53:04Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \ud83d\udc1b Hive activity monitor lists standing meta issues (Dependency Dashboards, Hive Advisory Report) as pipeline work",
-        "url": "https://github.com/hivecommons/hive/issues/13257",
-        "labels": [
-            "bug",
-            "help wanted",
+            "agent/scanner",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-20T19:11:04Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (style): Formal escalation model still enumerates three verdict classes",
-        "url": "https://github.com/hivecommons/hive/issues/13253",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-20T19:01:03Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 Reviewer confidence: binned self-report plus an evidence-derived score so calibration is more than two bands",
-        "url": "https://github.com/hivecommons/hive/issues/13239",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-20T17:50:34Z"
+        "created_at": "2026-10-20T22:48:12Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30999,49 +31095,11 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "triage: duplicate and overlapping open issues/PRs to consolidate",
-        "url": "https://github.com/hivecommons/hive/issues/13232",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "agent/dedupe",
-            "stage/045-needs-decision"
-        ],
-        "created_at": "2026-10-20T17:39:14Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \ud83d\udc1b POST /api/chat says \"message is required\" but reads the query field",
-        "url": "https://github.com/hivecommons/hive/issues/13223",
-        "labels": [
-            "help wanted",
-            "needs-triage"
-        ],
-        "created_at": "2026-10-20T17:17:55Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \ud83d\udc1b chat reports a normal completion when the agent CLI could not run",
-        "url": "https://github.com/hivecommons/hive/issues/13222",
-        "labels": [
-            "help wanted",
-            "needs-triage"
-        ],
-        "created_at": "2026-10-20T17:17:53Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[v6] \ud83d\udc1b an agent backend set in hive.yaml is silently replaced by the ACMM pack default on start",
         "url": "https://github.com/hivecommons/hive/issues/13221",
         "labels": [
             "help wanted",
-            "needs-triage"
+            "triage/accepted"
         ],
         "created_at": "2026-10-20T17:17:51Z"
     },
@@ -31049,89 +31107,14 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[v6] \ud83d\udc1b chat notification links point at http://localhost:<port>, unreachable from any chat client",
-        "url": "https://github.com/hivecommons/hive/issues/13220",
+        "title": "[v6] \ud83d\udc1b inference proxy calls /v1/v1/chat/completions when the endpoint ends in /v1",
+        "url": "https://github.com/hivecommons/hive/issues/13219",
         "labels": [
             "help wanted",
-            "needs-triage"
-        ],
-        "created_at": "2026-10-20T17:17:49Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \ud83d\udc1b inception moves to scaffold after 3 of 6 answers and drops the rest with a raw HTTP 400",
-        "url": "https://github.com/hivecommons/hive/issues/13216",
-        "labels": [
-            "help wanted",
-            "needs-triage"
-        ],
-        "created_at": "2026-10-20T17:12:48Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \ud83d\udc1b dashboard chat: inception questions are not posted and plain replies are not taken as answers",
-        "url": "https://github.com/hivecommons/hive/issues/13215",
-        "labels": [
-            "help wanted",
-            "needs-triage"
-        ],
-        "created_at": "2026-10-20T17:12:46Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \ud83d\udd12 hivectl hives web: Host/Origin validation, no-store/no-referrer headers, strip launch token from history",
-        "url": "https://github.com/hivecommons/hive/issues/13178",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
+            "triage/accepted",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-20T16:00:14Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 hivectl hives preset adopt --onboard: enroll not-yet-onboarded Hives and preset hubs in one confirmed flow",
-        "url": "https://github.com/hivecommons/hive/issues/13176",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-20T15:59:32Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 Bulk-enroll a tracked hub's Hives: hivectl hives hub adopt/follow/refresh",
-        "url": "https://github.com/hivecommons/hive/issues/13175",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-20T15:59:09Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "RFC: Contribution UI",
-        "url": "https://github.com/hivecommons/hive/issues/13153",
-        "labels": [
-            "help wanted",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-20T15:12:18Z"
+        "created_at": "2026-10-20T17:17:48Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -31195,7 +31178,6 @@
         "labels": [
             "enhancement",
             "help wanted",
-            "triage/accepted",
             "hold"
         ],
         "created_at": "2026-10-05T13:59:07Z"
