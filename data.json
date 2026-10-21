@@ -1235,31 +1235,19 @@
         "repo": "kptdev/kpt",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "kpt live apply --inventory-policy=force",
-        "url": "https://github.com/kptdev/kpt/issues/2488",
+        "title": "EPIC: Improve imperative user experience for setters",
+        "url": "https://github.com/kptdev/kpt/issues/2485",
         "labels": [
+            "documentation",
             "enhancement",
             "good first issue",
-            "area/live",
-            "p1"
+            "area/hydrate",
+            "epic",
+            "ux impact",
+            "customer",
+            "triaged"
         ],
-        "created_at": "2021-09-09T16:57:28Z"
-    },
-    {
-        "repo": "kptdev/kpt",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Starlark fn interprets arguments as numbers when possible and reformats them",
-        "url": "https://github.com/kptdev/kpt/issues/2487",
-        "labels": [
-            "bug",
-            "help wanted",
-            "good first issue",
-            "p1",
-            "area/fn-catalog",
-            "customer"
-        ],
-        "created_at": "2021-09-09T10:42:25Z"
+        "created_at": "2021-09-08T19:42:23Z"
     },
     {
         "repo": "kptdev/kpt",
@@ -11662,6 +11650,18 @@
             "question"
         ],
         "created_at": "2020-09-11T05:56:46Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Deprecate the `limit` label of `hami_resource_quota_used`",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/3289",
+        "labels": [
+            "good first issue",
+            "kind/feature"
+        ],
+        "created_at": "2026-10-21T16:00:31Z"
     },
     {
         "repo": "karmada-io/karmada",
@@ -28345,8 +28345,7 @@
         "labels": [
             "help wanted",
             "documentation",
-            "good first issue",
-            "v2"
+            "good first issue"
         ],
         "created_at": "2025-01-28T15:28:51Z"
     },
@@ -28373,8 +28372,7 @@
         "labels": [
             "enhancement",
             "help wanted",
-            "good first issue",
-            "v2"
+            "good first issue"
         ],
         "created_at": "2024-11-29T17:53:44Z"
     },
@@ -28386,9 +28384,7 @@
         "url": "https://github.com/jaegertracing/jaeger/issues/6186",
         "labels": [
             "help wanted",
-            "good first issue",
-            "area/otel",
-            "v2"
+            "good first issue"
         ],
         "created_at": "2024-11-09T19:51:50Z"
     },
@@ -28401,8 +28397,7 @@
         "labels": [
             "help wanted",
             "good first issue",
-            "area/storage",
-            "v2"
+            "area/storage"
         ],
         "created_at": "2024-10-22T17:02:34Z"
     },
@@ -28554,9 +28549,7 @@
             "help wanted",
             "meta-issue",
             "changelog:new-feature",
-            "changelog:breaking-change",
-            "area/otel",
-            "v2"
+            "changelog:breaking-change"
         ],
         "created_at": "2023-10-15T04:18:14Z"
     },
@@ -30852,53 +30845,235 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (intent-alignment): Local Stop sends SIGTERM where `just contribute-stop` is a no-op",
-        "url": "https://github.com/hivecommons/hive/issues/13357",
+        "title": "[quality] coverage-gap: design-first plan handlers (from-issue/design, design/approve) have 0% unit coverage",
+        "url": "https://github.com/hivecommons/hive/issues/13387",
         "labels": [
             "help wanted",
-            "agent/reviewer"
+            "testing",
+            "agent/quality",
+            "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-21T11:01:23Z"
+        "created_at": "2026-10-21T15:44:55Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[outreach] Homebrew tap (brew install hivecommons/hive/contribute) is not mentioned in README or contributor-relay docs",
-        "url": "https://github.com/hivecommons/hive/issues/13350",
+        "title": "forgestate: webhook-outage fallback to polling and cadence documentation",
+        "url": "https://github.com/hivecommons/hive/issues/13381",
         "labels": [
-            "documentation",
             "help wanted",
-            "agent/outreach",
+            "priority/high",
+            "kind/feature",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-21T10:25:08Z"
+        "created_at": "2026-10-21T14:48:51Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[v6] \ud83d\udc1b reporter-trust hold blocks hive ports of upstream-merged PRs on upstream_watch forks",
-        "url": "https://github.com/hivecommons/hive/issues/13348",
+        "title": "forgestate: OpenTelemetry spans and metrics for GitHub API spend and cache freshness",
+        "url": "https://github.com/hivecommons/hive/issues/13380",
         "labels": [
-            "bug",
             "help wanted",
-            "stage/040-covered-by-pr"
+            "priority/high",
+            "kind/feature",
+            "stage/020-claimed",
+            "hive/claimed-by-human"
         ],
-        "created_at": "2026-10-21T10:19:35Z"
+        "created_at": "2026-10-21T14:48:49Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 feature: `just contribute-watch` \u2014 watch and steer a running contributor (live session, relay log, attach) from one screen",
-        "url": "https://github.com/hivecommons/hive/issues/13236",
+        "title": "forgestate: sentinel and projects v2 move to event-driven + reconcile cadence",
+        "url": "https://github.com/hivecommons/hive/issues/13379",
         "labels": [
-            "enhancement",
             "help wanted",
+            "priority/high",
+            "kind/feature",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-21T14:48:46Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "forgestate: advisory issue-state lookup and review-request watcher become cache/event driven",
+        "url": "https://github.com/hivecommons/hive/issues/13378",
+        "labels": [
+            "help wanted",
+            "priority/high",
+            "kind/feature",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-21T14:48:44Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "forgestate: automerge lanes share one cached PR set and run event-driven",
+        "url": "https://github.com/hivecommons/hive/issues/13377",
+        "labels": [
+            "help wanted",
+            "priority/high",
+            "kind/feature",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-21T14:48:42Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "forgestate: overview and throughput counts derived from the cache, no per-cycle /search/issues",
+        "url": "https://github.com/hivecommons/hive/issues/13376",
+        "labels": [
+            "help wanted",
+            "priority/high",
+            "kind/feature",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-21T14:48:40Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "forgestate: governor work source reads from the cache instead of enumerating each cycle",
+        "url": "https://github.com/hivecommons/hive/issues/13375",
+        "labels": [
+            "help wanted",
+            "priority/high",
+            "kind/feature",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-21T14:48:38Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "forgestate: pkg/forgestate cache with reconcile, webhook-patch and write-through writers",
+        "url": "https://github.com/hivecommons/hive/issues/13374",
+        "labels": [
+            "help wanted",
+            "priority/high",
+            "kind/feature"
+        ],
+        "created_at": "2026-10-21T14:48:36Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "ForgeState: slow poll + webhook patch + reconcile as the single source of GitHub state",
+        "url": "https://github.com/hivecommons/hive/issues/13373",
+        "labels": [
+            "help wanted",
+            "Epic",
+            "priority/critical-urgent",
+            "kind/design",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-21T14:48:33Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b advisor: advisor spend always shows $0.00 because cost_usd is never computed",
+        "url": "https://github.com/hivecommons/hive/issues/13372",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "dashboard"
+        ],
+        "created_at": "2026-10-21T14:13:54Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b dashboard: a failed hive.yaml save still applies the advisor settings change",
+        "url": "https://github.com/hivecommons/hive/issues/13371",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "dashboard"
+        ],
+        "created_at": "2026-10-21T14:13:51Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b advisor: daily_budget_tokens leaks (lost on restart, not applied without usage data, overlapping reviews)",
+        "url": "https://github.com/hivecommons/hive/issues/13370",
+        "labels": [
+            "help wanted",
+            "kind/bug"
+        ],
+        "created_at": "2026-10-21T14:13:48Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b advisor: a \"concern\" verdict keeps the agent from ending its turn and bypasses max_consecutive_blocks",
+        "url": "https://github.com/hivecommons/hive/issues/13369",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "hive/claimed-by-scanner",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-20T17:48:47Z"
+        "created_at": "2026-10-21T14:13:46Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b advisor: Codex agents are never reviewed because Codex treats hive's advisor hook as untrusted",
+        "url": "https://github.com/hivecommons/hive/issues/13368",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "stage/010-actionable",
+            "hive/claimed-by-human"
+        ],
+        "created_at": "2026-10-21T14:13:42Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (style): No JS regression test for renderAdvisorSettings/saveAdvisorFleet",
+        "url": "https://github.com/hivecommons/hive/issues/13364",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-21T11:53:58Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (correctness): cobra Example string not updated for --watch",
+        "url": "https://github.com/hivecommons/hive/issues/13358",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "hive/claimed-by-scanner",
+            "stage/020-claimed"
+        ],
+        "created_at": "2026-10-21T11:03:52Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30937,6 +31112,7 @@
             "Epic",
             "hive/verified-open",
             "stage/010-actionable",
+            "stage/stalled",
             "hive/partially-addressed"
         ],
         "created_at": "2026-10-19T17:09:13Z"
