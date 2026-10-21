@@ -15138,17 +15138,6 @@
         "created_at": "2026-09-09T13:24:07Z"
     },
     {
-        "repo": "wasmCloud/wasmCloud",
-        "tier": "Incubating",
-        "lang": "Rust",
-        "title": "ReclaimMinInstances Go doc comment says capped at PoolSize; runtime disables reclaim instead",
-        "url": "https://github.com/wasmCloud/wasmCloud/issues/5550",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-09-09T13:24:06Z"
-    },
-    {
         "repo": "coredns/coredns",
         "tier": "Graduated",
         "lang": "Go",
@@ -17719,17 +17708,6 @@
             "Good First Issue"
         ],
         "created_at": "2025-09-19T02:42:17Z"
-    },
-    {
-        "repo": "kgateway-dev/kgateway",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Add Status Condition Messages to Gateway for Invalid Listeners",
-        "url": "https://github.com/kgateway-dev/kgateway/issues/11982",
-        "labels": [
-            "Good First Issue"
-        ],
-        "created_at": "2025-08-13T09:55:51Z"
     },
     {
         "repo": "kgateway-dev/kgateway",
@@ -30845,155 +30823,13 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[quality] coverage-gap: design-first plan handlers (from-issue/design, design/approve) have 0% unit coverage",
-        "url": "https://github.com/hivecommons/hive/issues/13387",
+        "title": "\u2728 feature: Audit logging for the ClankeR contributor relay",
+        "url": "https://github.com/hivecommons/hive/issues/13441",
         "labels": [
-            "help wanted",
-            "testing",
-            "agent/quality",
-            "stage/040-covered-by-pr"
+            "enhancement",
+            "help wanted"
         ],
-        "created_at": "2026-10-21T15:44:55Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "forgestate: webhook-outage fallback to polling and cadence documentation",
-        "url": "https://github.com/hivecommons/hive/issues/13381",
-        "labels": [
-            "help wanted",
-            "priority/high",
-            "kind/feature",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-21T14:48:51Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "forgestate: OpenTelemetry spans and metrics for GitHub API spend and cache freshness",
-        "url": "https://github.com/hivecommons/hive/issues/13380",
-        "labels": [
-            "help wanted",
-            "priority/high",
-            "kind/feature",
-            "stage/020-claimed",
-            "hive/claimed-by-human"
-        ],
-        "created_at": "2026-10-21T14:48:49Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "forgestate: sentinel and projects v2 move to event-driven + reconcile cadence",
-        "url": "https://github.com/hivecommons/hive/issues/13379",
-        "labels": [
-            "help wanted",
-            "priority/high",
-            "kind/feature",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-21T14:48:46Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "forgestate: advisory issue-state lookup and review-request watcher become cache/event driven",
-        "url": "https://github.com/hivecommons/hive/issues/13378",
-        "labels": [
-            "help wanted",
-            "priority/high",
-            "kind/feature",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-21T14:48:44Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "forgestate: automerge lanes share one cached PR set and run event-driven",
-        "url": "https://github.com/hivecommons/hive/issues/13377",
-        "labels": [
-            "help wanted",
-            "priority/high",
-            "kind/feature",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-21T14:48:42Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "forgestate: overview and throughput counts derived from the cache, no per-cycle /search/issues",
-        "url": "https://github.com/hivecommons/hive/issues/13376",
-        "labels": [
-            "help wanted",
-            "priority/high",
-            "kind/feature",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-21T14:48:40Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "forgestate: governor work source reads from the cache instead of enumerating each cycle",
-        "url": "https://github.com/hivecommons/hive/issues/13375",
-        "labels": [
-            "help wanted",
-            "priority/high",
-            "kind/feature",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-21T14:48:38Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "forgestate: pkg/forgestate cache with reconcile, webhook-patch and write-through writers",
-        "url": "https://github.com/hivecommons/hive/issues/13374",
-        "labels": [
-            "help wanted",
-            "priority/high",
-            "kind/feature"
-        ],
-        "created_at": "2026-10-21T14:48:36Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "ForgeState: slow poll + webhook patch + reconcile as the single source of GitHub state",
-        "url": "https://github.com/hivecommons/hive/issues/13373",
-        "labels": [
-            "help wanted",
-            "Epic",
-            "priority/critical-urgent",
-            "kind/design",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-21T14:48:33Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b advisor: advisor spend always shows $0.00 because cost_usd is never computed",
-        "url": "https://github.com/hivecommons/hive/issues/13372",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "dashboard"
-        ],
-        "created_at": "2026-10-21T14:13:54Z"
+        "created_at": "2026-10-21T21:09:23Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -31007,73 +30843,6 @@
             "dashboard"
         ],
         "created_at": "2026-10-21T14:13:51Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b advisor: daily_budget_tokens leaks (lost on restart, not applied without usage data, overlapping reviews)",
-        "url": "https://github.com/hivecommons/hive/issues/13370",
-        "labels": [
-            "help wanted",
-            "kind/bug"
-        ],
-        "created_at": "2026-10-21T14:13:48Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b advisor: a \"concern\" verdict keeps the agent from ending its turn and bypasses max_consecutive_blocks",
-        "url": "https://github.com/hivecommons/hive/issues/13369",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-21T14:13:46Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b advisor: Codex agents are never reviewed because Codex treats hive's advisor hook as untrusted",
-        "url": "https://github.com/hivecommons/hive/issues/13368",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "stage/010-actionable",
-            "hive/claimed-by-human"
-        ],
-        "created_at": "2026-10-21T14:13:42Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (style): No JS regression test for renderAdvisorSettings/saveAdvisorFleet",
-        "url": "https://github.com/hivecommons/hive/issues/13364",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-21T11:53:58Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (correctness): cobra Example string not updated for --watch",
-        "url": "https://github.com/hivecommons/hive/issues/13358",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "hive/claimed-by-scanner",
-            "stage/020-claimed"
-        ],
-        "created_at": "2026-10-21T11:03:52Z"
     },
     {
         "repo": "hivecommons/hive",
