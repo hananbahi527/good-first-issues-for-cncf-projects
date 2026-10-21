@@ -1865,18 +1865,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "[UI] Registry Uses Incorrect Icon",
-        "url": "https://github.com/meshery/meshery/issues/20309",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-06-26T21:06:39Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "[UI] Improve notification content formatting and spacing",
         "url": "https://github.com/meshery/meshery/issues/20044",
         "labels": [
@@ -2107,6 +2095,20 @@
             "framework/playwright"
         ],
         "created_at": "2025-04-29T18:59:42Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Add support for sort by count for database table in settings registry page",
+        "url": "https://github.com/meshery/meshery/issues/13958",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "language/go"
+        ],
+        "created_at": "2025-03-11T09:09:30Z"
     },
     {
         "repo": "meshery/meshery",
@@ -11665,6 +11667,17 @@
         "repo": "karmada-io/karmada",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "hack/update-command-line-flags.sh generates locale-dependent docs",
+        "url": "https://github.com/karmada-io/karmada/issues/7960",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-10-21T09:19:14Z"
+    },
+    {
+        "repo": "karmada-io/karmada",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Backport #7426",
         "url": "https://github.com/karmada-io/karmada/issues/7428",
         "labels": [
@@ -20850,13 +20863,13 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-FOLLOWREDIRECTS-21280747]",
-        "url": "https://github.com/backstage/backstage/issues/36303",
+        "title": "Snyk vulnerability [SNYK-JS-ADMZIP-21281980]",
+        "url": "https://github.com/backstage/backstage/issues/36311",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-10-21T00:15:22Z"
+        "created_at": "2026-10-21T08:12:07Z"
     },
     {
         "repo": "backstage/backstage",
@@ -20905,42 +20918,6 @@
             "help wanted"
         ],
         "created_at": "2026-10-20T12:11:36Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-MARKDOWNIT-21277720]",
-        "url": "https://github.com/backstage/backstage/issues/36275",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-20T08:11:51Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-FOLLOWREDIRECTS-21249784]",
-        "url": "https://github.com/backstage/backstage/issues/36274",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-20T08:11:47Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-MARKDOWNIT-21277722]",
-        "url": "https://github.com/backstage/backstage/issues/36273",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-20T08:11:35Z"
     },
     {
         "repo": "backstage/backstage",
@@ -21090,18 +21067,6 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-HONO-20883336]",
-        "url": "https://github.com/backstage/backstage/issues/36157",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-13T20:09:52Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINCATALOGBACKENDMODULEGITLAB-20826430]",
         "url": "https://github.com/backstage/backstage/issues/36129",
         "labels": [
@@ -21205,6 +21170,54 @@
             "help wanted"
         ],
         "created_at": "2026-10-11T16:07:15Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINSEARCHBACKENDMODULEELASTICSEARCH-20826422]",
+        "url": "https://github.com/backstage/backstage/issues/36120",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-11T16:07:14Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINSEARCHBACKEND-20826423]",
+        "url": "https://github.com/backstage/backstage/issues/36119",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-11T16:07:14Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINSCAFFOLDERBACKENDMODULEGITHUB-20825385]",
+        "url": "https://github.com/backstage/backstage/issues/36118",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-11T16:07:12Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINSCAFFOLDERBACKEND-20825392]",
+        "url": "https://github.com/backstage/backstage/issues/36117",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-11T16:07:11Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -28745,20 +28758,6 @@
         "repo": "sustainable-computing-io/kepler",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Fallback VM ID is the first 8 bytes of the command line, so different VMs share one ID",
-        "url": "https://github.com/sustainable-computing-io/kepler/issues/2601",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "kind/bug",
-            "difficulty/easy"
-        ],
-        "created_at": "2026-10-18T12:30:48Z"
-    },
-    {
-        "repo": "sustainable-computing-io/kepler",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Make `metricsCacheTTL` configurable",
         "url": "https://github.com/sustainable-computing-io/kepler/issues/2429",
         "labels": [
@@ -30642,20 +30641,6 @@
         "repo": "trickstercache/trickster",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Add more Web Application Firewall features",
-        "url": "https://github.com/trickstercache/trickster/issues/1205",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "access control",
-            "2.3 release"
-        ],
-        "created_at": "2026-10-20T16:51:10Z"
-    },
-    {
-        "repo": "trickstercache/trickster",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Support Compression Dictionaries",
         "url": "https://github.com/trickstercache/trickster/issues/1203",
         "labels": [
@@ -30665,48 +30650,6 @@
             "2.3 release"
         ],
         "created_at": "2026-10-20T16:49:15Z"
-    },
-    {
-        "repo": "trickstercache/trickster",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Expand Time Series Merge to InfluxDB",
-        "url": "https://github.com/trickstercache/trickster/issues/1201",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "tsm",
-            "2.3 release"
-        ],
-        "created_at": "2026-10-20T16:47:55Z"
-    },
-    {
-        "repo": "trickstercache/trickster",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Expand Time Series Merge to VictoriaMetrics",
-        "url": "https://github.com/trickstercache/trickster/issues/1200",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "tsm",
-            "2.3 release"
-        ],
-        "created_at": "2026-10-20T16:47:43Z"
-    },
-    {
-        "repo": "trickstercache/trickster",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Expand Authenticator to more providers (OIDC, JWT, API Key, mTLS, etc.)",
-        "url": "https://github.com/trickstercache/trickster/issues/1198",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "access control",
-            "2.3 release"
-        ],
-        "created_at": "2026-10-20T16:47:07Z"
     },
     {
         "repo": "spinframework/spin",
@@ -30895,21 +30838,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (correctness): Pack model still seeded onto a kept hand-set non-gateway backend",
-        "url": "https://github.com/hivecommons/hive/issues/13288",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "agent/reviewer",
-            "hive/claimed-by-scanner",
-            "stage/020-claimed"
-        ],
-        "created_at": "2026-10-20T22:44:27Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[v6] \ud83d\udc1b inception moves to scaffold after 3 of 6 answers and drops the rest with a raw HTTP 400",
         "url": "https://github.com/hivecommons/hive/issues/13216",
         "labels": [
@@ -30924,159 +30852,40 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[sec-check] images still compile with Go 1.27.2 (GO-2026-6809): bump golang:1.27-alpine digest to 1.27.3 and contributor GO_VERSION 1.24.4",
-        "url": "https://github.com/hivecommons/hive/issues/13329",
+        "title": "Review backlog (intent-alignment): Local Stop sends SIGTERM where `just contribute-stop` is a no-op",
+        "url": "https://github.com/hivecommons/hive/issues/13357",
         "labels": [
             "help wanted",
-            "agent/sec-check",
-            "security",
-            "hive/claimed-by-sec-check",
-            "stage/010-actionable"
+            "agent/reviewer"
         ],
-        "created_at": "2026-10-21T01:50:57Z"
+        "created_at": "2026-10-21T11:01:23Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (docs-currency): Operator doc still attributes the stage/040 write to the PR-claim sync",
-        "url": "https://github.com/hivecommons/hive/issues/13325",
+        "title": "[outreach] Homebrew tap (brew install hivecommons/hive/contribute) is not mentioned in README or contributor-relay docs",
+        "url": "https://github.com/hivecommons/hive/issues/13350",
         "labels": [
+            "documentation",
             "help wanted",
-            "agent/reviewer",
-            "hive/claimed-by-scanner",
+            "agent/outreach",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-21T01:27:08Z"
+        "created_at": "2026-10-21T10:25:08Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (security): forgeIssueLabels aliases caller's label slice via in-place removeIssueLabel",
-        "url": "https://github.com/hivecommons/hive/issues/13323",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-21T01:22:30Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b issue stage sweep never writes stage/040-covered-by-pr: synthetic in-memory label hides the gap",
-        "url": "https://github.com/hivecommons/hive/issues/13316",
+        "title": "[v6] \ud83d\udc1b reporter-trust hold blocks hive ports of upstream-merged PRs on upstream_watch forks",
+        "url": "https://github.com/hivecommons/hive/issues/13348",
         "labels": [
             "bug",
-            "help wanted"
-        ],
-        "created_at": "2026-10-21T00:56:47Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 Soak-evidence triage for ops-tracking issues whose hive:recheck-after deadline passed",
-        "url": "https://github.com/hivecommons/hive/issues/13311",
-        "labels": [
             "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-21T00:37:45Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 Record hive:recheck-after on blocked rows and lift blocked when the deadline passes",
-        "url": "https://github.com/hivecommons/hive/issues/13310",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-21T00:36:39Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b PRs: no /hive command releases a hive-added needs-human; maintainer must hand-edit 3 labels after DE-ESCALATE",
-        "url": "https://github.com/hivecommons/hive/issues/13309",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-21T00:33:33Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 Scanner deadline re-check for time-gated issues (hive:recheck-after marker)",
-        "url": "https://github.com/hivecommons/hive/issues/13305",
-        "labels": [
-            "help wanted",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-21T00:16:26Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 Local durable contribution activity store (bounded JSONL) and hivectl hives activity",
-        "url": "https://github.com/hivecommons/hive/issues/13293",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-20T22:50:10Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 Web contribution tree in hivectl hives web with accessible staged Apply/Discard",
-        "url": "https://github.com/hivecommons/hive/issues/13292",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-20T22:49:37Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 TUI contribution tree in hivectl tui --hives with staged Apply/Discard",
-        "url": "https://github.com/hivecommons/hive/issues/13291",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-20T22:49:23Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 Shared staged-edit diff and truthful Apply receipt for the contribution tree (pkg/hivectl)",
-        "url": "https://github.com/hivecommons/hive/issues/13289",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-20T22:48:12Z"
+        "created_at": "2026-10-21T10:19:35Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -31090,31 +30899,6 @@
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-20T17:48:47Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \ud83d\udc1b an agent backend set in hive.yaml is silently replaced by the ACMM pack default on start",
-        "url": "https://github.com/hivecommons/hive/issues/13221",
-        "labels": [
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2026-10-20T17:17:51Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \ud83d\udc1b inference proxy calls /v1/v1/chat/completions when the endpoint ends in /v1",
-        "url": "https://github.com/hivecommons/hive/issues/13219",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-20T17:17:48Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -31156,18 +30940,6 @@
             "hive/partially-addressed"
         ],
         "created_at": "2026-10-19T17:09:13Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 contributors: opt-in krun microVM mode for `just contribute-hive`",
-        "url": "https://github.com/hivecommons/hive/issues/12197",
-        "labels": [
-            "help wanted",
-            "hold"
-        ],
-        "created_at": "2026-10-15T20:46:10Z"
     },
     {
         "repo": "hivecommons/hive",
