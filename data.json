@@ -2515,6 +2515,30 @@
         "repo": "metal3-io/baremetal-operator",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "E2E artifact collection skipped on timeout",
+        "url": "https://github.com/metal3-io/baremetal-operator/issues/3741",
+        "labels": [
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2026-10-22T06:36:32Z"
+    },
+    {
+        "repo": "metal3-io/baremetal-operator",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Periodic E2E jobs time out because of tight deadline and a slow SourceForge ISO download",
+        "url": "https://github.com/metal3-io/baremetal-operator/issues/3740",
+        "labels": [
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2026-10-22T06:26:02Z"
+    },
+    {
+        "repo": "metal3-io/baremetal-operator",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "Expose Ironic skip_block_devices in the BareMetalHost CRD",
         "url": "https://github.com/metal3-io/baremetal-operator/issues/3440",
         "labels": [
@@ -14938,6 +14962,18 @@
         "repo": "volcano-sh/volcano",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "[Feature] Support the Kubernetes NodeDeclaredFeatures scheduling plugin",
+        "url": "https://github.com/volcano-sh/volcano/issues/6140",
+        "labels": [
+            "help wanted",
+            "kind/feature"
+        ],
+        "created_at": "2026-10-22T08:05:43Z"
+    },
+    {
+        "repo": "volcano-sh/volcano",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "Upgrade Volcano k8s dependencies to v1.37 for release-1.17",
         "url": "https://github.com/volcano-sh/volcano/issues/6092",
         "labels": [
@@ -17666,20 +17702,6 @@
         "repo": "kgateway-dev/kgateway",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "ci: kgateway-dev/ingress2gateway issue syncing",
-        "url": "https://github.com/kgateway-dev/kgateway/issues/13637",
-        "labels": [
-            "Good First Issue",
-            "stale",
-            "Area: CI/CD",
-            "help wanted"
-        ],
-        "created_at": "2026-03-10T19:27:02Z"
-    },
-    {
-        "repo": "kgateway-dev/kgateway",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Add translation metrics for policies",
         "url": "https://github.com/kgateway-dev/kgateway/issues/13282",
         "labels": [
@@ -17718,6 +17740,7 @@
         "title": "Resource for custom Envoy config patching",
         "url": "https://github.com/kgateway-dev/kgateway/issues/13664",
         "labels": [
+            "stale",
             "help wanted"
         ],
         "created_at": "2026-03-16T07:47:51Z"
@@ -22842,22 +22865,6 @@
         "repo": "kubevela/kubevela",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "[Enhancement] vela auth has no way to revoke privileges granted by grant-privileges",
-        "url": "https://github.com/kubevela/kubevela/issues/7375",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "effort/small",
-            "area/cli",
-            "area/auth",
-            "type/enhancement"
-        ],
-        "created_at": "2026-09-16T13:38:16Z"
-    },
-    {
-        "repo": "kubevela/kubevela",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "[Bug] Shared-resource conflict message carries an empty function name and a stray cue/format error",
         "url": "https://github.com/kubevela/kubevela/issues/7365",
         "labels": [
@@ -23114,18 +23121,6 @@
             "area/addon"
         ],
         "created_at": "2021-12-27T05:04:18Z"
-    },
-    {
-        "repo": "kubevela/kubevela",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "[Bug] cluster-gateway prometheus annotation port does not follow multicluster.clusterGateway.port",
-        "url": "https://github.com/kubevela/kubevela/issues/7427",
-        "labels": [
-            "help wanted",
-            "area/chart"
-        ],
-        "created_at": "2026-10-07T06:56:43Z"
     },
     {
         "repo": "kubevela/kubevela",
@@ -28650,6 +28645,18 @@
         "repo": "k8sgpt-ai/k8sgpt",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "bug: HPA analyzer rejects lowercase scaleTargetRef.kind (e.g. \"statefulset\") as \"not an option\"",
+        "url": "https://github.com/k8sgpt-ai/k8sgpt/issues/1860",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-10-21T13:54:47Z"
+    },
+    {
+        "repo": "k8sgpt-ai/k8sgpt",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[Feature]: Add Generic CRD Analyzer Support for Custom Resources",
         "url": "https://github.com/k8sgpt-ai/k8sgpt/issues/1528",
         "labels": [
@@ -28657,20 +28664,6 @@
             "help wanted"
         ],
         "created_at": "2025-06-17T22:25:05Z"
-    },
-    {
-        "repo": "sustainable-computing-io/kepler",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Helm chart: support `imagePullSecrets` and `priorityClassName`",
-        "url": "https://github.com/sustainable-computing-io/kepler/issues/2618",
-        "labels": [
-            "kind/feature",
-            "good first issue",
-            "help wanted",
-            "difficulty/easy"
-        ],
-        "created_at": "2026-10-20T11:25:03Z"
     },
     {
         "repo": "sustainable-computing-io/kepler",
@@ -28685,20 +28678,6 @@
             "difficulty/easy"
         ],
         "created_at": "2026-10-20T11:25:01Z"
-    },
-    {
-        "repo": "sustainable-computing-io/kepler",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Helm values.yaml is missing `metricsLevel` and Redfish `httpTimeout`",
-        "url": "https://github.com/sustainable-computing-io/kepler/issues/2616",
-        "labels": [
-            "kind/feature",
-            "good first issue",
-            "help wanted",
-            "difficulty/easy"
-        ],
-        "created_at": "2026-10-20T11:24:59Z"
     },
     {
         "repo": "sustainable-computing-io/kepler",
@@ -29177,18 +29156,6 @@
             "help wanted"
         ],
         "created_at": "2026-03-17T11:19:19Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Plugin Request: Weathermap Panel",
-        "url": "https://github.com/perses/perses/issues/3845",
-        "labels": [
-            "help wanted",
-            "plugin"
-        ],
-        "created_at": "2026-02-05T19:04:01Z"
     },
     {
         "repo": "perses/perses",
@@ -30811,86 +30778,28 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83c\udf31 fleet report: fold hive-code-defect triggers into the self-report tracker",
-        "url": "https://github.com/hivecommons/hive/issues/13470",
+        "title": "Review backlog (security): markerAuthorTrusted fails open when the client does not know its own accounts (pre-existing)",
+        "url": "https://github.com/hivecommons/hive/issues/13520",
         "labels": [
             "help wanted",
-            "kind/bug",
-            "stage/010-actionable",
-            "needs-sha"
+            "agent/reviewer"
         ],
-        "created_at": "2026-10-22T02:27:10Z"
+        "created_at": "2026-10-22T10:55:53Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b [v6] your-turn: \"What to reply\" notice lists option letters but not what they are or where they are written",
-        "url": "https://github.com/hivecommons/hive/issues/13461",
+        "title": "\ud83d\udc1b [v6] task-list sweep re-adds needs-human minutes after /hive approve un-parks an issue",
+        "url": "https://github.com/hivecommons/hive/issues/13516",
         "labels": [
             "bug",
             "help wanted",
+            "agent/reviewer",
             "hive/claimed-by-scanner",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-22T01:46:48Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 relay audit (d): opt-in attestation upload (--share-audit) and relay_task_attested",
-        "url": "https://github.com/hivecommons/hive/issues/13458",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-22T01:09:30Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 relay audit (e): relay-audit-coverage posture check and compliance mapping",
-        "url": "https://github.com/hivecommons/hive/issues/13455",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-22T01:07:19Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 relay audit (b): GET /api/audit?contributor= filter, relay_ chip, Your-assignments card",
-        "url": "https://github.com/hivecommons/hive/issues/13454",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-22T01:07:03Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 feature: Audit logging for the ClankeR contributor relay",
-        "url": "https://github.com/hivecommons/hive/issues/13441",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "triage/accepted",
-            "stage/010-actionable",
-            "hive/partially-addressed"
-        ],
-        "created_at": "2026-10-21T21:09:23Z"
+        "created_at": "2026-10-22T10:36:14Z"
     },
     {
         "repo": "hivecommons/hive",
