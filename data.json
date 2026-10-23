@@ -11679,6 +11679,17 @@
         "repo": "karmada-io/karmada",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "`make update` fails with `goimports: command not found` when `$GOPATH/bin` is not in PATH",
+        "url": "https://github.com/karmada-io/karmada/issues/7973",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-10-23T09:07:54Z"
+    },
+    {
+        "repo": "karmada-io/karmada",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Backport #7426",
         "url": "https://github.com/karmada-io/karmada/issues/7428",
         "labels": [
@@ -18961,6 +18972,17 @@
         "repo": "openGemini/openGemini",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "\u5565\u65f6\u5019\u53d1\u5e03\u65b0\u7248\u672c\u554a",
+        "url": "https://github.com/openGemini/openGemini/issues/972",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-10-23T07:49:00Z"
+    },
+    {
+        "repo": "openGemini/openGemini",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "\u8bf7\u95eeopenGemini\u8ba1\u5212\u4f55\u65f6\u53d1\u5e03\u65b0\u7248\u672c",
         "url": "https://github.com/openGemini/openGemini/issues/936",
         "labels": [
@@ -19285,17 +19307,6 @@
             "help wanted"
         ],
         "created_at": "2022-11-28T01:16:14Z"
-    },
-    {
-        "repo": "openGemini/openGemini",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "A script for automatically deploying large-scale clusters and automatically generating cluster configuration files is required.",
-        "url": "https://github.com/openGemini/openGemini/issues/44",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2022-10-13T02:29:02Z"
     },
     {
         "repo": "schemahero/schemahero",
@@ -28676,20 +28687,6 @@
         "repo": "sustainable-computing-io/kepler",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "`kepler_node_gpu_info` is missing from the generated metrics docs",
-        "url": "https://github.com/sustainable-computing-io/kepler/issues/2604",
-        "labels": [
-            "kind/documentation",
-            "good first issue",
-            "help wanted",
-            "difficulty/easy"
-        ],
-        "created_at": "2026-10-18T12:30:54Z"
-    },
-    {
-        "repo": "sustainable-computing-io/kepler",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Make `metricsCacheTTL` configurable",
         "url": "https://github.com/sustainable-computing-io/kepler/issues/2429",
         "labels": [
@@ -30783,20 +30780,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] [v6] Cap open held agent PRs per repo so agents don't outrun reviewers (RFC #13617 P4)",
-        "url": "https://github.com/hivecommons/hive/issues/13645",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-23T00:23:06Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[v6] \ud83d\udc1b inception moves to scaffold after 3 of 6 answers and drops the rest with a raw HTTP 400",
         "url": "https://github.com/hivecommons/hive/issues/13216",
         "labels": [
@@ -30811,94 +30794,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: knowledge primer: dropped facts over the byte cap",
-        "url": "https://github.com/hivecommons/hive/issues/13702",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "needs-triage",
-            "fleet-report",
-            "hive/selfreport",
-            "trigger:runtime-error",
-            "severity:low",
-            "class:unclassified-error-repeated"
-        ],
-        "created_at": "2026-10-23T02:32:40Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (security): Web token comparison is not constant-time",
-        "url": "https://github.com/hivecommons/hive/issues/13701",
-        "labels": [
-            "help wanted",
-            "agent/reviewer"
-        ],
-        "created_at": "2026-10-23T02:29:27Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (correctness): update-branch 422 on fork PRs maps to 'conflicting'; now reachable for every behind fork PR in opt-in repos",
-        "url": "https://github.com/hivecommons/hive/issues/13650",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-23T00:41:19Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] [v6] Your-turn dashboard critical path: waits-on, unblocks N, collapsed root causes (RFC #13617 P1)",
-        "url": "https://github.com/hivecommons/hive/issues/13646",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-23T00:24:48Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 automerge: merge-forward trusted human PRs that only need a rebase, and always say why a human PR is parked",
-        "url": "https://github.com/hivecommons/hive/issues/13636",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "hive/verified-open",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr",
-            "hive/partially-addressed"
-        ],
-        "created_at": "2026-10-22T23:30:09Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] [v6] Red-main circuit breaker: fix-main-first ordering and pause new PR opening after N hours red (RFC #13617 P3)",
-        "url": "https://github.com/hivecommons/hive/issues/13630",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-22T22:35:19Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[scanner] [v6] One human step per agent PR at ACMM L5: approved review on current head + level-hold removal queues the merge (RFC #13617 P2)",
         "url": "https://github.com/hivecommons/hive/issues/13629",
         "labels": [
@@ -30907,6 +30802,7 @@
             "agent/scanner",
             "hive/verified-open",
             "stage/010-actionable",
+            "stage/stalled",
             "hive/partially-addressed"
         ],
         "created_at": "2026-10-22T22:34:49Z"
@@ -30942,19 +30838,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] clarity gate: resume automatically when the author answers",
-        "url": "https://github.com/hivecommons/hive/issues/13588",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-22T17:54:39Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\u2728 Experiment Lab \u2192 Spektacular: feed the winning Nous hypothesis into a spec/plan",
         "url": "https://github.com/hivecommons/hive/issues/13579",
         "labels": [
@@ -30963,20 +30846,6 @@
             "stage/010-actionable"
         ],
         "created_at": "2026-10-22T17:06:21Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 coder/triage: push back on vague issues \u2014 ask for acceptance criteria before coding",
-        "url": "https://github.com/hivecommons/hive/issues/13577",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "agent/quality",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-22T17:06:13Z"
     },
     {
         "repo": "hivecommons/hive",
