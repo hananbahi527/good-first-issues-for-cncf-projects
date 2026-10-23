@@ -4757,23 +4757,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Disabled organizations are still listed on the \"select organization\" login page",
-        "url": "https://github.com/keycloak/keycloak/issues/53736",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "area/organizations"
-        ],
-        "created_at": "2026-10-08T11:28:08Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Removing federated, disabled and read-only user from group fails with read-only error",
         "url": "https://github.com/keycloak/keycloak/issues/53700",
         "labels": [
@@ -5160,6 +5143,23 @@
             "team/core-protocols"
         ],
         "created_at": "2026-09-08T12:34:00Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "ClassNotFound PersistenceManager when starting server",
+        "url": "https://github.com/keycloak/keycloak/issues/52352",
+        "labels": [
+            "kind/bug",
+            "area/adapter/jee",
+            "help wanted",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-03T08:52:39Z"
     },
     {
         "repo": "keylime/keylime",
@@ -23316,6 +23316,7 @@
             "area/launcher",
             "area/handler",
             "good-first-issue",
+            "lifecycle/stale",
             "kind/cleanup"
         ],
         "created_at": "2026-06-30T09:05:17Z"
@@ -23329,6 +23330,7 @@
         "labels": [
             "kind/enhancement",
             "good-first-issue",
+            "lifecycle/stale",
             "kind/cleanup"
         ],
         "created_at": "2026-06-28T07:34:01Z"
@@ -23342,6 +23344,7 @@
         "labels": [
             "kind/enhancement",
             "good-first-issue",
+            "lifecycle/stale",
             "area/operator",
             "kind/cleanup"
         ],
@@ -23734,31 +23737,6 @@
             "lifecycle/frozen"
         ],
         "created_at": "2021-02-02T20:05:09Z"
-    },
-    {
-        "repo": "oras-project/oras",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Snap packaging and release follow-ups",
-        "url": "https://github.com/oras-project/oras/issues/2272",
-        "labels": [
-            "enhancement",
-            "help wanted"
-        ],
-        "created_at": "2026-10-23T13:15:22Z"
-    },
-    {
-        "repo": "oras-project/oras",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "ci: publish GitHub artifact attestations for release artifacts",
-        "url": "https://github.com/oras-project/oras/issues/2269",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "ci"
-        ],
-        "created_at": "2026-10-23T11:12:58Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -26499,18 +26477,6 @@
         "repo": "chaos-mesh/chaos-mesh",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Absence of translation into English",
-        "url": "https://github.com/chaos-mesh/chaos-mesh/issues/2662",
-        "labels": [
-            "type/bug",
-            "good first issue"
-        ],
-        "created_at": "2021-12-16T14:15:05Z"
-    },
-    {
-        "repo": "chaos-mesh/chaos-mesh",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Add e2e test for external network delay",
         "url": "https://github.com/chaos-mesh/chaos-mesh/issues/1047",
         "labels": [
@@ -28620,6 +28586,19 @@
             "help wanted"
         ],
         "created_at": "2025-06-17T22:25:05Z"
+    },
+    {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Update clomonitor list of checked repositories and info",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2658",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "difficulty/easy"
+        ],
+        "created_at": "2026-10-23T20:06:50Z"
     },
     {
         "repo": "sustainable-computing-io/kepler",
@@ -30795,6 +30774,21 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "prior-art gate follow-up: local code-search index and enforce the hive-agent filing precondition",
+        "url": "https://github.com/hivecommons/hive/issues/13774",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "hive/verified-open",
+            "stage/010-actionable",
+            "hive/partially-addressed"
+        ],
+        "created_at": "2026-10-23T14:08:46Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[v6] \ud83d\udc1b inception moves to scaffold after 3 of 6 answers and drops the rest with a raw HTTP 400",
         "url": "https://github.com/hivecommons/hive/issues/13216",
         "labels": [
@@ -30809,13 +30803,120 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udcd6 docs: refresh landscape positioning and add agent isolation / work-source sections",
-        "url": "https://github.com/hivecommons/hive/issues/13806",
+        "title": "\ud83d\udcdd RFC: [v6] crewAI-inspired features \u2014 learn from review feedback, count repeat lessons, extend the thrash breaker",
+        "url": "https://github.com/hivecommons/hive/issues/13895",
         "labels": [
             "help wanted",
-            "hive/claimed-by-human"
+            "hold",
+            "proposal"
         ],
-        "created_at": "2026-10-23T16:09:22Z"
+        "created_at": "2026-10-23T20:23:34Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] ci: dashboard shuffle slice -run regex exceeds MAX_ARG_STRLEN (gotestsum: Argument list too long)",
+        "url": "https://github.com/hivecommons/hive/issues/13888",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "ci",
+            "stage/045-needs-decision"
+        ],
+        "created_at": "2026-10-23T18:59:11Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] priorart: enforce FilingVerdictFor in the hive-open-issue relay filing path",
+        "url": "https://github.com/hivecommons/hive/issues/13879",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-23T18:29:35Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "triage: duplicate and overlapping open issues/PRs to consolidate",
+        "url": "https://github.com/hivecommons/hive/issues/13872",
+        "labels": [
+            "help wanted",
+            "agent/dedupe",
+            "stage/045-needs-decision"
+        ],
+        "created_at": "2026-10-23T18:12:48Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: workspace cleanup: failed to remove stale dir",
+        "url": "https://github.com/hivecommons/hive/issues/13837",
+        "labels": [
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-23T17:26:50Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: review evidence: could not write bundle",
+        "url": "https://github.com/hivecommons/hive/issues/13836",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-23T17:23:49Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review swarm: verdict labels, decided-only backlog in heads mode, and backlog items blocked on their PR",
+        "url": "https://github.com/hivecommons/hive/issues/13833",
+        "labels": [
+            "help wanted",
+            "needs-triage",
+            "stage/015-triage-needed"
+        ],
+        "created_at": "2026-10-23T17:21:52Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (correctness): deduplicate commitCIReasonIsPending after stageengine lands",
+        "url": "https://github.com/hivecommons/hive/issues/13823",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/045-needs-decision"
+        ],
+        "created_at": "2026-10-23T17:04:44Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[quality] Wire test-check-security-docs-readability.sh self-test into docs-link-check.yml (needs workflows permission)",
+        "url": "https://github.com/hivecommons/hive/issues/13815",
+        "labels": [
+            "help wanted",
+            "testing",
+            "agent/quality",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-23T16:50:48Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30825,8 +30926,7 @@
         "url": "https://github.com/hivecommons/hive/issues/13804",
         "labels": [
             "help wanted",
-            "stage/020-claimed",
-            "hive/claimed-by-human"
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-23T16:02:00Z"
     },
@@ -30834,65 +30934,14 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] dashboard: skip rendering work for collapsed sections",
-        "url": "https://github.com/hivecommons/hive/issues/13791",
+        "title": "Review heads: kicks stack on one replica (PR-head load count ties); allow one review kick in flight per agent",
+        "url": "https://github.com/hivecommons/hive/issues/13793",
         "labels": [
             "help wanted",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
+            "needs-triage",
+            "stage/015-triage-needed"
         ],
-        "created_at": "2026-10-23T15:35:42Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] dashboard: paginate /api/knowledge facts and renderKnowledgeFacts",
-        "url": "https://github.com/hivecommons/hive/issues/13790",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-23T15:35:24Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] dashboard: downsample/ETag the large history endpoints",
-        "url": "https://github.com/hivecommons/hive/issues/13789",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-23T15:34:58Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "stage engine: move the PR derivation body (classifyStage/resolveStage) into pkg/stageengine",
-        "url": "https://github.com/hivecommons/hive/issues/13779",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-23T14:24:13Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "prior-art gate follow-up: local code-search index and enforce the hive-agent filing precondition",
-        "url": "https://github.com/hivecommons/hive/issues/13774",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-23T14:08:46Z"
+        "created_at": "2026-10-23T15:37:41Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30904,36 +30953,9 @@
             "help wanted",
             "agent/reviewer",
             "hive/claimed-by-scanner",
-            "stage/020-claimed"
-        ],
-        "created_at": "2026-10-23T14:04:15Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u26a1 dashboard: idle tab burns a CPU core \u2014 remaining fixes after the compositor-pulse and idle-polling PRs",
-        "url": "https://github.com/hivecommons/hive/issues/13764",
-        "labels": [
-            "help wanted",
-            "hive/verified-open",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr",
-            "hive/partially-addressed"
-        ],
-        "created_at": "2026-10-23T13:55:17Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b tracker: Refs-only PR claims withhold an issue from every agent yet show it as 010-actionable",
-        "url": "https://github.com/hivecommons/hive/issues/13747",
-        "labels": [
-            "help wanted",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-23T12:42:39Z"
+        "created_at": "2026-10-23T14:04:15Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30945,6 +30967,7 @@
             "help wanted",
             "kind/feature",
             "agent/scanner",
+            "agent/reviewer",
             "hive/verified-open",
             "stage/010-actionable",
             "hive/partially-addressed"
@@ -31017,21 +31040,6 @@
             "approved-direction"
         ],
         "created_at": "2026-09-30T04:24:45Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcdd v6 epic + readiness bar: dashboard-optional operation \u2014 meet humans where they are",
-        "url": "https://github.com/hivecommons/hive/issues/7563",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "hold",
-            "roadmap",
-            "meta-tracker"
-        ],
-        "created_at": "2026-09-18T05:32:44Z"
     },
     {
         "repo": "hivecommons/hive",
