@@ -13485,23 +13485,6 @@
         "repo": "kubernetes/kubernetes",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "add and use alternative APIs which support contextual logging",
-        "url": "https://github.com/kubernetes/kubernetes/issues/126379",
-        "labels": [
-            "area/logging",
-            "kind/feature",
-            "help wanted",
-            "sig/instrumentation",
-            "good first issue",
-            "triage/accepted",
-            "wg/structured-logging"
-        ],
-        "created_at": "2024-07-26T07:52:31Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment.",
         "url": "https://github.com/kubernetes/kubernetes/issues/118172",
         "labels": [
@@ -20863,6 +20846,42 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-DOMPURIFY-21460655]",
+        "url": "https://github.com/backstage/backstage/issues/36432",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-23T12:51:55Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-DOMPURIFY-21460657]",
+        "url": "https://github.com/backstage/backstage/issues/36431",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-23T12:51:40Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-DOMPURIFY-21460653]",
+        "url": "https://github.com/backstage/backstage/issues/36430",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-23T12:51:37Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-MULTER-21431602]",
         "url": "https://github.com/backstage/backstage/issues/36425",
         "labels": [
@@ -21182,42 +21201,6 @@
             "help wanted"
         ],
         "created_at": "2026-10-22T16:29:21Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-ADMZIP-20335419]",
-        "url": "https://github.com/backstage/backstage/issues/36396",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:20Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-ADMZIP-19963965]",
-        "url": "https://github.com/backstage/backstage/issues/36395",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:20Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-21181017]",
-        "url": "https://github.com/backstage/backstage/issues/36394",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:19Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -23751,6 +23734,31 @@
             "lifecycle/frozen"
         ],
         "created_at": "2021-02-02T20:05:09Z"
+    },
+    {
+        "repo": "oras-project/oras",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Snap packaging and release follow-ups",
+        "url": "https://github.com/oras-project/oras/issues/2272",
+        "labels": [
+            "enhancement",
+            "help wanted"
+        ],
+        "created_at": "2026-10-23T13:15:22Z"
+    },
+    {
+        "repo": "oras-project/oras",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "ci: publish GitHub artifact attestations for release artifacts",
+        "url": "https://github.com/oras-project/oras/issues/2269",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "ci"
+        ],
+        "created_at": "2026-10-23T11:12:58Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -28617,6 +28625,20 @@
         "repo": "sustainable-computing-io/kepler",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "docs(go): Installation and contributing docs hardcode the Go version",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2652",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "docs",
+            "difficulty/easy"
+        ],
+        "created_at": "2026-10-23T14:52:28Z"
+    },
+    {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Split `internal/device/hwmon_power_meter.go` into smaller files",
         "url": "https://github.com/sustainable-computing-io/kepler/issues/2634",
         "labels": [
@@ -28673,26 +28695,34 @@
         "repo": "sustainable-computing-io/kepler",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Move the MIG power attribution design doc out of `docs/developer/proposal`",
-        "url": "https://github.com/sustainable-computing-io/kepler/issues/2630",
-        "labels": [
-            "kind/documentation",
-            "good first issue",
-            "help wanted",
-            "difficulty/easy"
-        ],
-        "created_at": "2026-10-22T10:53:05Z"
-    },
-    {
-        "repo": "sustainable-computing-io/kepler",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Make `metricsCacheTTL` configurable",
         "url": "https://github.com/sustainable-computing-io/kepler/issues/2429",
         "labels": [
             "good first issue"
         ],
         "created_at": "2026-02-26T08:12:02Z"
+    },
+    {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "fix(gpu): split GPU active/idle energy using interval-average power",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2654",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-10-23T15:57:30Z"
+    },
+    {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "chore: upgrade to Go 1.27",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2649",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-10-23T12:53:45Z"
     },
     {
         "repo": "sustainable-computing-io/kepler",
@@ -28719,32 +28749,6 @@
             "difficulty/medium"
         ],
         "created_at": "2026-10-22T10:53:26Z"
-    },
-    {
-        "repo": "sustainable-computing-io/kepler",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Helm chart has no README or values reference",
-        "url": "https://github.com/sustainable-computing-io/kepler/issues/2619",
-        "labels": [
-            "kind/documentation",
-            "help wanted",
-            "difficulty/medium"
-        ],
-        "created_at": "2026-10-20T11:25:06Z"
-    },
-    {
-        "repo": "sustainable-computing-io/kepler",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Add Go fuzz tests for the command line and cgroup path parsers",
-        "url": "https://github.com/sustainable-computing-io/kepler/issues/2615",
-        "labels": [
-            "help wanted",
-            "test",
-            "difficulty/medium"
-        ],
-        "created_at": "2026-10-20T11:24:55Z"
     },
     {
         "repo": "sustainable-computing-io/kepler",
@@ -28782,6 +28786,17 @@
             "difficulty/medium"
         ],
         "created_at": "2026-10-18T12:30:51Z"
+    },
+    {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Feature] Add kepler dashboard to helm-chart",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2539",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2025-08-05T19:48:23Z"
     },
     {
         "repo": "sustainable-computing-io/kepler",
@@ -30794,6 +30809,136 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "\ud83d\udcd6 docs: refresh landscape positioning and add agent isolation / work-source sections",
+        "url": "https://github.com/hivecommons/hive/issues/13806",
+        "labels": [
+            "help wanted",
+            "hive/claimed-by-human"
+        ],
+        "created_at": "2026-10-23T16:09:22Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 contribute: expiry and rotation policy for contributor registration tokens",
+        "url": "https://github.com/hivecommons/hive/issues/13804",
+        "labels": [
+            "help wanted",
+            "stage/020-claimed",
+            "hive/claimed-by-human"
+        ],
+        "created_at": "2026-10-23T16:02:00Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] dashboard: skip rendering work for collapsed sections",
+        "url": "https://github.com/hivecommons/hive/issues/13791",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-23T15:35:42Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] dashboard: paginate /api/knowledge facts and renderKnowledgeFacts",
+        "url": "https://github.com/hivecommons/hive/issues/13790",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-23T15:35:24Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] dashboard: downsample/ETag the large history endpoints",
+        "url": "https://github.com/hivecommons/hive/issues/13789",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-23T15:34:58Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "stage engine: move the PR derivation body (classifyStage/resolveStage) into pkg/stageengine",
+        "url": "https://github.com/hivecommons/hive/issues/13779",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-23T14:24:13Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "prior-art gate follow-up: local code-search index and enforce the hive-agent filing precondition",
+        "url": "https://github.com/hivecommons/hive/issues/13774",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-23T14:08:46Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (intent-alignment): IsTracker threshold differs between isTracker (3 items) and TrackerTaskProgress (1 item)",
+        "url": "https://github.com/hivecommons/hive/issues/13772",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "hive/claimed-by-scanner",
+            "stage/020-claimed"
+        ],
+        "created_at": "2026-10-23T14:04:15Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u26a1 dashboard: idle tab burns a CPU core \u2014 remaining fixes after the compositor-pulse and idle-polling PRs",
+        "url": "https://github.com/hivecommons/hive/issues/13764",
+        "labels": [
+            "help wanted",
+            "hive/verified-open",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr",
+            "hive/partially-addressed"
+        ],
+        "created_at": "2026-10-23T13:55:17Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b tracker: Refs-only PR claims withhold an issue from every agent yet show it as 010-actionable",
+        "url": "https://github.com/hivecommons/hive/issues/13747",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-23T12:42:39Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[scanner] [v6] One human step per agent PR at ACMM L5: approved review on current head + level-hold removal queues the merge (RFC #13617 P2)",
         "url": "https://github.com/hivecommons/hive/issues/13629",
         "labels": [
@@ -30802,7 +30947,6 @@
             "agent/scanner",
             "hive/verified-open",
             "stage/010-actionable",
-            "stage/stalled",
             "hive/partially-addressed"
         ],
         "created_at": "2026-10-22T22:34:49Z"
@@ -30838,19 +30982,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 Experiment Lab \u2192 Spektacular: feed the winning Nous hypothesis into a spec/plan",
-        "url": "https://github.com/hivecommons/hive/issues/13579",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-22T17:06:21Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\u2728 RFC: Repo-targeted Experiment Lab campaigns run on Nous's own discovery",
         "url": "https://github.com/hivecommons/hive/issues/13096",
         "labels": [
@@ -30863,41 +30994,13 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "stage engine F: move derivation into DeriveIssue/DerivePR, delete legacy adapters, fold review-state fact",
-        "url": "https://github.com/hivecommons/hive/issues/13011",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "hold",
-            "approved-direction"
-        ],
-        "created_at": "2026-10-19T17:19:36Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Central stage engine (ADR-0025)",
-        "url": "https://github.com/hivecommons/hive/issues/12999",
-        "labels": [
-            "help wanted",
-            "Epic",
-            "hive/verified-open",
-            "stage/010-actionable",
-            "hive/partially-addressed"
-        ],
-        "created_at": "2026-10-19T17:09:13Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\u2728 feature: opt-in actions: read for agent scoped tokens (ci-maintainer can't read failed CI logs)",
         "url": "https://github.com/hivecommons/hive/issues/10574",
         "labels": [
             "enhancement",
             "help wanted",
-            "hold"
+            "hold",
+            "hive/selfreport"
         ],
         "created_at": "2026-10-05T13:59:07Z"
     },
