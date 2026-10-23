@@ -14649,6 +14649,18 @@
         "repo": "open-cluster-management-io/ocm",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "ManifestWorkReplicaSet: status reports stale or premature results across generations",
+        "url": "https://github.com/open-cluster-management-io/ocm/issues/1768",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-10-21T22:56:32Z"
+    },
+    {
+        "repo": "open-cluster-management-io/ocm",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Add `azure` registration driver: AKS-native authentication via Azure AD (Environment / Managed Identity / Workload Identity Federation)",
         "url": "https://github.com/open-cluster-management-io/ocm/issues/1676",
         "labels": [
@@ -16106,6 +16118,32 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
+        "title": "router: Differentiate response_timeout response code details by upstream connection / TLS handshake phase",
+        "url": "https://github.com/envoyproxy/envoy/issues/48496",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "area/connection"
+        ],
+        "created_at": "2026-10-21T00:50:34Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
+        "title": "OIDC PAR Support for the OAuth2 Filter",
+        "url": "https://github.com/envoyproxy/envoy/issues/48443",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "area/oauth"
+        ],
+        "created_at": "2026-10-19T19:53:31Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
         "title": "Envoys do not use previous secret discovery provider when fetch timeout is changed",
         "url": "https://github.com/envoyproxy/envoy/issues/46155",
         "labels": [
@@ -16479,33 +16517,6 @@
             "area/wasm"
         ],
         "created_at": "2025-10-23T21:20:28Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
-        "title": "Feature request: Add overload action to restart Envoy when it gets stuck",
-        "url": "https://github.com/envoyproxy/envoy/issues/41492",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "no stalebot",
-            "area/overload_manager"
-        ],
-        "created_at": "2025-10-14T09:02:59Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
-        "title": "How to log which rate limit rule was triggered via descriptor?",
-        "url": "https://github.com/envoyproxy/envoy/issues/41339",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "area/ratelimit"
-        ],
-        "created_at": "2025-10-02T19:54:23Z"
     },
     {
         "repo": "loxilb-io/loxilb",
@@ -20841,6 +20852,30 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-MULTER-21431602]",
+        "url": "https://github.com/backstage/backstage/issues/36425",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-23T00:16:14Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BODYPARSER-21431495]",
+        "url": "https://github.com/backstage/backstage/issues/36424",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-23T00:15:18Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINCATALOGBACKEND-20825105]",
         "url": "https://github.com/backstage/backstage/issues/36421",
         "labels": [
@@ -21172,30 +21207,6 @@
             "help wanted"
         ],
         "created_at": "2026-10-22T16:29:19Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635222]",
-        "url": "https://github.com/backstage/backstage/issues/36393",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:19Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-PRISMJS-9055448]",
-        "url": "https://github.com/backstage/backstage/issues/36392",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:18Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -23729,20 +23740,6 @@
             "lifecycle/frozen"
         ],
         "created_at": "2021-02-02T20:05:09Z"
-    },
-    {
-        "repo": "oras-project/oras",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Support multiple `--platform` where appropriate",
-        "url": "https://github.com/oras-project/oras/issues/1945",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "good first issue",
-            "keep open"
-        ],
-        "created_at": "2025-12-15T06:21:54Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -28609,11 +28606,41 @@
         "repo": "sustainable-computing-io/kepler",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Split `internal/device/hwmon_power_meter.go` into smaller files",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2634",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "tech-debt",
+            "difficulty/easy"
+        ],
+        "created_at": "2026-10-22T10:53:22Z"
+    },
+    {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "e2e: share the polling code in the `WaitFor*` process helpers",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2633",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "test",
+            "difficulty/easy"
+        ],
+        "created_at": "2026-10-22T10:53:18Z"
+    },
+    {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Health probe docs: show `scheme: HTTPS` for TLS and name the first release with `/probe/*`",
         "url": "https://github.com/sustainable-computing-io/kepler/issues/2632",
         "labels": [
             "kind/documentation",
-            "good first issue"
+            "good first issue",
+            "help wanted",
+            "difficulty/easy"
         ],
         "created_at": "2026-10-22T10:53:14Z"
     },
@@ -28621,15 +28648,29 @@
         "repo": "sustainable-computing-io/kepler",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Helm NetworkPolicy has no labels or annotations",
-        "url": "https://github.com/sustainable-computing-io/kepler/issues/2617",
+        "title": "Enhancement proposal index is missing EP-003 and shows the wrong status for EP-001",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2631",
         "labels": [
+            "kind/documentation",
             "good first issue",
             "help wanted",
-            "kind/bug",
             "difficulty/easy"
         ],
-        "created_at": "2026-10-20T11:25:01Z"
+        "created_at": "2026-10-22T10:53:09Z"
+    },
+    {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Move the MIG power attribution design doc out of `docs/developer/proposal`",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2630",
+        "labels": [
+            "kind/documentation",
+            "good first issue",
+            "help wanted",
+            "difficulty/easy"
+        ],
+        "created_at": "2026-10-22T10:53:05Z"
     },
     {
         "repo": "sustainable-computing-io/kepler",
@@ -28655,6 +28696,32 @@
             "good first issue"
         ],
         "created_at": "2026-02-26T08:12:02Z"
+    },
+    {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "hwmon: zones with the same name on different devices are merged into one zone",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2639",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "difficulty/hard"
+        ],
+        "created_at": "2026-10-22T10:53:45Z"
+    },
+    {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Document the requirements and limits of MIG power attribution with dcgm-exporter",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2635",
+        "labels": [
+            "kind/documentation",
+            "help wanted",
+            "difficulty/medium"
+        ],
+        "created_at": "2026-10-22T10:53:26Z"
     },
     {
         "repo": "sustainable-computing-io/kepler",
@@ -30716,15 +30783,15 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 Experiment Lab \u2192 Spektacular: feed the winning Nous hypothesis into a spec/plan",
-        "url": "https://github.com/hivecommons/hive/issues/13579",
+        "title": "[scanner] [v6] Cap open held agent PRs per repo so agents don't outrun reviewers (RFC #13617 P4)",
+        "url": "https://github.com/hivecommons/hive/issues/13645",
         "labels": [
             "good first issue",
             "help wanted",
-            "kind/feature",
+            "agent/scanner",
             "stage/010-actionable"
         ],
-        "created_at": "2026-10-22T17:06:21Z"
+        "created_at": "2026-10-23T00:23:06Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30744,62 +30811,120 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: knowledge primer: dropped facts over the byte cap",
+        "url": "https://github.com/hivecommons/hive/issues/13702",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "needs-triage",
+            "fleet-report",
+            "hive/selfreport",
+            "trigger:runtime-error",
+            "severity:low",
+            "class:unclassified-error-repeated"
+        ],
+        "created_at": "2026-10-23T02:32:40Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (security): Web token comparison is not constant-time",
+        "url": "https://github.com/hivecommons/hive/issues/13701",
+        "labels": [
+            "help wanted",
+            "agent/reviewer"
+        ],
+        "created_at": "2026-10-23T02:29:27Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (correctness): update-branch 422 on fork PRs maps to 'conflicting'; now reachable for every behind fork PR in opt-in repos",
+        "url": "https://github.com/hivecommons/hive/issues/13650",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-23T00:41:19Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] [v6] Your-turn dashboard critical path: waits-on, unblocks N, collapsed root causes (RFC #13617 P1)",
+        "url": "https://github.com/hivecommons/hive/issues/13646",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-23T00:24:48Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 automerge: merge-forward trusted human PRs that only need a rebase, and always say why a human PR is parked",
+        "url": "https://github.com/hivecommons/hive/issues/13636",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "hive/verified-open",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr",
+            "hive/partially-addressed"
+        ],
+        "created_at": "2026-10-22T23:30:09Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] [v6] Red-main circuit breaker: fix-main-first ordering and pause new PR opening after N hours red (RFC #13617 P3)",
+        "url": "https://github.com/hivecommons/hive/issues/13630",
+        "labels": [
+            "help wanted",
+            "kind/feature",
+            "agent/scanner",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-22T22:35:19Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] [v6] One human step per agent PR at ACMM L5: approved review on current head + level-hold removal queues the merge (RFC #13617 P2)",
+        "url": "https://github.com/hivecommons/hive/issues/13629",
+        "labels": [
+            "help wanted",
+            "kind/feature",
+            "agent/scanner",
+            "hive/verified-open",
+            "stage/010-actionable",
+            "hive/partially-addressed"
+        ],
+        "created_at": "2026-10-22T22:34:49Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[RFC] [v6] Help ACMM L5 hives finish what they start: critical path, one human step per PR, red-main circuit breaker, and an open-PR cap",
         "url": "https://github.com/hivecommons/hive/issues/13617",
         "labels": [
             "help wanted",
-            "stage/010-actionable"
+            "hive/verified-open",
+            "approved-direction",
+            "stage/010-actionable",
+            "hive/partially-addressed"
         ],
         "created_at": "2026-10-22T21:04:38Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] auto-merge queue: in repos running prow-github-actions v3, Prow strips the `lgtm` label Hive adds, so queued PRs never merge",
-        "url": "https://github.com/hivecommons/hive/issues/13616",
-        "labels": [
-            "help wanted",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-22T21:04:37Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] model_discovery_degraded: model discovery degraded for copilot (served static-fallback)",
-        "url": "https://github.com/hivecommons/hive/issues/13615",
-        "labels": [
-            "help wanted",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-22T20:59:56Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] ci_poll_nudge: agent kept polling CI on its own PR after the kick: stop-polling nudge sent (1 \u2026",
-        "url": "https://github.com/hivecommons/hive/issues/13614",
-        "labels": [
-            "help wanted",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-22T20:58:47Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[DCO] post-merge trailer failures on v5",
-        "url": "https://github.com/hivecommons/hive/issues/13607",
-        "labels": [
-            "help wanted",
-            "ci-dco",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-22T20:50:46Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30812,58 +30937,6 @@
             "hold"
         ],
         "created_at": "2026-10-22T20:39:18Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] label-driven approval: a maintainer's `triage/accepted` can never release an issue whose `needs-human` was added by a lifecycle bot",
-        "url": "https://github.com/hivecommons/hive/issues/13605",
-        "labels": [
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-22T20:39:17Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] review backlog: a new finding folded into an \"open twin\" loses its text, and the twin is often unrelated",
-        "url": "https://github.com/hivecommons/hive/issues/13604",
-        "labels": [
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-22T20:39:16Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] hold guard re-holds a PR that a maintainer reviewed at its current head, because a rebase happened earlier during the hold",
-        "url": "https://github.com/hivecommons/hive/issues/13603",
-        "labels": [
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-22T20:39:15Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] sentinel: a maintainer's clearance on a newer head is ignored, so the alert comes straight back",
-        "url": "https://github.com/hivecommons/hive/issues/13602",
-        "labels": [
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-22T20:39:14Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30882,54 +30955,14 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] compliance: FedRAMP Moderate and ISO 27001 profiles are small subsets of their baselines",
-        "url": "https://github.com/hivecommons/hive/issues/13585",
+        "title": "\u2728 Experiment Lab \u2192 Spektacular: feed the winning Nous hypothesis into a spec/plan",
+        "url": "https://github.com/hivecommons/hive/issues/13579",
         "labels": [
             "help wanted",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-22T17:47:24Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] compliance: SOC 2 profile omits CC1-CC5, availability, confidentiality, processing integrity and privacy criteria",
-        "url": "https://github.com/hivecommons/hive/issues/13583",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-22T17:47:10Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] compliance: evidence export lacks integrity hash, period and attester fields auditors need",
-        "url": "https://github.com/hivecommons/hive/issues/13582",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-22T17:46:57Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 compliance: validate SOC 2 / FedRAMP / ISO 27001 profiles against real framework checklists",
-        "url": "https://github.com/hivecommons/hive/issues/13578",
-        "labels": [
-            "help wanted",
-            "agent/security",
+            "kind/feature",
             "stage/010-actionable"
         ],
-        "created_at": "2026-10-22T17:06:17Z"
+        "created_at": "2026-10-22T17:06:21Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30941,34 +30974,9 @@
             "help wanted",
             "kind/feature",
             "agent/quality",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-22T17:06:13Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (correctness): Dashboard node:test helper files are not run by CI",
-        "url": "https://github.com/hivecommons/hive/issues/13566",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
             "stage/010-actionable"
         ],
-        "created_at": "2026-10-22T16:18:17Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b dashboard: long-open tab freezes on an old snapshot when the SSE stream dies silently (wrong Overview pill/card counts beside a correct fresh tab)",
-        "url": "https://github.com/hivecommons/hive/issues/13557",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T15:54:35Z"
+        "created_at": "2026-10-22T17:06:13Z"
     },
     {
         "repo": "hivecommons/hive",
