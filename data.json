@@ -2168,20 +2168,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "[Docs] Fix typos, missing words, and duplicate tokens in Workspaces and Operator CRDs guides",
-        "url": "https://github.com/meshery/meshery/issues/22254",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-10-07T05:16:31Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "[Docs] spars-clone example in Contributing guide does not match the fork-and-PR Workflow",
         "url": "https://github.com/meshery/meshery/issues/22158",
         "labels": [
@@ -2482,6 +2468,20 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-21T03:32:54Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[Docs] Contributing: Include contributor instructions regarding sparse cloning, excluding /models and other dirs",
+        "url": "https://github.com/meshery/meshery/issues/20837",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-21T00:03:37Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -14084,6 +14084,19 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "bug: a label removed on the WDS is never removed on the edges",
+        "url": "https://github.com/kubestellar/kubestellar/issues/4027",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-24T19:49:17Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "bug: BindingPolicy namespaceSelectors does not re-evaluate objects when Namespace labels change",
         "url": "https://github.com/kubestellar/kubestellar/issues/4016",
         "labels": [
@@ -14426,18 +14439,6 @@
             "help wanted"
         ],
         "created_at": "2026-07-03T14:02:12Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "bug: BindingPolicies with names >= 64 characters silently fail to create ManifestWorks",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3871",
-        "labels": [
-            "kind/bug",
-            "help wanted"
-        ],
-        "created_at": "2026-07-03T04:46:56Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -20780,6 +20781,7 @@
         "url": "https://github.com/backstage/backstage/issues/35228",
         "labels": [
             "good first issue",
+            "stale",
             "area:core",
             "area:design-system",
             "needs:triage"
@@ -23737,6 +23739,19 @@
             "lifecycle/frozen"
         ],
         "created_at": "2021-02-02T20:05:09Z"
+    },
+    {
+        "repo": "oras-project/oras",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Snap release fails: store token cannot release to candidate channel",
+        "url": "https://github.com/oras-project/oras/issues/2294",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "ci"
+        ],
+        "created_at": "2026-10-24T19:51:01Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -30713,20 +30728,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[reviewer] dashboard: contributorProfileFromRegistrationToken is an unused helper bound to the default token policy",
-        "url": "https://github.com/hivecommons/hive/issues/13912",
-        "labels": [
-            "good first issue",
-            "agent/scanner",
-            "blocked",
-            "approved-direction"
-        ],
-        "created_at": "2026-10-24T00:32:36Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[v6] \ud83d\udc1b inception moves to scaffold after 3 of 6 answers and drops the rest with a raw HTTP 400",
         "url": "https://github.com/hivecommons/hive/issues/13216",
         "labels": [
@@ -30741,11 +30742,174 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Review backlog (security): Open question: ~/.claude/settings.json hooks still run with --tools \"\"",
+        "url": "https://github.com/hivecommons/hive/issues/14062",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "blocked"
+        ],
+        "created_at": "2026-10-24T19:58:51Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] ci_poll_nudge: agent kept polling CI on its own PR after the kick: stop-polling nudge sent (6 \u2026",
+        "url": "https://github.com/hivecommons/hive/issues/14061",
+        "labels": [
+            "help wanted",
+            "hive/selfreport",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-24T19:55:55Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] ioscan: port the CLI classifier backend from v6 to v5",
+        "url": "https://github.com/hivecommons/hive/issues/14059",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "help-wanted"
+        ],
+        "created_at": "2026-10-24T19:38:32Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] ioscan: boot/config/Settings/docs wiring for the CLI classifier backend with per-pass budget and daily quota (v6)",
+        "url": "https://github.com/hivecommons/hive/issues/14058",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "help-wanted",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-24T19:37:49Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] ioscan: tool-less CLI-backed ChatClient for the injection classifier (v6)",
+        "url": "https://github.com/hivecommons/hive/issues/14057",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "help-wanted",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-24T19:37:13Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (security): Supersede path pushes fork heads (incl. workflow edits) into upstream branches",
+        "url": "https://github.com/hivecommons/hive/issues/14055",
+        "labels": [
+            "help wanted",
+            "agent/reviewer"
+        ],
+        "created_at": "2026-10-24T19:26:52Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 ioscan: let the AI injection check run on a subscription backend such as Copilot, so Copilot-only hives can keep it on",
+        "url": "https://github.com/hivecommons/hive/issues/14037",
+        "labels": [
+            "help wanted",
+            "approved-direction",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-24T18:23:04Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b Docling contributor assignments fail with repo_unmintable",
+        "url": "https://github.com/hivecommons/hive/issues/14002",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "approved-direction",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-24T17:02:50Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (security): prefer-contributor closes the hive PR on any clean third-party PR referencing the issue",
+        "url": "https://github.com/hivecommons/hive/issues/13998",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-24T16:16:30Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] delegatedecision: populate Input.Competing from real open PRs and contributor presence",
+        "url": "https://github.com/hivecommons/hive/issues/13993",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "agent/scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-24T15:38:39Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (correctness): snapshot() leaves six exported crux.Process fields permanently zero",
+        "url": "https://github.com/hivecommons/hive/issues/13988",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-24T15:20:19Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] delegatedecision: populate Input.Competing from real open PRs and detect contributor presence",
+        "url": "https://github.com/hivecommons/hive/issues/13986",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "agent/scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-24T15:16:49Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Let hive decide: LLM-backed owner-delegate decider for non-mechanical 085 cases",
         "url": "https://github.com/hivecommons/hive/issues/13983",
         "labels": [
             "help wanted",
-            "stage/010-actionable"
+            "hive/verified-open",
+            "stage/010-actionable",
+            "hive/partially-addressed"
         ],
         "created_at": "2026-10-24T14:58:12Z"
     },
@@ -30761,33 +30925,6 @@
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-24T14:09:48Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Adoption: in-place mode stalls on needs-rebase instead of rebasing or falling through to supersede",
-        "url": "https://github.com/hivecommons/hive/issues/13975",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-24T14:07:05Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] crux: fold crux/types into the module root (after crux.Process is its own type)",
-        "url": "https://github.com/hivecommons/hive/issues/13963",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
-            "stage/020-claimed"
-        ],
-        "created_at": "2026-10-24T09:50:59Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30847,32 +30984,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review swarm: verdict labels, decided-only backlog in heads mode, and backlog items blocked on their PR",
-        "url": "https://github.com/hivecommons/hive/issues/13833",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-23T17:21:52Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 contribute: expiry and rotation policy for contributor registration tokens",
-        "url": "https://github.com/hivecommons/hive/issues/13804",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-23T16:02:00Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\u2728 [v6] Risk-tiered ACMM level holds: let test-only and docs-only agent PRs with green checks skip the human checkpoint (opt-in)",
         "url": "https://github.com/hivecommons/hive/issues/13606",
         "labels": [
@@ -30880,21 +30991,6 @@
             "hold"
         ],
         "created_at": "2026-10-22T20:39:18Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcdd RFC: Crux - split the agent runtime into a reusable component (stage 1: in-repo boundary)",
-        "url": "https://github.com/hivecommons/hive/issues/13536",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "hive/verified-open",
-            "stage/010-actionable",
-            "hive/partially-addressed"
-        ],
-        "created_at": "2026-10-22T13:23:48Z"
     },
     {
         "repo": "hivecommons/hive",
