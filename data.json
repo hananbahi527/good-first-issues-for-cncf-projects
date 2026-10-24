@@ -20846,6 +20846,42 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-21663365]",
+        "url": "https://github.com/backstage/backstage/issues/36443",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-24T00:15:35Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-21663367]",
+        "url": "https://github.com/backstage/backstage/issues/36442",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-24T00:15:35Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-21663373]",
+        "url": "https://github.com/backstage/backstage/issues/36441",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-24T00:15:34Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-DOMPURIFY-21460655]",
         "url": "https://github.com/backstage/backstage/issues/36432",
         "labels": [
@@ -21165,42 +21201,6 @@
             "help wanted"
         ],
         "created_at": "2026-10-22T16:29:23Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635206]",
-        "url": "https://github.com/backstage/backstage/issues/36399",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:22Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-QS-19432019]",
-        "url": "https://github.com/backstage/backstage/issues/36398",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:22Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-OCTOKITREQUESTERROR-8730854]",
-        "url": "https://github.com/backstage/backstage/issues/36397",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:21Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -22685,7 +22685,8 @@
         "url": "https://github.com/helm/helm/issues/11735",
         "labels": [
             "help wanted",
-            "feature"
+            "feature",
+            "Stale"
         ],
         "created_at": "2023-01-17T10:01:42Z"
     },
@@ -23737,6 +23738,30 @@
             "lifecycle/frozen"
         ],
         "created_at": "2021-02-02T20:05:09Z"
+    },
+    {
+        "repo": "oras-project/oras",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "bug: race between Track and Close in the TTY progress manager",
+        "url": "https://github.com/oras-project/oras/issues/2279",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-10-23T20:57:17Z"
+    },
+    {
+        "repo": "oras-project/oras",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "bug: cp/backup/restore share one auth cache across clients with different credentials",
+        "url": "https://github.com/oras-project/oras/issues/2276",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-10-23T20:57:13Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -28646,20 +28671,6 @@
         "repo": "sustainable-computing-io/kepler",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Health probe docs: show `scheme: HTTPS` for TLS and name the first release with `/probe/*`",
-        "url": "https://github.com/sustainable-computing-io/kepler/issues/2632",
-        "labels": [
-            "kind/documentation",
-            "good first issue",
-            "help wanted",
-            "difficulty/easy"
-        ],
-        "created_at": "2026-10-22T10:53:14Z"
-    },
-    {
-        "repo": "sustainable-computing-io/kepler",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Enhancement proposal index is missing EP-003 and shows the wrong status for EP-001",
         "url": "https://github.com/sustainable-computing-io/kepler/issues/2631",
         "labels": [
@@ -30774,16 +30785,15 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "prior-art gate follow-up: local code-search index and enforce the hive-agent filing precondition",
-        "url": "https://github.com/hivecommons/hive/issues/13774",
+        "title": "[reviewer] dashboard: contributorProfileFromRegistrationToken is an unused helper bound to the default token policy",
+        "url": "https://github.com/hivecommons/hive/issues/13912",
         "labels": [
             "good first issue",
             "help wanted",
-            "hive/verified-open",
-            "stage/010-actionable",
-            "hive/partially-addressed"
+            "agent/scanner",
+            "stage/010-actionable"
         ],
-        "created_at": "2026-10-23T14:08:46Z"
+        "created_at": "2026-10-24T00:32:36Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30803,6 +30813,61 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Review backlog (docs-currency): Pre-existing log-fed classes also absent from fleet-report.md class table",
+        "url": "https://github.com/hivecommons/hive/issues/13938",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-24T02:17:53Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] review-backlog linker: split out unchecked folded findings when the host issue closes",
+        "url": "https://github.com/hivecommons/hive/issues/13914",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-24T00:34:48Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] ci: dashboard/rest test slices must not be passed as one -run regex (MAX_ARG_STRLEN)",
+        "url": "https://github.com/hivecommons/hive/issues/13908",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "ci",
+            "needs-human",
+            "stage/045-needs-decision"
+        ],
+        "created_at": "2026-10-24T00:31:06Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Org membership request: @gregoryhunt",
+        "url": "https://github.com/hivecommons/hive/issues/13897",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "stage/045-needs-decision"
+        ],
+        "created_at": "2026-10-23T20:50:58Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "\ud83d\udcdd RFC: [v6] crewAI-inspired features \u2014 learn from review feedback, count repeat lessons, extend the thrash breaker",
         "url": "https://github.com/hivecommons/hive/issues/13895",
         "labels": [
@@ -30811,72 +30876,6 @@
             "proposal"
         ],
         "created_at": "2026-10-23T20:23:34Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] ci: dashboard shuffle slice -run regex exceeds MAX_ARG_STRLEN (gotestsum: Argument list too long)",
-        "url": "https://github.com/hivecommons/hive/issues/13888",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "ci",
-            "stage/045-needs-decision"
-        ],
-        "created_at": "2026-10-23T18:59:11Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] priorart: enforce FilingVerdictFor in the hive-open-issue relay filing path",
-        "url": "https://github.com/hivecommons/hive/issues/13879",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-23T18:29:35Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "triage: duplicate and overlapping open issues/PRs to consolidate",
-        "url": "https://github.com/hivecommons/hive/issues/13872",
-        "labels": [
-            "help wanted",
-            "agent/dedupe",
-            "stage/045-needs-decision"
-        ],
-        "created_at": "2026-10-23T18:12:48Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: workspace cleanup: failed to remove stale dir",
-        "url": "https://github.com/hivecommons/hive/issues/13837",
-        "labels": [
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-23T17:26:50Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: review evidence: could not write bundle",
-        "url": "https://github.com/hivecommons/hive/issues/13836",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-23T17:23:49Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30895,33 +30894,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (correctness): deduplicate commitCIReasonIsPending after stageengine lands",
-        "url": "https://github.com/hivecommons/hive/issues/13823",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/045-needs-decision"
-        ],
-        "created_at": "2026-10-23T17:04:44Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[quality] Wire test-check-security-docs-readability.sh self-test into docs-link-check.yml (needs workflows permission)",
-        "url": "https://github.com/hivecommons/hive/issues/13815",
-        "labels": [
-            "help wanted",
-            "testing",
-            "agent/quality",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-23T16:50:48Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\u2728 contribute: expiry and rotation policy for contributor registration tokens",
         "url": "https://github.com/hivecommons/hive/issues/13804",
         "labels": [
@@ -30929,65 +30901,6 @@
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-23T16:02:00Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review heads: kicks stack on one replica (PR-head load count ties); allow one review kick in flight per agent",
-        "url": "https://github.com/hivecommons/hive/issues/13793",
-        "labels": [
-            "help wanted",
-            "needs-triage",
-            "stage/015-triage-needed"
-        ],
-        "created_at": "2026-10-23T15:37:41Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (intent-alignment): IsTracker threshold differs between isTracker (3 items) and TrackerTaskProgress (1 item)",
-        "url": "https://github.com/hivecommons/hive/issues/13772",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-23T14:04:15Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] [v6] One human step per agent PR at ACMM L5: approved review on current head + level-hold removal queues the merge (RFC #13617 P2)",
-        "url": "https://github.com/hivecommons/hive/issues/13629",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "agent/scanner",
-            "agent/reviewer",
-            "hive/verified-open",
-            "stage/010-actionable",
-            "hive/partially-addressed"
-        ],
-        "created_at": "2026-10-22T22:34:49Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[RFC] [v6] Help ACMM L5 hives finish what they start: critical path, one human step per PR, red-main circuit breaker, and an open-PR cap",
-        "url": "https://github.com/hivecommons/hive/issues/13617",
-        "labels": [
-            "help wanted",
-            "hive/verified-open",
-            "approved-direction",
-            "stage/010-actionable",
-            "hive/partially-addressed"
-        ],
-        "created_at": "2026-10-22T21:04:38Z"
     },
     {
         "repo": "hivecommons/hive",
