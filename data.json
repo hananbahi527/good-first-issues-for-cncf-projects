@@ -14100,8 +14100,7 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/4014",
         "labels": [
             "help wanted",
-            "stage/010-actionable",
-            "stage/stalled"
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-17T17:14:47Z"
     },
@@ -20846,6 +20845,18 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-AZUREMSALNODE-21689163]",
+        "url": "https://github.com/backstage/backstage/issues/36444",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-24T12:12:38Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-21663365]",
         "url": "https://github.com/backstage/backstage/issues/36443",
         "labels": [
@@ -21184,18 +21195,6 @@
         "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635218]",
         "url": "https://github.com/backstage/backstage/issues/36401",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:23Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635214]",
-        "url": "https://github.com/backstage/backstage/issues/36400",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
@@ -23738,18 +23737,6 @@
             "lifecycle/frozen"
         ],
         "created_at": "2021-02-02T20:05:09Z"
-    },
-    {
-        "repo": "oras-project/oras",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "bug: cp/backup/restore share one auth cache across clients with different credentials",
-        "url": "https://github.com/oras-project/oras/issues/2276",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2026-10-23T20:57:13Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -30730,10 +30717,9 @@
         "url": "https://github.com/hivecommons/hive/issues/13912",
         "labels": [
             "good first issue",
-            "help wanted",
             "agent/scanner",
-            "needs-human",
-            "stage/045-needs-decision"
+            "blocked",
+            "approved-direction"
         ],
         "created_at": "2026-10-24T00:32:36Z"
     },
@@ -30755,40 +30741,53 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] crux: fold crux/types into the module root (after crux.Process is its own type)",
-        "url": "https://github.com/hivecommons/hive/issues/13963",
+        "title": "Let hive decide: LLM-backed owner-delegate decider for non-mechanical 085 cases",
+        "url": "https://github.com/hivecommons/hive/issues/13983",
         "labels": [
             "help wanted",
-            "agent/scanner",
             "stage/010-actionable"
         ],
-        "created_at": "2026-10-24T09:50:59Z"
+        "created_at": "2026-10-24T14:58:12Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] crux: make crux.Process its own type so dashboard/hub/spoke stop importing crux/agent",
-        "url": "https://github.com/hivecommons/hive/issues/13962",
+        "title": "[scanner] contributor-agent: attach hint renders an invalid command when HIVE_CONTAINER_RUNTIME=apptainer",
+        "url": "https://github.com/hivecommons/hive/issues/13976",
         "labels": [
             "help wanted",
             "agent/scanner",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-24T09:50:28Z"
+        "created_at": "2026-10-24T14:09:48Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b agy contributor quota guard blocks Gemini when the separate Claude/GPT pool is exhausted",
-        "url": "https://github.com/hivecommons/hive/issues/13946",
+        "title": "Adoption: in-place mode stalls on needs-rebase instead of rebasing or falling through to supersede",
+        "url": "https://github.com/hivecommons/hive/issues/13975",
         "labels": [
             "help wanted",
-            "needs-triage",
-            "stage/015-triage-needed"
+            "kind/bug",
+            "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-24T04:09:16Z"
+        "created_at": "2026-10-24T14:07:05Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] crux: fold crux/types into the module root (after crux.Process is its own type)",
+        "url": "https://github.com/hivecommons/hive/issues/13963",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "hive/claimed-by-scanner",
+            "stage/020-claimed"
+        ],
+        "created_at": "2026-10-24T09:50:59Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30813,8 +30812,8 @@
             "help wanted",
             "agent/scanner",
             "ci",
-            "needs-human",
-            "stage/045-needs-decision"
+            "approved-direction",
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-24T00:31:06Z"
     },
@@ -30852,8 +30851,8 @@
         "url": "https://github.com/hivecommons/hive/issues/13833",
         "labels": [
             "help wanted",
-            "needs-triage",
-            "stage/015-triage-needed"
+            "triage/accepted",
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-23T17:21:52Z"
     },
@@ -30865,6 +30864,7 @@
         "url": "https://github.com/hivecommons/hive/issues/13804",
         "labels": [
             "help wanted",
+            "triage/accepted",
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-23T16:02:00Z"
