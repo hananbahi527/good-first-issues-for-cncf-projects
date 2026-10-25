@@ -38,10 +38,13 @@ def get_live_cncf_repos():
                     if repo_url and repo_url.startswith("https://github.com/"):
                         repo_path = repo_url.replace("https://github.com/", "").strip("/").replace(".git", "")
 
-                        repos[repo_path] = {
-                            "tier": project_tier.capitalize(),
-                            "lang": "Unknown"
-                        }
+                    repos[repo_path] = {
+                        "tier": project_tier.capitalize(),
+                        "lang": "Unknown",
+                        "category": category.get("name", ""),
+                        "subcategory": subcategory.get("name", ""),
+                        "description": item.get("description", ""),
+                    }
 
     print(f"Discovered {len(repos)} official CNCF GitHub repositories.")
     return repos
