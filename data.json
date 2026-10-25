@@ -20871,90 +20871,6 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-21663365]",
-        "url": "https://github.com/backstage/backstage/issues/36443",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-24T00:15:35Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-21663367]",
-        "url": "https://github.com/backstage/backstage/issues/36442",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-24T00:15:35Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-21663373]",
-        "url": "https://github.com/backstage/backstage/issues/36441",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-24T00:15:34Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-DOMPURIFY-21460655]",
-        "url": "https://github.com/backstage/backstage/issues/36432",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-23T12:51:55Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-DOMPURIFY-21460657]",
-        "url": "https://github.com/backstage/backstage/issues/36431",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-23T12:51:40Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-DOMPURIFY-21460653]",
-        "url": "https://github.com/backstage/backstage/issues/36430",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-23T12:51:37Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-MULTER-21431602]",
-        "url": "https://github.com/backstage/backstage/issues/36425",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-23T00:16:14Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-BODYPARSER-21431495]",
         "url": "https://github.com/backstage/backstage/issues/36424",
         "labels": [
@@ -21214,6 +21130,90 @@
             "help wanted"
         ],
         "created_at": "2026-10-22T16:29:23Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635214]",
+        "url": "https://github.com/backstage/backstage/issues/36400",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-22T16:29:23Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635206]",
+        "url": "https://github.com/backstage/backstage/issues/36399",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-22T16:29:22Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-OCTOKITREQUESTERROR-8730854]",
+        "url": "https://github.com/backstage/backstage/issues/36397",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-22T16:29:21Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-ADMZIP-20335419]",
+        "url": "https://github.com/backstage/backstage/issues/36396",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-22T16:29:20Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-ADMZIP-19963965]",
+        "url": "https://github.com/backstage/backstage/issues/36395",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-22T16:29:20Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-21181017]",
+        "url": "https://github.com/backstage/backstage/issues/36394",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-22T16:29:19Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635222]",
+        "url": "https://github.com/backstage/backstage/issues/36393",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-22T16:29:19Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -28670,17 +28670,6 @@
         "repo": "sustainable-computing-io/kepler",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "chore: upgrade to Go 1.27",
-        "url": "https://github.com/sustainable-computing-io/kepler/issues/2649",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-10-23T12:53:45Z"
-    },
-    {
-        "repo": "sustainable-computing-io/kepler",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "hwmon: zones with the same name on different devices are merged into one zone",
         "url": "https://github.com/sustainable-computing-io/kepler/issues/2639",
         "labels": [
@@ -30713,6 +30702,21 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "\ud83d\udcd6 goose: land the unattended Goose-at-scale guide upstream in AAIF's repo",
+        "url": "https://github.com/hivecommons/hive/issues/14095",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "triage/accepted",
+            "approved-direction",
+            "stage/045-needs-decision"
+        ],
+        "created_at": "2026-10-25T01:31:56Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[v6] \ud83d\udc1b inception moves to scaffold after 3 of 6 answers and drops the rest with a raw HTTP 400",
         "url": "https://github.com/hivecommons/hive/issues/13216",
         "labels": [
@@ -30727,38 +30731,67 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: copilot CLI substituted the configured model",
-        "url": "https://github.com/hivecommons/hive/issues/14128",
+        "title": "\ud83d\udc1b bug: your-turn inbox shows a superseded PR as CLOSE even when the sweep recommends keeping it open for its extra files (v6)",
+        "url": "https://github.com/hivecommons/hive/issues/14176",
         "labels": [
-            "help wanted",
-            "stage/020-claimed",
-            "hive/claimed-by-human"
+            "bug",
+            "help wanted"
         ],
-        "created_at": "2026-10-25T02:21:44Z"
+        "created_at": "2026-10-25T10:35:53Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: ioscan fail-closed blocked kick",
-        "url": "https://github.com/hivecommons/hive/issues/14127",
+        "title": "\ud83d\udc1b bug: your-turn critical path says \"rebase\" for a PR that is only waiting on a review (GitHub \"blocked\") (v6)",
+        "url": "https://github.com/hivecommons/hive/issues/14175",
         "labels": [
-            "help wanted",
-            "stage/010-actionable"
+            "bug",
+            "help wanted"
         ],
-        "created_at": "2026-10-25T02:21:41Z"
+        "created_at": "2026-10-25T10:35:52Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: ioscan classifier failed closed; text withheld",
-        "url": "https://github.com/hivecommons/hive/issues/14126",
+        "title": "[quality] Gate proposal: patch coverage on changed Go lines (untested new branches slip under per-package floors)",
+        "url": "https://github.com/hivecommons/hive/issues/14161",
         "labels": [
             "help wanted",
-            "stage/010-actionable"
+            "testing",
+            "agent/quality",
+            "stage/045-needs-decision"
         ],
-        "created_at": "2026-10-25T02:21:37Z"
+        "created_at": "2026-10-25T05:14:49Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 feature: evaluate Microsoft NVX as a per-task sandbox runtime",
+        "url": "https://github.com/hivecommons/hive/issues/14159",
+        "labels": [
+            "help wanted",
+            "needs-triage",
+            "stage/015-triage-needed"
+        ],
+        "created_at": "2026-10-25T04:53:01Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd Crux stage 2/3 tracker: serve API, client, ratchet to zero, release train",
+        "url": "https://github.com/hivecommons/hive/issues/14138",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "hive/verified-open",
+            "hive/partially-addressed",
+            "stage/045-needs-decision"
+        ],
+        "created_at": "2026-10-25T02:55:44Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30777,69 +30810,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 backends(omnigent): register as T3 experimental backend with smoke check and docs",
-        "url": "https://github.com/hivecommons/hive/issues/14122",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-25T01:55:12Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 backends(omnigent): document how Omnigent policy composes with Hive policy",
-        "url": "https://github.com/hivecommons/hive/issues/14121",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-25T01:53:17Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 backends(omnigent): observe the real CLI contract and write it down",
-        "url": "https://github.com/hivecommons/hive/issues/14119",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-25T01:51:55Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: agent GitHub API hourly cap reached",
-        "url": "https://github.com/hivecommons/hive/issues/14118",
-        "labels": [
-            "help wanted",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-25T01:49:44Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: dropping stale status snapshot built before a mutation",
-        "url": "https://github.com/hivecommons/hive/issues/14117",
-        "labels": [
-            "help wanted",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-25T01:49:41Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\ud83c\udf31 ci: self-hosted Forgejo smoke running the minimal governor loop",
         "url": "https://github.com/hivecommons/hive/issues/14116",
         "labels": [
@@ -30848,19 +30818,6 @@
             "stage/045-needs-decision"
         ],
         "created_at": "2026-10-25T01:49:20Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcd6 forge: document GitLab/Gitea/Forgejo support and show the forge on the dashboard repo tile",
-        "url": "https://github.com/hivecommons/hive/issues/14115",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-25T01:48:39Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30884,182 +30841,9 @@
         "labels": [
             "help wanted",
             "agent/scanner",
-            "stage/010-actionable"
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-25T01:47:01Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 forge: thread forge.Kind through repo config and governor kick",
-        "url": "https://github.com/hivecommons/hive/issues/14112",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-25T01:46:32Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 backends(managed-agents-vs-openai): decide tier and update backend-support-tiers.md",
-        "url": "https://github.com/hivecommons/hive/issues/14111",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-25T01:45:52Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 forge(gitea): implement Forge.Merge for Gitea/Forgejo (merge style map) + contract test",
-        "url": "https://github.com/hivecommons/hive/issues/14110",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/020-claimed",
-            "hive/claimed-by-human"
-        ],
-        "created_at": "2026-10-25T01:45:28Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 forge(gitlab): implement Forge.Merge (MR accept with strategy map) + contract test",
-        "url": "https://github.com/hivecommons/hive/issues/14109",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-25T01:45:03Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 backends(openai-agents): map OpenAI Agents API runs onto T3 acceptance criteria",
-        "url": "https://github.com/hivecommons/hive/issues/14108",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-25T01:44:42Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 forge: shared Forge.Merge contract test harness (GitHub adapter passes first)",
-        "url": "https://github.com/hivecommons/hive/issues/14107",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-25T01:44:18Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: contributor-lane automerge sweep skipped PR",
-        "url": "https://github.com/hivecommons/hive/issues/14097",
-        "labels": [
-            "help wanted",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-25T01:35:07Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 forge: finish GitLab and Gitea/Forgejo as first-class forges (merge primitive, governor end-to-end, docs)",
-        "url": "https://github.com/hivecommons/hive/issues/14096",
-        "labels": [
-            "help wanted",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-25T01:31:57Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcd6 goose: land the unattended Goose-at-scale guide upstream in AAIF's repo",
-        "url": "https://github.com/hivecommons/hive/issues/14095",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "approved-direction"
-        ],
-        "created_at": "2026-10-25T01:31:56Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 backends: Omnigent as a T3 experimental CLI backend",
-        "url": "https://github.com/hivecommons/hive/issues/14094",
-        "labels": [
-            "help wanted",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-25T01:31:03Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: ioscan fail-closed blocked kick",
-        "url": "https://github.com/hivecommons/hive/issues/14089",
-        "labels": [
-            "help wanted",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-25T01:11:34Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: close-on-merge: reading issue failed",
-        "url": "https://github.com/hivecommons/hive/issues/14088",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "needs-triage",
-            "fleet-report",
-            "hive/selfreport",
-            "trigger:runtime-error",
-            "stage/040-covered-by-pr",
-            "severity:low",
-            "class:unclassified-error-repeated"
-        ],
-        "created_at": "2026-10-25T01:10:29Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (security): Plain-HTTP forward path has no host allowlist or caller identity check (pre-existing)",
-        "url": "https://github.com/hivecommons/hive/issues/14082",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-24T23:34:25Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -31113,6 +30897,111 @@
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-24T16:16:30Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (docs-currency): Pre-existing log-fed classes also absent from fleet-report.md class table",
+        "url": "https://github.com/hivecommons/hive/issues/13938",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-24T02:17:53Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Org membership request: @gregoryhunt",
+        "url": "https://github.com/hivecommons/hive/issues/13897",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "stage/045-needs-decision"
+        ],
+        "created_at": "2026-10-23T20:50:58Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd RFC: [v6] crewAI-inspired features \u2014 learn from review feedback, count repeat lessons, extend the thrash breaker",
+        "url": "https://github.com/hivecommons/hive/issues/13895",
+        "labels": [
+            "help wanted",
+            "hold",
+            "proposal"
+        ],
+        "created_at": "2026-10-23T20:23:34Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 [v6] Risk-tiered ACMM level holds: let test-only and docs-only agent PRs with green checks skip the human checkpoint (opt-in)",
+        "url": "https://github.com/hivecommons/hive/issues/13606",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-22T20:39:18Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 RFC: Repo-targeted Experiment Lab campaigns run on Nous's own discovery",
+        "url": "https://github.com/hivecommons/hive/issues/13096",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-20T02:36:10Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 feature: opt-in actions: read for agent scoped tokens (ci-maintainer can't read failed CI logs)",
+        "url": "https://github.com/hivecommons/hive/issues/10574",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "hold",
+            "hive/selfreport"
+        ],
+        "created_at": "2026-10-05T13:59:07Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] v6 readiness live exercise: dashboard chat, inception via chat, standby S5-S6",
+        "url": "https://github.com/hivecommons/hive/issues/9735",
+        "labels": [
+            "help wanted",
+            "hold",
+            "needs-human",
+            "approved-direction"
+        ],
+        "created_at": "2026-09-30T04:24:45Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1d Hive Advisory Report",
+        "url": "https://github.com/hivecommons/hive/issues/2364",
+        "labels": [
+            "help wanted",
+            "hive/advisory",
+            "hold",
+            "hive/selfreport"
+        ],
+        "created_at": "2026-07-31T17:17:23Z"
     },
     {
         "repo": "kaito-project/kaito",
