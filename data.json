@@ -13773,6 +13773,22 @@
         "repo": "kubernetes/kubernetes",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "Enabling Graceful node shutdown in Kubernetes, preStop hook for statefulset unfinished",
+        "url": "https://github.com/kubernetes/kubernetes/issues/137968",
+        "labels": [
+            "kind/bug",
+            "priority/backlog",
+            "sig/node",
+            "help wanted",
+            "triage/needs-information",
+            "triage/accepted"
+        ],
+        "created_at": "2026-03-23T01:57:47Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Migrate 'Good First Migration' Immutable Fields to Declarative Validation",
         "url": "https://github.com/kubernetes/kubernetes/issues/136785",
         "labels": [
@@ -13975,20 +13991,6 @@
         "created_at": "2025-09-03T15:53:33Z"
     },
     {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "[FG:InPlacePodVerticalScaling] Investigate recovery from failure when setting allocated resources",
-        "url": "https://github.com/kubernetes/kubernetes/issues/133538",
-        "labels": [
-            "priority/backlog",
-            "sig/node",
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2025-08-14T21:05:16Z"
-    },
-    {
         "repo": "kubeslice/kubeslice",
         "tier": "Sandbox",
         "lang": "Mustache",
@@ -14102,7 +14104,8 @@
         "labels": [
             "kind/bug",
             "help wanted",
-            "stage/010-actionable"
+            "stage/010-actionable",
+            "stage/stalled"
         ],
         "created_at": "2026-10-24T19:49:17Z"
     },
@@ -20848,6 +20851,18 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-ADMZIP-21707815]",
+        "url": "https://github.com/backstage/backstage/issues/36459",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-25T16:10:40Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-AZUREMSALNODE-21689163]",
         "url": "https://github.com/backstage/backstage/issues/36444",
         "labels": [
@@ -21186,18 +21201,6 @@
         "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-UNDICI-21181017]",
         "url": "https://github.com/backstage/backstage/issues/36394",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:19Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635222]",
-        "url": "https://github.com/backstage/backstage/issues/36393",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
@@ -23319,7 +23322,6 @@
             "area/launcher",
             "area/handler",
             "good-first-issue",
-            "lifecycle/stale",
             "kind/cleanup"
         ],
         "created_at": "2026-06-30T09:05:17Z"
@@ -30716,40 +30718,42 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: issue stage labels: write failed",
-        "url": "https://github.com/hivecommons/hive/issues/14240",
+        "title": "[outreach] Org profile links a stale ADOPTERS.md in hivecommons/.github: Project Bluefin missing, tunaos.org shown as development",
+        "url": "https://github.com/hivecommons/hive/issues/14295",
         "labels": [
             "help wanted",
-            "stage/010-actionable",
-            "hive/claimed-by-human"
+            "agent/outreach",
+            "community",
+            "stage/010-actionable"
         ],
-        "created_at": "2026-10-25T15:10:32Z"
+        "created_at": "2026-10-25T20:00:03Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (correctness): Issue's belt-and-braces expectation (new holder's claim clears a stale released human label) not implemented",
-        "url": "https://github.com/hivecommons/hive/issues/14239",
+        "title": "Review backlog (style): Third `startup kick dropped` variant remains unclassified",
+        "url": "https://github.com/hivecommons/hive/issues/14292",
         "labels": [
             "help wanted",
             "agent/reviewer",
-            "blocked"
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-25T15:09:37Z"
+        "created_at": "2026-10-25T19:35:02Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (security): Per-issue serialization lengthens goroutine lifetime under claim/release churn",
-        "url": "https://github.com/hivecommons/hive/issues/14238",
+        "title": "\ud83d\udcdd RFC: [v6] Proxy egress allowlist and brokered secrets",
+        "url": "https://github.com/hivecommons/hive/issues/14291",
         "labels": [
             "help wanted",
-            "agent/reviewer",
-            "blocked"
+            "hold",
+            "proposal"
         ],
-        "created_at": "2026-10-25T15:08:55Z"
+        "created_at": "2026-10-25T19:23:11Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30761,109 +30765,10 @@
             "help wanted",
             "agent/scanner",
             "kind/design",
-            "hive/claimed-by-scanner",
             "stage/040-covered-by-pr",
             "hive/claimed-by-human"
         ],
         "created_at": "2026-10-25T14:14:49Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (correctness): Sweep tick summary log omits the new workflow-permission skip reason",
-        "url": "https://github.com/hivecommons/hive/issues/14225",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable",
-            "hive/claimed-by-human"
-        ],
-        "created_at": "2026-10-25T14:01:55Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: issue stage labels: PR link stage comment failed",
-        "url": "https://github.com/hivecommons/hive/issues/14213",
-        "labels": [
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr",
-            "hive/claimed-by-human"
-        ],
-        "created_at": "2026-10-25T13:03:56Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: close-on-merge: reading issue failed",
-        "url": "https://github.com/hivecommons/hive/issues/14196",
-        "labels": [
-            "help wanted",
-            "stage/010-actionable",
-            "hive/partially-addressed"
-        ],
-        "created_at": "2026-10-25T12:19:02Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "blocked-on relations go stale: no re-target on supersede, race with already-merged blockers, no reconciliation sweep",
-        "url": "https://github.com/hivecommons/hive/issues/14194",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "hive/claimed-by-human"
-        ],
-        "created_at": "2026-10-25T12:05:59Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: unpark sweep skipped issue",
-        "url": "https://github.com/hivecommons/hive/issues/14177",
-        "labels": [
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr",
-            "hive/claimed-by-human"
-        ],
-        "created_at": "2026-10-25T10:53:25Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcdd Crux stage 2/3 tracker: serve API, client, ratchet to zero, release train",
-        "url": "https://github.com/hivecommons/hive/issues/14138",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "hive/verified-open",
-            "approved-direction",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr",
-            "hive/partially-addressed"
-        ],
-        "created_at": "2026-10-25T02:55:44Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 backends(hosted): prototype the smaller-gap hosted backend on a private spoke with ledger metering",
-        "url": "https://github.com/hivecommons/hive/issues/14124",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "approved-direction"
-        ],
-        "created_at": "2026-10-25T01:57:53Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30875,7 +30780,6 @@
             "help wanted",
             "agent/scanner",
             "approved-direction",
-            "hive/claimed-by-scanner",
             "stage/040-covered-by-pr",
             "hive/claimed-by-human"
         ],
