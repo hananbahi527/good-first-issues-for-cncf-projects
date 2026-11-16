@@ -5377,21 +5377,6 @@
     "subcategory": "Security & Compliance",
     "description": "External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets.",
     "ai_related": false,
-    "title": "Support unhealthyPodEvictionPolicy on the chart's PodDisruptionBudgets",
-    "url": "https://github.com/external-secrets/external-secrets/issues/7301",
-    "labels": [
-      "good first issue"
-    ],
-    "created_at": "2026-11-12T15:44:58Z"
-  },
-  {
-    "repo": "external-secrets/external-secrets",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets.",
-    "ai_related": false,
     "title": "PushSecret always calls DeleteResourcePolicy on AWS Secrets Manager, even when resourcePolicy is not configured",
     "url": "https://github.com/external-secrets/external-secrets/issues/6806",
     "labels": [
@@ -6135,6 +6120,50 @@
     "subcategory": "Security & Compliance",
     "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
     "ai_related": false,
+    "title": "Long IDP names do not wrap in Keycloak login buttons",
+    "url": "https://github.com/keycloak/keycloak/issues/55093",
+    "labels": [
+      "kind/bug",
+      "help wanted",
+      "area/login/ui",
+      "status/auto-expire",
+      "status/auto-bump",
+      "priority/normal",
+      "team/core-authn",
+      "backport/26.8"
+    ],
+    "created_at": "2026-11-12T10:37:48Z"
+  },
+  {
+    "repo": "keycloak/keycloak",
+    "tier": "Incubating",
+    "lang": "Java",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
+    "ai_related": false,
+    "title": "[Keycloak 26.8.2] Admin Console login fails with Invalid parameter: redirect_uri on fresh Windows installation",
+    "url": "https://github.com/keycloak/keycloak/issues/55076",
+    "labels": [
+      "kind/bug",
+      "area/admin/ui",
+      "help wanted",
+      "team/core-shared",
+      "status/auto-expire",
+      "status/auto-bump",
+      "priority/normal",
+      "team/core-protocols"
+    ],
+    "created_at": "2026-11-12T07:57:43Z"
+  },
+  {
+    "repo": "keycloak/keycloak",
+    "tier": "Incubating",
+    "lang": "Java",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
+    "ai_related": false,
     "title": "persian language is missing font and styling",
     "url": "https://github.com/keycloak/keycloak/issues/55023",
     "labels": [
@@ -6144,6 +6173,71 @@
       "team/community"
     ],
     "created_at": "2026-11-11T05:14:49Z"
+  },
+  {
+    "repo": "keycloak/keycloak",
+    "tier": "Incubating",
+    "lang": "Java",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
+    "ai_related": false,
+    "title": "AuthZEN: `resource.properties` and `context` share one attribute namespace, and `context` silently overrides resource properties",
+    "url": "https://github.com/keycloak/keycloak/issues/54848",
+    "labels": [
+      "area/authorization-services",
+      "kind/bug",
+      "help wanted",
+      "team/core-iam",
+      "status/auto-bump",
+      "priority/normal"
+    ],
+    "created_at": "2026-11-08T15:57:20Z"
+  },
+  {
+    "repo": "keycloak/keycloak",
+    "tier": "Incubating",
+    "lang": "Java",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
+    "ai_related": false,
+    "title": "Group names can contain control characters (e.g. NUL) - silently stored, breaks PostgreSQL deployments and exact matching",
+    "url": "https://github.com/keycloak/keycloak/issues/54721",
+    "labels": [
+      "kind/bug",
+      "area/admin/api",
+      "help wanted",
+      "team/core-iam",
+      "status/auto-expire",
+      "status/auto-bump",
+      "priority/normal",
+      "status/labeled-by-bot"
+    ],
+    "created_at": "2026-11-05T19:23:54Z"
+  },
+  {
+    "repo": "keycloak/keycloak",
+    "tier": "Incubating",
+    "lang": "Java",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
+    "ai_related": false,
+    "title": "Creating a group with a name longer than 255 characters returns HTTP 500 instead of 400",
+    "url": "https://github.com/keycloak/keycloak/issues/54720",
+    "labels": [
+      "kind/bug",
+      "area/admin/api",
+      "help wanted",
+      "team/core-iam",
+      "team/core-shared",
+      "status/auto-expire",
+      "status/auto-bump",
+      "priority/normal",
+      "status/labeled-by-bot"
+    ],
+    "created_at": "2026-11-05T19:23:53Z"
   },
   {
     "repo": "keycloak/keycloak",
@@ -6259,6 +6353,26 @@
     "subcategory": "Security & Compliance",
     "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
     "ai_related": false,
+    "title": "AuthZEN: requests with `action.properties` or unknown fields are rejected with 400",
+    "url": "https://github.com/keycloak/keycloak/issues/54542",
+    "labels": [
+      "area/authorization-services",
+      "kind/bug",
+      "help wanted",
+      "team/core-iam",
+      "status/auto-bump",
+      "priority/normal"
+    ],
+    "created_at": "2026-11-02T13:20:11Z"
+  },
+  {
+    "repo": "keycloak/keycloak",
+    "tier": "Incubating",
+    "lang": "Java",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
+    "ai_related": false,
     "title": "Group names with invisible Unicode characters (e.g. U+2060 WORD JOINER) are accepted without validation and silently break UMA authorization",
     "url": "https://github.com/keycloak/keycloak/issues/54532",
     "labels": [
@@ -6271,6 +6385,26 @@
       "area/organizations"
     ],
     "created_at": "2026-11-02T11:19:35Z"
+  },
+  {
+    "repo": "keycloak/keycloak",
+    "tier": "Incubating",
+    "lang": "Java",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
+    "ai_related": false,
+    "title": "AuthZEN: 401 responses omit the WWW-Authenticate header",
+    "url": "https://github.com/keycloak/keycloak/issues/54516",
+    "labels": [
+      "area/authorization-services",
+      "kind/bug",
+      "help wanted",
+      "team/core-iam",
+      "status/auto-bump",
+      "priority/normal"
+    ],
+    "created_at": "2026-11-01T13:59:54Z"
   },
   {
     "repo": "keycloak/keycloak",
@@ -6336,27 +6470,6 @@
       "status/labeled-by-bot"
     ],
     "created_at": "2026-10-28T00:27:03Z"
-  },
-  {
-    "repo": "keycloak/keycloak",
-    "tier": "Incubating",
-    "lang": "Java",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
-    "ai_related": false,
-    "title": "Account Console Groups page: the per-row \"Direct membership\" checkbox has no accessible name (axe label, WCAG 1.3.1 / 4.1.2)",
-    "url": "https://github.com/keycloak/keycloak/issues/54361",
-    "labels": [
-      "kind/bug",
-      "area/account/ui",
-      "help wanted",
-      "team/core-iam",
-      "priority/low",
-      "status/auto-expire",
-      "status/auto-bump"
-    ],
-    "created_at": "2026-10-26T21:16:39Z"
   },
   {
     "repo": "keycloak/keycloak",
@@ -6609,132 +6722,6 @@
       "status/auto-bump"
     ],
     "created_at": "2026-10-09T14:27:32Z"
-  },
-  {
-    "repo": "keycloak/keycloak",
-    "tier": "Incubating",
-    "lang": "Java",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
-    "ai_related": false,
-    "title": "kc.sh build output is not reproducible",
-    "url": "https://github.com/keycloak/keycloak/issues/53744",
-    "labels": [
-      "kind/bug",
-      "area/dist/quarkus",
-      "help wanted",
-      "team/cloud-native",
-      "priority/low",
-      "status/auto-expire",
-      "status/auto-bump"
-    ],
-    "created_at": "2026-10-08T13:20:08Z"
-  },
-  {
-    "repo": "keycloak/keycloak",
-    "tier": "Incubating",
-    "lang": "Java",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
-    "ai_related": false,
-    "title": "Removing federated, disabled and read-only user from group fails with read-only error",
-    "url": "https://github.com/keycloak/keycloak/issues/53700",
-    "labels": [
-      "kind/bug",
-      "area/ldap",
-      "help wanted",
-      "team/core-iam",
-      "status/auto-expire",
-      "status/auto-bump",
-      "priority/normal"
-    ],
-    "created_at": "2026-10-07T15:17:10Z"
-  },
-  {
-    "repo": "keycloak/keycloak",
-    "tier": "Incubating",
-    "lang": "Java",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
-    "ai_related": false,
-    "title": "AD user federation in READ_ONLY mode: pwdLastSet=0 never produces UPDATE_PASSWORD (MSAD account control mapper)",
-    "url": "https://github.com/keycloak/keycloak/issues/53680",
-    "labels": [
-      "kind/bug",
-      "area/ldap",
-      "help wanted",
-      "team/core-iam",
-      "status/auto-bump",
-      "priority/normal",
-      "status/labeled-by-bot"
-    ],
-    "created_at": "2026-10-07T12:51:48Z"
-  },
-  {
-    "repo": "keycloak/keycloak",
-    "tier": "Incubating",
-    "lang": "Java",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
-    "ai_related": false,
-    "title": "Add explicit EC point-on-curve validation in ElytronEcdhEsAlgorithmProvider",
-    "url": "https://github.com/keycloak/keycloak/issues/53639",
-    "labels": [
-      "area/oidc",
-      "kind/bug",
-      "help wanted",
-      "priority/low",
-      "status/auto-expire",
-      "status/auto-bump",
-      "team/core-protocols"
-    ],
-    "created_at": "2026-10-07T07:08:42Z"
-  },
-  {
-    "repo": "keycloak/keycloak",
-    "tier": "Incubating",
-    "lang": "Java",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
-    "ai_related": false,
-    "title": "GroupStorageProvider group IDs cannot be assigned to local users because USER_GROUP_MEMBERSHIP.GROUP_ID is VARCHAR(36)",
-    "url": "https://github.com/keycloak/keycloak/issues/53566",
-    "labels": [
-      "kind/bug",
-      "area/storage",
-      "help wanted",
-      "team/core-iam",
-      "team/core-shared",
-      "priority/low",
-      "status/auto-bump"
-    ],
-    "created_at": "2026-10-05T19:48:13Z"
-  },
-  {
-    "repo": "keycloak/keycloak",
-    "tier": "Incubating",
-    "lang": "Java",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
-    "ai_related": false,
-    "title": "Legacy login theme shows a raw `{0}` in the client delegation consent sentence",
-    "url": "https://github.com/keycloak/keycloak/issues/53516",
-    "labels": [
-      "kind/bug",
-      "help wanted",
-      "area/login/ui",
-      "priority/low",
-      "status/auto-expire",
-      "status/auto-bump",
-      "team/core-authn"
-    ],
-    "created_at": "2026-10-05T03:41:39Z"
   },
   {
     "repo": "keylime/keylime",
@@ -8561,53 +8548,6 @@
     "subcategory": "Security & Compliance",
     "description": "OpenFGA is a high performance and flexible authorization/permission system built for developers and inspired by Google Zanzibar",
     "ai_related": false,
-    "title": "Upgrade to go-grpc-middleware/v2",
-    "url": "https://github.com/openfga/openfga/issues/893",
-    "labels": [
-      "good first issue",
-      "dependencies"
-    ],
-    "created_at": "2023-07-28T02:38:30Z"
-  },
-  {
-    "repo": "openfga/openfga",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "OpenFGA is a high performance and flexible authorization/permission system built for developers and inspired by Google Zanzibar",
-    "ai_related": false,
-    "title": "Add functional tests for Write, ReadAssertions, Read, ReadChanges, ReadModel, ReadModels, DeleteStore, GetStore",
-    "url": "https://github.com/openfga/openfga/issues/775",
-    "labels": [
-      "good first issue"
-    ],
-    "created_at": "2023-05-25T05:47:59Z"
-  },
-  {
-    "repo": "openfga/openfga",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "OpenFGA is a high performance and flexible authorization/permission system built for developers and inspired by Google Zanzibar",
-    "ai_related": false,
-    "title": "watch for TLS certificate updates",
-    "url": "https://github.com/openfga/openfga/issues/668",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "created_at": "2023-03-31T17:29:10Z"
-  },
-  {
-    "repo": "openfga/openfga",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "OpenFGA is a high performance and flexible authorization/permission system built for developers and inspired by Google Zanzibar",
-    "ai_related": false,
     "title": "Revise linter rules enabled",
     "url": "https://github.com/openfga/openfga/issues/598",
     "labels": [
@@ -8624,39 +8564,6 @@
     "subcategory": "Security & Compliance",
     "description": "OpenFGA is a high performance and flexible authorization/permission system built for developers and inspired by Google Zanzibar",
     "ai_related": false,
-    "title": "ci(release): fix our CI auto release notes generator",
-    "url": "https://github.com/openfga/openfga/issues/126",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "help wanted"
-    ],
-    "created_at": "2022-07-27T16:41:05Z"
-  },
-  {
-    "repo": "openfga/openfga",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "OpenFGA is a high performance and flexible authorization/permission system built for developers and inspired by Google Zanzibar",
-    "ai_related": false,
-    "title": "ci: add `.goreleaser-nightly.yaml` manifest for nightly releases",
-    "url": "https://github.com/openfga/openfga/issues/76",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "created_at": "2022-06-27T18:44:01Z"
-  },
-  {
-    "repo": "openfga/openfga",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "OpenFGA is a high performance and flexible authorization/permission system built for developers and inspired by Google Zanzibar",
-    "ai_related": false,
     "title": "Add minIdleConns config",
     "url": "https://github.com/openfga/openfga/issues/2072",
     "labels": [
@@ -8664,40 +8571,6 @@
       "help wanted"
     ],
     "created_at": "2024-11-06T02:06:07Z"
-  },
-  {
-    "repo": "openfga/openfga",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "OpenFGA is a high performance and flexible authorization/permission system built for developers and inspired by Google Zanzibar",
-    "ai_related": false,
-    "title": "Automated process to update NOTICE file",
-    "url": "https://github.com/openfga/openfga/issues/1319",
-    "labels": [
-      "enhancement",
-      "help wanted"
-    ],
-    "created_at": "2024-01-25T22:36:40Z"
-  },
-  {
-    "repo": "openfga/openfga",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "OpenFGA is a high performance and flexible authorization/permission system built for developers and inspired by Google Zanzibar",
-    "ai_related": false,
-    "title": "Improve OpenFGADatastore Memory storage implementation",
-    "url": "https://github.com/openfga/openfga/issues/1138",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "performance",
-      "Stale"
-    ],
-    "created_at": "2023-11-08T17:13:45Z"
   },
   {
     "repo": "nvidia/openshell",
@@ -10638,22 +10511,6 @@
       "good first issue"
     ],
     "created_at": "2026-11-15T08:25:33Z"
-  },
-  {
-    "repo": "curvineio/curvine",
-    "tier": "Sandbox",
-    "lang": "Rust",
-    "category": "Runtime",
-    "subcategory": "Cloud Native Storage",
-    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-    "ai_related": false,
-    "title": "[DOCS] Fix the build and test commands in CONTRIBUTING.md",
-    "url": "https://github.com/CurvineIO/curvine/issues/2146",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "created_at": "2026-11-15T08:25:30Z"
   },
   {
     "repo": "curvineio/curvine",
@@ -13189,6 +13046,22 @@
     "subcategory": "Container Runtime",
     "description": "A set of tools providing full management of container lifecycle, including Podman, Buildah, and Skopeo, which manage containers and images without requiring a daemon or root privileges.",
     "ai_related": false,
+    "title": "artifact,farm,volume: move flag compat check after subcommand entrypoint is called",
+    "url": "https://github.com/podman-container-tools/podman/issues/30275",
+    "labels": [
+      "Good First Issue",
+      "volunteers-wanted"
+    ],
+    "created_at": "2026-11-16T15:11:19Z"
+  },
+  {
+    "repo": "podman-container-tools/podman",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "Runtime",
+    "subcategory": "Container Runtime",
+    "description": "A set of tools providing full management of container lifecycle, including Podman, Buildah, and Skopeo, which manage containers and images without requiring a daemon or root privileges.",
+    "ai_related": false,
     "title": "JSON output for podman system hyperv-prep",
     "url": "https://github.com/podman-container-tools/podman/issues/29860",
     "labels": [
@@ -14733,6 +14606,24 @@
       "area/observability"
     ],
     "created_at": "2026-06-23T23:04:06Z"
+  },
+  {
+    "repo": "agones-dev/agones",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "description": "Agones is a library for hosting, running, and scaling dedicated game servers on Kubernetes.",
+    "ai_related": false,
+    "title": "[Feature Proposal] - Run the C++ SDK conformance tests with AddressSanitizer and UndefinedBehaviorSanitizer",
+    "url": "https://github.com/agones-dev/agones/issues/4854",
+    "labels": [
+      "kind/feature",
+      "help wanted",
+      "good first issue",
+      "area/tests"
+    ],
+    "created_at": "2026-11-16T03:23:21Z"
   },
   {
     "repo": "agones-dev/agones",
@@ -19301,6 +19192,23 @@
     "subcategory": "Scheduling & Orchestration",
     "description": "A lightweight, open standard for multi-cluster Kubernetes management built on a hub-spoke architecture.",
     "ai_related": false,
+    "title": "klusterlet operator: make the hub kubeconfig check period configurable",
+    "url": "https://github.com/open-cluster-management-io/ocm/issues/1826",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "help wanted"
+    ],
+    "created_at": "2026-11-16T06:53:49Z"
+  },
+  {
+    "repo": "open-cluster-management-io/ocm",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "description": "A lightweight, open standard for multi-cluster Kubernetes management built on a hub-spoke architecture.",
+    "ai_related": false,
     "title": "ClusterManager: allow customizing the generated gRPC LoadBalancer Service",
     "url": "https://github.com/open-cluster-management-io/ocm/issues/1809",
     "labels": [
@@ -22123,24 +22031,6 @@
       "area/security"
     ],
     "created_at": "2026-10-10T14:57:46Z"
-  },
-  {
-    "repo": "praxis-proxy/praxis",
-    "tier": "Sandbox",
-    "lang": "Rust",
-    "category": "Orchestration & Management",
-    "subcategory": "Service Proxy",
-    "description": "The cloud and AI-native proxy server and framework.",
-    "ai_related": false,
-    "title": "A support-bundle command for collecting diagnostics",
-    "url": "https://github.com/praxis-proxy/praxis/issues/1218",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "triage/accepted",
-      "area/core"
-    ],
-    "created_at": "2026-09-18T21:48:37Z"
   },
   {
     "repo": "praxis-proxy/praxis",
@@ -28349,23 +28239,6 @@
     "subcategory": "Application Definition & Image Build",
     "description": "Cloud Native Buildpacks transform your application source code into images that can run on any cloud",
     "ai_related": false,
-    "title": "pack build --quiet prints the containerd-storage warning on stdout",
-    "url": "https://github.com/buildpacks/pack/issues/2733",
-    "labels": [
-      "type/bug",
-      "help wanted",
-      "status/ready"
-    ],
-    "created_at": "2026-11-02T19:45:38Z"
-  },
-  {
-    "repo": "buildpacks/pack",
-    "tier": "Graduated",
-    "lang": "Go",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "Cloud Native Buildpacks transform your application source code into images that can run on any cloud",
-    "ai_related": false,
     "title": "Error when using --publish with --extension on pack build",
     "url": "https://github.com/buildpacks/pack/issues/2559",
     "labels": [
@@ -31583,6 +31456,23 @@
     "subcategory": "Application Definition & Image Build",
     "description": "Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.",
     "ai_related": false,
+    "title": "rad credential register azure accepts an empty client ID and tenant ID",
+    "url": "https://github.com/radius-project/radius/issues/13749",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "bug"
+    ],
+    "created_at": "2026-11-11T05:30:10Z"
+  },
+  {
+    "repo": "radius-project/radius",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.",
+    "ai_related": false,
     "title": "CLI hides Kubernetes API errors behind empty ARM error details",
     "url": "https://github.com/radius-project/radius/issues/13491",
     "labels": [
@@ -32805,7 +32695,9 @@
     "title": "Helm: prevent duplicate pod label keys across deployments",
     "url": "https://github.com/openchoreo/openchoreo/issues/5206",
     "labels": [
-      "good first issue"
+      "good first issue",
+      "Type/Improvement",
+      "area/installation"
     ],
     "created_at": "2026-10-28T05:47:11Z"
   },
@@ -36584,10 +36476,12 @@
     "title": "Stories for components",
     "url": "https://github.com/kubernetes-sigs/headlamp/issues/931",
     "labels": [
+      "kind/bug",
       "good first issue",
       "help wanted",
       "frontend",
       "testing",
+      "oidc",
       "lfx"
     ],
     "created_at": "2023-02-02T11:29:44Z"
@@ -38258,23 +38152,6 @@
       "plugin"
     ],
     "created_at": "2025-12-17T07:18:52Z"
-  },
-  {
-    "repo": "perses/perses",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "Observability and Analysis",
-    "subcategory": "Observability",
-    "description": "Perses is a dashboard tool to visualize observability data from Prometheus/Thanos/Jaeger.",
-    "ai_related": false,
-    "title": "Plugin request: Trino",
-    "url": "https://github.com/perses/perses/issues/3703",
-    "labels": [
-      "help wanted",
-      "priority/P2",
-      "plugin"
-    ],
-    "created_at": "2025-12-12T23:25:25Z"
   },
   {
     "repo": "perses/perses",
@@ -40321,8 +40198,45 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
-    "title": "[selfreport] unclassified_error_repeated: dashboard: rejected hub-proxied request with unverified proxy proof; hub and sp…",
-    "url": "https://github.com/hivecommons/hive/issues/18377",
+    "title": "[Coverage] packages below 90% threshold",
+    "url": "https://github.com/hivecommons/hive/issues/18454",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "kind/bug",
+      "ci-coverage",
+      "stage/010-actionable"
+    ],
+    "created_at": "2026-11-16T17:52:27Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "✨ Remote repos: per-hive write identity (bot, bot only, or owner)",
+    "url": "https://github.com/hivecommons/hive/issues/18516",
+    "labels": [
+      "help wanted",
+      "triage/accepted",
+      "stage/040-covered-by-pr",
+      "hive/claimed-by-human"
+    ],
+    "created_at": "2026-11-16T21:33:10Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "[selfreport] unclassified_error_repeated: copilot config bridge: a private config.json had replaced the shared-login syml…",
+    "url": "https://github.com/hivecommons/hive/issues/18497",
     "labels": [
       "help wanted",
       "kind/bug",
@@ -40335,7 +40249,7 @@
       "severity:low",
       "class:unclassified-error-repeated"
     ],
-    "created_at": "2026-11-16T03:37:32Z"
+    "created_at": "2026-11-16T20:45:21Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40345,16 +40259,13 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
-    "title": "✨ Workflow models: model reply verbs on PR states and un-parked issues",
-    "url": "https://github.com/hivecommons/hive/issues/18357",
+    "title": "[selfreport] agent_lifecycle_repeated: tmux kill-session before restart failed",
+    "url": "https://github.com/hivecommons/hive/issues/18486",
     "labels": [
       "help wanted",
-      "triage/accepted",
-      "kind/feature",
-      "hive/claimed-by-scanner",
       "stage/040-covered-by-pr"
     ],
-    "created_at": "2026-11-16T02:37:56Z"
+    "created_at": "2026-11-16T20:30:46Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40364,34 +40275,186 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
-    "title": "✨ Workflow models: emit .hive/workflows/checks.yml through a PR",
-    "url": "https://github.com/hivecommons/hive/issues/18355",
+    "title": "[selfreport] kick_freshness_withheld: kick withheld: every ref failed the freshness check",
+    "url": "https://github.com/hivecommons/hive/issues/18470",
     "labels": [
       "help wanted",
-      "triage/accepted",
-      "kind/feature",
-      "stage/040-covered-by-pr"
-    ],
-    "created_at": "2026-11-16T02:37:52Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "✨ Workflow models: engine writes model state labels onto items",
-    "url": "https://github.com/hivecommons/hive/issues/18354",
-    "labels": [
-      "help wanted",
-      "triage/accepted",
-      "kind/feature",
       "stage/040-covered-by-pr",
       "hive/claimed-by-human"
     ],
-    "created_at": "2026-11-16T02:37:51Z"
+    "created_at": "2026-11-16T19:08:16Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "\"hold\" label overloaded",
+    "url": "https://github.com/hivecommons/hive/issues/18468",
+    "labels": [
+      "help wanted",
+      "needs-triage",
+      "stage/015-triage-needed"
+    ],
+    "created_at": "2026-11-16T19:00:31Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "📝 RFC: v7 - Non-CLI backends: Hive as tool host and a zero-cost CLI-less coordinator (hive-lite)",
+    "url": "https://github.com/hivecommons/hive/issues/18464",
+    "labels": [
+      "help wanted",
+      "hold",
+      "kind/design",
+      "proposal"
+    ],
+    "created_at": "2026-11-16T18:40:19Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "[selfreport] ioscan_classifier_unavailable: ioscan fail-closed blocked kick",
+    "url": "https://github.com/hivecommons/hive/issues/18459",
+    "labels": [
+      "help wanted",
+      "stage/010-actionable"
+    ],
+    "created_at": "2026-11-16T18:06:35Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "[v5] 🐛 dashboard: an agent that has never been kicked shows as \"running\" forever",
+    "url": "https://github.com/hivecommons/hive/issues/18458",
+    "labels": [
+      "help wanted",
+      "stage/040-covered-by-pr",
+      "hive/claimed-by-human"
+    ],
+    "created_at": "2026-11-16T18:04:26Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "🐛 bug: In multi-repo hives, governor issue not created in all repos",
+    "url": "https://github.com/hivecommons/hive/issues/18448",
+    "labels": [
+      "bug",
+      "help wanted",
+      "needs-triage",
+      "stage/015-triage-needed"
+    ],
+    "created_at": "2026-11-16T17:45:14Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "🐛 scanner: stale Dependabot PRs stay stuck (App's @dependabot rebase is refused; NOTICE commit blocks rebase)",
+    "url": "https://github.com/hivecommons/hive/issues/18441",
+    "labels": [
+      "help wanted",
+      "kind/bug",
+      "stage/040-covered-by-pr",
+      "needs-sha"
+    ],
+    "created_at": "2026-11-16T17:08:53Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "[selfreport] unclassified_error_repeated: automerge refused squash without Signed-off-by",
+    "url": "https://github.com/hivecommons/hive/issues/18440",
+    "labels": [
+      "help wanted",
+      "stage/010-actionable"
+    ],
+    "created_at": "2026-11-16T17:02:59Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "🐛 bug: labels added and removed multiple times",
+    "url": "https://github.com/hivecommons/hive/issues/18434",
+    "labels": [
+      "bug",
+      "help wanted",
+      "triage/accepted",
+      "stage/040-covered-by-pr"
+    ],
+    "created_at": "2026-11-16T15:58:56Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "🌱 [v6] advisor: Codex and Copilot subscription backends (prove a tool-less run first)",
+    "url": "https://github.com/hivecommons/hive/issues/18421",
+    "labels": [
+      "help wanted",
+      "stage/040-covered-by-pr",
+      "hive/claimed-by-human"
+    ],
+    "created_at": "2026-11-16T13:49:55Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "🐛 [v5] bug: the hive and a repo's own triage tool keep removing and re-adding needs-triage on covered issues",
+    "url": "https://github.com/hivecommons/hive/issues/18387",
+    "labels": [
+      "help wanted",
+      "stage/040-covered-by-pr",
+      "hive/claimed-by-human"
+    ],
+    "created_at": "2026-11-16T11:26:37Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40407,6 +40470,7 @@
       "enhancement",
       "help wanted",
       "needs-triage",
+      "stage/stalled",
       "stage/015-triage-needed"
     ],
     "created_at": "2026-11-15T12:51:48Z"
@@ -40425,6 +40489,7 @@
       "bug",
       "help wanted",
       "needs-triage",
+      "stage/stalled",
       "stage/015-triage-needed"
     ],
     "created_at": "2026-11-15T12:15:58Z"
@@ -40443,6 +40508,7 @@
       "enhancement",
       "help wanted",
       "needs-triage",
+      "stage/stalled",
       "stage/015-triage-needed"
     ],
     "created_at": "2026-11-15T11:21:53Z"
@@ -40463,22 +40529,6 @@
       "stage/045-needs-decision"
     ],
     "created_at": "2026-11-12T16:34:17Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "[v6] Hosted hives never get GitHub webhooks (the hub never gives them the webhook secret) — design decision",
-    "url": "https://github.com/hivecommons/hive/issues/17182",
-    "labels": [
-      "help wanted",
-      "hold"
-    ],
-    "created_at": "2026-11-08T02:37:11Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40607,6 +40657,21 @@
       "good first issue"
     ],
     "created_at": "2025-07-17T16:55:48Z"
+  },
+  {
+    "repo": "kserve/kserve",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "Inference",
+    "subcategory": "Framework",
+    "description": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes",
+    "ai_related": true,
+    "title": "Queue-proxy readiness does not reflect agent readiness when agent sidecar is injected",
+    "url": "https://github.com/kserve/kserve/issues/5569",
+    "labels": [
+      "good first issue"
+    ],
+    "created_at": "2026-05-22T05:37:27Z"
   },
   {
     "repo": "llm-d/llm-d",
