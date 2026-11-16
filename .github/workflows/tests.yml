@@ -32,7 +32,7 @@ jobs:
       - name: Run unit tests
         run: python -m unittest discover -v
 
-      - name: Validate workflow YAML
+      - name: Validate workflow YAML syntax
         run: |
           python - <<'PY'
           from pathlib import Path
