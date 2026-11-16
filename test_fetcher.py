@@ -218,7 +218,7 @@ class IssueDataPreservationTests(unittest.TestCase):
             with open(output_path, encoding="utf-8") as data_file:
                 saved = json.load(data_file)
 
-        self.assertEqual(len(result), 1)
+        self.assertEqual(len(result["issues"]), 1)
         self.assertEqual(saved, result)
         self.assertEqual(saved["issues"][0]["ai_related"], True)
         self.assertEqual(saved["issues"][0]["repo"], repo)
@@ -285,10 +285,6 @@ class ExistingDashboardEnrichmentTests(unittest.TestCase):
         self.assertIn("last_updated", saved)
 
 
-if __name__ == "__main__":
-    unittest.main()
-
-
 class RepositoryIdentityTests(unittest.TestCase):
     def test_duplicate_entries_keep_positive_ai_classification_and_repo_casing(self):
         landscape_yaml = """
@@ -346,3 +342,7 @@ landscape:
         self.assertEqual(enriched["issues"][0]["repo"], "HolmesGPT/holmesgpt")
         self.assertTrue(enriched["issues"][0]["ai_related"])
         self.assertIsInstance(enriched["last_updated"], str)
+
+
+if __name__ == "__main__":
+    unittest.main()
