@@ -1,6 +1,9 @@
 name: Python Tests
 
 on:
+  push:
+    branches:
+      - audit/ai-native-filter-final-tests
   pull_request:
     branches:
       - main
