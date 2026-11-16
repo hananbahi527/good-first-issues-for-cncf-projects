@@ -28,3 +28,28 @@ jobs:
 
       - name: Run unit tests
         run: python -m unittest discover -v
+
+      - name: Validate workflow YAML
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import yaml
+
+          for path in Path(".github/workflows").glob("*.yml"):
+              yaml.safe_load(path.read_text(encoding="utf-8"))
+              print(f"Valid YAML: {path}")
+          PY
+
+      - name: Check dashboard JavaScript syntax
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          html = Path("index.html").read_text(encoding="utf-8")
+          match = re.search(r"<script>(.*?)</script>", html, re.DOTALL)
+          if not match:
+              raise SystemExit("Could not find the dashboard script.")
+          Path("/tmp/dashboard.js").write_text(match.group(1), encoding="utf-8")
+          PY
+          node --check /tmp/dashboard.js
