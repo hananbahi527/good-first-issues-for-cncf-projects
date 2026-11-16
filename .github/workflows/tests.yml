@@ -138,3 +138,31 @@ jobs:
             console.log("Dashboard render, AI filter, and last-updated smoke test passed.");
           }, 0);
           NODE
+
+      - name: Check reported projects against the live CNCF landscape
+        run: |
+          python - <<'PY'
+          from fetcher import get_live_cncf_repos
+
+          repos = get_live_cncf_repos()
+          reported = (
+              "kubernetes/kubernetes",
+              "prometheus/prometheus",
+              "cilium/cilium",
+              "keycloak/keycloak",
+              "cri-o/cri-o",
+              "kyverno/kyverno",
+          )
+          wrongly_classified = [
+              repo for repo in reported
+              if repos.get(repo, {}).get("ai_related") is True
+          ]
+          missing = [repo for repo in reported if repo not in repos]
+          print(f"Checked {len(repos)} live CNCF repositories.")
+          print(f"Reported examples still marked AI Native: {wrongly_classified}")
+          print(f"Reported examples not found in landscape: {missing}")
+          if wrongly_classified:
+              raise SystemExit("False AI Native classifications remain.")
+          if missing:
+              raise SystemExit("Could not verify every reported repository.")
+          PY
