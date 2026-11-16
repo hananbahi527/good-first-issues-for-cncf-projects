@@ -67,6 +67,24 @@ class AiNativeClassificationTests(unittest.TestCase):
                 {"name": "Service Mesh"},
             )
         )
+    def test_known_non_ai_projects_are_not_classified_from_cross_listing(self):
+        examples = (
+            ("kubernetes/kubernetes", "Kubernetes", "Infrastructure", "Container Runtime"),
+            ("prometheus/prometheus", "Prometheus", "Observability", "Monitoring"),
+            ("cilium/cilium", "Cilium", "Networking", "Service Mesh"),
+            ("keycloak/keycloak", "Keycloak", "Identity", "Authentication"),
+            ("cri-o/cri-o", "CRI-O", "Runtime", "Container Runtime"),
+            ("kyverno/kyverno", "Kyverno", "Security", "Policy"),
+        )
+        for repo, name, category, subcategory in examples:
+            with self.subTest(repo=repo):
+                self.assertFalse(
+                    is_ai_native(
+                        {"name": name, "second_path": ["AI Native Infra"]},
+                        {"name": category},
+                        {"name": subcategory},
+                    )
+                )
 
     def test_ai_native_tag_matches(self):
         self.assertTrue(
@@ -124,7 +142,7 @@ class AiNativeClassificationTests(unittest.TestCase):
 
 
 class LandscapeMetadataParsingTests(unittest.TestCase):
-    def test_live_parser_reads_extra_ai_and_second_path(self):
+    def test_live_parser_reads_explicit_ai_and_ignores_second_path(self):
         landscape_yaml = """
 landscape:
   - name: Cloud Native
