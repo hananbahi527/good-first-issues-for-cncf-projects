@@ -59,27 +59,6 @@ def normalize(value):
     return re.sub(r"\s+", " ", str(value or "")).strip().casefold()
 
 
-def _landscape_path_names(value):
-    """Yield normalized category names from CNCF's flexible second_path field."""
-    if isinstance(value, str):
-        # Landscape paths can be hierarchical, e.g. "AI Native Infra / Gateway".
-        for part in value.split("/"):
-            name = normalize(part)
-            if name:
-                yield name
-    elif isinstance(value, dict):
-        # Landscape metadata may represent path entries as {name: ...}.
-        name = normalize(value.get("name"))
-        if name:
-            yield name
-        for key, child in value.items():
-            if key != "name":
-                yield from _landscape_path_names(child)
-    elif isinstance(value, (list, tuple, set)):
-        for child in value:
-            yield from _landscape_path_names(child)
-
-
 def is_ai_native(item, category, subcategory):
     """Return whether landscape metadata indicates an AI Native project."""
     category_name = normalize(category.get("name"))
