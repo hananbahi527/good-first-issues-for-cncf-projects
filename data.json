@@ -2841,6 +2841,24 @@
     "subcategory": "Automation & Configuration",
     "description": "",
     "ai_related": false,
+    "title": "[Docs] Sidebar toggle button overlaps and obscures page content on mobile screens",
+    "url": "https://github.com/meshery/meshery/issues/23821",
+    "labels": [
+      "help wanted",
+      "area/docs",
+      "language/markdown",
+      "framework/hugo"
+    ],
+    "created_at": "2026-11-17T05:56:10Z"
+  },
+  {
+    "repo": "meshery/meshery",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "description": "",
+    "ai_related": false,
     "title": "[CI] Docs deploy (hugo.yml) can be rejected by a concurrent PR-preview push to gh-pages",
     "url": "https://github.com/meshery/meshery/issues/23163",
     "labels": [
@@ -3308,24 +3326,6 @@
       "framework/hugo"
     ],
     "created_at": "2026-07-21T03:32:54Z"
-  },
-  {
-    "repo": "meshery/meshery",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Automation & Configuration",
-    "description": "",
-    "ai_related": false,
-    "title": "[Docs] Contributing: Include contributor instructions regarding sparse cloning, excluding /models and other dirs",
-    "url": "https://github.com/meshery/meshery/issues/20837",
-    "labels": [
-      "help wanted",
-      "area/docs",
-      "language/markdown",
-      "framework/hugo"
-    ],
-    "created_at": "2026-07-21T00:03:37Z"
   },
   {
     "repo": "metal3-io/baremetal-operator",
@@ -29794,8 +29794,7 @@
     "url": "https://github.com/helm/helm/issues/13182",
     "labels": [
       "help wanted",
-      "feature",
-      "Stale"
+      "feature"
     ],
     "created_at": "2024-07-16T08:42:33Z"
   },
@@ -32894,22 +32893,6 @@
       "reportedBy/community"
     ],
     "created_at": "2026-07-02T08:15:58Z"
-  },
-  {
-    "repo": "openchoreo/openchoreo",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "App Definition and Development",
-    "subcategory": "Continuous Integration & Delivery",
-    "description": "A developer platform for Kubernetes that delivers higher-level abstractions with a Backstage-powered portal, CI/CD, GitOps, and built-in observability.",
-    "ai_related": false,
-    "title": "ObservabilityAlertsNotificationChannel: missing email format validation and no enforcement of \"one default per environment\"",
-    "url": "https://github.com/openchoreo/openchoreo/issues/4053",
-    "labels": [
-      "good first issue",
-      "Type/Bug"
-    ],
-    "created_at": "2026-07-02T04:31:39Z"
   },
   {
     "repo": "openchoreo/openchoreo",
@@ -40198,16 +40181,14 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
-    "title": "[Coverage] packages below 90% threshold",
-    "url": "https://github.com/hivecommons/hive/issues/18454",
+    "title": "[scanner] Workflow models: GitHub Actions post-merge run observer feeding pipeline.status",
+    "url": "https://github.com/hivecommons/hive/issues/18645",
     "labels": [
-      "good first issue",
       "help wanted",
-      "kind/bug",
-      "ci-coverage",
-      "stage/010-actionable"
+      "agent/scanner",
+      "stage/040-covered-by-pr"
     ],
-    "created_at": "2026-11-16T17:52:27Z"
+    "created_at": "2026-11-17T05:29:26Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40217,15 +40198,50 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
-    "title": "✨ Remote repos: per-hive write identity (bot, bot only, or owner)",
-    "url": "https://github.com/hivecommons/hive/issues/18516",
+    "title": "📝 RFC: v7 - Hub registration protocol for self-hosted hives",
+    "url": "https://github.com/hivecommons/hive/issues/18642",
+    "labels": [
+      "help wanted",
+      "hold",
+      "kind/design",
+      "proposal"
+    ],
+    "created_at": "2026-11-17T05:03:12Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "[selfreport] ioscan_classifier_unavailable: ioscan classifier failed closed; text withheld",
+    "url": "https://github.com/hivecommons/hive/issues/18636",
+    "labels": [
+      "help wanted",
+      "stage/010-actionable"
+    ],
+    "created_at": "2026-11-17T04:28:32Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "[scanner] Contributor lifecycle notices as one upserted hive:contributor comment; ok-to-test ack as a reaction",
+    "url": "https://github.com/hivecommons/hive/issues/18608",
     "labels": [
       "help wanted",
       "triage/accepted",
-      "stage/040-covered-by-pr",
-      "hive/claimed-by-human"
+      "agent/scanner",
+      "stage/020-claimed",
+      "stage/stalled"
     ],
-    "created_at": "2026-11-16T21:33:10Z"
+    "created_at": "2026-11-17T02:31:17Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40235,71 +40251,16 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
-    "title": "[selfreport] unclassified_error_repeated: copilot config bridge: a private config.json had replaced the shared-login syml…",
-    "url": "https://github.com/hivecommons/hive/issues/18497",
+    "title": "📖 Betty on Zoom without a Zoom app: dial-in and audio-bridge options",
+    "url": "https://github.com/hivecommons/hive/issues/18596",
     "labels": [
       "help wanted",
-      "kind/bug",
-      "needs-triage",
-      "fleet-report",
-      "hive/selfreport",
-      "trigger:runtime-error",
-      "origin/selfreport",
-      "stage/015-triage-needed",
-      "severity:low",
-      "class:unclassified-error-repeated"
+      "triage/accepted",
+      "hive/verified-open",
+      "stage/010-actionable",
+      "hive/partially-addressed"
     ],
-    "created_at": "2026-11-16T20:45:21Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "[selfreport] agent_lifecycle_repeated: tmux kill-session before restart failed",
-    "url": "https://github.com/hivecommons/hive/issues/18486",
-    "labels": [
-      "help wanted",
-      "stage/040-covered-by-pr"
-    ],
-    "created_at": "2026-11-16T20:30:46Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "[selfreport] kick_freshness_withheld: kick withheld: every ref failed the freshness check",
-    "url": "https://github.com/hivecommons/hive/issues/18470",
-    "labels": [
-      "help wanted",
-      "stage/040-covered-by-pr",
-      "hive/claimed-by-human"
-    ],
-    "created_at": "2026-11-16T19:08:16Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "\"hold\" label overloaded",
-    "url": "https://github.com/hivecommons/hive/issues/18468",
-    "labels": [
-      "help wanted",
-      "needs-triage",
-      "stage/015-triage-needed"
-    ],
-    "created_at": "2026-11-16T19:00:31Z"
+    "created_at": "2026-11-17T02:23:20Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40327,115 +40288,11 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
-    "title": "[selfreport] ioscan_classifier_unavailable: ioscan fail-closed blocked kick",
-    "url": "https://github.com/hivecommons/hive/issues/18459",
-    "labels": [
-      "help wanted",
-      "stage/010-actionable"
-    ],
-    "created_at": "2026-11-16T18:06:35Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "[v5] 🐛 dashboard: an agent that has never been kicked shows as \"running\" forever",
-    "url": "https://github.com/hivecommons/hive/issues/18458",
-    "labels": [
-      "help wanted",
-      "stage/040-covered-by-pr",
-      "hive/claimed-by-human"
-    ],
-    "created_at": "2026-11-16T18:04:26Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "🐛 bug: In multi-repo hives, governor issue not created in all repos",
-    "url": "https://github.com/hivecommons/hive/issues/18448",
-    "labels": [
-      "bug",
-      "help wanted",
-      "needs-triage",
-      "stage/015-triage-needed"
-    ],
-    "created_at": "2026-11-16T17:45:14Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "🐛 scanner: stale Dependabot PRs stay stuck (App's @dependabot rebase is refused; NOTICE commit blocks rebase)",
-    "url": "https://github.com/hivecommons/hive/issues/18441",
-    "labels": [
-      "help wanted",
-      "kind/bug",
-      "stage/040-covered-by-pr",
-      "needs-sha"
-    ],
-    "created_at": "2026-11-16T17:08:53Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "[selfreport] unclassified_error_repeated: automerge refused squash without Signed-off-by",
-    "url": "https://github.com/hivecommons/hive/issues/18440",
-    "labels": [
-      "help wanted",
-      "stage/010-actionable"
-    ],
-    "created_at": "2026-11-16T17:02:59Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "🐛 bug: labels added and removed multiple times",
-    "url": "https://github.com/hivecommons/hive/issues/18434",
-    "labels": [
-      "bug",
-      "help wanted",
-      "triage/accepted",
-      "stage/040-covered-by-pr"
-    ],
-    "created_at": "2026-11-16T15:58:56Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
     "title": "🌱 [v6] advisor: Codex and Copilot subscription backends (prove a tool-less run first)",
     "url": "https://github.com/hivecommons/hive/issues/18421",
     "labels": [
       "help wanted",
-      "stage/040-covered-by-pr",
-      "hive/claimed-by-human"
+      "stage/010-actionable"
     ],
     "created_at": "2026-11-16T13:49:55Z"
   },
@@ -40447,71 +40304,17 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
-    "title": "🐛 [v5] bug: the hive and a repo's own triage tool keep removing and re-adding needs-triage on covered issues",
-    "url": "https://github.com/hivecommons/hive/issues/18387",
+    "title": "✨ Workflow models: watch post-merge pipeline runs for Main CI, Release and Deploy columns",
+    "url": "https://github.com/hivecommons/hive/issues/18356",
     "labels": [
       "help wanted",
-      "stage/040-covered-by-pr",
-      "hive/claimed-by-human"
+      "triage/accepted",
+      "kind/feature",
+      "approved-direction",
+      "stage/010-actionable",
+      "hive/partially-addressed"
     ],
-    "created_at": "2026-11-16T11:26:37Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "✨ feature: Dashboard chat: support sending a full !inception interview as one multi-line message",
-    "url": "https://github.com/hivecommons/hive/issues/18261",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "needs-triage",
-      "stage/stalled",
-      "stage/015-triage-needed"
-    ],
-    "created_at": "2026-11-15T12:51:48Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "🐛 bug: inception scaffold ignores the answered language and generates Go",
-    "url": "https://github.com/hivecommons/hive/issues/18260",
-    "labels": [
-      "bug",
-      "help wanted",
-      "needs-triage",
-      "stage/stalled",
-      "stage/015-triage-needed"
-    ],
-    "created_at": "2026-11-15T12:15:58Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "✨ feature[v6]: Dashboard Chat:  report scaffold file count and download path on inception approve",
-    "url": "https://github.com/hivecommons/hive/issues/18259",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "needs-triage",
-      "stage/stalled",
-      "stage/015-triage-needed"
-    ],
-    "created_at": "2026-11-15T11:21:53Z"
+    "created_at": "2026-11-16T02:37:54Z"
   },
   {
     "repo": "hivecommons/hive",
