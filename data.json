@@ -2296,6 +2296,22 @@
     "subcategory": "Automation & Configuration",
     "description": "",
     "ai_related": false,
+    "title": "[Server] Remove outdated TODOs and dead code in meshmodel/core/register.go",
+    "url": "https://github.com/meshery/meshery/issues/23850",
+    "labels": [
+      "kind/bug",
+      "good first issue"
+    ],
+    "created_at": "2026-11-17T15:09:54Z"
+  },
+  {
+    "repo": "meshery/meshery",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "description": "",
+    "ai_related": false,
     "title": "[Models] Add VaultAuth reference relationships to the Vault Secrets model",
     "url": "https://github.com/meshery/meshery/issues/22401",
     "labels": [
@@ -2821,44 +2837,6 @@
     "subcategory": "Automation & Configuration",
     "description": "",
     "ai_related": false,
-    "title": "[Template] Create a Brainstorming template",
-    "url": "https://github.com/meshery/meshery/issues/12503",
-    "labels": [
-      "kind/enhancement",
-      "help wanted",
-      "good first issue",
-      "issue/willfix",
-      "component/extensions",
-      "type/visual-design"
-    ],
-    "created_at": "2024-10-28T14:47:23Z"
-  },
-  {
-    "repo": "meshery/meshery",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Automation & Configuration",
-    "description": "",
-    "ai_related": false,
-    "title": "[Docs] Sidebar toggle button overlaps and obscures page content on mobile screens",
-    "url": "https://github.com/meshery/meshery/issues/23821",
-    "labels": [
-      "help wanted",
-      "area/docs",
-      "language/markdown",
-      "framework/hugo"
-    ],
-    "created_at": "2026-11-17T05:56:10Z"
-  },
-  {
-    "repo": "meshery/meshery",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Automation & Configuration",
-    "description": "",
-    "ai_related": false,
     "title": "[CI] Docs deploy (hugo.yml) can be rejected by a concurrent PR-preview push to gh-pages",
     "url": "https://github.com/meshery/meshery/issues/23163",
     "labels": [
@@ -3328,6 +3306,24 @@
     "created_at": "2026-07-21T03:32:54Z"
   },
   {
+    "repo": "meshery/meshery",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "description": "",
+    "ai_related": false,
+    "title": "[Docs] Contributing: Include contributor instructions regarding sparse cloning, excluding /models and other dirs",
+    "url": "https://github.com/meshery/meshery/issues/20837",
+    "labels": [
+      "help wanted",
+      "area/docs",
+      "language/markdown",
+      "framework/hugo"
+    ],
+    "created_at": "2026-07-21T00:03:37Z"
+  },
+  {
     "repo": "metal3-io/baremetal-operator",
     "tier": "Incubating",
     "lang": "Go",
@@ -3392,6 +3388,7 @@
     "labels": [
       "kind/feature",
       "help wanted",
+      "lifecycle/stale",
       "triage/accepted"
     ],
     "created_at": "2026-07-23T11:59:30Z"
@@ -3460,6 +3457,7 @@
     "labels": [
       "kind/bug",
       "help wanted",
+      "lifecycle/stale",
       "triage/accepted"
     ],
     "created_at": "2025-09-17T11:50:07Z"
@@ -4645,23 +4643,6 @@
     "created_at": "2023-12-19T21:36:31Z"
   },
   {
-    "repo": "cedar-policy/cedar",
-    "tier": "Sandbox",
-    "lang": "Rust",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "Cedar is an open source authorization policy language that enables developers to express fine-grained permissions as easy-to-understand policies enforced in their applications, and decouple access control from application logic. Cedar is designed to be ergonomic, fast, safe, and analyzable using automated reasoning. Cedar's simple and intuitive syntax supports common authorization use-cases with readable policies, naturally expressing concepts from role-based, attribute-based, and relation-based access control models. Cedar's policy structure enables authorization requests to be decided quickly. Its policy validator uses optional typing to help policy writers avoid mistakes, but not get in their way. Cedar's design has been finely balanced to allow for a sound, complete, and decidable logical encoding, which enables precise automated analysis of Cedar policies, e.g., to ensure that policy refactoring preserves existing permissions. Cedar's language specification has been formally verified using a theorem prover to satisfy key security properties like `deny trumps allow,` and its implementation in Rust undergoes rigorous differential random testing against its formal specification. By combining mathematical rigor with developer-friendly design, Cedar offers a practical approach to secure, maintainable authorization for modern applications.",
-    "ai_related": false,
-    "title": "Provide Getter for Context from Request and attributes of the Entity",
-    "url": "https://github.com/cedar-policy/cedar/issues/363",
-    "labels": [
-      "good-first-issue",
-      "help-wanted",
-      "feature-request"
-    ],
-    "created_at": "2023-10-16T17:42:28Z"
-  },
-  {
     "repo": "cert-manager/cert-manager",
     "tier": "Graduated",
     "lang": "Go",
@@ -5368,6 +5349,22 @@
       "priority/P2"
     ],
     "created_at": "2016-02-17T18:25:38Z"
+  },
+  {
+    "repo": "external-secrets/external-secrets",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "description": "External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets.",
+    "ai_related": false,
+    "title": "Helm chart: allow webhook lifecycle (preStop) and terminationGracePeriodSeconds to avoid refused admission calls during drains",
+    "url": "https://github.com/external-secrets/external-secrets/issues/7322",
+    "labels": [
+      "good first issue",
+      "kind/bug"
+    ],
+    "created_at": "2026-11-17T04:28:42Z"
   },
   {
     "repo": "external-secrets/external-secrets",
@@ -10376,38 +10373,6 @@
     "subcategory": "Cloud Native Storage",
     "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
     "ai_related": false,
-    "title": "[DOCS] Comment out the placeholder NVMe-oF targets in etc/curvine-cluster.toml",
-    "url": "https://github.com/CurvineIO/curvine/issues/2156",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "created_at": "2026-11-15T08:27:39Z"
-  },
-  {
-    "repo": "curvineio/curvine",
-    "tier": "Sandbox",
-    "lang": "Rust",
-    "category": "Runtime",
-    "subcategory": "Cloud Native Storage",
-    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-    "ai_related": false,
-    "title": "[DOCS] Add a crate map for the workspace under crates/",
-    "url": "https://github.com/CurvineIO/curvine/issues/2155",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "created_at": "2026-11-15T08:27:36Z"
-  },
-  {
-    "repo": "curvineio/curvine",
-    "tier": "Sandbox",
-    "lang": "Rust",
-    "category": "Runtime",
-    "subcategory": "Cloud Native Storage",
-    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-    "ai_related": false,
     "title": "[TEST] Add unit tests for cv fs chmod and chown argument parsing",
     "url": "https://github.com/CurvineIO/curvine/issues/2153",
     "labels": [
@@ -10415,54 +10380,6 @@
       "test"
     ],
     "created_at": "2026-11-15T08:27:30Z"
-  },
-  {
-    "repo": "curvineio/curvine",
-    "tier": "Sandbox",
-    "lang": "Rust",
-    "category": "Runtime",
-    "subcategory": "Cloud Native Storage",
-    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-    "ai_related": false,
-    "title": "[FEATURE] Show the real build version in the Web UI overview",
-    "url": "https://github.com/CurvineIO/curvine/issues/2152",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "created_at": "2026-11-15T08:26:33Z"
-  },
-  {
-    "repo": "curvineio/curvine",
-    "tier": "Sandbox",
-    "lang": "Rust",
-    "category": "Runtime",
-    "subcategory": "Cloud Native Storage",
-    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-    "ai_related": false,
-    "title": "[DOCS] Add a top-level README for curvine-csi",
-    "url": "https://github.com/CurvineIO/curvine/issues/2151",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "created_at": "2026-11-15T08:26:30Z"
-  },
-  {
-    "repo": "curvineio/curvine",
-    "tier": "Sandbox",
-    "lang": "Rust",
-    "category": "Runtime",
-    "subcategory": "Cloud Native Storage",
-    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-    "ai_related": false,
-    "title": "[DOCS] Replace the Vue CLI boilerplate in curvine-web/webui/README.md",
-    "url": "https://github.com/CurvineIO/curvine/issues/2150",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "created_at": "2026-11-15T08:26:28Z"
   },
   {
     "repo": "curvineio/curvine",
@@ -10488,102 +10405,6 @@
     "subcategory": "Cloud Native Storage",
     "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
     "ai_related": false,
-    "title": "[DOCS] Complete the empty \"Integrated with Master\" section in the S3 gateway README",
-    "url": "https://github.com/CurvineIO/curvine/issues/2148",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "created_at": "2026-11-15T08:25:36Z"
-  },
-  {
-    "repo": "curvineio/curvine",
-    "tier": "Sandbox",
-    "lang": "Rust",
-    "category": "Runtime",
-    "subcategory": "Cloud Native Storage",
-    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-    "ai_related": false,
-    "title": "[DOCS] Fix the Python SDK source-build instructions",
-    "url": "https://github.com/CurvineIO/curvine/issues/2147",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "created_at": "2026-11-15T08:25:33Z"
-  },
-  {
-    "repo": "curvineio/curvine",
-    "tier": "Sandbox",
-    "lang": "Rust",
-    "category": "Runtime",
-    "subcategory": "Cloud Native Storage",
-    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-    "ai_related": false,
-    "title": "[FEATURE] Add a cv fs tail command",
-    "url": "https://github.com/CurvineIO/curvine/issues/2144",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "created_at": "2026-11-15T08:24:42Z"
-  },
-  {
-    "repo": "curvineio/curvine",
-    "tier": "Sandbox",
-    "lang": "Rust",
-    "category": "Runtime",
-    "subcategory": "Cloud Native Storage",
-    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-    "ai_related": false,
-    "title": "[FEATURE] Accept multiple paths in cv fs du",
-    "url": "https://github.com/CurvineIO/curvine/issues/2143",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "created_at": "2026-11-15T08:24:38Z"
-  },
-  {
-    "repo": "curvineio/curvine",
-    "tier": "Sandbox",
-    "lang": "Rust",
-    "category": "Runtime",
-    "subcategory": "Cloud Native Storage",
-    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-    "ai_related": false,
-    "title": "[FEATURE] Add --json output to cv fs stat",
-    "url": "https://github.com/CurvineIO/curvine/issues/2142",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "created_at": "2026-11-15T08:24:35Z"
-  },
-  {
-    "repo": "curvineio/curvine",
-    "tier": "Sandbox",
-    "lang": "Rust",
-    "category": "Runtime",
-    "subcategory": "Cloud Native Storage",
-    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-    "ai_related": false,
-    "title": "[FEATURE] Add --offset and --length to cv fs cat",
-    "url": "https://github.com/CurvineIO/curvine/issues/2139",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "created_at": "2026-11-15T08:23:23Z"
-  },
-  {
-    "repo": "curvineio/curvine",
-    "tier": "Sandbox",
-    "lang": "Rust",
-    "category": "Runtime",
-    "subcategory": "Cloud Native Storage",
-    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-    "ai_related": false,
     "title": "[DOCS] Add supported versions and GitHub private reporting to SECURITY.md",
     "url": "https://github.com/CurvineIO/curvine/issues/2029",
     "labels": [
@@ -10600,44 +10421,12 @@
     "subcategory": "Cloud Native Storage",
     "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
     "ai_related": false,
-    "title": "[FEATURE] Add shell completion to the cv CLI",
-    "url": "https://github.com/CurvineIO/curvine/issues/2027",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "help wanted"
-    ],
-    "created_at": "2026-11-11T04:24:33Z"
-  },
-  {
-    "repo": "curvineio/curvine",
-    "tier": "Sandbox",
-    "lang": "Rust",
-    "category": "Runtime",
-    "subcategory": "Cloud Native Storage",
-    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-    "ai_related": false,
     "title": "[FEATURE] fuse: make core FileSystem ops required and document dangerous ENOSYS defaults (by LiAuto)",
     "url": "https://github.com/CurvineIO/curvine/issues/1101",
     "labels": [
       "good first issue"
     ],
     "created_at": "2026-07-14T07:01:49Z"
-  },
-  {
-    "repo": "curvineio/curvine",
-    "tier": "Sandbox",
-    "lang": "Rust",
-    "category": "Runtime",
-    "subcategory": "Cloud Native Storage",
-    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-    "ai_related": false,
-    "title": "[FEATURE] Manage bare-metal Curvine processes with systemd instead of nohup [LiAuto]",
-    "url": "https://github.com/CurvineIO/curvine/issues/1035",
-    "labels": [
-      "good first issue"
-    ],
-    "created_at": "2026-07-09T02:54:38Z"
   },
   {
     "repo": "curvineio/curvine",
@@ -12767,22 +12556,6 @@
     "subcategory": "Container Runtime",
     "description": "Linux virtual machines, typically on macOS, for running containerd",
     "ai_related": false,
-    "title": "krunkit: use upstream Homebrew",
-    "url": "https://github.com/lima-vm/lima/issues/5772",
-    "labels": [
-      "good first issue",
-      "component/krunkit"
-    ],
-    "created_at": "2026-11-09T17:55:12Z"
-  },
-  {
-    "repo": "lima-vm/lima",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "Runtime",
-    "subcategory": "Container Runtime",
-    "description": "Linux virtual machines, typically on macOS, for running containerd",
-    "ai_related": false,
     "title": "change `type Foo = string` to `type Foo string` for strict type checking",
     "url": "https://github.com/lima-vm/lima/issues/5142",
     "labels": [
@@ -14166,6 +13939,25 @@
       "area/multi-cluster"
     ],
     "created_at": "2024-03-26T22:45:52Z"
+  },
+  {
+    "repo": "cilium/cilium",
+    "tier": "Graduated",
+    "lang": "Go",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Network",
+    "description": "eBPF-based Networking, Observability, and Security",
+    "ai_related": false,
+    "title": "sysctlfix: 99-zzz-override_cilium.conf is never removed, post-uninstall-cleanup does not know about it",
+    "url": "https://github.com/cilium/cilium/issues/48936",
+    "labels": [
+      "kind/bug",
+      "help-wanted",
+      "good-first-issue",
+      "kind/community-report",
+      "area/agent"
+    ],
+    "created_at": "2026-09-22T11:12:14Z"
   },
   {
     "repo": "cilium/cilium",
@@ -18688,7 +18480,7 @@
     "labels": [
       "kind/bug",
       "help wanted",
-      "hold"
+      "needs-sha"
     ],
     "created_at": "2026-08-20T14:50:37Z"
   },
@@ -18755,7 +18547,8 @@
     "labels": [
       "kind/bug",
       "help wanted",
-      "hold"
+      "lifecycle/stale",
+      "needs-sha"
     ],
     "created_at": "2026-08-01T07:03:37Z"
   },
@@ -19002,7 +18795,8 @@
     "labels": [
       "kind/bug",
       "help wanted",
-      "hold"
+      "lifecycle/stale",
+      "needs-sha"
     ],
     "created_at": "2026-07-08T17:03:45Z"
   },
@@ -22027,7 +21821,7 @@
     "labels": [
       "enhancement",
       "good first issue",
-      "triage/accepted",
+      "triage/needs-triage",
       "area/security"
     ],
     "created_at": "2026-10-10T14:57:46Z"
@@ -25940,24 +25734,6 @@
       "good first issue"
     ],
     "created_at": "2026-11-13T18:39:19Z"
-  },
-  {
-    "repo": "apicurio/apicurio-registry",
-    "tier": "Sandbox",
-    "lang": "Java",
-    "category": "App Definition and Development",
-    "subcategory": "Streaming & Messaging",
-    "description": "Apicurio Registry is an open-source registry for API and schema artifacts (OpenAPI, AsyncAPI, Avro, Protobuf, JSON Schema, GraphQL and more) and AI agent artifacts (A2A Agent Cards, MCP tool definitions, prompt templates, model schemas), with immutable versioning, validity and compatibility rules, role-based access control, and standards-based discovery through AI Catalog and ARD well-known endpoints.",
-    "ai_related": true,
-    "title": "UI: versions list on the artifact overview tab is hidden below ~1040px until the drawer splitter is dragged",
-    "url": "https://github.com/Apicurio/apicurio-registry/issues/11112",
-    "labels": [
-      "type/bug",
-      "Beginner Friendly",
-      "good first issue",
-      "help wanted"
-    ],
-    "created_at": "2026-11-13T11:45:39Z"
   },
   {
     "repo": "apicurio/apicurio-registry",
@@ -38189,23 +37965,6 @@
     "created_at": "2025-07-07T14:18:36Z"
   },
   {
-    "repo": "perses/perses",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "Observability and Analysis",
-    "subcategory": "Observability",
-    "description": "Perses is a dashboard tool to visualize observability data from Prometheus/Thanos/Jaeger.",
-    "ai_related": false,
-    "title": "Panels in error are not getting refreshed",
-    "url": "https://github.com/perses/perses/issues/2343",
-    "labels": [
-      "help wanted",
-      "ui",
-      "priority/P1"
-    ],
-    "created_at": "2024-10-15T05:35:00Z"
-  },
-  {
     "repo": "pixie-io/pixie",
     "tier": "Sandbox",
     "lang": "C++",
@@ -40181,14 +39940,252 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
-    "title": "[scanner] Workflow models: GitHub Actions post-merge run observer feeding pipeline.status",
-    "url": "https://github.com/hivecommons/hive/issues/18645",
+    "title": "✨ Sandbox Jobs: support node affinity (e.g. any Spyre node except a known-bad one), not only nodeSelector",
+    "url": "https://github.com/hivecommons/hive/issues/18809",
+    "labels": [
+      "help wanted",
+      "triage/accepted",
+      "kind/feature",
+      "stage/020-claimed"
+    ],
+    "created_at": "2026-11-17T18:43:53Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "🐛 Kubernetes reload may drop dashboard-saved review and agent_sandbox settings (loadWithDashboardOverlay does not adopt them)",
+    "url": "https://github.com/hivecommons/hive/issues/18804",
+    "labels": [
+      "help wanted",
+      "triage/accepted",
+      "kind/bug",
+      "needs-sha"
+    ],
+    "created_at": "2026-11-17T18:20:06Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "[selfreport] unclassified_error_repeated: proxy: agent could not be identified — defaulting to ADVISORY and blocking a …",
+    "url": "https://github.com/hivecommons/hive/issues/18798",
+    "labels": [
+      "help wanted",
+      "stage/010-actionable"
+    ],
+    "created_at": "2026-11-17T18:00:48Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "PR Verifier leaves the required `PR Type` and `PR Issue` checks stuck in progress when it cannot update its own check runs (404), blocking an approved PR",
+    "url": "https://github.com/hivecommons/hive/issues/18764",
+    "labels": [
+      "help wanted",
+      "triage/accepted",
+      "kind/bug",
+      "stage/040-covered-by-pr"
+    ],
+    "created_at": "2026-11-17T16:27:40Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "[selfreport] unclassified_error_repeated: proxy upstream dial failed",
+    "url": "https://github.com/hivecommons/hive/issues/18763",
+    "labels": [
+      "help wanted",
+      "stage/010-actionable",
+      "hive/partially-addressed"
+    ],
+    "created_at": "2026-11-17T16:26:55Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "🐛 [v5] Claude model dropdown and price table: add Fable 5.2, Fable 5.1 and Haiku 5.5",
+    "url": "https://github.com/hivecommons/hive/issues/18753",
+    "labels": [
+      "help wanted",
+      "stage/040-covered-by-pr"
+    ],
+    "created_at": "2026-11-17T15:56:59Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "🐛 Sessions: Codex and OpenCode OAuth logins can still split from the shared login when a session refreshes them",
+    "url": "https://github.com/hivecommons/hive/issues/18740",
+    "labels": [
+      "help wanted",
+      "kind/bug",
+      "needs-sha"
+    ],
+    "created_at": "2026-11-17T15:25:31Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "[selfreport] effect_ledger_op_stuck: effect ledger op stuck: branch_update has been Unknown for 32m0s; retries refus…",
+    "url": "https://github.com/hivecommons/hive/issues/18726",
+    "labels": [
+      "help wanted",
+      "stage/010-actionable",
+      "hive/partially-addressed"
+    ],
+    "created_at": "2026-11-17T14:44:05Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "📊 [v5] PRs by model: list one model's pull requests",
+    "url": "https://github.com/hivecommons/hive/issues/18722",
+    "labels": [
+      "help wanted",
+      "stage/040-covered-by-pr"
+    ],
+    "created_at": "2026-11-17T14:31:36Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "📊 [v5] Evidence summary: change failures (reverts, reopened issues) per model",
+    "url": "https://github.com/hivecommons/hive/issues/18720",
+    "labels": [
+      "help wanted",
+      "stage/040-covered-by-pr"
+    ],
+    "created_at": "2026-11-17T14:31:32Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "📊 [v5] Spend and contributor run stats: add the canonical model name",
+    "url": "https://github.com/hivecommons/hive/issues/18718",
+    "labels": [
+      "help wanted",
+      "stage/040-covered-by-pr"
+    ],
+    "created_at": "2026-11-17T14:31:30Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "📊 [v5] PRs by model: per-repository breakdown and weekly trend",
+    "url": "https://github.com/hivecommons/hive/issues/18716",
+    "labels": [
+      "help wanted",
+      "stage/040-covered-by-pr"
+    ],
+    "created_at": "2026-11-17T14:31:28Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "🐛 Image-bump commits are authored as the operator but signed off only by hive-release[bot]/noreply, so the DCO app blocks every v6 top-up",
+    "url": "https://github.com/hivecommons/hive/issues/18697",
+    "labels": [
+      "help wanted",
+      "kind/bug",
+      "stage/040-covered-by-pr",
+      "hive/partially-addressed"
+    ],
+    "created_at": "2026-11-17T13:21:04Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "[scanner] quorum-companion: Linux capture module (PipeWire per-node capture)",
+    "url": "https://github.com/hivecommons/hive/issues/18661",
     "labels": [
       "help wanted",
       "agent/scanner",
-      "stage/040-covered-by-pr"
+      "stage/010-actionable",
+      "hive/partially-addressed"
     ],
-    "created_at": "2026-11-17T05:29:26Z"
+    "created_at": "2026-11-17T08:00:30Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "[scanner] quorum-companion: Windows capture module (WASAPI process loopback)",
+    "url": "https://github.com/hivecommons/hive/issues/18660",
+    "labels": [
+      "help wanted",
+      "agent/scanner",
+      "stage/010-actionable",
+      "hive/partially-addressed"
+    ],
+    "created_at": "2026-11-17T08:00:24Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40238,8 +40235,7 @@
       "help wanted",
       "triage/accepted",
       "agent/scanner",
-      "stage/020-claimed",
-      "stage/stalled"
+      "stage/040-covered-by-pr"
     ],
     "created_at": "2026-11-17T02:31:17Z"
   },
@@ -40251,7 +40247,7 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
-    "title": "📖 Betty on Zoom without a Zoom app: dial-in and audio-bridge options",
+    "title": "📖 Betty on Zoom without a Zoom app: desktop companion (chosen path) and options considered",
     "url": "https://github.com/hivecommons/hive/issues/18596",
     "labels": [
       "help wanted",
@@ -40292,29 +40288,9 @@
     "url": "https://github.com/hivecommons/hive/issues/18421",
     "labels": [
       "help wanted",
-      "stage/010-actionable"
+      "hold"
     ],
     "created_at": "2026-11-16T13:49:55Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "✨ Workflow models: watch post-merge pipeline runs for Main CI, Release and Deploy columns",
-    "url": "https://github.com/hivecommons/hive/issues/18356",
-    "labels": [
-      "help wanted",
-      "triage/accepted",
-      "kind/feature",
-      "approved-direction",
-      "stage/010-actionable",
-      "hive/partially-addressed"
-    ],
-    "created_at": "2026-11-16T02:37:54Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40329,7 +40305,8 @@
     "labels": [
       "help wanted",
       "agent/scanner",
-      "stage/045-needs-decision"
+      "hold",
+      "approved-direction"
     ],
     "created_at": "2026-11-12T16:34:17Z"
   },
@@ -40404,9 +40381,9 @@
       "enhancement",
       "help wanted",
       "architecture discussion",
-      "needs-human",
       "approved-direction",
-      "kind/design"
+      "kind/design",
+      "stage/018-open-for-discussion"
     ],
     "created_at": "2026-10-29T06:10:21Z"
   },
