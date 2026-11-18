@@ -3637,14 +3637,14 @@
     "subcategory": "Automation & Configuration",
     "description": "OpenTofu is an open source infrastructure as code tool that enables users to safely and predictably provision and manage cloud and on-prem infrastructure. It's a community-driven fork of Terraform that maintains backward compatibility while offering enhanced features, stability.",
     "ai_related": false,
-    "title": "Uninitialized symbol libraries cause crash",
-    "url": "https://github.com/opentofu/opentofu/issues/4733",
+    "title": "Crash in `tofu init` when `aws_kms` key provider has `assume_role = null` (panic: \"value is null\")",
+    "url": "https://github.com/opentofu/opentofu/issues/4858",
     "labels": [
       "bug",
-      "help wanted",
+      "good first issue",
       "accepted"
     ],
-    "created_at": "2026-10-18T17:51:19Z"
+    "created_at": "2026-11-18T07:28:55Z"
   },
   {
     "repo": "opentofu/opentofu",
@@ -5927,7 +5927,7 @@
     "labels": [
       "help wanted",
       "kind/feature",
-      "lifecycle/stale"
+      "lifecycle/rotten"
     ],
     "created_at": "2020-09-24T17:07:48Z"
   },
@@ -6083,6 +6083,27 @@
       "team/core-shared"
     ],
     "created_at": "2022-01-25T08:16:51Z"
+  },
+  {
+    "repo": "keycloak/keycloak",
+    "tier": "Incubating",
+    "lang": "Java",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
+    "ai_related": false,
+    "title": "Since 26.7.0, the original tab can't continue after the verification email is confirmed in another browser (400 \"Restart login cookie not found\")",
+    "url": "https://github.com/keycloak/keycloak/issues/55287",
+    "labels": [
+      "area/authentication",
+      "kind/bug",
+      "help wanted",
+      "status/auto-expire",
+      "status/auto-bump",
+      "priority/normal",
+      "team/core-authn"
+    ],
+    "created_at": "2026-11-17T17:18:57Z"
   },
   {
     "repo": "keycloak/keycloak",
@@ -6695,27 +6716,6 @@
       "backport/26.8"
     ],
     "created_at": "2026-10-13T07:47:14Z"
-  },
-  {
-    "repo": "keycloak/keycloak",
-    "tier": "Incubating",
-    "lang": "Java",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
-    "ai_related": false,
-    "title": "Missing detailed audit information in realm role delete operation",
-    "url": "https://github.com/keycloak/keycloak/issues/53806",
-    "labels": [
-      "kind/bug",
-      "area/admin/ui",
-      "help wanted",
-      "team/core-iam",
-      "priority/low",
-      "status/auto-expire",
-      "status/auto-bump"
-    ],
-    "created_at": "2026-10-09T14:27:32Z"
   },
   {
     "repo": "keylime/keylime",
@@ -10342,6 +10342,102 @@
       "good first issue"
     ],
     "created_at": "2022-06-19T20:46:12Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[BUG]: cv fs blocks --format silently accepts invalid values",
+    "url": "https://github.com/CurvineIO/curvine/issues/2257",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "created_at": "2026-11-18T11:10:16Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[BUG]: cv duration parsing panics on non-ASCII suffixes",
+    "url": "https://github.com/CurvineIO/curvine/issues/2256",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "created_at": "2026-11-18T11:10:09Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[DOCS] Sync the CLI reference with the current Clap definitions",
+    "url": "https://github.com/CurvineIO/curvine/issues/2255",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "created_at": "2026-11-18T11:10:01Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[DOCS] Fix wrong config keys and defaults in the technical docs",
+    "url": "https://github.com/CurvineIO/curvine/issues/2254",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "created_at": "2026-11-18T11:09:52Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[DOCS] Make the S3 gateway development instructions runnable",
+    "url": "https://github.com/CurvineIO/curvine/issues/2253",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "created_at": "2026-11-18T11:09:48Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[DOCS] Correct the CSI volume-expansion claims across READMEs",
+    "url": "https://github.com/CurvineIO/curvine/issues/2252",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "created_at": "2026-11-18T11:09:38Z"
   },
   {
     "repo": "curvineio/curvine",
@@ -15552,23 +15648,6 @@
     "subcategory": "Scheduling & Orchestration",
     "description": "k0s is a CNCF-certified lightweight, Kubernetes distribution with zero dependencies and zero opinion.",
     "ai_related": false,
-    "title": "Non-default --status-socket or --run-dir break autopilot",
-    "url": "https://github.com/k0sproject/k0s/issues/6750",
-    "labels": [
-      "bug",
-      "good first issue",
-      "component/autopilot"
-    ],
-    "created_at": "2025-11-28T15:23:48Z"
-  },
-  {
-    "repo": "k0sproject/k0s",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "Orchestration & Management",
-    "subcategory": "Scheduling & Orchestration",
-    "description": "k0s is a CNCF-certified lightweight, Kubernetes distribution with zero dependencies and zero opinion.",
-    "ai_related": false,
     "title": "More Detailed CNI Health in `k0s status`",
     "url": "https://github.com/k0sproject/k0s/issues/5886",
     "labels": [
@@ -17622,6 +17701,44 @@
     "subcategory": "Scheduling & Orchestration",
     "description": "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications",
     "ai_related": false,
+    "title": "[Flaking Test] PodResources metrics: List() gets connection refused on the kubelet socket",
+    "url": "https://github.com/kubernetes/kubernetes/issues/144302",
+    "labels": [
+      "sig/node",
+      "kind/flake",
+      "help wanted",
+      "priority/important-longterm",
+      "triage/accepted"
+    ],
+    "created_at": "2026-11-18T16:43:31Z"
+  },
+  {
+    "repo": "kubernetes/kubernetes",
+    "tier": "Graduated",
+    "lang": "Go",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "description": "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications",
+    "ai_related": false,
+    "title": "[Flaking Test] LocalStorageCapacityIsolationEviction: clean-exit emptyDir container exits 137, expected 0",
+    "url": "https://github.com/kubernetes/kubernetes/issues/144300",
+    "labels": [
+      "sig/node",
+      "kind/flake",
+      "help wanted",
+      "priority/important-longterm",
+      "triage/accepted"
+    ],
+    "created_at": "2026-11-18T16:38:22Z"
+  },
+  {
+    "repo": "kubernetes/kubernetes",
+    "tier": "Graduated",
+    "lang": "Go",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "description": "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications",
+    "ai_related": false,
     "title": "[Flaking Test] [It] [sig-node] HugepageAwareMemoryReporting [Feature:HugePages] with feature gate enabled should subtract hugepage capacity from memory.available [Disruptive] [Serial] [Slow]",
     "url": "https://github.com/kubernetes/kubernetes/issues/143046",
     "labels": [
@@ -18119,44 +18236,6 @@
     "created_at": "2025-08-14T21:05:16Z"
   },
   {
-    "repo": "kubernetes/kubernetes",
-    "tier": "Graduated",
-    "lang": "Go",
-    "category": "Orchestration & Management",
-    "subcategory": "Scheduling & Orchestration",
-    "description": "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications",
-    "ai_related": false,
-    "title": "skiped e2e test for PodResources API",
-    "url": "https://github.com/kubernetes/kubernetes/issues/133326",
-    "labels": [
-      "area/test",
-      "kind/cleanup",
-      "sig/node",
-      "help wanted",
-      "priority/important-longterm",
-      "triage/accepted"
-    ],
-    "created_at": "2025-07-30T22:37:50Z"
-  },
-  {
-    "repo": "kubernetes/kubernetes",
-    "tier": "Graduated",
-    "lang": "Go",
-    "category": "Orchestration & Management",
-    "subcategory": "Scheduling & Orchestration",
-    "description": "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications",
-    "ai_related": false,
-    "title": "Cache NodeInfo for Kubelet admission",
-    "url": "https://github.com/kubernetes/kubernetes/issues/132858",
-    "labels": [
-      "kind/cleanup",
-      "sig/node",
-      "help wanted",
-      "triage/accepted"
-    ],
-    "created_at": "2025-07-10T03:37:55Z"
-  },
-  {
     "repo": "kubeslice/kubeslice",
     "tier": "Sandbox",
     "lang": "Mustache",
@@ -18186,8 +18265,6 @@
       "help wanted",
       "lifecycle/rotten",
       "good first issue",
-      "stage/010-actionable",
-      "stage/stalled",
       "agent/outreach"
     ],
     "created_at": "2026-06-08T12:35:52Z"
@@ -18207,9 +18284,7 @@
       "lifecycle/rotten",
       "good first issue",
       "conference",
-      "blog",
-      "stage/010-actionable",
-      "stage/stalled"
+      "blog"
     ],
     "created_at": "2026-06-08T10:59:31Z"
   },
@@ -18227,9 +18302,7 @@
       "help wanted",
       "priority/medium",
       "kind/documentation",
-      "good first issue",
-      "stage/010-actionable",
-      "stage/stalled"
+      "good first issue"
     ],
     "created_at": "2026-06-08T10:59:13Z"
   },
@@ -19151,22 +19224,6 @@
       "help wanted"
     ],
     "created_at": "2026-09-04T11:14:36Z"
-  },
-  {
-    "repo": "open-cluster-management-io/ocm",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "Orchestration & Management",
-    "subcategory": "Scheduling & Orchestration",
-    "description": "A lightweight, open standard for multi-cluster Kubernetes management built on a hub-spoke architecture.",
-    "ai_related": false,
-    "title": "clusters temporarily disappear during sequential PlacementDecisions update",
-    "url": "https://github.com/open-cluster-management-io/ocm/issues/1346",
-    "labels": [
-      "bug",
-      "help wanted"
-    ],
-    "created_at": "2026-01-21T03:31:28Z"
   },
   {
     "repo": "open-cluster-management-io/ocm",
@@ -27159,22 +27216,6 @@
     "subcategory": "Application Definition & Image Build",
     "description": "Backstage is an open platform for building developer portals",
     "ai_related": false,
-    "title": "[DevTools] Migrate the `ScheduledTasksContent` component to Backstage UI",
-    "url": "https://github.com/backstage/backstage/issues/32750",
-    "labels": [
-      "good first issue",
-      "needs:triage"
-    ],
-    "created_at": "2026-02-08T15:16:34Z"
-  },
-  {
-    "repo": "backstage/backstage",
-    "tier": "Incubating",
-    "lang": "TypeScript",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "Backstage is an open platform for building developer portals",
-    "ai_related": false,
     "title": "[DevTools] Migrate the `InfoDependenciesTable` component to Backstage Ui (BUI)",
     "url": "https://github.com/backstage/backstage/issues/32748",
     "labels": [
@@ -27307,6 +27348,24 @@
       "area:techdocs"
     ],
     "created_at": "2025-08-04T11:21:20Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Incremental Ingestion Admin Interface",
+    "url": "https://github.com/backstage/backstage/issues/30442",
+    "labels": [
+      "type:suggestion",
+      "good first issue",
+      "priority:contrib-needed",
+      "area:catalog"
+    ],
+    "created_at": "2025-07-03T19:59:31Z"
   },
   {
     "repo": "backstage/backstage",
@@ -29355,6 +29414,21 @@
       "good first issue"
     ],
     "created_at": "2020-04-25T18:05:37Z"
+  },
+  {
+    "repo": "helm/helm",
+    "tier": "Graduated",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "The Kubernetes Package Manager",
+    "ai_related": false,
+    "title": "test: flaky TestRegistryScopeTestSuite due to setup() not waiting for registry to listen",
+    "url": "https://github.com/helm/helm/issues/32921",
+    "labels": [
+      "help wanted"
+    ],
+    "created_at": "2026-11-18T17:22:20Z"
   },
   {
     "repo": "helm/helm",
@@ -32934,6 +33008,23 @@
       "pinned"
     ],
     "created_at": "2020-06-12T03:45:12Z"
+  },
+  {
+    "repo": "pipe-cd/pipecd",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "description": "GitOps style continuous delivery platform that provides consistent deployment and operations experience for any applications",
+    "ai_related": false,
+    "title": "Add a community meetings calendar to the website",
+    "url": "https://github.com/pipe-cd/pipecd/issues/7648",
+    "labels": [
+      "good first issue",
+      "area/docs",
+      "community"
+    ],
+    "created_at": "2026-11-18T09:01:22Z"
   },
   {
     "repo": "pipe-cd/pipecd",
@@ -39913,15 +40004,15 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
-    "title": "✨ Build visibility: 'does this build contain PR #N' and render evidence for UI PRs",
-    "url": "https://github.com/hivecommons/hive/issues/18915",
+    "title": "✨ hub: finish the registration protocol rollout (key rotation with grace, spoke repo sync, heartbeat feature negotiation)",
+    "url": "https://github.com/hivecommons/hive/issues/19056",
     "labels": [
       "good first issue",
       "help wanted",
       "stage/010-actionable",
       "hive/partially-addressed"
     ],
-    "created_at": "2026-11-18T05:20:46Z"
+    "created_at": "2026-11-18T17:22:28Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -39931,13 +40022,15 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
-    "title": "v6 top-up workflow fails on every v5 push after a squash-merged top-up PR (v5 ancestry lost)",
-    "url": "https://github.com/hivecommons/hive/issues/18931",
+    "title": "ci-flake: github.com/hivecommons/hive/crux/hivecap.TestInferenceRoutesPushAndClear/socket",
+    "url": "https://github.com/hivecommons/hive/issues/19124",
     "labels": [
       "help wanted",
-      "stage/010-actionable"
+      "ci-flake",
+      "stage/020-claimed",
+      "hive/claimed-by-human"
     ],
-    "created_at": "2026-11-18T05:59:08Z"
+    "created_at": "2026-11-18T20:24:18Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -39947,105 +40040,133 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
-    "title": "Operator visibility: per-kick outcomes, stale-reason labelling, pause provenance",
-    "url": "https://github.com/hivecommons/hive/issues/18916",
-    "labels": [
-      "help wanted",
-      "stage/040-covered-by-pr"
-    ],
-    "created_at": "2026-11-18T05:20:50Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "Sandbox read relay: an established tunnel outlives its released per-kick key",
-    "url": "https://github.com/hivecommons/hive/issues/18895",
-    "labels": [
-      "help wanted",
-      "hive/claimed-by-scanner",
-      "stage/040-covered-by-pr"
-    ],
-    "created_at": "2026-11-18T04:40:42Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "🐛 Sessions: a session's Codex/OpenCode login copy can still refresh and diverge from the shared login (follow-up to #18793)",
-    "url": "https://github.com/hivecommons/hive/issues/18740",
-    "labels": [
-      "help wanted",
-      "kind/bug",
-      "stage/010-actionable",
-      "hive/partially-addressed"
-    ],
-    "created_at": "2026-11-17T15:25:31Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "Verify Linux PipeWire capture on a real call and publish Linux release assets (code merged in quorum-companion#4)",
-    "url": "https://github.com/hivecommons/hive/issues/18661",
-    "labels": [
-      "help wanted",
-      "agent/scanner",
-      "hive/verified-open",
-      "stage/010-actionable",
-      "hive/partially-addressed"
-    ],
-    "created_at": "2026-11-17T08:00:30Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "Verify Windows capture on a real call and publish Windows release assets (code merged in quorum-companion#3)",
-    "url": "https://github.com/hivecommons/hive/issues/18660",
-    "labels": [
-      "help wanted",
-      "agent/scanner",
-      "hive/verified-open",
-      "stage/010-actionable",
-      "hive/partially-addressed"
-    ],
-    "created_at": "2026-11-17T08:00:24Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "📖 Betty on Zoom without a Zoom app: desktop companion (chosen path) and options considered",
-    "url": "https://github.com/hivecommons/hive/issues/18596",
+    "title": "🐛 Em-dashes still reach GitHub through agent writes on the egress proxy",
+    "url": "https://github.com/hivecommons/hive/issues/19103",
     "labels": [
       "help wanted",
       "triage/accepted",
-      "hive/verified-open",
-      "stage/010-actionable",
-      "hive/partially-addressed"
+      "stage/040-covered-by-pr",
+      "has-open-pr"
     ],
-    "created_at": "2026-11-17T02:23:20Z"
+    "created_at": "2026-11-18T19:15:54Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "🐛 Review-feedback agent cannot reply on review threads of its own PR (proxy refuses replies, allows probe comments)",
+    "url": "https://github.com/hivecommons/hive/issues/19096",
+    "labels": [
+      "help wanted",
+      "triage/accepted",
+      "stage/040-covered-by-pr"
+    ],
+    "created_at": "2026-11-18T19:04:17Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "✨ Companion meetings: let Betty speak into the call (spoken replies)",
+    "url": "https://github.com/hivecommons/hive/issues/19091",
+    "labels": [
+      "help wanted",
+      "stage/045-needs-decision"
+    ],
+    "created_at": "2026-11-18T18:56:10Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "[adjudicator] 🐛 port crux#158 command-safety regex widening into src/crux/toolapprove/security.go",
+    "url": "https://github.com/hivecommons/hive/issues/19089",
+    "labels": [
+      "help wanted",
+      "stage/040-covered-by-pr"
+    ],
+    "created_at": "2026-11-18T18:35:32Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "📖 Customers: opt-in, consent-first import of hub-held person fields (design)",
+    "url": "https://github.com/hivecommons/hive/issues/19088",
+    "labels": [
+      "help wanted",
+      "stage/045-needs-decision"
+    ],
+    "created_at": "2026-11-18T18:34:07Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "[v5] ✨ agy and omp: refresh static model floors from the pinned binaries (Part 3 of #19028)",
+    "url": "https://github.com/hivecommons/hive/issues/19037",
+    "labels": [
+      "help wanted",
+      "agent/scanner",
+      "hive/claimed-by-scanner",
+      "stage/020-claimed"
+    ],
+    "created_at": "2026-11-18T16:35:55Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "[v5] ✨ copilot: keep copilotPinnedCLIModels current from the pinned CLI (Part 1 of #19028)",
+    "url": "https://github.com/hivecommons/hive/issues/19035",
+    "labels": [
+      "help wanted",
+      "agent/scanner",
+      "hive/claimed-by-scanner",
+      "stage/020-claimed"
+    ],
+    "created_at": "2026-11-18T16:35:33Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "[scanner] audit(egress): request smuggling and header hygiene table tests for the proxy relays",
+    "url": "https://github.com/hivecommons/hive/issues/18993",
+    "labels": [
+      "help wanted",
+      "agent/scanner",
+      "stage/040-covered-by-pr"
+    ],
+    "created_at": "2026-11-18T14:18:53Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40125,27 +40246,6 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
-    "title": "📝 RFC: LLM-ranked knowledge advisor (OMP-style)",
-    "url": "https://github.com/hivecommons/hive/issues/17054",
-    "labels": [
-      "help wanted",
-      "Epic",
-      "hive/verified-open",
-      "approved-direction",
-      "proposal",
-      "hive/partially-addressed",
-      "stage/018-open-for-discussion"
-    ],
-    "created_at": "2026-11-07T18:44:04Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
     "title": "📝 RFC: cut over Crux development to hivecommons/crux on 2026-11-16",
     "url": "https://github.com/hivecommons/hive/issues/17004",
     "labels": [
@@ -40155,6 +40255,25 @@
       "stage/045-needs-decision"
     ],
     "created_at": "2026-11-07T15:33:26Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "🐝 Hive Advisory Report",
+    "url": "https://github.com/hivecommons/hive/issues/2364",
+    "labels": [
+      "help wanted",
+      "hive/advisory",
+      "hold",
+      "hive/selfreport",
+      "human-only"
+    ],
+    "created_at": "2026-07-31T17:17:23Z"
   },
   {
     "repo": "kaito-project/kaito",
