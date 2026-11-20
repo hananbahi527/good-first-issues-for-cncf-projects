@@ -4740,22 +4740,6 @@
     "subcategory": "Security & Compliance",
     "description": "",
     "ai_related": false,
-    "title": "if certificate is already expired, it shown like a True",
-    "url": "https://github.com/cert-manager/cert-manager/issues/7895",
-    "labels": [
-      "help wanted",
-      "priority/important-soon"
-    ],
-    "created_at": "2025-08-04T13:36:38Z"
-  },
-  {
-    "repo": "cert-manager/cert-manager",
-    "tier": "Graduated",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "",
-    "ai_related": false,
     "title": "Integration with ExternalDNS",
     "url": "https://github.com/cert-manager/cert-manager/issues/3521",
     "labels": [
@@ -5121,22 +5105,6 @@
     "subcategory": "Security & Compliance",
     "description": "OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors",
     "ai_related": false,
-    "title": "incorrect response for github connector is user not in required org",
-    "url": "https://github.com/dexidp/dex/issues/1438",
-    "labels": [
-      "help wanted",
-      "area/connector"
-    ],
-    "created_at": "2019-04-29T11:13:18Z"
-  },
-  {
-    "repo": "dexidp/dex",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors",
-    "ai_related": false,
     "title": "background health check",
     "url": "https://github.com/dexidp/dex/issues/1399",
     "labels": [
@@ -5311,6 +5279,23 @@
       "priority/P2"
     ],
     "created_at": "2016-02-17T18:25:38Z"
+  },
+  {
+    "repo": "external-secrets/external-secrets",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "description": "External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets.",
+    "ai_related": false,
+    "title": "Azure KeyVault + AKS: Support for Identity Binding",
+    "url": "https://github.com/external-secrets/external-secrets/issues/7329",
+    "labels": [
+      "good first issue",
+      "kind/feature",
+      "area/azure"
+    ],
+    "created_at": "2026-11-18T17:28:10Z"
   },
   {
     "repo": "external-secrets/external-secrets",
@@ -8520,7 +8505,7 @@
     "description": "OpenShell provides secure, policy-enforced sandboxed runtimes for autonomous AI agents.",
     "ai_related": true,
     "title": "bug: managed-workspace E2E tests intermittently fail with SQLite lock contention",
-    "url": "https://github.com/NVIDIA/OpenShell/issues/3679",
+    "url": "https://github.com/ai-openshell/openshell/issues/3679",
     "labels": [
       "help wanted",
       "topic:testing",
@@ -8538,7 +8523,7 @@
     "description": "OpenShell provides secure, policy-enforced sandboxed runtimes for autonomous AI agents.",
     "ai_related": true,
     "title": "feat(driver-mxc): default MXC admission settings to what the driver can enforce",
-    "url": "https://github.com/NVIDIA/OpenShell/issues/3560",
+    "url": "https://github.com/ai-openshell/openshell/issues/3560",
     "labels": [
       "help wanted",
       "topic:security",
@@ -10354,22 +10339,6 @@
       "good first issue"
     ],
     "created_at": "2026-11-19T15:21:36Z"
-  },
-  {
-    "repo": "curvineio/curvine",
-    "tier": "Sandbox",
-    "lang": "Rust",
-    "category": "Runtime",
-    "subcategory": "Cloud Native Storage",
-    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-    "ai_related": false,
-    "title": "[BUG]: Python SDK CurvineFileSystem.cat() raises AttributeError for a list of paths",
-    "url": "https://github.com/CurvineIO/curvine/issues/2316",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "created_at": "2026-11-19T15:21:09Z"
   },
   {
     "repo": "curvineio/curvine",
@@ -30053,8 +30022,11 @@
     "url": "https://github.com/kubevela/kubevela/issues/7629",
     "labels": [
       "good first issue",
+      "priority/nice-to-have",
       "area/workflow",
-      "type/enhancement"
+      "type/enhancement",
+      "area/cuex",
+      "area/definitions"
     ],
     "created_at": "2026-11-19T12:39:01Z"
   },
@@ -30072,10 +30044,30 @@
       "type/bug",
       "good first issue",
       "help wanted",
+      "priority/important-soon",
       "effort/small",
       "area/cli"
     ],
     "created_at": "2026-11-18T05:28:53Z"
+  },
+  {
+    "repo": "kubevela/kubevela",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Make shipping applications more enjoyable",
+    "ai_related": false,
+    "title": "[Enhancement] Move controller-runtime from the main-branch pin to the v0.26.0 release",
+    "url": "https://github.com/kubevela/kubevela/issues/7451",
+    "labels": [
+      "good first issue",
+      "priority/important-soon",
+      "area/cli",
+      "area/testing",
+      "type/enhancement"
+    ],
+    "created_at": "2026-10-12T07:16:00Z"
   },
   {
     "repo": "kubevela/kubevela",
@@ -30092,6 +30084,7 @@
       "good first issue",
       "help wanted",
       "area/trait",
+      "priority/nice-to-have",
       "effort/small",
       "area/admission"
     ],
@@ -30112,6 +30105,7 @@
       "good first issue",
       "help wanted",
       "area/cue",
+      "priority/nice-to-have",
       "effort/small",
       "area/defkit"
     ],
@@ -30132,6 +30126,7 @@
       "good first issue",
       "help wanted",
       "area/cue",
+      "priority/nice-to-have",
       "effort/small",
       "area/defkit"
     ],
@@ -30151,6 +30146,7 @@
       "type/bug",
       "good first issue",
       "help wanted",
+      "priority/nice-to-have",
       "effort/small",
       "area/multi-cluster",
       "area/cli",
@@ -30166,17 +30162,17 @@
     "subcategory": "Application Definition & Image Build",
     "description": "Make shipping applications more enjoyable",
     "ai_related": false,
-    "title": "[Feature] Expose user-configurable post-rendering on helmchart (CUE)",
-    "url": "https://github.com/kubevela/kubevela/issues/7161",
+    "title": "Opt Out Built-in Trait Definitions in Helm Chart",
+    "url": "https://github.com/kubevela/kubevela/issues/7101",
     "labels": [
       "type/feature",
       "good first issue",
-      "help wanted",
-      "area/component",
-      "priority/important-longterm",
-      "area/cue-template"
+      "priority/nice-to-have",
+      "area/installation",
+      "area/chart",
+      "area/definitions"
     ],
-    "created_at": "2026-05-25T07:07:37Z"
+    "created_at": "2026-04-27T09:45:39Z"
   },
   {
     "repo": "kubevela/kubevela",
@@ -30186,71 +30182,15 @@
     "subcategory": "Application Definition & Image Build",
     "description": "Make shipping applications more enjoyable",
     "ai_related": false,
-    "title": "[Feature] Expose user-configurable post-rendering on helmchart (Kustomize)",
-    "url": "https://github.com/kubevela/kubevela/issues/7160",
+    "title": "Vela show fails to generate parameter on docs generation command for workflow definitions containing imports",
+    "url": "https://github.com/kubevela/kubevela/issues/6847",
     "labels": [
-      "type/feature",
+      "type/bug",
       "good first issue",
-      "help wanted",
-      "area/component",
-      "priority/important-longterm"
+      "area/cue",
+      "priority/nice-to-have"
     ],
-    "created_at": "2026-05-25T07:02:25Z"
-  },
-  {
-    "repo": "kubevela/kubevela",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "Make shipping applications more enjoyable",
-    "ai_related": false,
-    "title": "[Feature] Expose user-configurable post-rendering on helmchart (kustomize, CUE)",
-    "url": "https://github.com/kubevela/kubevela/issues/7159",
-    "labels": [
-      "type/feature",
-      "good first issue",
-      "help wanted",
-      "area/component",
-      "priority/important-longterm",
-      "area/cue-template"
-    ],
-    "created_at": "2026-05-24T15:26:26Z"
-  },
-  {
-    "repo": "kubevela/kubevela",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "Make shipping applications more enjoyable",
-    "ai_related": false,
-    "title": "helmchart: valuesFrom OCIRepository support",
-    "url": "https://github.com/kubevela/kubevela/issues/7152",
-    "labels": [
-      "good first issue",
-      "help wanted",
-      "area/provider"
-    ],
-    "created_at": "2026-05-22T05:34:13Z"
-  },
-  {
-    "repo": "kubevela/kubevela",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "Make shipping applications more enjoyable",
-    "ai_related": false,
-    "title": "[Feature] Kubevela Application Store sensitive information in a configmap",
-    "url": "https://github.com/kubevela/kubevela/issues/6840",
-    "labels": [
-      "good first issue",
-      "priority/important-soon",
-      "area/appconfig",
-      "security"
-    ],
-    "created_at": "2025-07-28T15:32:05Z"
+    "created_at": "2025-08-04T19:20:48Z"
   },
   {
     "repo": "kubevela/kubevela",
@@ -30263,12 +30203,50 @@
     "title": "[Feature] Enable semantic versioning in vela show command",
     "url": "https://github.com/kubevela/kubevela/issues/6808",
     "labels": [
+      "type/feature",
       "good first issue",
       "priority/nice-to-have",
       "area/cli",
       "hacktoberfest"
     ],
     "created_at": "2025-06-18T21:43:12Z"
+  },
+  {
+    "repo": "kubevela/kubevela",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Make shipping applications more enjoyable",
+    "ai_related": false,
+    "title": "[Feature] The velaql template `component-pod` can display the aggregated status of pod containers, similar to the STATUS field in the result of `kubectl get pod`",
+    "url": "https://github.com/kubevela/kubevela/issues/6611",
+    "labels": [
+      "good first issue",
+      "priority/nice-to-have",
+      "area/velaql",
+      "type/enhancement"
+    ],
+    "created_at": "2024-08-30T02:28:49Z"
+  },
+  {
+    "repo": "kubevela/kubevela",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Make shipping applications more enjoyable",
+    "ai_related": false,
+    "title": "[Feature] 'envFrom' useable as component properties",
+    "url": "https://github.com/kubevela/kubevela/issues/6550",
+    "labels": [
+      "good first issue",
+      "area/component",
+      "priority/nice-to-have",
+      "type/enhancement",
+      "area/definitions"
+    ],
+    "created_at": "2024-06-25T15:41:02Z"
   },
   {
     "repo": "kubevela/kubevela",
@@ -30285,6 +30263,7 @@
       "help wanted",
       "area/component",
       "area/trait",
+      "priority/important-longterm",
       "effort/large",
       "area/cue-template"
     ],
@@ -30304,8 +30283,10 @@
       "type/bug",
       "help wanted",
       "area/cue",
+      "priority/important-soon",
       "effort/small",
-      "area/provider"
+      "area/provider",
+      "area/cuex"
     ],
     "created_at": "2026-09-28T15:09:30Z"
   },
@@ -30323,6 +30304,7 @@
       "type/feature",
       "help wanted",
       "area/cue",
+      "priority/nice-to-have",
       "effort/medium",
       "area/defkit"
     ],
@@ -30341,6 +30323,7 @@
     "labels": [
       "type/bug",
       "help wanted",
+      "priority/critical",
       "area/application",
       "effort/large",
       "area/resourcekeeper"
@@ -30360,10 +30343,93 @@
     "labels": [
       "type/feature",
       "help wanted",
+      "priority/important-soon",
       "effort/small",
       "area/chart"
     ],
     "created_at": "2026-07-29T15:15:57Z"
+  },
+  {
+    "repo": "kubevela/kubevela",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Make shipping applications more enjoyable",
+    "ai_related": false,
+    "title": "[Feature] Expose user-configurable post-rendering on helmchart (CUE)",
+    "url": "https://github.com/kubevela/kubevela/issues/7161",
+    "labels": [
+      "type/feature",
+      "help wanted",
+      "area/component",
+      "priority/important-longterm",
+      "area/cue-template",
+      "area/cuex",
+      "area/definitions"
+    ],
+    "created_at": "2026-05-25T07:07:37Z"
+  },
+  {
+    "repo": "kubevela/kubevela",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Make shipping applications more enjoyable",
+    "ai_related": false,
+    "title": "[Feature] Expose user-configurable post-rendering on helmchart (Kustomize)",
+    "url": "https://github.com/kubevela/kubevela/issues/7160",
+    "labels": [
+      "type/feature",
+      "help wanted",
+      "area/component",
+      "priority/important-longterm",
+      "area/cuex",
+      "area/definitions"
+    ],
+    "created_at": "2026-05-25T07:02:25Z"
+  },
+  {
+    "repo": "kubevela/kubevela",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Make shipping applications more enjoyable",
+    "ai_related": false,
+    "title": "[Feature] Expose user-configurable post-rendering on helmchart (kustomize, CUE)",
+    "url": "https://github.com/kubevela/kubevela/issues/7159",
+    "labels": [
+      "type/feature",
+      "help wanted",
+      "area/component",
+      "priority/important-longterm",
+      "area/cue-template",
+      "area/cuex",
+      "area/definitions"
+    ],
+    "created_at": "2026-05-24T15:26:26Z"
+  },
+  {
+    "repo": "kubevela/kubevela",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Make shipping applications more enjoyable",
+    "ai_related": false,
+    "title": "helmchart: valuesFrom OCIRepository support",
+    "url": "https://github.com/kubevela/kubevela/issues/7152",
+    "labels": [
+      "type/feature",
+      "help wanted",
+      "priority/nice-to-have",
+      "area/provider",
+      "area/cuex",
+      "area/definitions"
+    ],
+    "created_at": "2026-05-22T05:34:13Z"
   },
   {
     "repo": "kubevela/kubevela",
@@ -30378,7 +30444,8 @@
     "labels": [
       "help wanted",
       "priority/important-longterm",
-      "area/o11y"
+      "area/o11y",
+      "type/enhancement"
     ],
     "created_at": "2025-10-16T06:13:34Z"
   },
@@ -30394,7 +30461,10 @@
     "url": "https://github.com/kubevela/kubevela/issues/6763",
     "labels": [
       "type/bug",
-      "help wanted"
+      "help wanted",
+      "priority/awaiting-more-evidence",
+      "area/multi-cluster",
+      "area/cli"
     ],
     "created_at": "2025-04-18T11:29:46Z"
   },
@@ -30410,7 +30480,9 @@
     "url": "https://github.com/kubevela/kubevela/issues/1662",
     "labels": [
       "help wanted",
-      "type/question"
+      "type/question",
+      "priority/nice-to-have",
+      "area/website"
     ],
     "created_at": "2021-05-14T09:50:01Z"
   },
@@ -31182,6 +31254,22 @@
     "subcategory": "Application Definition & Image Build",
     "description": "Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.",
     "ai_related": false,
+    "title": "Dynamic RP reports schema fetch and storage failures as InvalidRequestContent",
+    "url": "https://github.com/radius-project/radius/issues/13847",
+    "labels": [
+      "good first issue",
+      "bug"
+    ],
+    "created_at": "2026-11-20T19:54:50Z"
+  },
+  {
+    "repo": "radius-project/radius",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.",
+    "ai_related": false,
     "title": "rad credential register azure accepts an empty client ID and tenant ID",
     "url": "https://github.com/radius-project/radius/issues/13749",
     "labels": [
@@ -31190,6 +31278,57 @@
       "bug"
     ],
     "created_at": "2026-11-11T05:30:10Z"
+  },
+  {
+    "repo": "radius-project/radius",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.",
+    "ai_related": false,
+    "title": "Schema lookup helpers panic on parser-accepted IDs without a UCP plane",
+    "url": "https://github.com/radius-project/radius/issues/13744",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "bug"
+    ],
+    "created_at": "2026-11-11T00:27:01Z"
+  },
+  {
+    "repo": "radius-project/radius",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.",
+    "ai_related": false,
+    "title": "Dynamic RP treats schema service failures as an absent schema",
+    "url": "https://github.com/radius-project/radius/issues/13743",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "bug"
+    ],
+    "created_at": "2026-11-11T00:26:52Z"
+  },
+  {
+    "repo": "radius-project/radius",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.",
+    "ai_related": false,
+    "title": "rad bicep generate-kubernetes-manifest help example uses a nonexistent --resource-group flag",
+    "url": "https://github.com/radius-project/radius/issues/13585",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "bug"
+    ],
+    "created_at": "2026-10-30T18:45:25Z"
   },
   {
     "repo": "radius-project/radius",
@@ -31208,6 +31347,57 @@
       "bug"
     ],
     "created_at": "2026-10-26T19:10:16Z"
+  },
+  {
+    "repo": "radius-project/radius",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.",
+    "ai_related": false,
+    "title": "Terraform Debug Logging Workaround: OS-Restricted Environment Variables in terraform-exec",
+    "url": "https://github.com/radius-project/radius/issues/10028",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "feature"
+    ],
+    "created_at": "2025-07-21T16:59:48Z"
+  },
+  {
+    "repo": "radius-project/radius",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.",
+    "ai_related": false,
+    "title": "Usability: Invalid error message when using upper case for a Bicep template",
+    "url": "https://github.com/radius-project/radius/issues/9645",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "bug"
+    ],
+    "created_at": "2025-05-27T22:55:03Z"
+  },
+  {
+    "repo": "radius-project/radius",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.",
+    "ai_related": false,
+    "title": "Usability: `rad workspace list` should highlight the current workspace",
+    "url": "https://github.com/radius-project/radius/issues/9413",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "bug"
+    ],
+    "created_at": "2025-05-09T16:42:07Z"
   },
   {
     "repo": "radius-project/radius",
@@ -32700,21 +32890,6 @@
       "good first issue"
     ],
     "created_at": "2026-06-01T18:58:45Z"
-  },
-  {
-    "repo": "openchoreo/openchoreo",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "App Definition and Development",
-    "subcategory": "Continuous Integration & Delivery",
-    "description": "A developer platform for Kubernetes that delivers higher-level abstractions with a Backstage-powered portal, CI/CD, GitOps, and built-in observability.",
-    "ai_related": false,
-    "title": "Incident details page: missing component link and empty actions column",
-    "url": "https://github.com/openchoreo/openchoreo/issues/3447",
-    "labels": [
-      "good first issue"
-    ],
-    "created_at": "2026-05-12T11:58:29Z"
   },
   {
     "repo": "openchoreo/openchoreo",
@@ -37363,22 +37538,6 @@
     "subcategory": "Observability",
     "description": "Kepler (Kubernetes-based Efficient Power Level Exporter) is a Prometheus exporter that measures energy consumption at the Pod and Node level by reading hardware sensors, attributing it to containers, and giving per-workload visibility into where energy goes. Let's make every watt matter.",
     "ai_related": false,
-    "title": "feat(helm): make the metrics port name configurable",
-    "url": "https://github.com/sustainable-computing-io/kepler/issues/2776",
-    "labels": [
-      "good first issue",
-      "help wanted"
-    ],
-    "created_at": "2026-11-19T20:24:52Z"
-  },
-  {
-    "repo": "sustainable-computing-io/kepler",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "Observability and Analysis",
-    "subcategory": "Observability",
-    "description": "Kepler (Kubernetes-based Efficient Power Level Exporter) is a Prometheus exporter that measures energy consumption at the Pod and Node level by reading hardware sensors, attributing it to containers, and giving per-workload visibility into where energy goes. Let's make every watt matter.",
-    "ai_related": false,
     "title": "Split `internal/device/hwmon_power_meter.go` into smaller files",
     "url": "https://github.com/sustainable-computing-io/kepler/issues/2634",
     "labels": [
@@ -39925,6 +40084,108 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
+    "title": "[selfreport] proxy_connect_dial_failed: proxy: CONNECT dial failed",
+    "url": "https://github.com/hivecommons/hive/issues/19397",
+    "labels": [
+      "help wanted",
+      "stage/040-covered-by-pr",
+      "hive/claimed-by-human"
+    ],
+    "created_at": "2026-11-20T18:34:25Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "📝 RFC: v6 - Opt-in timer for the hive to take over a person's sent-back PR",
+    "url": "https://github.com/hivecommons/hive/issues/19395",
+    "labels": [
+      "help wanted",
+      "proposal",
+      "stage/045-needs-decision"
+    ],
+    "created_at": "2026-11-20T15:42:53Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "[selfreport] agent_lifecycle_repeated: watchdog: would restart dead agent (observe mode; no action taken)",
+    "url": "https://github.com/hivecommons/hive/issues/19393",
+    "labels": [
+      "help wanted",
+      "stage/040-covered-by-pr",
+      "hive/claimed-by-human"
+    ],
+    "created_at": "2026-11-20T15:16:15Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "ci-flake: github.com/hivecommons/hive/cmd/hive.TestStageBaseRedRemembered",
+    "url": "https://github.com/hivecommons/hive/issues/19385",
+    "labels": [
+      "help wanted",
+      "ci-flake",
+      "stage/040-covered-by-pr"
+    ],
+    "created_at": "2026-11-20T11:35:44Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "ci-flake: github.com/hivecommons/hive/cmd/hive.TestAPIBudgetPacingNeverShortensTodaysInterval",
+    "url": "https://github.com/hivecommons/hive/issues/19384",
+    "labels": [
+      "help wanted",
+      "ci-flake",
+      "stage/040-covered-by-pr"
+    ],
+    "created_at": "2026-11-20T11:35:44Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "ci-flake: github.com/hivecommons/hive/pkg/msteams.TestListenBackoffStopsOnContext",
+    "url": "https://github.com/hivecommons/hive/issues/19383",
+    "labels": [
+      "help wanted",
+      "ci-flake",
+      "stage/040-covered-by-pr"
+    ],
+    "created_at": "2026-11-20T11:35:43Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
     "title": "[selfreport] agent_pane_timeout: prompt timeout — dumping pane",
     "url": "https://github.com/hivecommons/hive/issues/19376",
     "labels": [
@@ -39974,40 +40235,6 @@
       "hive/claimed-by-human"
     ],
     "created_at": "2026-11-20T04:42:18Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "🐛 [v6] PRs by model: closed PRs older than 14 days drop out, so 30d/all windows rank models on different spans",
-    "url": "https://github.com/hivecommons/hive/issues/19365",
-    "labels": [
-      "help wanted",
-      "stage/040-covered-by-pr",
-      "hive/claimed-by-human"
-    ],
-    "created_at": "2026-11-20T04:01:45Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "🐛 [v6] PR attribution: a PR drops out of \"PRs by model\" when any line follows the hive trailer",
-    "url": "https://github.com/hivecommons/hive/issues/19364",
-    "labels": [
-      "help wanted",
-      "stage/040-covered-by-pr",
-      "hive/claimed-by-human"
-    ],
-    "created_at": "2026-11-20T04:01:44Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40156,6 +40383,7 @@
       "help wanted",
       "hive/verified-open",
       "stage/010-actionable",
+      "stage/stalled",
       "hive/partially-addressed"
     ],
     "created_at": "2026-11-18T23:57:21Z"
@@ -40209,6 +40437,7 @@
       "hive/verified-open",
       "approved-direction",
       "stage/010-actionable",
+      "stage/stalled",
       "hive/partially-addressed"
     ],
     "created_at": "2026-11-18T18:34:07Z"
