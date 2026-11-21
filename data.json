@@ -2822,6 +2822,57 @@
     "subcategory": "Automation & Configuration",
     "description": "Infrastructure by Design",
     "ai_related": false,
+    "title": "[CI] Docs: Hugo and Dart Sass versions differ between local dev and CI",
+    "url": "https://github.com/meshery/meshery/issues/24069",
+    "labels": [
+      "help wanted",
+      "area/ci",
+      "area/devops"
+    ],
+    "created_at": "2026-11-21T02:21:50Z"
+  },
+  {
+    "repo": "meshery/meshery",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "description": "Infrastructure by Design",
+    "ai_related": false,
+    "title": "[CI] Docs deploy: size handling re-measures the site and checks out previews before knowing they fit",
+    "url": "https://github.com/meshery/meshery/issues/24068",
+    "labels": [
+      "help wanted",
+      "area/ci",
+      "area/devops"
+    ],
+    "created_at": "2026-11-21T02:10:59Z"
+  },
+  {
+    "repo": "meshery/meshery",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "description": "Infrastructure by Design",
+    "ai_related": false,
+    "title": "[CI]: Docs previews can't fit next to production on gh-pages",
+    "url": "https://github.com/meshery/meshery/issues/24067",
+    "labels": [
+      "help wanted",
+      "area/ci",
+      "area/devops"
+    ],
+    "created_at": "2026-11-21T02:00:13Z"
+  },
+  {
+    "repo": "meshery/meshery",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "description": "Infrastructure by Design",
+    "ai_related": false,
     "title": "[CI] Include the exact failing log lines (and a direct link to them) in the model-generator failure email",
     "url": "https://github.com/meshery/meshery/issues/23888",
     "labels": [
@@ -3233,57 +3284,6 @@
       "azure"
     ],
     "created_at": "2026-08-14T14:43:03Z"
-  },
-  {
-    "repo": "meshery/meshery",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Automation & Configuration",
-    "description": "Infrastructure by Design",
-    "ai_related": false,
-    "title": "[Docs] Standardize image embedding across documentation",
-    "url": "https://github.com/meshery/meshery/issues/21198",
-    "labels": [
-      "help wanted",
-      "area/docs",
-      "language/markdown",
-      "framework/hugo"
-    ],
-    "created_at": "2026-08-07T05:35:27Z"
-  },
-  {
-    "repo": "meshery/meshery",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Automation & Configuration",
-    "description": "Infrastructure by Design",
-    "ai_related": false,
-    "title": "Docs: Broken link to \"Contributing to Models Quick Start\" on Academy exam page",
-    "url": "https://github.com/meshery/meshery/issues/21139",
-    "labels": [
-      "help wanted",
-      "area/docs",
-      "language/markdown",
-      "framework/hugo"
-    ],
-    "created_at": "2026-08-05T04:35:13Z"
-  },
-  {
-    "repo": "meshery/meshery",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Automation & Configuration",
-    "description": "Infrastructure by Design",
-    "ai_related": false,
-    "title": "[Test Plan] Test #3: Install mesheryctl and select the platform to deploy on prompt",
-    "url": "https://github.com/meshery/meshery/issues/21078",
-    "labels": [
-      "help wanted"
-    ],
-    "created_at": "2026-08-02T20:33:57Z"
   },
   {
     "repo": "metal3-io/baremetal-operator",
@@ -9921,7 +9921,8 @@
     "url": "https://github.com/spiffe/spire/issues/6447",
     "labels": [
       "help wanted",
-      "priority/backlog"
+      "priority/backlog",
+      "stale"
     ],
     "created_at": "2025-11-19T10:01:02Z"
   },
@@ -10307,22 +10308,6 @@
       "test"
     ],
     "created_at": "2026-11-19T15:22:39Z"
-  },
-  {
-    "repo": "curvineio/curvine",
-    "tier": "Sandbox",
-    "lang": "Rust",
-    "category": "Runtime",
-    "subcategory": "Cloud Native Storage",
-    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-    "ai_related": false,
-    "title": "[BUG]: cv fs mkdir and touch write status lines to stdout",
-    "url": "https://github.com/CurvineIO/curvine/issues/2318",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "created_at": "2026-11-19T15:22:15Z"
   },
   {
     "repo": "curvineio/curvine",
@@ -14413,7 +14398,6 @@
     "labels": [
       "enhancement",
       "help wanted",
-      "stale",
       "cilium"
     ],
     "created_at": "2024-09-24T10:02:56Z"
@@ -27392,6 +27376,230 @@
     "subcategory": "Application Definition & Image Build",
     "description": "Backstage is an open platform for building developer portals",
     "ai_related": false,
+    "title": "Snyk vulnerability [snyk:lic:npm:binaryextensions:Artistic-2.0]",
+    "url": "https://github.com/backstage/backstage/issues/37041",
+    "labels": [
+      "snyk-vulnerability",
+      "help wanted"
+    ],
+    "created_at": "2026-11-20T20:12:45Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Snyk vulnerability [snyk:lic:npm:version-range:Artistic-2.0]",
+    "url": "https://github.com/backstage/backstage/issues/37040",
+    "labels": [
+      "snyk-vulnerability",
+      "help wanted"
+    ],
+    "created_at": "2026-11-20T20:12:44Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Snyk vulnerability [snyk:lic:npm:textextensions:Artistic-2.0]",
+    "url": "https://github.com/backstage/backstage/issues/37039",
+    "labels": [
+      "snyk-vulnerability",
+      "help wanted"
+    ],
+    "created_at": "2026-11-20T20:12:44Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Snyk vulnerability [snyk:lic:npm:editions:Artistic-2.0]",
+    "url": "https://github.com/backstage/backstage/issues/37038",
+    "labels": [
+      "snyk-vulnerability",
+      "help wanted"
+    ],
+    "created_at": "2026-11-20T20:12:43Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Snyk vulnerability [SNYK-JS-ROLLUP-15340920]",
+    "url": "https://github.com/backstage/backstage/issues/37037",
+    "labels": [
+      "snyk-vulnerability",
+      "help wanted"
+    ],
+    "created_at": "2026-11-20T20:12:41Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Snyk vulnerability [SNYK-JS-MINIMATCH-15353387]",
+    "url": "https://github.com/backstage/backstage/issues/37036",
+    "labels": [
+      "snyk-vulnerability",
+      "help wanted"
+    ],
+    "created_at": "2026-11-20T20:12:39Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Snyk vulnerability [SNYK-JS-LODASH-15869625]",
+    "url": "https://github.com/backstage/backstage/issues/37035",
+    "labels": [
+      "snyk-vulnerability",
+      "help wanted"
+    ],
+    "created_at": "2026-11-20T20:12:39Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Snyk vulnerability [SNYK-JS-JSYAML-17342520]",
+    "url": "https://github.com/backstage/backstage/issues/37034",
+    "labels": [
+      "snyk-vulnerability",
+      "help wanted"
+    ],
+    "created_at": "2026-11-20T20:12:38Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Snyk vulnerability [SNYK-JS-MINIMATCH-15353389]",
+    "url": "https://github.com/backstage/backstage/issues/37033",
+    "labels": [
+      "snyk-vulnerability",
+      "help wanted"
+    ],
+    "created_at": "2026-11-20T20:12:37Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Snyk vulnerability [SNYK-JS-JSYAML-17900054]",
+    "url": "https://github.com/backstage/backstage/issues/37032",
+    "labels": [
+      "snyk-vulnerability",
+      "help wanted"
+    ],
+    "created_at": "2026-11-20T20:12:36Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINTECHDOCSBACKEND-8023175]",
+    "url": "https://github.com/backstage/backstage/issues/37031",
+    "labels": [
+      "snyk-vulnerability",
+      "help wanted"
+    ],
+    "created_at": "2026-11-20T20:12:28Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINSCAFFOLDERNODE-8454494]",
+    "url": "https://github.com/backstage/backstage/issues/37030",
+    "labels": [
+      "snyk-vulnerability",
+      "help wanted"
+    ],
+    "created_at": "2026-11-20T20:12:25Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Snyk vulnerability [snyk:lic:npm:isomorphic-git:pgp-plugin:LGPL-3.0]",
+    "url": "https://github.com/backstage/backstage/issues/37029",
+    "labels": [
+      "snyk-vulnerability",
+      "help wanted"
+    ],
+    "created_at": "2026-11-20T20:12:22Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINTECHDOCSBACKEND-8022917]",
+    "url": "https://github.com/backstage/backstage/issues/37028",
+    "labels": [
+      "snyk-vulnerability",
+      "help wanted"
+    ],
+    "created_at": "2026-11-20T20:12:15Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
     "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINAPPBACKEND-8163063]",
     "url": "https://github.com/backstage/backstage/issues/37011",
     "labels": [
@@ -27639,230 +27847,6 @@
       "help wanted"
     ],
     "created_at": "2026-11-05T20:12:09Z"
-  },
-  {
-    "repo": "backstage/backstage",
-    "tier": "Incubating",
-    "lang": "TypeScript",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "Backstage is an open platform for building developer portals",
-    "ai_related": false,
-    "title": "Snyk vulnerability [SNYK-JS-GLOB-22112102]",
-    "url": "https://github.com/backstage/backstage/issues/36622",
-    "labels": [
-      "snyk-vulnerability",
-      "help wanted"
-    ],
-    "created_at": "2026-11-05T20:12:00Z"
-  },
-  {
-    "repo": "backstage/backstage",
-    "tier": "Incubating",
-    "lang": "TypeScript",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "Backstage is an open platform for building developer portals",
-    "ai_related": false,
-    "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINCATALOGBACKEND-22149957]",
-    "url": "https://github.com/backstage/backstage/issues/36585",
-    "labels": [
-      "snyk-vulnerability",
-      "help wanted"
-    ],
-    "created_at": "2026-11-03T12:11:18Z"
-  },
-  {
-    "repo": "backstage/backstage",
-    "tier": "Incubating",
-    "lang": "TypeScript",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "Backstage is an open platform for building developer portals",
-    "ai_related": false,
-    "title": "Snyk vulnerability [SNYK-JS-I18NEXT-22132583]",
-    "url": "https://github.com/backstage/backstage/issues/36573",
-    "labels": [
-      "snyk-vulnerability",
-      "help wanted"
-    ],
-    "created_at": "2026-11-02T12:11:14Z"
-  },
-  {
-    "repo": "backstage/backstage",
-    "tier": "Incubating",
-    "lang": "TypeScript",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "Backstage is an open platform for building developer portals",
-    "ai_related": false,
-    "title": "Snyk vulnerability [SNYK-JS-MINIMATCH-22111072]",
-    "url": "https://github.com/backstage/backstage/issues/36560",
-    "labels": [
-      "snyk-vulnerability",
-      "help wanted"
-    ],
-    "created_at": "2026-11-01T09:10:42Z"
-  },
-  {
-    "repo": "backstage/backstage",
-    "tier": "Incubating",
-    "lang": "TypeScript",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "Backstage is an open platform for building developer portals",
-    "ai_related": false,
-    "title": "Snyk vulnerability [SNYK-JS-ADMZIP-21707815]",
-    "url": "https://github.com/backstage/backstage/issues/36459",
-    "labels": [
-      "snyk-vulnerability",
-      "help wanted"
-    ],
-    "created_at": "2026-10-25T16:10:40Z"
-  },
-  {
-    "repo": "backstage/backstage",
-    "tier": "Incubating",
-    "lang": "TypeScript",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "Backstage is an open platform for building developer portals",
-    "ai_related": false,
-    "title": "Snyk vulnerability [SNYK-JS-BODYPARSER-21431495]",
-    "url": "https://github.com/backstage/backstage/issues/36424",
-    "labels": [
-      "snyk-vulnerability",
-      "help wanted"
-    ],
-    "created_at": "2026-10-23T00:15:18Z"
-  },
-  {
-    "repo": "backstage/backstage",
-    "tier": "Incubating",
-    "lang": "TypeScript",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "Backstage is an open platform for building developer portals",
-    "ai_related": false,
-    "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINCATALOGBACKEND-20825105]",
-    "url": "https://github.com/backstage/backstage/issues/36421",
-    "labels": [
-      "snyk-vulnerability",
-      "help wanted"
-    ],
-    "created_at": "2026-10-22T16:29:34Z"
-  },
-  {
-    "repo": "backstage/backstage",
-    "tier": "Incubating",
-    "lang": "TypeScript",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "Backstage is an open platform for building developer portals",
-    "ai_related": false,
-    "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEBACKENDPLUGINAPI-15054291]",
-    "url": "https://github.com/backstage/backstage/issues/36420",
-    "labels": [
-      "snyk-vulnerability",
-      "help wanted"
-    ],
-    "created_at": "2026-10-22T16:29:33Z"
-  },
-  {
-    "repo": "backstage/backstage",
-    "tier": "Incubating",
-    "lang": "TypeScript",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "Backstage is an open platform for building developer portals",
-    "ai_related": false,
-    "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINSCAFFOLDERNODE-15054276]",
-    "url": "https://github.com/backstage/backstage/issues/36419",
-    "labels": [
-      "snyk-vulnerability",
-      "help wanted"
-    ],
-    "created_at": "2026-10-22T16:29:33Z"
-  },
-  {
-    "repo": "backstage/backstage",
-    "tier": "Incubating",
-    "lang": "TypeScript",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "Backstage is an open platform for building developer portals",
-    "ai_related": false,
-    "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEBACKENDDEFAULTS-20825058]",
-    "url": "https://github.com/backstage/backstage/issues/36418",
-    "labels": [
-      "snyk-vulnerability",
-      "help wanted"
-    ],
-    "created_at": "2026-10-22T16:29:32Z"
-  },
-  {
-    "repo": "backstage/backstage",
-    "tier": "Incubating",
-    "lang": "TypeScript",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "Backstage is an open platform for building developer portals",
-    "ai_related": false,
-    "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINSCAFFOLDERBACKEND-20825380]",
-    "url": "https://github.com/backstage/backstage/issues/36417",
-    "labels": [
-      "snyk-vulnerability",
-      "help wanted"
-    ],
-    "created_at": "2026-10-22T16:29:32Z"
-  },
-  {
-    "repo": "backstage/backstage",
-    "tier": "Incubating",
-    "lang": "TypeScript",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "Backstage is an open platform for building developer portals",
-    "ai_related": false,
-    "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINKUBERNETESBACKEND-20826149]",
-    "url": "https://github.com/backstage/backstage/issues/36416",
-    "labels": [
-      "snyk-vulnerability",
-      "help wanted"
-    ],
-    "created_at": "2026-10-22T16:29:31Z"
-  },
-  {
-    "repo": "backstage/backstage",
-    "tier": "Incubating",
-    "lang": "TypeScript",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "Backstage is an open platform for building developer portals",
-    "ai_related": false,
-    "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINKUBERNETESBACKEND-20825509]",
-    "url": "https://github.com/backstage/backstage/issues/36415",
-    "labels": [
-      "snyk-vulnerability",
-      "help wanted"
-    ],
-    "created_at": "2026-10-22T16:29:31Z"
-  },
-  {
-    "repo": "backstage/backstage",
-    "tier": "Incubating",
-    "lang": "TypeScript",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "Backstage is an open platform for building developer portals",
-    "ai_related": false,
-    "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINAUTHBACKEND-18313046]",
-    "url": "https://github.com/backstage/backstage/issues/36414",
-    "labels": [
-      "snyk-vulnerability",
-      "help wanted"
-    ],
-    "created_at": "2026-10-22T16:29:30Z"
   },
   {
     "repo": "buildpacks/pack",
@@ -40084,48 +40068,14 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
-    "title": "[selfreport] proxy_connect_dial_failed: proxy: CONNECT dial failed",
-    "url": "https://github.com/hivecommons/hive/issues/19397",
+    "title": "✨ feature: let any lane refresh a hive-authored PR's body after review (edit_pr relay)",
+    "url": "https://github.com/hivecommons/hive/issues/19399",
     "labels": [
       "help wanted",
       "stage/040-covered-by-pr",
       "hive/claimed-by-human"
     ],
-    "created_at": "2026-11-20T18:34:25Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "📝 RFC: v6 - Opt-in timer for the hive to take over a person's sent-back PR",
-    "url": "https://github.com/hivecommons/hive/issues/19395",
-    "labels": [
-      "help wanted",
-      "proposal",
-      "stage/045-needs-decision"
-    ],
-    "created_at": "2026-11-20T15:42:53Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "[selfreport] agent_lifecycle_repeated: watchdog: would restart dead agent (observe mode; no action taken)",
-    "url": "https://github.com/hivecommons/hive/issues/19393",
-    "labels": [
-      "help wanted",
-      "stage/040-covered-by-pr",
-      "hive/claimed-by-human"
-    ],
-    "created_at": "2026-11-20T15:16:15Z"
+    "created_at": "2026-11-20T20:13:23Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40186,23 +40136,6 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
-    "title": "[selfreport] agent_pane_timeout: prompt timeout — dumping pane",
-    "url": "https://github.com/hivecommons/hive/issues/19376",
-    "labels": [
-      "help wanted",
-      "stage/040-covered-by-pr",
-      "hive/claimed-by-human"
-    ],
-    "created_at": "2026-11-20T05:43:45Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
     "title": "[selfreport] unclassified_error_repeated: review swarm kick not delivered; re-planned next cycle",
     "url": "https://github.com/hivecommons/hive/issues/19373",
     "labels": [
@@ -40212,29 +40145,13 @@
       "fleet-report",
       "hive/selfreport",
       "trigger:runtime-error",
+      "stage/stalled",
       "origin/selfreport",
       "stage/015-triage-needed",
       "severity:low",
       "class:unclassified-error-repeated"
     ],
     "created_at": "2026-11-20T05:09:40Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "[selfreport] unclassified_error_repeated: issue stage labels: merged full-fix PR issue close failed",
-    "url": "https://github.com/hivecommons/hive/issues/19369",
-    "labels": [
-      "help wanted",
-      "stage/040-covered-by-pr",
-      "hive/claimed-by-human"
-    ],
-    "created_at": "2026-11-20T04:42:18Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40387,23 +40304,6 @@
       "hive/partially-addressed"
     ],
     "created_at": "2026-11-18T23:57:21Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "📖 Customers: disclosure text, docs and live verification for hub import (phase 4 of #19088)",
-    "url": "https://github.com/hivecommons/hive/issues/19164",
-    "labels": [
-      "help wanted",
-      "stage/010-actionable",
-      "hive/partially-addressed"
-    ],
-    "created_at": "2026-11-18T22:54:28Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40658,6 +40558,21 @@
       "Image builds"
     ],
     "created_at": "2026-08-20T15:56:41Z"
+  },
+  {
+    "repo": "llm-d/llm-d",
+    "tier": "Sandbox",
+    "lang": "Python",
+    "category": "Inference",
+    "subcategory": "Framework",
+    "description": "llm-d is a Kubernetes-native, high-performance distributed LLM inference framework built on vLLM and the Kubernetes Gateway API Inference Extension, providing intelligent inference scheduling, prefix-cache-aware routing, prefill/decode disaggregation, hierarchical KV offloading, and traffic- and hardware-aware autoscaling across NVIDIA, AMD, Intel, and Google TPU accelerators.",
+    "ai_related": true,
+    "title": "Benchmark e-disaggregation guide with e/p/d and e/pd coordination approach",
+    "url": "https://github.com/llm-d/llm-d/issues/1966",
+    "labels": [
+      "help wanted"
+    ],
+    "created_at": "2026-06-26T22:25:21Z"
   },
   {
     "repo": "llm-d/llm-d",
