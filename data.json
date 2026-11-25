@@ -5573,6 +5573,7 @@
       "kind/bug",
       "kind/documentation",
       "area/gcp",
+      "Stale",
       "size/s",
       "area/generator"
     ],
@@ -6157,7 +6158,7 @@
       "help wanted",
       "area/identity-brokering",
       "team/core-iam",
-      "action/priority-low",
+      "priority/low",
       "status/labeled-by-bot"
     ],
     "created_at": "2026-11-12T06:01:15Z"
@@ -10281,22 +10282,6 @@
     "subcategory": "Cloud Native Storage",
     "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
     "ai_related": false,
-    "title": "[BUG]: Python SDK CurvineFileSystem.open() rejects the fsspec mode argument",
-    "url": "https://github.com/CurvineIO/curvine/issues/2317",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "created_at": "2026-11-19T15:21:36Z"
-  },
-  {
-    "repo": "curvineio/curvine",
-    "tier": "Sandbox",
-    "lang": "Rust",
-    "category": "Runtime",
-    "subcategory": "Cloud Native Storage",
-    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-    "ai_related": false,
     "title": "[BUG]: cv fs get destroys the local file when the download fails",
     "url": "https://github.com/CurvineIO/curvine/issues/2315",
     "labels": [
@@ -12457,23 +12442,6 @@
       "kind/cleanup"
     ],
     "created_at": "2023-09-06T07:34:04Z"
-  },
-  {
-    "repo": "gvisor/gvisor",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "Runtime",
-    "subcategory": "Container Runtime",
-    "description": "gVisor is a sandboxing layer for running containers and agentic workloads efficiently and securely.",
-    "ai_related": false,
-    "title": "unix: zero-length sendmsg on SOCK_SEQPACKET and SOCK_DGRAM sockets sends no message (and drops SCM_RIGHTS)",
-    "url": "https://github.com/gvisor/gvisor/issues/17875",
-    "labels": [
-      "type: bug",
-      "good first issue",
-      "area: compatibility"
-    ],
-    "created_at": "2026-11-23T09:31:05Z"
   },
   {
     "repo": "gvisor/gvisor",
@@ -31166,6 +31134,71 @@
     "created_at": "2021-02-02T20:05:09Z"
   },
   {
+    "repo": "oras-project/oras",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "ORAS is the tool for working with OCI Artifacts",
+    "ai_related": false,
+    "title": "Support multiple tags, formatted output and TTY progress in `oras check`",
+    "url": "https://github.com/oras-project/oras/issues/2361",
+    "labels": [
+      "enhancement",
+      "help wanted"
+    ],
+    "created_at": "2026-11-25T00:57:40Z"
+  },
+  {
+    "repo": "oras-project/oras",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "ORAS is the tool for working with OCI Artifacts",
+    "ai_related": false,
+    "title": "Support referrers and whole OCI layouts in `oras check`",
+    "url": "https://github.com/oras-project/oras/issues/2360",
+    "labels": [
+      "enhancement",
+      "help wanted"
+    ],
+    "created_at": "2026-11-25T00:57:38Z"
+  },
+  {
+    "repo": "oras-project/oras",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "ORAS is the tool for working with OCI Artifacts",
+    "ai_related": false,
+    "title": "Add `oras check` to verify the integrity of an artifact",
+    "url": "https://github.com/oras-project/oras/issues/2359",
+    "labels": [
+      "enhancement",
+      "help wanted"
+    ],
+    "created_at": "2026-11-25T00:57:36Z"
+  },
+  {
+    "repo": "oras-project/oras",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "ORAS is the tool for working with OCI Artifacts",
+    "ai_related": false,
+    "title": "KEYS: removing keys breaks verification of past releases; make KEYS append-only and restore removed keys",
+    "url": "https://github.com/oras-project/oras/issues/2151",
+    "labels": [
+      "bug",
+      "help wanted",
+      "keep open"
+    ],
+    "created_at": "2026-09-01T18:27:30Z"
+  },
+  {
     "repo": "podman-desktop/podman-desktop",
     "tier": "Sandbox",
     "lang": "TypeScript",
@@ -40167,14 +40200,133 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
-    "title": "🐛 bug: a paused hive looks healthy in My Hives and cannot be resumed from its own dashboard",
-    "url": "https://github.com/hivecommons/hive/issues/19778",
+    "title": "🐛 bug: ACMM L2 scores the four agent instruction files as separate criteria, so a repo with only AGENTS.md cannot pass L2",
+    "url": "https://github.com/hivecommons/hive/issues/19814",
     "labels": [
       "help wanted",
-      "stage/040-covered-by-pr",
-      "hive/claimed-by-human"
+      "needs-triage",
+      "stage/015-triage-needed"
     ],
-    "created_at": "2026-11-24T21:49:11Z"
+    "created_at": "2026-11-25T07:25:21Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "🐛 bug: a codex \"does not have access to model\" error ends every kick as ended_no_visible_action, with no backoff, alert or pause",
+    "url": "https://github.com/hivecommons/hive/issues/19810",
+    "labels": [
+      "help wanted",
+      "needs-triage",
+      "stage/015-triage-needed"
+    ],
+    "created_at": "2026-11-25T06:22:39Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "🐛 bug: acmm:prereq-code-style misses documented config names of tools it already lists, such as .prettierrc.yml",
+    "url": "https://github.com/hivecommons/hive/issues/19805",
+    "labels": [
+      "help wanted",
+      "needs-triage",
+      "stage/015-triage-needed"
+    ],
+    "created_at": "2026-11-25T05:27:44Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "✨ feature: ACMM criteria match only repo-root paths, so monorepos with nested tests cannot pass L0",
+    "url": "https://github.com/hivecommons/hive/issues/19804",
+    "labels": [
+      "help wanted",
+      "needs-triage",
+      "stage/015-triage-needed"
+    ],
+    "created_at": "2026-11-25T05:26:51Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "✨ feature: set org.opencontainers.image.source on the hive and hive-hub images so Renovate can show release notes",
+    "url": "https://github.com/hivecommons/hive/issues/19801",
+    "labels": [
+      "help wanted",
+      "needs-triage",
+      "stage/015-triage-needed"
+    ],
+    "created_at": "2026-11-25T04:06:22Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "🐛 bug: translator sends the Claude CLI no bytes while the model reasons or waits upstream, so the CLI aborts at 300 s",
+    "url": "https://github.com/hivecommons/hive/issues/19793",
+    "labels": [
+      "help wanted",
+      "needs-triage",
+      "stage/015-triage-needed"
+    ],
+    "created_at": "2026-11-25T00:30:27Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "✨ feature: Hive chat should be able to configure an agent",
+    "url": "https://github.com/hivecommons/hive/issues/19788",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "needs-triage",
+      "stage/015-triage-needed"
+    ],
+    "created_at": "2026-11-24T23:55:36Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "🐛 bug: Keyboard focus stays behind the Contribute dialog",
+    "url": "https://github.com/hivecommons/hive/issues/19786",
+    "labels": [
+      "help wanted",
+      "stage/040-covered-by-pr"
+    ],
+    "created_at": "2026-11-24T23:40:01Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40193,39 +40345,6 @@
       "hive/claimed-by-human"
     ],
     "created_at": "2026-11-24T21:30:32Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "[selfreport] ioscan_classifier_unavailable: ioscan fail-closed blocked kick",
-    "url": "https://github.com/hivecommons/hive/issues/19753",
-    "labels": [
-      "help wanted",
-      "stage/010-actionable"
-    ],
-    "created_at": "2026-11-24T18:55:36Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "🐛 bug: model id spelling warnings return after upgrade and cannot be dismissed",
-    "url": "https://github.com/hivecommons/hive/issues/19747",
-    "labels": [
-      "help wanted",
-      "stage/040-covered-by-pr",
-      "hive/claimed-by-human"
-    ],
-    "created_at": "2026-11-24T18:40:04Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40308,7 +40427,8 @@
     "url": "https://github.com/hivecommons/hive/issues/19297",
     "labels": [
       "help wanted",
-      "stage/010-actionable"
+      "hive/claimed-by-scanner",
+      "stage/020-claimed"
     ],
     "created_at": "2026-11-19T17:34:35Z"
   },
