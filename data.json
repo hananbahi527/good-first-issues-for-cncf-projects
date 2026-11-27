@@ -2841,24 +2841,6 @@
     "subcategory": "Automation & Configuration",
     "description": "Infrastructure by Design",
     "ai_related": false,
-    "title": "[mesheryctl] Update model export synopsis to include required [model-name]",
-    "url": "https://github.com/meshery/meshery/issues/24405",
-    "labels": [
-      "kind/bug",
-      "help wanted",
-      "component/mesheryctl",
-      "language/go"
-    ],
-    "created_at": "2026-11-26T12:41:26Z"
-  },
-  {
-    "repo": "meshery/meshery",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Automation & Configuration",
-    "description": "Infrastructure by Design",
-    "ai_related": false,
     "title": "[Docs] Command reference tables on /reference/mesheryctl/ overflow underneath the right hand \"On this page\" sidebar",
     "url": "https://github.com/meshery/meshery/issues/24352",
     "labels": [
@@ -3265,6 +3247,24 @@
       "framework/hugo"
     ],
     "created_at": "2026-08-28T20:47:16Z"
+  },
+  {
+    "repo": "meshery/meshery",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "description": "Infrastructure by Design",
+    "ai_related": false,
+    "title": "[Docs] Relationships: Add a visual example for non-semantic relationship",
+    "url": "https://github.com/meshery/meshery/issues/21633",
+    "labels": [
+      "help wanted",
+      "area/docs",
+      "language/markdown",
+      "framework/hugo"
+    ],
+    "created_at": "2026-08-27T10:22:06Z"
   },
   {
     "repo": "metal3-io/baremetal-operator",
@@ -6023,6 +6023,25 @@
     "subcategory": "Security & Compliance",
     "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
     "ai_related": false,
+    "title": "Organization invite registration link fails when targeting a client with multiple redirect URIs",
+    "url": "https://github.com/keycloak/keycloak/issues/55412",
+    "labels": [
+      "kind/bug",
+      "help wanted",
+      "team/core-iam",
+      "priority/normal",
+      "area/organizations"
+    ],
+    "created_at": "2026-11-20T12:54:58Z"
+  },
+  {
+    "repo": "keycloak/keycloak",
+    "tier": "Incubating",
+    "lang": "Java",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
+    "ai_related": false,
     "title": "Offline token rejected on its very first use (\"refresh token issued before the client session started\") when the database is slow",
     "url": "https://github.com/keycloak/keycloak/issues/55314",
     "labels": [
@@ -6210,29 +6229,6 @@
     "subcategory": "Security & Compliance",
     "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
     "ai_related": false,
-    "title": "Creating a group with a name longer than 255 characters returns HTTP 500 instead of 400",
-    "url": "https://github.com/keycloak/keycloak/issues/54720",
-    "labels": [
-      "kind/bug",
-      "area/admin/api",
-      "help wanted",
-      "team/core-iam",
-      "team/core-shared",
-      "status/auto-expire",
-      "status/auto-bump",
-      "priority/normal",
-      "status/labeled-by-bot"
-    ],
-    "created_at": "2026-11-05T19:23:53Z"
-  },
-  {
-    "repo": "keycloak/keycloak",
-    "tier": "Incubating",
-    "lang": "Java",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
-    "ai_related": false,
     "title": "Review the payload for linking IdPs to organizations for better `application/json` content type compatibility",
     "url": "https://github.com/keycloak/keycloak/issues/54674",
     "labels": [
@@ -6287,27 +6283,6 @@
       "status/auto-bump"
     ],
     "created_at": "2026-11-03T19:14:04Z"
-  },
-  {
-    "repo": "keycloak/keycloak",
-    "tier": "Incubating",
-    "lang": "Java",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
-    "ai_related": false,
-    "title": "Device authorization grant returns HTTP 500 when the client session has expired but the user session is still alive",
-    "url": "https://github.com/keycloak/keycloak/issues/54606",
-    "labels": [
-      "area/oidc",
-      "kind/bug",
-      "help wanted",
-      "priority/low",
-      "status/auto-expire",
-      "status/auto-bump",
-      "team/core-protocols"
-    ],
-    "created_at": "2026-11-03T19:10:12Z"
   },
   {
     "repo": "keycloak/keycloak",
@@ -6649,6 +6624,28 @@
     "created_at": "2026-10-20T07:36:09Z"
   },
   {
+    "repo": "keycloak/keycloak",
+    "tier": "Incubating",
+    "lang": "Java",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
+    "ai_related": false,
+    "title": "LDAP paginated search returns partial results when the server fails between pages",
+    "url": "https://github.com/keycloak/keycloak/issues/54028",
+    "labels": [
+      "kind/bug",
+      "area/admin/api",
+      "area/ldap",
+      "help wanted",
+      "team/core-iam",
+      "team/core-shared",
+      "status/auto-bump",
+      "priority/normal"
+    ],
+    "created_at": "2026-10-15T13:39:14Z"
+  },
+  {
     "repo": "keylime/keylime",
     "tier": "Sandbox",
     "lang": "Python",
@@ -6913,21 +6910,6 @@
       "good first issue"
     ],
     "created_at": "2026-10-28T22:21:50Z"
-  },
-  {
-    "repo": "kubearmor/kubearmor",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "Runtime protection for Kubernetes & other cloud Workloads. Kubearmor provides a observability and policy enforcement system to restrict any unwanted, malicious behaviour of cloud-native workloads at runtime.",
-    "ai_related": false,
-    "title": "Remove `SELinuxType` and `MatchVolumeMountType`",
-    "url": "https://github.com/kubearmor/KubeArmor/issues/2965",
-    "labels": [
-      "good first issue"
-    ],
-    "created_at": "2026-10-28T22:17:03Z"
   },
   {
     "repo": "kubearmor/kubearmor",
@@ -7291,6 +7273,23 @@
     "subcategory": "Security & Compliance",
     "description": "Runtime protection for Kubernetes & other cloud Workloads. Kubearmor provides a observability and policy enforcement system to restrict any unwanted, malicious behaviour of cloud-native workloads at runtime.",
     "ai_related": false,
+    "title": "VMware Tanzu support",
+    "url": "https://github.com/kubearmor/KubeArmor/issues/1064",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "help wanted"
+    ],
+    "created_at": "2023-01-25T03:49:43Z"
+  },
+  {
+    "repo": "kubearmor/kubearmor",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "description": "Runtime protection for Kubernetes & other cloud Workloads. Kubearmor provides a observability and policy enforcement system to restrict any unwanted, malicious behaviour of cloud-native workloads at runtime.",
+    "ai_related": false,
     "title": "Enhancement: Support new pod API for AppArmor profiles with Kubernetes 1.30+",
     "url": "https://github.com/kubearmor/KubeArmor/issues/1673",
     "labels": [
@@ -7395,23 +7394,6 @@
       "help wanted"
     ],
     "created_at": "2023-05-15T17:08:52Z"
-  },
-  {
-    "repo": "kubearmor/kubearmor",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "Runtime protection for Kubernetes & other cloud Workloads. Kubearmor provides a observability and policy enforcement system to restrict any unwanted, malicious behaviour of cloud-native workloads at runtime.",
-    "ai_related": false,
-    "title": "VMware Tanzu support",
-    "url": "https://github.com/kubearmor/KubeArmor/issues/1064",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "help wanted"
-    ],
-    "created_at": "2023-01-25T03:49:43Z"
   },
   {
     "repo": "kubearmor/kubearmor",
@@ -15367,6 +15349,22 @@
     "created_at": "2020-09-11T05:56:46Z"
   },
   {
+    "repo": "project-hami/hami",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "description": "Heterogeneous AI Computing Virtualization Middleware",
+    "ai_related": false,
+    "title": "test(metax): fix MetaxSDevices AddResourceUsage test and add PatchAnnotations tests",
+    "url": "https://github.com/Project-HAMi/HAMi/issues/3562",
+    "labels": [
+      "good first issue",
+      "kind/feature"
+    ],
+    "created_at": "2026-11-27T19:14:58Z"
+  },
+  {
     "repo": "karmada-io/karmada",
     "tier": "Graduated",
     "lang": "Go",
@@ -19246,6 +19244,22 @@
       "help wanted"
     ],
     "created_at": "2026-10-06T23:30:12Z"
+  },
+  {
+    "repo": "open-cluster-management-io/ocm",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "description": "A lightweight, open standard for multi-cluster Kubernetes management built on a hub-spoke architecture.",
+    "ai_related": false,
+    "title": "🐛 gRPC registration mode: hub server-CA rotation never propagates to spokes — join-time caData is static",
+    "url": "https://github.com/open-cluster-management-io/ocm/issues/1849",
+    "labels": [
+      "bug",
+      "help wanted"
+    ],
+    "created_at": "2026-11-27T06:48:13Z"
   },
   {
     "repo": "open-cluster-management-io/ocm",
@@ -31124,13 +31138,13 @@
     "subcategory": "Application Definition & Image Build",
     "description": "ORAS is the tool for working with OCI Artifacts",
     "ai_related": false,
-    "title": "test: characterization tests for CLI registry client behavior",
-    "url": "https://github.com/oras-project/oras/issues/2388",
+    "title": "refactor: use ClientBuilder debug logging for --debug",
+    "url": "https://github.com/oras-project/oras/issues/2389",
     "labels": [
       "help wanted",
-      "test"
+      "logging"
     ],
-    "created_at": "2026-11-27T02:47:03Z"
+    "created_at": "2026-11-27T02:47:07Z"
   },
   {
     "repo": "oras-project/oras",
@@ -31140,30 +31154,12 @@
     "subcategory": "Application Definition & Image Build",
     "description": "ORAS is the tool for working with OCI Artifacts",
     "ai_related": false,
-    "title": "oras tag with --oci-layout-path stores tags without the repository prefix",
-    "url": "https://github.com/oras-project/oras/issues/2373",
+    "title": "feat(restore): warn when replacing a multi-arch tag with a single-platform manifest",
+    "url": "https://github.com/oras-project/oras/issues/2383",
     "labels": [
-      "bug",
       "help wanted"
     ],
-    "created_at": "2026-11-26T02:23:57Z"
-  },
-  {
-    "repo": "oras-project/oras",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "ORAS is the tool for working with OCI Artifacts",
-    "ai_related": false,
-    "title": "feat(restore): restore multi-repository backups to <registry>[/<namespace>]",
-    "url": "https://github.com/oras-project/oras/issues/2364",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "experimental"
-    ],
-    "created_at": "2026-11-25T13:14:02Z"
+    "created_at": "2026-11-26T21:51:12Z"
   },
   {
     "repo": "oras-project/oras",
@@ -36286,6 +36282,168 @@
     "subcategory": "Observability",
     "description": "Extensible open source multi-cluster Kubernetes user interface",
     "ai_related": false,
+    "title": "frontend: resourceMap: Add unit tests for GraphView and relations",
+    "url": "https://github.com/kubernetes-sigs/headlamp/issues/8804",
+    "labels": [
+      "kind/feature",
+      "good first issue",
+      "frontend",
+      "testing"
+    ],
+    "created_at": "2026-11-27T17:11:18Z"
+  },
+  {
+    "repo": "kubernetes-sigs/headlamp",
+    "tier": "Sandbox",
+    "lang": "TypeScript",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "description": "Extensible open source multi-cluster Kubernetes user interface",
+    "ai_related": false,
+    "title": "frontend: router: Add unit tests for router helpers",
+    "url": "https://github.com/kubernetes-sigs/headlamp/issues/8803",
+    "labels": [
+      "kind/feature",
+      "good first issue",
+      "frontend",
+      "testing"
+    ],
+    "created_at": "2026-11-27T17:11:15Z"
+  },
+  {
+    "repo": "kubernetes-sigs/headlamp",
+    "tier": "Sandbox",
+    "lang": "TypeScript",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "description": "Extensible open source multi-cluster Kubernetes user interface",
+    "ai_related": false,
+    "title": "frontend: project & settings: Add unit tests for ProjectDetails, projectsSlice, and pluginSettings",
+    "url": "https://github.com/kubernetes-sigs/headlamp/issues/8802",
+    "labels": [
+      "kind/feature",
+      "good first issue",
+      "frontend",
+      "testing"
+    ],
+    "created_at": "2026-11-27T17:11:13Z"
+  },
+  {
+    "repo": "kubernetes-sigs/headlamp",
+    "tier": "Sandbox",
+    "lang": "TypeScript",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "description": "Extensible open source multi-cluster Kubernetes user interface",
+    "ai_related": false,
+    "title": "frontend: common: Expand unit tests for LogViewer, ResourceTable, and PortForward",
+    "url": "https://github.com/kubernetes-sigs/headlamp/issues/8801",
+    "labels": [
+      "kind/feature",
+      "good first issue",
+      "frontend",
+      "testing"
+    ],
+    "created_at": "2026-11-27T17:11:11Z"
+  },
+  {
+    "repo": "kubernetes-sigs/headlamp",
+    "tier": "Sandbox",
+    "lang": "TypeScript",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "description": "Extensible open source multi-cluster Kubernetes user interface",
+    "ai_related": false,
+    "title": "frontend: Notifications & Settings: Add unit tests for Notification List, ClusterNameEditor, and PluginSettings",
+    "url": "https://github.com/kubernetes-sigs/headlamp/issues/8800",
+    "labels": [
+      "kind/feature",
+      "good first issue",
+      "frontend",
+      "testing"
+    ],
+    "created_at": "2026-11-27T17:11:08Z"
+  },
+  {
+    "repo": "kubernetes-sigs/headlamp",
+    "tier": "Sandbox",
+    "lang": "TypeScript",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "description": "Extensible open source multi-cluster Kubernetes user interface",
+    "ai_related": false,
+    "title": "frontend: Sidebar: Add unit tests for NavigationTabs and useSidebarItems",
+    "url": "https://github.com/kubernetes-sigs/headlamp/issues/8799",
+    "labels": [
+      "kind/feature",
+      "good first issue",
+      "frontend",
+      "testing"
+    ],
+    "created_at": "2026-11-27T17:11:06Z"
+  },
+  {
+    "repo": "kubernetes-sigs/headlamp",
+    "tier": "Sandbox",
+    "lang": "TypeScript",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "description": "Extensible open source multi-cluster Kubernetes user interface",
+    "ai_related": false,
+    "title": "frontend: plugin: Add unit tests for plugin loader and registry",
+    "url": "https://github.com/kubernetes-sigs/headlamp/issues/8798",
+    "labels": [
+      "kind/feature",
+      "good first issue",
+      "frontend",
+      "testing"
+    ],
+    "created_at": "2026-11-27T17:11:03Z"
+  },
+  {
+    "repo": "kubernetes-sigs/headlamp",
+    "tier": "Sandbox",
+    "lang": "TypeScript",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "description": "Extensible open source multi-cluster Kubernetes user interface",
+    "ai_related": false,
+    "title": "frontend: CreateResourceForm: Expand unit tests for form and workload fields",
+    "url": "https://github.com/kubernetes-sigs/headlamp/issues/8797",
+    "labels": [
+      "kind/feature",
+      "good first issue",
+      "frontend",
+      "testing"
+    ],
+    "created_at": "2026-11-27T17:11:00Z"
+  },
+  {
+    "repo": "kubernetes-sigs/headlamp",
+    "tier": "Sandbox",
+    "lang": "TypeScript",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "description": "Extensible open source multi-cluster Kubernetes user interface",
+    "ai_related": false,
+    "title": "frontend: activity: Add unit tests for Activity component",
+    "url": "https://github.com/kubernetes-sigs/headlamp/issues/8796",
+    "labels": [
+      "kind/feature",
+      "good first issue",
+      "frontend",
+      "testing"
+    ],
+    "created_at": "2026-11-27T17:10:58Z"
+  },
+  {
+    "repo": "kubernetes-sigs/headlamp",
+    "tier": "Sandbox",
+    "lang": "TypeScript",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "description": "Extensible open source multi-cluster Kubernetes user interface",
+    "ai_related": false,
     "title": "docs: Broken links and anchors reported by docusaurus",
     "url": "https://github.com/kubernetes-sigs/headlamp/issues/7640",
     "labels": [
@@ -40162,15 +40320,48 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
-    "title": "[scanner] Colony: remove duplicated enrichment types and hub top-repo cache fields after json/shadow modes retire",
-    "url": "https://github.com/hivecommons/hive/issues/20118",
+    "title": "🐛 bug: threads that the hive's reviewer opens block the merge under a \"resolve conversations\" ruleset, and v5 has no way to resolve them or to say so",
+    "url": "https://github.com/hivecommons/hive/issues/20165",
     "labels": [
-      "good first issue",
       "help wanted",
-      "agent/scanner",
-      "stage/010-actionable"
+      "stage/040-covered-by-pr",
+      "hive/claimed-by-human"
     ],
-    "created_at": "2026-11-27T00:19:09Z"
+    "created_at": "2026-11-27T18:12:16Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "🐛 bug: the hold guard counts the hive's own merge-from-main pushes as drift, and a dashboard \"Release\" can never lift the re-hold",
+    "url": "https://github.com/hivecommons/hive/issues/20164",
+    "labels": [
+      "help wanted",
+      "stage/040-covered-by-pr",
+      "hive/claimed-by-human"
+    ],
+    "created_at": "2026-11-27T18:12:05Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "🐛 bug: agent workdirs keep the pod fsGroup gid after a kubelet re-group, so every clone inherits it and the permissions watcher warns about it forever",
+    "url": "https://github.com/hivecommons/hive/issues/20162",
+    "labels": [
+      "help wanted",
+      "hive/claimed-by-scanner",
+      "stage/040-covered-by-pr"
+    ],
+    "created_at": "2026-11-27T17:56:22Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40339,23 +40530,6 @@
       "blocked"
     ],
     "created_at": "2026-11-25T19:09:12Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "✨ feature: let translator-routed agents run without interactive Claude Code, so subscriber API credits can pay for them",
-    "url": "https://github.com/hivecommons/hive/issues/19902",
-    "labels": [
-      "help wanted",
-      "triage/accepted",
-      "stage/020-claimed"
-    ],
-    "created_at": "2026-11-25T17:59:41Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40584,6 +40758,22 @@
       "good first issue"
     ],
     "created_at": "2025-07-17T16:55:48Z"
+  },
+  {
+    "repo": "kserve/kserve",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "Inference",
+    "subcategory": "Framework",
+    "description": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes",
+    "ai_related": true,
+    "title": "Align llm-d component versions across KServe",
+    "url": "https://github.com/kserve/kserve/issues/6699",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ],
+    "created_at": "2026-11-27T15:04:27Z"
   },
   {
     "repo": "kserve/kserve",
