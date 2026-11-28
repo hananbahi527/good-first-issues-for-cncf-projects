@@ -2823,6 +2823,24 @@
     "subcategory": "Automation & Configuration",
     "description": "Infrastructure by Design",
     "ai_related": false,
+    "title": "[Docs] Quick Start Guide: explain kubeconfig, context, Scoop and out-of-cluster for new users",
+    "url": "https://github.com/meshery/meshery/issues/24534",
+    "labels": [
+      "help wanted",
+      "area/docs",
+      "language/markdown",
+      "framework/hugo"
+    ],
+    "created_at": "2026-11-28T06:05:53Z"
+  },
+  {
+    "repo": "meshery/meshery",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "description": "Infrastructure by Design",
+    "ai_related": false,
     "title": "[Docs] The sidebar is dark in the light mode and text not that much visible",
     "url": "https://github.com/meshery/meshery/issues/24425",
     "labels": [
@@ -3247,24 +3265,6 @@
       "framework/hugo"
     ],
     "created_at": "2026-08-28T20:47:16Z"
-  },
-  {
-    "repo": "meshery/meshery",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Automation & Configuration",
-    "description": "Infrastructure by Design",
-    "ai_related": false,
-    "title": "[Docs] Relationships: Add a visual example for non-semantic relationship",
-    "url": "https://github.com/meshery/meshery/issues/21633",
-    "labels": [
-      "help wanted",
-      "area/docs",
-      "language/markdown",
-      "framework/hugo"
-    ],
-    "created_at": "2026-08-27T10:22:06Z"
   },
   {
     "repo": "metal3-io/baremetal-operator",
@@ -5811,22 +5811,6 @@
       "kind/feature"
     ],
     "created_at": "2025-05-28T18:05:20Z"
-  },
-  {
-    "repo": "falcosecurity/falco",
-    "tier": "Graduated",
-    "lang": "C++",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "Falco, the cloud-native runtime security project, is the de facto Kubernetes threat detection engine",
-    "ai_related": false,
-    "title": "Offer Falco rules json schema to schemastore.org",
-    "url": "https://github.com/falcosecurity/falco/issues/3432",
-    "labels": [
-      "help wanted",
-      "kind/feature"
-    ],
-    "created_at": "2024-12-17T21:39:03Z"
   },
   {
     "repo": "falcosecurity/falco",
@@ -10047,7 +10031,8 @@
     "url": "https://github.com/spiffe/spire/issues/1832",
     "labels": [
       "help wanted",
-      "priority/backlog"
+      "priority/backlog",
+      "stale"
     ],
     "created_at": "2020-09-10T16:40:28Z"
   },
@@ -15347,22 +15332,6 @@
       "question"
     ],
     "created_at": "2020-09-11T05:56:46Z"
-  },
-  {
-    "repo": "project-hami/hami",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "Orchestration & Management",
-    "subcategory": "Scheduling & Orchestration",
-    "description": "Heterogeneous AI Computing Virtualization Middleware",
-    "ai_related": false,
-    "title": "test(metax): fix MetaxSDevices AddResourceUsage test and add PatchAnnotations tests",
-    "url": "https://github.com/Project-HAMi/HAMi/issues/3562",
-    "labels": [
-      "good first issue",
-      "kind/feature"
-    ],
-    "created_at": "2026-11-27T19:14:58Z"
   },
   {
     "repo": "karmada-io/karmada",
@@ -30015,6 +29984,78 @@
     "subcategory": "Application Definition & Image Build",
     "description": "Make shipping applications more enjoyable",
     "ai_related": false,
+    "title": "[Enhancement] Config: make spec.templateRef immutable with a CEL rule, so it holds with the webhooks off",
+    "url": "https://github.com/kubevela/kubevela/issues/7758",
+    "labels": [
+      "good first issue",
+      "area/config",
+      "area/admission",
+      "type/enhancement"
+    ],
+    "created_at": "2026-11-28T05:35:09Z"
+  },
+  {
+    "repo": "kubevela/kubevela",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Make shipping applications more enjoyable",
+    "ai_related": false,
+    "title": "[Bug] Config Nacos sync: an endpoint Secret without the velacore-config label is used but never watched",
+    "url": "https://github.com/kubevela/kubevela/issues/7757",
+    "labels": [
+      "type/bug",
+      "good first issue",
+      "area/controller",
+      "area/config"
+    ],
+    "created_at": "2026-11-28T05:29:28Z"
+  },
+  {
+    "repo": "kubevela/kubevela",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Make shipping applications more enjoyable",
+    "ai_related": false,
+    "title": "[Bug] vela config-template apply drops the template's metadata.description",
+    "url": "https://github.com/kubevela/kubevela/issues/7756",
+    "labels": [
+      "type/bug",
+      "good first issue",
+      "area/cli",
+      "area/config"
+    ],
+    "created_at": "2026-11-28T05:27:04Z"
+  },
+  {
+    "repo": "kubevela/kubevela",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Make shipping applications more enjoyable",
+    "ai_related": false,
+    "title": "[Bug] vela config-template migrate --dry-run reports a config in another namespace as skipped; the real run adopts it",
+    "url": "https://github.com/kubevela/kubevela/issues/7755",
+    "labels": [
+      "type/bug",
+      "good first issue",
+      "area/cli",
+      "area/config"
+    ],
+    "created_at": "2026-11-28T05:17:26Z"
+  },
+  {
+    "repo": "kubevela/kubevela",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Make shipping applications more enjoyable",
+    "ai_related": false,
     "title": "query.#GetApplicationTree ignores the app it is given",
     "url": "https://github.com/kubevela/kubevela/issues/7740",
     "labels": [
@@ -31145,21 +31186,6 @@
       "logging"
     ],
     "created_at": "2026-11-27T02:47:07Z"
-  },
-  {
-    "repo": "oras-project/oras",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "ORAS is the tool for working with OCI Artifacts",
-    "ai_related": false,
-    "title": "feat(restore): warn when replacing a multi-arch tag with a single-platform manifest",
-    "url": "https://github.com/oras-project/oras/issues/2383",
-    "labels": [
-      "help wanted"
-    ],
-    "created_at": "2026-11-26T21:51:12Z"
   },
   {
     "repo": "oras-project/oras",
@@ -37660,6 +37686,24 @@
     "subcategory": "Observability",
     "description": "Jaeger: open source, end-to-end distributed tracing. Monitor and troubleshoot transactions in complex distributed systems",
     "ai_related": false,
+    "title": "[Bug]: ClickHouse trace_id_timestamps_mv calculates trace end time as max(start_time) instead of start_time + duration",
+    "url": "https://github.com/jaegertracing/jaeger/issues/9278",
+    "labels": [
+      "bug",
+      "help wanted",
+      "area/storage",
+      "storage/clickhouse"
+    ],
+    "created_at": "2026-08-10T15:08:48Z"
+  },
+  {
+    "repo": "jaegertracing/jaeger",
+    "tier": "Graduated",
+    "lang": "Go",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "description": "Jaeger: open source, end-to-end distributed tracing. Monitor and troubleshoot transactions in complex distributed systems",
+    "ai_related": false,
     "title": "[Feature]: Augmenting Trace Timeline visualization with Aggregate System Statistics for faster Root Cause Analysis",
     "url": "https://github.com/jaegertracing/jaeger/issues/6814",
     "labels": [
@@ -37684,21 +37728,6 @@
       "help wanted"
     ],
     "created_at": "2024-07-08T03:57:14Z"
-  },
-  {
-    "repo": "jaegertracing/jaeger",
-    "tier": "Graduated",
-    "lang": "Go",
-    "category": "Observability and Analysis",
-    "subcategory": "Observability",
-    "description": "Jaeger: open source, end-to-end distributed tracing. Monitor and troubleshoot transactions in complex distributed systems",
-    "ai_related": false,
-    "title": "Audit and align governance, contribution, and security docs with CNCF guidelines",
-    "url": "https://github.com/jaegertracing/jaeger/issues/5363",
-    "labels": [
-      "help wanted"
-    ],
-    "created_at": "2024-04-16T19:44:14Z"
   },
   {
     "repo": "k8sgpt-ai/k8sgpt",
@@ -40320,14 +40349,48 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
-    "title": "🐛 bug: threads that the hive's reviewer opens block the merge under a \"resolve conversations\" ruleset, and v5 has no way to resolve them or to say so",
-    "url": "https://github.com/hivecommons/hive/issues/20165",
+    "title": "A hub with release tracking off still shows the hub and spoke upgrade kill switches",
+    "url": "https://github.com/hivecommons/hive/issues/20253",
     "labels": [
       "help wanted",
       "stage/040-covered-by-pr",
       "hive/claimed-by-human"
     ],
-    "created_at": "2026-11-27T18:12:16Z"
+    "created_at": "2026-11-28T07:03:06Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "[scanner] Forgejo-only hive: default policies still tell agents to use gh, never hive-clone",
+    "url": "https://github.com/hivecommons/hive/issues/20231",
+    "labels": [
+      "help wanted",
+      "agent/scanner",
+      "stage/040-covered-by-pr"
+    ],
+    "created_at": "2026-11-28T02:38:52Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "[scanner] Forgejo-only hive: give agents a read tool for a pull request or issue",
+    "url": "https://github.com/hivecommons/hive/issues/20230",
+    "labels": [
+      "help wanted",
+      "agent/scanner",
+      "stage/040-covered-by-pr"
+    ],
+    "created_at": "2026-11-28T02:38:42Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40358,7 +40421,6 @@
     "url": "https://github.com/hivecommons/hive/issues/20162",
     "labels": [
       "help wanted",
-      "hive/claimed-by-scanner",
       "stage/040-covered-by-pr"
     ],
     "created_at": "2026-11-27T17:56:22Z"
